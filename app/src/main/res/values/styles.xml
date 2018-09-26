@@ -1,0 +1,56 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="colorAccent">@color/primaryDarkColor</item>
+        <item name="android:navigationBarColor">#000000</item>
+        <item name="android:toolbarStyle">@style/DefaultToolbarStyle</item>
+    </style>
+
+    <style name="WhiteAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/secondPrimaryColor</item>
+        <item name="colorPrimaryDark">@color/secondPrimaryDarkColor</item>
+        <item name="colorAccent">@color/secondAccentTextColor</item>
+    </style>
+
+    <style name="DefaultToolbarStyle" parent="Widget.AppCompat.Toolbar">
+        <item name="android:titleTextColor">@android:color/white</item>
+        <item name="android:navigationIcon">@drawable/ic_arrow_back_white_24dp</item>
+    </style>
+
+    <style name="ButtonStyle" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:minHeight">65dp</item>
+        <item name="android:backgroundTint">@color/primaryColor</item>
+        <item name="android:textColor">#dfe7ff</item>
+        <item name="android:lineSpacingExtra">4dp</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="ToolBarStyle" parent="ToolBarStyle.Base"/>
+
+    <style name="ToolBarStyle.Base" parent="">
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="android:colorControlNormal">@android:color/white</item>
+    </style>
+
+    <style name="ToolBarStyle.Event" parent="ToolBarStyle">
+        <item name="titleTextAppearance">@style/TextAppearance.Widget.Event.Toolbar.Title</item>
+    </style>
+
+    <style name="TextAppearance.Widget.Event.Toolbar.Title" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:text">dsfsdfs</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="GreenAppTheme" parent="Theme.AppCompat.Light.NoActionBar" >
+        <item name="colorPrimary">@color/greenPrimaryColor</item>
+        <item name="colorPrimaryDark">@color/greenPrimaryDarkColor</item>
+        <item name="colorAccent">@color/greenPrimaryLightColor</item>
+    </style>
+
+</resources>

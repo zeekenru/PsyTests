@@ -1,0 +1,8 @@
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_btn_size">32dp</dimen>
+    <dimen name="question_count_text_size">24sp</dimen>
+    <dimen name="question_text_size">30sp</dimen>
+    <dimen name="answer_btn_text_size">24sp</dimen>
+</resources>

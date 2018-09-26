@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "161981283278",
+    "firebase_url": "https://psytests-14b97.firebaseio.com",
+    "project_id": "psytests-14b97",
+    "storage_bucket": "psytests-14b97.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:161981283278:android:0cd6ce2646f2a85e",
+        "android_client_info": {
+          "package_name": "com.kovapps.kovalev.psytests"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "161981283278-n95h58pi34es4qcfgbl9h0pspn3k1ov1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kovapps.kovalev.psytests",
+            "certificate_hash": "abb4c386b5298d474fcfa07fc190d6ddd55c17c7"
+          }
+        },
+        {
+          "client_id": "161981283278-o40cj6bmg12s4qo69cl8qebbra33lisa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCH_LL2oYFp_lK91tTtWOebssB6wpgN9M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "161981283278-o40cj6bmg12s4qo69cl8qebbra33lisa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "id" : 0,
+    "type" : "Клинический",
+    "name" : "Шкала самооценки депрессии Цунга",
+    "questions_count" : 21,
+    "questions" : [
+      {
+        "question": "text",
+        "answer" : "answer"
+      }
+    ]
+  },
+  {
+    "id": 0,
+    "type": "Отношения",
+    "name": "Тест межличностных отношений Лири",
+    "questions_count": 29,
+    "questions": [
+      {
+        "question": "text",
+        "answer": "answer"
+      }
+    ]
+  }
+]
