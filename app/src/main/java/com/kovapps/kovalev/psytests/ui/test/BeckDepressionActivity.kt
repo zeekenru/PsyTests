@@ -61,10 +61,8 @@ class BeckDepressionActivity : AppCompatActivity(), View.OnClickListener {
         } else {
             test = intent.getParcelableExtra(TEST_PARAM)
         }
-        if (ad_view != null && resources.getBoolean(R.bool.isTablet)){
-            Logger.d("show ad view")
+        if (ad_view != null && resources.getBoolean(R.bool.isTablet))
             ad_view!!.loadAd(AdRequest.Builder().build())
-        } else Logger.d("ad view is null")
         prepareAdView()
         questionsCount = test.questions.size
         progress_bar.max = questionsCount
@@ -133,7 +131,6 @@ class BeckDepressionActivity : AppCompatActivity(), View.OnClickListener {
     private fun showQuestion() {
         if (currentQuestion <= questionsCount) {
             root_scroll_view.fullScroll(ScrollView.FOCUS_UP)
-            Logger.d("show question : $currentQuestion")
             test_progress_count.text = "$currentQuestion/$questionsCount"
             progress_bar.progress = currentQuestion
             val question = test.questions[currentQuestion - 1]

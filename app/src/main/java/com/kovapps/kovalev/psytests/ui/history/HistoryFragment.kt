@@ -4,7 +4,6 @@ package com.kovapps.kovalev.psytests.ui.history
 import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
-import android.support.design.widget.Snackbar
 import android.support.v4.app.Fragment
 import android.support.v7.widget.LinearLayoutManager
 import android.support.v7.widget.RecyclerView
@@ -23,7 +22,6 @@ import com.kovapps.kovalev.psytests.model.TestDao
 import com.kovapps.kovalev.psytests.ui.result.OstResultActivity
 import com.kovapps.kovalev.psytests.ui.result.OneScaleResultActivity
 import com.kovapps.kovalev.psytests.ui.result.ThreeScalesResultActivity
-import com.orhanobut.logger.Logger
 import kotlinx.android.synthetic.main.fragment_history.*
 import toothpick.Toothpick
 import javax.inject.Inject
@@ -43,7 +41,8 @@ class HistoryFragment : Fragment() {
     lateinit var preferenceHelper: PreferenceHelper
 
     companion object {
-        private const val DELETE_ALL_HISTORY_DIALOG = 1
+        private const val DELETE_ALL_HISTORY_DIALOG_CODE = 1
+        private const val DELETE_ALL_HISTORY_TAG = "delete_history"
     }
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
@@ -76,16 +75,15 @@ class HistoryFragment : Fragment() {
     override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
         inflater.inflate(R.menu.history_toolbar, menu)
         super.onCreateOptionsMenu(menu, inflater)
-
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        Logger.d("Item selected")
         when (item.itemId) {
-            R.id.menu_delete_all -> showDeleteDialog().apply {
-                Logger.d("delete item selected")
+            R.id.menu_delete_all -> {
+                showDeleteDialog()
                 return true
             }
+
         }
         return super.onOptionsItemSelected(item)
     }
@@ -93,7 +91,7 @@ class HistoryFragment : Fragment() {
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
         when (requestCode) {
-            DELETE_ALL_HISTORY_DIALOG -> {
+            DELETE_ALL_HISTORY_DIALOG_CODE -> {
                 if (resultCode == Activity.RESULT_OK) {
                     (history_recycler_view.adapter as HistoryItemsAdapter).deleteAll()
                     dao.deleteAllHistory()
@@ -104,8 +102,8 @@ class HistoryFragment : Fragment() {
 
     private fun showDeleteDialog() {
         val dialog = DeleteAllDialogFragment()
-        dialog.setTargetFragment(this, DELETE_ALL_HISTORY_DIALOG)
-        dialog.show(fragmentManager, "tag")
+        dialog.setTargetFragment(this, DELETE_ALL_HISTORY_DIALOG_CODE)
+        dialog.show(fragmentManager, DELETE_ALL_HISTORY_TAG)
     }
 
     private fun showHistory(items: List<Result>) {
@@ -117,7 +115,7 @@ class HistoryFragment : Fragment() {
                 is ThreeScalesResult -> Intent(context, ThreeScalesResultActivity::class.java)
                         .putExtra(ThreeScalesResultActivity.RESULT_DATA_PARAM, result)
                 is ScaleResult -> Intent(context, OstResultActivity::class.java)
-                        .putExtra(OstResultActivity.TEST_PARAM, result)
+                        .putExtra(OstResultActivity.RESULT_DATA_PARAM, result)
                 else -> {
                     throw IllegalArgumentException("Unexpected result object")
                 }
@@ -133,7 +131,7 @@ class HistoryFragment : Fragment() {
             }
         }
 
-        history_recycler_view.adapter = HistoryItemsAdapter(items.toMutableList(), clickListener, onEmptyHistoryListener)
+        history_recycler_view.adapter = HistoryItemsAdapter(items.asReversed().toMutableList(), clickListener, onEmptyHistoryListener)
         ItemTouchHelper(object : SwipeToDeleteCallback(context!!) {
             override fun onSwiped(viewHolder: RecyclerView.ViewHolder, direction: Int) {
                 dao.deleteFromHistory(viewHolder.adapterPosition)

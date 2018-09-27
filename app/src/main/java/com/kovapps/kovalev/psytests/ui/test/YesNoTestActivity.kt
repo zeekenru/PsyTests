@@ -143,7 +143,7 @@ class YesNoTestActivity : AppCompatActivity() {
             result = ScaleResult(test.name!!, Date().time, test.interpretation, TestsTypes.OST,
                     scalesValues.toCollection(ArrayList()))
             intent = Intent(this, OstResultActivity::class.java)
-            intent.putExtra(OstResultActivity.TEST_PARAM, result)
+            intent.putExtra(OstResultActivity.RESULT_DATA_PARAM, result)
 
         } else {
             result = OneScaleResult(test.name!!, Date().time, test.interpretation, TestsTypes.OUB, summary)

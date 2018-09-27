@@ -23,10 +23,9 @@ class PreferenceHelper @Inject constructor(val context: Context) {
 
     fun isFirstLaunch(): Boolean = sp.getBoolean(FIRST_LAUNCH_KEY, true)
 
-    fun saveResultsEnabled(enabled: Boolean) {
+    fun saveResultsEnabled(enabled: Boolean) =
         sp.edit().putBoolean(SAVE_RESULTS_ENABLED_KEY, enabled).apply()
-        Logger.d("History enabled : ${saveResultsEnabled()}")
-    }
+
 
     fun saveResultsEnabled(): Boolean = sp.getBoolean(SAVE_RESULTS_ENABLED_KEY, true)
 }

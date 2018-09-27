@@ -23,11 +23,11 @@ class InterpretationFragment : DialogFragment() {
         var message = ""
         if (arguments != null) {
             message = arguments!!.getString(MESSAGE_PARAM)!!
-        } else Logger.d("args are null")
+        }
         return AlertDialog.Builder(context!!)
                 .setTitle(getString(R.string.interpretation))
                 .setMessage(message)
-                .setPositiveButton("Ок") { dialog, _ -> dialog.cancel() }
+                .setPositiveButton(R.string.ok) { dialog, _ -> dialog.cancel() }
                 .create()
     }
 

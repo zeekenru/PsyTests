@@ -23,7 +23,7 @@ class ThreeScalesResultActivity : AppCompatActivity() {
         Logger.d(this.javaClass.simpleName)
         close_btn.setOnClickListener { finish() }
         val result : ThreeScalesResult = intent.getParcelableExtra(RESULT_DATA_PARAM)
-        when (result.testType){
+        when (result.id){
             TestsTypes.EPI ->{
                 first_scale_name.text = "Экстраверсия"
                 second_scale_name.text = "Нейротизм"
@@ -71,7 +71,7 @@ class ThreeScalesResultActivity : AppCompatActivity() {
             InterpretationFragment.getInstance(result.interpretation).show(supportFragmentManager, "tag")
         }
         share_btn.setOnClickListener {
-            val textMessage = when (result.testType){
+            val textMessage = when (result.id){
                 TestsTypes.EPI -> """Пройден личностный опросник Айзенка в приложение PsyTests:
                     |${first_scale_result.text}, ${second_scale_result.text.toString().toLowerCase()} нейротизма"""
                     .trimMargin()

@@ -2,6 +2,7 @@
   "id": 3,
   "questions_count": 20,
   "interpretation" : "",
+  "scales_count" : 1,
   "name" : "Шкала безнадёжности Бека",
   "answers": [
     "Совсем неверно",

@@ -5,6 +5,7 @@ import android.app.Dialog
 import android.os.Bundle
 import android.support.v7.app.AlertDialog
 import android.support.v7.app.AppCompatDialogFragment
+import com.kovapps.kovalev.psytests.R
 
 class TestDescriptionFragment : AppCompatDialogFragment() {
 
@@ -17,11 +18,11 @@ class TestDescriptionFragment : AppCompatDialogFragment() {
         if (savedInstanceState != null && savedInstanceState.containsKey(DESCRIPTION_PARAM)) {
             description = savedInstanceState.getString(DESCRIPTION_PARAM)!!
         } else if (arguments != null && arguments!!.containsKey(DESCRIPTION_PARAM)){
-            description = arguments!!.getString(DESCRIPTION_PARAM)
+            description = arguments!!.getString(DESCRIPTION_PARAM)!!
         }
         return AlertDialog.Builder(context!!)
                 .setMessage(description)
-                .setPositiveButton("Закрыть") { dialog, _ -> dialog.cancel() }
+                .setPositiveButton(getString(R.string.close)) { dialog, _ -> dialog.cancel() }
                 .create()
     }
 }

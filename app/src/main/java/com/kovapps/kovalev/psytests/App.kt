@@ -1,6 +1,7 @@
 package com.kovapps.kovalev.psytests
 
 import android.app.Application
+import com.crashlytics.android.Crashlytics
 import com.google.android.gms.ads.MobileAds
 import com.kovapps.kovalev.psytests.di.AppModule
 import com.kovapps.kovalev.psytests.di.Scopes

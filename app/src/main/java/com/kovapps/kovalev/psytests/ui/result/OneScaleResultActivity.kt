@@ -12,6 +12,8 @@ import com.kovapps.kovalev.psytests.TestsTypes.BRETMEN
 import com.kovapps.kovalev.psytests.TestsTypes.EQ
 import com.kovapps.kovalev.psytests.TestsTypes.KARPOV_REFLECTION
 import com.kovapps.kovalev.psytests.TestsTypes.OUB
+import com.kovapps.kovalev.psytests.TestsTypes.TEST_14
+import com.kovapps.kovalev.psytests.TestsTypes.TEST_15
 import com.kovapps.kovalev.psytests.TestsTypes.ZUNG_ANXIETY
 import com.kovapps.kovalev.psytests.TestsTypes.ZUNG_DEPRESSION
 import com.kovapps.kovalev.psytests.di.Scopes
@@ -44,7 +46,7 @@ class OneScaleResultActivity : AppCompatActivity() {
         val resultData: OneScaleResult = intent.getParcelableExtra(RESULT_DATA_PARAM)
         val summary = resultData.scale
         Logger.d(resultData)
-        when (resultData.testType) {
+        when (resultData.id) {
             BECK_DEPRESSION -> {
                 summary_text.text = "$summary из 63"
                 when (summary) {
@@ -113,12 +115,28 @@ class OneScaleResultActivity : AppCompatActivity() {
             }
             EQ -> {
                 summary_text.text = "$summary из 80"
-                when (summary){
+                when (summary) {
                     in (0..17) -> first_scale_result.text = "Очень низкий уровень сопереживания"
                     in (17..28) -> first_scale_result.text = "Низкий уровень сопереживания"
                     in (29..51) -> first_scale_result.text = "Средний уровень сопереживания"
                     in (52..63) -> first_scale_result.text = "Высокий уровень сопереживания"
                     in (63..80) -> first_scale_result.text = "Очень высокий уровень сопереживания"
+                }
+            }
+            TEST_14 -> {
+                summary_text.text = "$summary из 19"
+                when (summary) {
+                    in (0..11) -> first_scale_result.text = "Низкиая выраженность мотивации одобрения"
+                    in (12..15) -> first_scale_result.text = "Средняя выраженность мотивации одобрения"
+                    in (16..19) -> first_scale_result.text = "Средняя выраженность мотивации одобрения"
+                }
+            }
+            TEST_15 -> {
+                summary_text.text = "$summary из 19"
+                when (summary) {
+                    in (0..11) -> first_scale_result.text = "Низкиая выраженность мотивации достижения"
+                    in (12..15) -> first_scale_result.text = "Средняя выраженность мотивации достижения"
+                    in (16..22) -> first_scale_result.text = "Средняя выраженность мотивации достижения"
                 }
             }
         }
@@ -127,22 +145,11 @@ class OneScaleResultActivity : AppCompatActivity() {
             InterpretationFragment.getInstance(resultData.interpretation).show(supportFragmentManager, "tag")
         }
         share_btn.setOnClickListener {
-           var shareIntentText = when (resultData.testType){
-               BECK_DEPRESSION -> "Пройдена шкала депрессии Бека в приложение PsyTests: "
-               ZUNG_DEPRESSION -> "Пройдена шкала самооценки депрессии Цунга в приложение PsyTests: "
-               BECK_HOPELESSNESS -> "Пройдена шкала безнадежности Бека в приложение PsyTests: "
-               ZUNG_ANXIETY -> "Пройдена шкала самооценки тревоги Цунга в приложение PsyTests: "
-               KARPOV_REFLECTION -> "Пройден опросник рефлексивности Карпова в приложение PsyTests: "
-               BRETMEN -> "Пройден опросник нервной орторексии Бретмена в приложение PsyTests: "
-               OUB -> "Пройден опросник удовлетворенности браком в приложение PsyTests: "
-               EQ -> "Пройден опросник уровня сопереживания в приложение PsyTests: "
-               else -> throw IllegalArgumentException("Unexpected test type")
-
-            }
-            shareIntentText += "${first_scale_result.text.toString().toLowerCase()}."
+            val shareIntentText = "Пройден(а) ${resultData.name} в приложении ${getString(R.string.app_name)}: " +
+                    "${first_scale_result.text.toString().toLowerCase()}. "
             val shareIntent = Intent().apply {
                 action = Intent.ACTION_SEND
-                type  = "text/plain"
+                type = "text/plain"
                 putExtra(Intent.EXTRA_TEXT, shareIntentText)
             }
             startActivity(shareIntent)

@@ -8,4 +8,4 @@ data class ScaleResult(override val name: String,
                        override val time: Long,
                        override val interpretation: String,
                        val tesType : Int,
-                       val scalesValues : ArrayList<Int>) : Result, Parcelable
+                       val scalesValues : List<Int>) : Result, Parcelable

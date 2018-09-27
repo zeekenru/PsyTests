@@ -12,5 +12,7 @@ data class Test(val id: Int,
                 val interpretation : String,
                 val description : String?,
                 val duration : String?,
+                @SerializedName("scales_count")
+                val scalesCount : Int,
                 val questions : List<TestQuestion>,
                 val answers : List<String>?) : Parcelable

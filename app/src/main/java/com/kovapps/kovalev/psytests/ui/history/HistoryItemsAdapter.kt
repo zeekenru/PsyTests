@@ -23,9 +23,8 @@ class HistoryItemsAdapter(private val data: MutableList<Result>,
 
     override fun getItemCount(): Int = data.size
 
-    override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        holder.bind(data[position])
-    }
+    override fun onBindViewHolder(holder: ViewHolder, position: Int) = holder.bind(data[position])
+
 
     fun deleteItem(index : Int) {
         data.removeAt(index)

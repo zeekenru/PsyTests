@@ -15,4 +15,6 @@ object TestsTypes {
     const val OST = 11
     const val EQ = 12
     const val BASS = 13
+    const val TEST_14 = 14
+    const val TEST_15 = 15
 }

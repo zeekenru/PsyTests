@@ -30,18 +30,10 @@ class TestsAdapter(private val data: List<Test>, private val passClickListener: 
         fun bind(test: Test) {
             view.test_name.text = test.name
 
-            if (test.questionsCount != null) {
-                view.questions_count.text =
-                        "${test.questionsCount} ${getEnumEnd(test.questionsCount)}"
-            } else {
-                view.questions_count.visibility = View.GONE
-                val set = ConstraintSet()
-                set.clone(view.root_layout)
-                //val params = view.duration_text.layoutParams as ConstraintLayout.LayoutParams
-                set.connect(R.id.duration_text, ConstraintSet.START, R.id.test_name, ConstraintSet.START, 0)
-                set.connect(R.id.duration_text, ConstraintSet.TOP, R.id.test_name, ConstraintSet.BOTTOM, 16)
-                set.applyTo(view.root_layout)
-            }
+            if (test.questionsCount != null) view.questions_count.text =
+                    "${test.questionsCount} ${getEnumEnd(test.questionsCount)}"
+            else view.questions_count.visibility = View.GONE
+
             view.duration_text.text = test.duration
             view.pass_btn.setOnClickListener { clickListener(test) }
             view.more_info_btn.setOnClickListener { moreInfoClickListener(test) }

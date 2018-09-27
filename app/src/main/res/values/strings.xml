@@ -1,16 +1,24 @@
 <resources>
-    <string name="app_name">PsyTests</string>
+    <string name="app_name">Психология.Тесты</string>
     <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
     <string name="history">History</string>
     <string name="settings">Settings</string>
     <string name="tests">Тесты</string>
-
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="done">Done</string>
-    <string name="double_click_to_close">Double-click to close the test</string>
-    <string name="share">Share</string>
+    <string name="double_click_to_close">Двойное нажатие для закрытия</string>
+    <string name="share">Поделиться</string>
     <string name="interpretation">Интерпретация</string>
     <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="delete_all_results">Удалить все результаты тестов?</string>
+    <string name="ok">Ок</string>
+    <string name="close">Закрыть</string>
+    <string name="warning">Предупреждение</string>
+    <string name="low_level">Низкий уровень</string>
+    <string name="middle_level">Средний уровень</string>
+    <string name="high_level">Высокий уровень</string>
+    <string name="libs">Библиотеки</string>
+    <string name="email_topic">PsyTest issue</string>
 </resources>

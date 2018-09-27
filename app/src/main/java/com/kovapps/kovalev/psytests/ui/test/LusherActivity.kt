@@ -16,7 +16,7 @@ import java.util.*
 class LusherActivity : AppCompatActivity(), View.OnClickListener {
 
     private lateinit var views: List<View>
-    private val mp = LusherColor.values().toList().shuffled()
+    private val mp = LusherColor.values().toMutableList().shuffled()
     private lateinit var firstAnswers: ArrayDeque<LusherColor>
     private lateinit var secondAnswers: ArrayDeque<LusherColor>
     private var isFirstState = true
@@ -113,12 +113,15 @@ class LusherActivity : AppCompatActivity(), View.OnClickListener {
     }
 
     private fun showResult() {
+
         Logger.d("Answers: $firstAnswers ; $secondAnswers")
     }
 
     private fun paintViews(){
         views.forEachIndexed { index, view ->
-            view.setBackgroundColor(mp[index].color)}
+            view.setBackgroundColor(mp[index].color)
+            view.visibility = View.VISIBLE
+        }
     }
 
     private fun showPauseScreen() {
@@ -138,8 +141,9 @@ class LusherActivity : AppCompatActivity(), View.OnClickListener {
         luscher_pause_layout.visibility = View.GONE
         close_btn.setOnClickListener {finish()}
         isFirstState = false
-        mp.shuffled()
+        answersCount = 0
+        secondAnswers = ArrayDeque(views.size)
+        mp.toMutableList().shuffle()
         paintViews()
-//        views.forEachIndexed { index, view -> view.setBackgroundColor(mp[index].color)  }
     }
 }

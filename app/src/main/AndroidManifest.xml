@@ -51,6 +51,8 @@
         <activity android:name=".ui.result.ThreeScalesResultActivity" />
         <activity android:name=".ui.test.LusherActivity" />
         <activity android:name=".ui.result.OstResultActivity" />
+        <activity android:name=".view.BaseActivity" />
+        <activity android:name=".ui.result.BassResultActivity"></activity>
     </application>
 
 </manifest>

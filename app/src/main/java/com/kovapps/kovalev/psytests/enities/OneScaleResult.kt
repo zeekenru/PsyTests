@@ -8,6 +8,6 @@ data class OneScaleResult(
         override val name: String,
         override val time: Long,
         override val interpretation: String,
-        val testType : Int,
+        val id : Int,
         val scale : Int)
     : Result, Parcelable

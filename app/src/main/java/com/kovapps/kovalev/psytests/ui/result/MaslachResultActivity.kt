@@ -26,19 +26,19 @@ class MaslachResultActivity : AppCompatActivity() {
         second_scale_summary.text = "$secondScale/30"
         third_scale_summary.text = "$thirstScale/48"
         when (firstScale){
-            in (0..15) -> first_scale_result.text = "Низкий уровень"
-            in (16..24) -> first_scale_result.text = "Средний уровень"
-            in (25..55) -> first_scale_result.text = "Высокий уровень"
+            in (0..15) -> first_scale_result.text = getString(R.string.low_level)
+            in (16..24) -> first_scale_result.text = getString(R.string.middle_level)
+            in (25..55) -> first_scale_result.text = getString(R.string.high_level)
         }
         when (secondScale){
-            in (0..5) -> second_scale_result.text = "Низкий уровень"
-            in (6..10) -> second_scale_result.text = "Средний уровень"
-            in (11..30) -> second_scale_result.text = "Высокий уровень"
+            in (0..5) -> second_scale_result.text = getString(R.string.low_level)
+            in (6..10) -> second_scale_result.text =  getString(R.string.middle_level)
+            in (11..30) -> second_scale_result.text = getString(R.string.high_level)
         }
         when (thirstScale){
-            in (37..48) -> third_scale_result.text = "Низкий уровень"
-            in (31..36) -> third_scale_result.text = "Средний уровень"
-            in (0..30) -> third_scale_result.text = "Высокий уровень"
+            in (37..48) -> third_scale_result.text = getString(R.string.low_level)
+            in (31..36) -> third_scale_result.text =  getString(R.string.middle_level)
+            in (0..30) -> third_scale_result.text = getString(R.string.high_level)
         }
         close_btn.setOnClickListener {
             finish()

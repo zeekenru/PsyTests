@@ -11,6 +11,7 @@
     <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
         tools:context=".ui.result.OneScaleResultActivity">
 
 
@@ -152,7 +153,6 @@
             android:textColor="@android:color/white"
             android:textSize="24sp"
             android:textStyle="bold"
-            android:layout_marginBottom="16dp"
             app:layout_constraintEnd_toEndOf="@+id/third_scale_summary"
             app:layout_constraintStart_toStartOf="@+id/third_scale_summary"
             app:layout_constraintTop_toBottomOf="@+id/third_scale_summary" />

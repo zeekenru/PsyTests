@@ -12,7 +12,7 @@ import kotlinx.android.synthetic.main.activity_ost_result.*
 class OstResultActivity : AppCompatActivity(), View.OnClickListener {
 
     companion object {
-        const val TEST_PARAM = "test"
+        const val RESULT_DATA_PARAM = "test"
     }
 
     private val highRange = 9..12
@@ -26,7 +26,7 @@ class OstResultActivity : AppCompatActivity(), View.OnClickListener {
         setContentView(R.layout.activity_ost_result)
         Logger.d(this.javaClass.simpleName)
         close_btn.setOnClickListener { finish() }
-        val result: ScaleResult = intent.getParcelableExtra(TEST_PARAM)
+        val result: ScaleResult = intent.getParcelableExtra(RESULT_DATA_PARAM)
         instruction_text.text = analyzeResult(result.scalesValues)
         scale_1.setOnClickListener(this)
         scale_2.setOnClickListener(this)
@@ -49,7 +49,7 @@ class OstResultActivity : AppCompatActivity(), View.OnClickListener {
 
     }
 
-    private fun analyzeResult(result: ArrayList<Int>): String {
+    private fun analyzeResult(result: List<Int>): String {
         var isSanguine = true
 
         val isCholeric: Boolean = (result[0] in highRange

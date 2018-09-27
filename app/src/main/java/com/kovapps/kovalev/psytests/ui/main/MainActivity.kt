@@ -22,6 +22,10 @@ class MainActivity : AppCompatActivity() {
 
     @Inject lateinit var preferenceHelper : PreferenceHelper
 
+    companion object {
+        private const val WARNING_FRAGMENT_TAG = "warning"
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -67,7 +71,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun showWarningFragment() {
-        WarningFragment().show(supportFragmentManager, "tag")
+        WarningFragment().show(supportFragmentManager, WARNING_FRAGMENT_TAG)
     }
 
     private fun showSettingsScreen() {

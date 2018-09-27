@@ -127,7 +127,7 @@ class TestEActivity : AppCompatActivity() {
             showQuestion()
         }
         val onClickListener = when (test.id){
-            TestsTypes.ZUNG_DEPRESSION -> listener
+            TestsTypes.ZUNG_DEPRESSION,TestsTypes.BECK_HOPELESSNESS, TestsTypes.ZUNG_ANXIETY -> listener
             TestsTypes.EQ -> listener2
             else -> throw IllegalArgumentException("Unexpected test id: ${test.id} ")
         }

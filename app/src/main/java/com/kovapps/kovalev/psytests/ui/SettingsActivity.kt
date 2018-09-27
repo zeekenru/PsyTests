@@ -33,15 +33,15 @@ class SettingsActivity : AppCompatActivity() {
         version_value.text = BuildConfig.VERSION_NAME
         save_switch.isChecked = preferenceHelper.saveResultsEnabled()
         save_switch.setOnCheckedChangeListener { button, isChecked ->
-            if (isChecked) preferenceHelper.saveResultsEnabled(true).apply { Logger.d("save enaled") }
-            else preferenceHelper.saveResultsEnabled(false).apply { Logger.d("save disabled") }
+            if (isChecked) preferenceHelper.saveResultsEnabled(true)
+            else preferenceHelper.saveResultsEnabled(false)
         }
 
         user_libraries.setOnClickListener {
             LibsBuilder()
                     .withAutoDetect(true)
                     .withLicenseShown(true)
-                    .withActivityTitle("Библиотеки")
+                    .withActivityTitle(getString(R.string.libs))
                     .withActivityStyle(Libs.ActivityStyle.LIGHT)
                     .start(this)
         }
@@ -49,7 +49,7 @@ class SettingsActivity : AppCompatActivity() {
             ShareCompat.IntentBuilder.from(this)
                     .setType("message/rfc822")
                     .addEmailTo("zeekenru@gmail.com")
-                    .setSubject("PsyTest issue")
+                    .setSubject(getString(R.string.email_topic))
                     .startChooser()
         }
     }
