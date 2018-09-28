@@ -1,7 +1,8 @@
-package com.kovapps.kovalev.psytests.view
+package com.kovapps.kovalev.psytests.ui.test
 
 import android.content.Intent
 import android.graphics.Color
+import android.opengl.Visibility
 import android.os.Bundle
 import android.support.v4.content.ContextCompat
 import android.support.v7.app.AppCompatActivity
@@ -137,6 +138,18 @@ class BaseActivity : AppCompatActivity() {
     }
 
     private fun prepareAdView() {
+        ad_view.loadAd(AdRequest.Builder().build())
+        ad_view.adListener = object : AdListener(){
+            override fun onAdFailedToLoad(p0: Int) {
+                super.onAdFailedToLoad(p0)
+                ad_view.visibility = View.GONE
+            }
+
+            override fun onAdLoaded() {
+                super.onAdLoaded()
+                if (ad_view.visibility == View.GONE) ad_view.visibility = View.VISIBLE
+            }
+        }
         interstitialAd = InterstitialAd(this)
         interstitialAd.adUnitId = getString(R.string.banner_ad_unit_id)
         interstitialAd.adListener = object : AdListener() {
@@ -178,12 +191,12 @@ class BaseActivity : AppCompatActivity() {
             scalesValues[lastEditedScale] -= addedValuesStack.pop()
             currentQuestion--
             showQuestion()
-        }
+        } else finish()
     }
 
     private fun showQuestion() {
         if (currentQuestion <= test.questionsCount!!) {
-            Logger.d("Number : $currentQuestion, summary : $scalesValues")
+            Logger.d("Number : $currentQuestion, summary : $scalesValues, last scale : $lastEditedScale")
             test_progress_count.text = "$currentQuestion/$questionsCount"
             progress_bar.progress = currentQuestion
             val question = test.questions[currentQuestion - 1]
@@ -265,7 +278,7 @@ class BaseActivity : AppCompatActivity() {
                 else -> throw IllegalArgumentException("wrond id")
             }
             val scale = test.questions[currentQuestion - 1].scale!! - 1
-            lastEditedScale = scale - 1
+            lastEditedScale = scale
             scalesValues[scale] += value
             addedValuesStack.push(value)
             currentQuestion++
@@ -303,7 +316,7 @@ class BaseActivity : AppCompatActivity() {
                 else -> throw IllegalArgumentException("wrond id")
             }
             val scale = test.questions[currentQuestion - 1].scale!! - 1
-            lastEditedScale = scale - 1
+            lastEditedScale = scale
             scalesValues[scale] += value
             addedValuesStack.push(value)
             currentQuestion++
@@ -329,9 +342,9 @@ class BaseActivity : AppCompatActivity() {
             TestsTypes.ZUNG_DEPRESSION, TestsTypes.BECK_HOPELESSNESS, TestsTypes.ZUNG_ANXIETY -> listener2
             TestsTypes.KARPOV_REFLECTION -> listener3
             TestsTypes.MASLACH -> listener4
-            TestsTypes.BRETMEN -> listener5
+            TestsTypes.BRETMEN, TestsTypes.TEST_17 -> listener5
             TestsTypes.OUB -> listener6
-            TestsTypes.EPI, TestsTypes.OST, TestsTypes.BASS, TestsTypes.TEST_14, TestsTypes.TEST_15 -> listener7
+            TestsTypes.EPI, TestsTypes.OST, TestsTypes.BASS, TestsTypes.TEST_14, TestsTypes.TEST_15,TestsTypes.TEST_16 -> listener7
             TestsTypes.EQ -> listener8
             else -> throw Exception("wrong test id")
         }

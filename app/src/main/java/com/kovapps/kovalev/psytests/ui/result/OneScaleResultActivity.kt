@@ -2,10 +2,12 @@ package com.kovapps.kovalev.psytests.ui.result
 
 import android.content.Intent
 import android.os.Bundle
+import android.support.v4.content.ContextCompat
 import android.support.v7.app.AppCompatActivity
 import com.kovapps.kovalev.psytests.dialogs.InterpretationFragment
 import com.kovapps.kovalev.psytests.model.PreferenceHelper
 import com.kovapps.kovalev.psytests.R
+import com.kovapps.kovalev.psytests.TestsTypes
 import com.kovapps.kovalev.psytests.TestsTypes.BECK_DEPRESSION
 import com.kovapps.kovalev.psytests.TestsTypes.BECK_HOPELESSNESS
 import com.kovapps.kovalev.psytests.TestsTypes.BRETMEN
@@ -14,6 +16,8 @@ import com.kovapps.kovalev.psytests.TestsTypes.KARPOV_REFLECTION
 import com.kovapps.kovalev.psytests.TestsTypes.OUB
 import com.kovapps.kovalev.psytests.TestsTypes.TEST_14
 import com.kovapps.kovalev.psytests.TestsTypes.TEST_15
+import com.kovapps.kovalev.psytests.TestsTypes.TEST_16
+import com.kovapps.kovalev.psytests.TestsTypes.TEST_17
 import com.kovapps.kovalev.psytests.TestsTypes.ZUNG_ANXIETY
 import com.kovapps.kovalev.psytests.TestsTypes.ZUNG_DEPRESSION
 import com.kovapps.kovalev.psytests.di.Scopes
@@ -54,7 +58,7 @@ class OneScaleResultActivity : AppCompatActivity() {
                     in (10..15) -> first_scale_result.text = "Легкая депрессия (субдепрессия)"
                     in (16..19) -> first_scale_result.text = "Умеренная депрессия"
                     in (20..29) -> first_scale_result.text = "Выраженная депрессия (средней тяжести)"
-                    in (30..63) -> first_scale_result.text = "Тяжелая депрессия"
+                    in (30..63) -> first_scale_result.text = "Тяжелая депрессия".apply { paintText() }
                 }
             }
             ZUNG_DEPRESSION -> {
@@ -63,7 +67,7 @@ class OneScaleResultActivity : AppCompatActivity() {
                     in (1..49) -> first_scale_result.text = "Нормальное состояние"
                     in (50..59) -> first_scale_result.text = "Легкая депрессия"
                     in (60..69) -> first_scale_result.text = "Умеренная депрессия"
-                    in (70..80) -> first_scale_result.text = "Тяжелая депрессия"
+                    in (70..80) -> first_scale_result.text = "Тяжелая депрессия".apply { paintText() }
                 }
             }
             BECK_HOPELESSNESS -> {
@@ -72,7 +76,7 @@ class OneScaleResultActivity : AppCompatActivity() {
                     in (1..49) -> first_scale_result.text = "Нормальное состояние"
                     in (50..59) -> first_scale_result.text = "Негативное отношение к будущеему"
                     in (60..69) -> first_scale_result.text = "Умеренное ощущение безнадежности"
-                    in (70..80) -> first_scale_result.text = "Сильное ощущение безнадежности"
+                    in (70..80) -> first_scale_result.text = "Сильное ощущение безнадежности".apply { paintText() }
                 }
             }
             ZUNG_ANXIETY -> {
@@ -80,7 +84,7 @@ class OneScaleResultActivity : AppCompatActivity() {
                 when (summary) {
                     in (20..40) -> first_scale_result.text = "Низкий уровень тревожности"
                     in (41..60) -> first_scale_result.text = "Средний уровень тревожности"
-                    in (61..80) -> first_scale_result.text = "Высокий уровень тревожности"
+                    in (61..80) -> first_scale_result.text = "Высокий уровень тревожности".apply { paintText() }
                 }
             }
             KARPOV_REFLECTION -> {
@@ -128,7 +132,7 @@ class OneScaleResultActivity : AppCompatActivity() {
                 when (summary) {
                     in (0..11) -> first_scale_result.text = "Низкиая выраженность мотивации одобрения"
                     in (12..15) -> first_scale_result.text = "Средняя выраженность мотивации одобрения"
-                    in (16..19) -> first_scale_result.text = "Средняя выраженность мотивации одобрения"
+                    in (16..19) -> first_scale_result.text = "Высокая выраженность мотивации одобрения"
                 }
             }
             TEST_15 -> {
@@ -136,10 +140,34 @@ class OneScaleResultActivity : AppCompatActivity() {
                 when (summary) {
                     in (0..11) -> first_scale_result.text = "Низкиая выраженность мотивации достижения"
                     in (12..15) -> first_scale_result.text = "Средняя выраженность мотивации достижения"
-                    in (16..22) -> first_scale_result.text = "Средняя выраженность мотивации достижения"
+                    in (16..22) -> first_scale_result.text = "Высокая выраженность мотивации достижения"
                 }
             }
+            TEST_16 -> {
+                summary_text.text = "$summary из 50"
+                val text = when (summary) {
+                    in (0..5) -> "Низкий уровень тревоги"
+                    in (6..25) -> "Средний уровень тревоги"
+                    in (26..40) -> "Высокий уровень тревоги".apply { paintText() }
+                    in (41..50) -> "Очень высокий уровень тревоги".apply { paintText() }
+                    else -> ""
+                }
+                first_scale_result.text = text
+            }
+            TEST_17 -> {
+                summary_text.text = "$summary из 40"
+                val text = when (summary) {
+                    in (0..23) -> "Низкая невротизация"
+                    in (24..40) -> "Высокая вероятность невроза".apply { paintText() }
+                    else -> ""
+                }
+                first_scale_result.text = text
+            }
+
+
         }
+
+
 
         interpretation_button.setOnClickListener {
             InterpretationFragment.getInstance(resultData.interpretation).show(supportFragmentManager, "tag")
@@ -156,6 +184,11 @@ class OneScaleResultActivity : AppCompatActivity() {
 
         }
 
+    }
+
+
+    private fun paintText() {
+        first_scale_result.setTextColor(ContextCompat.getColor(this, android.R.color.holo_red_light))
     }
 
 }

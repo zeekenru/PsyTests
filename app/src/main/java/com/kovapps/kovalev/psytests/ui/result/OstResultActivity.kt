@@ -69,7 +69,7 @@ class OstResultActivity : AppCompatActivity(), View.OnClickListener {
                 || (result[7] in highRange || result[7] in mediumRange)))
 
         result.forEach {
-            if (it !in highRange) isSanguine = false
+            if (it !in mediumRange) isSanguine = false
         }
         if (isSanguine) return "Сангвиник"
 

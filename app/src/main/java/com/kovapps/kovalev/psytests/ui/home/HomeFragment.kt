@@ -4,20 +4,17 @@ package com.kovapps.kovalev.psytests.ui.home
 import android.content.Intent
 import android.os.Bundle
 import android.support.v4.app.Fragment
-import android.support.v7.widget.GridLayoutManager
 import android.support.v7.widget.LinearLayoutManager
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.google.android.gms.ads.AdListener
-import com.google.android.gms.ads.AdRequest
 import com.kovapps.kovalev.psytests.R
 import com.kovapps.kovalev.psytests.di.Scopes
 import com.kovapps.kovalev.psytests.dialogs.TestDescriptionFragment
 import com.kovapps.kovalev.psytests.enities.Test
 import com.kovapps.kovalev.psytests.model.TestDao
 import com.kovapps.kovalev.psytests.ui.test.LusherActivity
-import com.kovapps.kovalev.psytests.view.BaseActivity
+import com.kovapps.kovalev.psytests.ui.test.BaseActivity
 import kotlinx.android.synthetic.main.fragment_home.*
 import toothpick.Toothpick
 import javax.inject.Inject
@@ -41,31 +38,17 @@ class HomeFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        ad_view.loadAd(AdRequest.Builder().build())
-        ad_view.adListener = object : AdListener(){
-            override fun onAdFailedToLoad(p0: Int) {
-                super.onAdFailedToLoad(p0)
-                ad_view.visibility = View.GONE
-            }
-
-            override fun onAdLoaded() {
-                super.onAdLoaded()
-                if (ad_view != null) ad_view.visibility = View.VISIBLE
-            }
-
-        }
         with(tests_recycler_view) {
-            layoutManager = if (!resources.getBoolean(R.bool.isTablet)) {
-                LinearLayoutManager(context, LinearLayoutManager.VERTICAL, false)
-            } else GridLayoutManager(context, 3, GridLayoutManager.VERTICAL, false)
-        }
+            layoutManager =
+                    LinearLayoutManager(context, LinearLayoutManager.VERTICAL, false)
 
+        }
         showTests(dao.getAllTests())
     }
 
     private fun showTests(tests: List<Test>) {
         tests_recycler_view.adapter = TestsAdapter(tests, { handleClick(it.id) },
-                { showDescription(it.description!!) })
+                { showDescription(it.description!!) }, resources.getBoolean(R.bool.isTablet))
     }
 
     private fun handleClick(id: Int) {

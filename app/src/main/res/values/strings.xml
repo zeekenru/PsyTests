@@ -2,8 +2,8 @@
     <string name="app_name">Психология.Тесты</string>
     <string name="title_home">Home</string>
     <string name="title_notifications">Notifications</string>
-    <string name="history">History</string>
-    <string name="settings">Settings</string>
+    <string name="history">История</string>
+    <string name="settings">Настройки</string>
     <string name="tests">Тесты</string>
     <string name="done">Done</string>
     <string name="double_click_to_close">Двойное нажатие для закрытия</string>
@@ -21,4 +21,10 @@
     <string name="high_level">Высокий уровень</string>
     <string name="libs">Библиотеки</string>
     <string name="email_topic">PsyTest issue</string>
+    <string name="save_results">Сохранять результаты тестов</string>
+    <string name="version">Версия</string>
+    <string name="send_review">Отправить отзыв</string>
+    <string name="libraries">Используемые ресурсы и библиотеки</string>
+    <string name="review_app">Оценить приложение</string>
+    <string name="privacy_police">Privacy Police</string>
 </resources>

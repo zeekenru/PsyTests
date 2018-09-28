@@ -17,4 +17,6 @@ object TestsTypes {
     const val BASS = 13
     const val TEST_14 = 14
     const val TEST_15 = 15
+    const val TEST_16 = 16
+    const val TEST_17 = 17
 }

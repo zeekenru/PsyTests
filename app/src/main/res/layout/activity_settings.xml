@@ -11,20 +11,19 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/primaryColor"
-        app:titleTextColor="@android:color/white"
-        app:title="Настройки" />
-
+        app:title="@string/settings"
+        app:titleTextColor="@android:color/white" />
 
 
     <TextView
         android:id="@+id/save_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
-        android:text="История"
+        android:text="@string/history"
         android:textColor="@android:color/black"
         android:textSize="17sp"
-        android:layout_marginStart="16dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/settings_toolbar" />
 
@@ -33,7 +32,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
-        android:text="Сохранять результаты тестов"
+        android:text="@string/save_results"
         android:textSize="14sp"
         app:layout_constraintStart_toStartOf="@+id/save_title"
         app:layout_constraintTop_toBottomOf="@+id/save_title" />
@@ -42,8 +41,8 @@
         android:id="@+id/save_switch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="32dp"
         android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
         app:layout_constraintBottom_toTopOf="@+id/divider3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/settings_toolbar" />
@@ -63,7 +62,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="Версия"
+        android:text="@string/version"
         android:textColor="@android:color/black"
         android:textSize="17sp"
         app:layout_constraintStart_toStartOf="@+id/save_title"
@@ -95,31 +94,53 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        android:drawablePadding="24dp"
         android:drawableStart="@drawable/ic_feedback_black_24dp"
-        android:text="Отправить отзыв"
+        android:drawablePadding="24dp"
+        android:text="@string/send_review"
         app:layout_constraintStart_toStartOf="@+id/version_title"
         app:layout_constraintTop_toBottomOf="@+id/divider4" />
 
     <TextView
-        android:id="@+id/user_libraries"
+        android:id="@+id/used_libraries"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        android:drawablePadding="24dp"
         android:drawableStart="@drawable/ic_description_black_24dp"
-        android:text="Используемые ресурсы и библиотеки"
+        android:drawablePadding="24dp"
+        android:text="@string/libraries"
         app:layout_constraintStart_toStartOf="@+id/send_review"
         app:layout_constraintTop_toBottomOf="@+id/send_review" />
+
+    <TextView
+        android:id="@+id/review"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:drawableStart="@drawable/ic_star_border_black_24dp"
+        android:drawablePadding="24dp"
+        android:text="@string/review_app"
+        app:layout_constraintStart_toStartOf="@id/save_title"
+        app:layout_constraintTop_toBottomOf="@id/used_libraries" />
+
+    <TextView
+        android:id="@+id/privacy_police"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:drawableStart="@drawable/ic_pan_tool_black_24dp"
+        android:drawablePadding="24dp"
+        android:text="@string/privacy_police"
+        app:layout_constraintStart_toStartOf="@id/save_title"
+        app:layout_constraintTop_toBottomOf="@id/review" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:drawableStart="@drawable/ic_star_border_black_24dp"
-        app:layout_constraintStart_toStartOf="@id/save_title"
-        app:layout_constraintTop_toBottomOf="@id/user_libraries"
+        android:text="App icon made Freepik from www.flaticon.com "
+        app:layout_constraintTop_toBottomOf="@id/privacy_police"
         android:layout_marginTop="32dp"
-        android:text="Оценить приложение"
-        android:drawablePadding="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="10sp"
         />
 
 </android.support.constraint.ConstraintLayout>

@@ -55,26 +55,12 @@ class AssetsTestDao @Inject constructor(val context: Context): TestDao {
         return tests[(0..tests.size).random()]
     }
 
-    override fun getYesNoTest(id: Int): YesNoTest {
-        val jsonString = assetManager.open("test_$id.json").bufferedReader().readText()
-        return gson.fromJson<YesNoTest>(jsonString, YesNoTest::class.java)
-    }
-
     override fun getAllTests(): List<Test> {
         val jsonString = assetManager.open("tests").bufferedReader().readText()
         val type = object : TypeToken<List<Test>>(){}.type
         return parseArray(jsonString, type)
     }
 
-    override fun getBeckTest(id : Int): BeckDepressionTest {
-        val jsonString = assetManager.open("test_$id.json").bufferedReader().readText()
-        return gson.fromJson<BeckDepressionTest>(jsonString, BeckDepressionTest::class.java)
-    }
-
-    override fun getZungTest(id : Int): ZungTest {
-        val jsonString = assetManager.open("test_$id.json").bufferedReader().readText()
-        return gson.fromJson<ZungTest>(jsonString, ZungTest::class.java)
-    }
 
     private inline fun <reified T> parseArray(json: String, typeToken: Type): T {
         return gson.fromJson<T>(json, typeToken)

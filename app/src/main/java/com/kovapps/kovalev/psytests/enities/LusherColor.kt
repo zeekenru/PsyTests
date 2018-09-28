@@ -1,9 +1,11 @@
 package com.kovapps.kovalev.psytests.enities
 
 import android.graphics.Color
+import android.os.Parcelable
+import kotlinx.android.parcel.Parcelize
 
-
-enum class LusherColor(val number : Int, val color : Int) {
+@Parcelize
+enum class LusherColor(val number : Int, val color : Int) : Parcelable {
     BlUE(1, Color.parseColor("#004983")),
     GREEN(2, Color.parseColor("#1D9772")),
     RED(3, Color.parseColor("#F12F23")),

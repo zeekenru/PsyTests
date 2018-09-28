@@ -8,7 +8,7 @@ import com.kovapps.kovalev.psytests.R
 import com.kovapps.kovalev.psytests.TestsTypes
 import com.kovapps.kovalev.psytests.enities.ThreeScalesResult
 import com.orhanobut.logger.Logger
-import kotlinx.android.synthetic.main.activity_epi_result.*
+import kotlinx.android.synthetic.main.activity_maslach_result.*
 
 
 class ThreeScalesResultActivity : AppCompatActivity() {
@@ -19,7 +19,7 @@ class ThreeScalesResultActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_epi_result)
+        setContentView(R.layout.activity_maslach_result)
         Logger.d(this.javaClass.simpleName)
         close_btn.setOnClickListener { finish() }
         val result : ThreeScalesResult = intent.getParcelableExtra(RESULT_DATA_PARAM)

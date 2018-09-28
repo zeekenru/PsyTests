@@ -11,6 +11,7 @@ import android.support.v7.widget.helper.ItemTouchHelper
 import android.view.*
 import com.kovapps.kovalev.psytests.R
 import com.kovapps.kovalev.psytests.SwipeToDeleteCallback
+import com.kovapps.kovalev.psytests.TestsTypes
 import com.kovapps.kovalev.psytests.di.Scopes
 import com.kovapps.kovalev.psytests.dialogs.DeleteAllDialogFragment
 import com.kovapps.kovalev.psytests.enities.OneScaleResult
@@ -22,6 +23,10 @@ import com.kovapps.kovalev.psytests.model.TestDao
 import com.kovapps.kovalev.psytests.ui.result.OstResultActivity
 import com.kovapps.kovalev.psytests.ui.result.OneScaleResultActivity
 import com.kovapps.kovalev.psytests.ui.result.ThreeScalesResultActivity
+import com.kovapps.kovalev.psytests.ui.test.BaseActivity
+import com.kovapps.kovalev.psytests.ui.test.LusherActivity
+import com.orhanobut.logger.Logger
+import kotlinx.android.synthetic.main.empty_history_layout.*
 import kotlinx.android.synthetic.main.fragment_history.*
 import toothpick.Toothpick
 import javax.inject.Inject
@@ -57,9 +62,6 @@ class HistoryFragment : Fragment() {
         with(history_recycler_view) {
             hasFixedSize()
             layoutManager = LinearLayoutManager(context, LinearLayoutManager.VERTICAL, false)
-        }
-        if (!preferenceHelper.saveResultsEnabled()) {
-
         }
         val items = dao.getHistory()
         if (items.isEmpty()) {
@@ -127,7 +129,9 @@ class HistoryFragment : Fragment() {
                 setMenuVisibility(false)
                 if (empty_history_view.isInLayout) {
                     empty_history_view.visibility = View.VISIBLE
-                } else empty_history_view.inflate()
+                } else {
+                    showEmptyHistory(true)
+                }
             }
         }
 
@@ -142,11 +146,8 @@ class HistoryFragment : Fragment() {
     }
 
     private fun showEmptyHistory(show: Boolean) {
-        if (show) {
-            empty_history_view.inflate()
-        } else {
-            empty_history_view.visibility = View.INVISIBLE
-        }
+        if (show) empty_history_view.inflate() else empty_history_view.visibility = View.GONE
+
 
     }
 
