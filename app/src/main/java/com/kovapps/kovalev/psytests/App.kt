@@ -12,9 +12,12 @@ import io.paperdb.Paper
 import toothpick.Toothpick
 
 
-private const val TAG = "MYTAG"
+
 
 class App : Application() {
+
+    private  val TAG = "MYTAG"
+
     override fun onCreate() {
         super.onCreate()
         val formatStrategy = PrettyFormatStrategy.newBuilder().tag(TAG).build()

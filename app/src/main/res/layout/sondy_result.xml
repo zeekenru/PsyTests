@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/primaryDarkColor"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/scale_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:drawablePadding="8dp"
+        android:text=' Фактор "h"'
+        android:textAlignment="center"
+        android:textColor="@color/accentTextColor"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/scale_1_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:text="3/9"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/scale_1"
+        app:layout_constraintStart_toStartOf="@+id/scale_1"
+        app:layout_constraintTop_toBottomOf="@+id/scale_1" />
+
+    <TextView
+        android:id="@+id/scale_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:drawablePadding="8dp"
+        android:text='Фактор "s"'
+        android:textAlignment="center"
+        android:textColor="@color/accentTextColor"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scale_1_value" />
+
+
+    <TextView
+        android:id="@+id/scale_2_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:text="9/9"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/scale_2"
+        app:layout_constraintStart_toStartOf="@+id/scale_2"
+        app:layout_constraintTop_toBottomOf="@+id/scale_2" />
+
+    <TextView
+        android:id="@+id/scale_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:drawablePadding="8dp"
+        android:text='Фактор "e"'
+        android:textAlignment="center"
+        android:textColor="@color/accentTextColor"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scale_2_value" />
+
+
+    <TextView
+        android:id="@+id/scale_3_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:text="9/9"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/scale_3"
+        app:layout_constraintStart_toStartOf="@+id/scale_3"
+        app:layout_constraintTop_toBottomOf="@+id/scale_3" />
+
+    <TextView
+        android:id="@+id/scale_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:drawablePadding="8dp"
+        android:text='Фактор "hy"'
+        android:textAlignment="center"
+        android:textColor="@color/accentTextColor"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scale_3_value" />
+
+    <TextView
+        android:id="@+id/scale_4_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:text="9/9"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/scale_4"
+        app:layout_constraintStart_toStartOf="@+id/scale_4"
+        app:layout_constraintTop_toBottomOf="@+id/scale_4" />
+
+    <TextView
+        android:id="@+id/scale_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:drawablePadding="8dp"
+        android:text='Фактор "k"'
+        android:textAlignment="center"
+        android:textColor="@color/accentTextColor"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scale_4_value" />
+
+    <TextView
+        android:id="@+id/scale_5_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:text="9/9"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/scale_5"
+        app:layout_constraintStart_toStartOf="@+id/scale_5"
+        app:layout_constraintTop_toBottomOf="@+id/scale_5" />
+
+    <TextView
+        android:id="@+id/scale_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:drawablePadding="8dp"
+        android:text='Фактор "p"'
+        android:textAlignment="center"
+        android:textColor="@color/accentTextColor"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scale_5_value" />
+
+    <TextView
+        android:id="@+id/scale_6_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:text="9/9"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/scale_6"
+        app:layout_constraintStart_toStartOf="@+id/scale_6"
+        app:layout_constraintTop_toBottomOf="@+id/scale_6" />
+
+    <TextView
+        android:id="@+id/scale_7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:drawablePadding="8dp"
+        android:text='Фактор "d"'
+        android:textAlignment="center"
+        android:textColor="@color/accentTextColor"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scale_6_value" />
+
+    <TextView
+        android:id="@+id/scale_7_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:text="9/9"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/scale_7"
+        app:layout_constraintStart_toStartOf="@+id/scale_7"
+        app:layout_constraintTop_toBottomOf="@+id/scale_7" />
+
+    <TextView
+        android:id="@+id/scale_8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:drawablePadding="8dp"
+        android:text='Фактор "m"'
+        android:textAlignment="center"
+        android:textColor="@color/accentTextColor"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scale_7_value" />
+
+    <TextView
+        android:id="@+id/scale_8_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:text="9/9"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/scale_8"
+        app:layout_constraintStart_toStartOf="@+id/scale_8"
+        app:layout_constraintTop_toBottomOf="@+id/scale_8" />
+
+</android.support.constraint.ConstraintLayout>

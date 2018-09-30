@@ -38,6 +38,9 @@ class TestsAdapter(private val data: List<Test>, private val passClickListener: 
             } else {
                 view.more_info_btn.setOnClickListener { moreInfoClickListener(test) }
             }
+            if (test.description.isNullOrEmpty()){
+                view.more_info_btn.visibility = View.INVISIBLE
+            }
             view.test_name.text = test.name
             if (test.questionsCount != null) view.questions_count.text =
                     "${test.questionsCount} ${getEnumEnd(test.questionsCount)}"

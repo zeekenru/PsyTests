@@ -22,6 +22,11 @@ class BassResultActivity : AppCompatActivity(), View.OnClickListener {
         setContentView(R.layout.activity_bass_result)
         close_btn.setOnClickListener { finish() }
         val result: ScaleResult = intent.getParcelableExtra(RESULT_DATA_PARAM)
+        info_btn.setOnClickListener {
+            val intent = Intent(this, TestDescriptionActivity::class.java)
+                    .putExtra(TestDescriptionActivity.TEST_ID_PARAM, result.id)
+            startActivity(intent)
+        }
         scale_1_value.text = "${result.scalesValues[0]}/10"
         scale_2_value.text = "${result.scalesValues[1]}/9"
         scale_3_value.text = "${result.scalesValues[2]}/11"
@@ -46,17 +51,21 @@ class BassResultActivity : AppCompatActivity(), View.OnClickListener {
     private fun calculateIndex(values: List<Int>) {
         val firstIndex = values[0] + values[2] + values[6]
         val secondIndex = values[4] + values[5]
-        val text = when (firstIndex ){
-            in 25..31 -> "Высокий уровень"  .apply { scale_9_value.setTextColor(ContextCompat
-                    .getColor(this@BassResultActivity, android.R.color.holo_red_dark)) }
+        val text = when (firstIndex) {
+            in 25..31 -> "Высокий уровень".apply {
+                scale_9_value.setTextColor(ContextCompat
+                        .getColor(this@BassResultActivity, android.R.color.holo_red_dark))
+            }
             in 17..24 -> "Средний уровень"
             in 0..16 -> "Низкий уровень"
             else -> throw IllegalArgumentException("unexpected index value")
         }
         scale_9_value.text = text
-        val secondText = when (secondIndex){
-            in 11..18 -> "Высокий уровень"  .apply { scale_10_value.setTextColor(ContextCompat
-                    .getColor(this@BassResultActivity, android.R.color.holo_red_dark)) }
+        val secondText = when (secondIndex) {
+            in 11..18 -> "Высокий уровень".apply {
+                scale_10_value.setTextColor(ContextCompat
+                        .getColor(this@BassResultActivity, android.R.color.holo_red_dark))
+            }
             in 4..10 -> "Средний урвоень"
             in 0..3 -> "Низкий уровень"
             else -> throw IllegalArgumentException("unexpected index value")
@@ -76,7 +85,7 @@ class BassResultActivity : AppCompatActivity(), View.OnClickListener {
     }
 
     override fun onClick(v: View) {
-        val message : String =  when(v.id){
+        val message: String = when (v.id) {
             R.id.scale_1 -> " Использование физической силы против другого лица"
             R.id.scale_2 -> "Действия, неявно направленные на другое лицо или на неодушевленные предметы"
             R.id.scale_3 -> "Повышенная нервность, возбудимость, готовность к проявлению негативных реакций на незначительные раздражители"

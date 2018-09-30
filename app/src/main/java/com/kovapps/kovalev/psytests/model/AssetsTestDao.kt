@@ -30,6 +30,7 @@ class AssetsTestDao @Inject constructor(val context: Context): TestDao {
 
     override fun deleteAllHistory() {
         Paper.book().delete(HISTORY_ITEMS)
+        Paper.book().destroy()
     }
 
     override fun deleteFromHistory(position: Int) {
@@ -61,6 +62,9 @@ class AssetsTestDao @Inject constructor(val context: Context): TestDao {
         return parseArray(jsonString, type)
     }
 
+    override fun getTestDescriptionById(id: Int): String {
+      return  assetManager.open("md/test_$id.md").bufferedReader().readText()
+    }
 
     private inline fun <reified T> parseArray(json: String, typeToken: Type): T {
         return gson.fromJson<T>(json, typeToken)

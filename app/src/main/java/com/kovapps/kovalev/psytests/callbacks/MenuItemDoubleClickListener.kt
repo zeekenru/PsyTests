@@ -1,4 +1,4 @@
-package com.kovapps.kovalev.psytests
+package com.kovapps.kovalev.psytests.callbacks
 
 import android.view.View
 

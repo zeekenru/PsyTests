@@ -11,4 +11,5 @@ interface TestDao {
     fun getAllTests() : List<Test>
     fun getTestById(id: Int): Test
     fun deleteAllHistory()
+    fun getTestDescriptionById(id : Int) : String
 }

@@ -10,23 +10,13 @@ import android.support.v7.widget.RecyclerView
 import android.support.v7.widget.helper.ItemTouchHelper
 import android.view.*
 import com.kovapps.kovalev.psytests.R
-import com.kovapps.kovalev.psytests.SwipeToDeleteCallback
-import com.kovapps.kovalev.psytests.TestsTypes
+import com.kovapps.kovalev.psytests.callbacks.SwipeToDeleteCallback
 import com.kovapps.kovalev.psytests.di.Scopes
 import com.kovapps.kovalev.psytests.dialogs.DeleteAllDialogFragment
-import com.kovapps.kovalev.psytests.enities.OneScaleResult
-import com.kovapps.kovalev.psytests.enities.Result
-import com.kovapps.kovalev.psytests.enities.ScaleResult
-import com.kovapps.kovalev.psytests.enities.ThreeScalesResult
+import com.kovapps.kovalev.psytests.enities.*
 import com.kovapps.kovalev.psytests.model.PreferenceHelper
 import com.kovapps.kovalev.psytests.model.TestDao
-import com.kovapps.kovalev.psytests.ui.result.OstResultActivity
-import com.kovapps.kovalev.psytests.ui.result.OneScaleResultActivity
-import com.kovapps.kovalev.psytests.ui.result.ThreeScalesResultActivity
-import com.kovapps.kovalev.psytests.ui.test.BaseActivity
-import com.kovapps.kovalev.psytests.ui.test.LusherActivity
-import com.orhanobut.logger.Logger
-import kotlinx.android.synthetic.main.empty_history_layout.*
+import com.kovapps.kovalev.psytests.ui.result.*
 import kotlinx.android.synthetic.main.fragment_history.*
 import toothpick.Toothpick
 import javax.inject.Inject
@@ -116,11 +106,15 @@ class HistoryFragment : Fragment() {
                             .putExtra(OneScaleResultActivity.RESULT_DATA_PARAM, result)
                 is ThreeScalesResult -> Intent(context, ThreeScalesResultActivity::class.java)
                         .putExtra(ThreeScalesResultActivity.RESULT_DATA_PARAM, result)
-                is ScaleResult -> Intent(context, OstResultActivity::class.java)
-                        .putExtra(OstResultActivity.RESULT_DATA_PARAM, result)
-                else -> {
-                    throw IllegalArgumentException("Unexpected result object")
-                }
+                is ScaleResult -> if (result.id != 19){
+                    Intent(context, OstResultActivity::class.java)
+                            .putExtra(OstResultActivity.RESULT_DATA_PARAM, result)
+                } else Intent(context, SondiResultActivity::class.java)
+                        .putExtra(SondiResultActivity.RESULT_DATA_PARAM, result)
+                is LuscherResult -> Intent(context, LuscherResultActivity::class.java)
+                        .putExtra(LuscherResultActivity.RESULT_DATA_PARAM, result)
+                else -> throw IllegalArgumentException("Unexpected result object")
+
             }
             startActivity(intent)
         }
@@ -147,8 +141,6 @@ class HistoryFragment : Fragment() {
 
     private fun showEmptyHistory(show: Boolean) {
         if (show) empty_history_view.inflate() else empty_history_view.visibility = View.GONE
-
-
     }
 
 

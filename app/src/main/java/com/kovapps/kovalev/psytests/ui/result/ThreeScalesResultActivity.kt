@@ -68,7 +68,9 @@ class ThreeScalesResultActivity : AppCompatActivity() {
             }
         }
         info_btn.setOnClickListener {
-            InterpretationFragment.getInstance(result.interpretation).show(supportFragmentManager, "tag")
+            val intent = Intent(this, TestDescriptionActivity::class.java)
+                    .putExtra(TestDescriptionActivity.TEST_ID_PARAM, result.id)
+            startActivity(intent)
         }
         share_btn.setOnClickListener {
             val textMessage = when (result.id){

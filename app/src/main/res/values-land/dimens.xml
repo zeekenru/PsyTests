@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sondy_portrait_height">100dp</dimen>
+    <dimen name="sondy_instruction_margin_top">16dp</dimen>
+</resources>

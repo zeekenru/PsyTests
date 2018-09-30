@@ -4,10 +4,11 @@ import android.os.Parcelable
 import kotlinx.android.parcel.Parcelize
 
 @Parcelize
-data class ThreeScalesResult(override val name: String,
-                             override val time: Long,
-                             override val interpretation: String,
-                             val id : Int,
-                             val firstScale : Int,
-                             val secondScale : Int,
-                             val thirdScale : Int) : Result, Parcelable
+data class ThreeScalesResult(
+        override val id: Int,
+        override val name: String,
+        override val time: Long,
+        override val interpretation: String,
+        val firstScale: Int,
+        val secondScale: Int,
+        val thirdScale: Int) : Result, Parcelable

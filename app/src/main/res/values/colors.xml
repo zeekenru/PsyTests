@@ -4,14 +4,4 @@
     <color name="primaryDarkColor">#000051</color>
     <color name="primaryTextColor">#FFFFFF</color>
     <color name="accentTextColor">@android:color/darker_gray</color>
-
-    <color name="secondPrimaryColor">#f0f9ee</color>
-    <color name="secondPrimaryLightColor">#ffffff</color>
-    <color name="secondPrimaryDarkColor">#bdc6bc</color>
-    <color name="secondAccentTextColor">#000000</color>
-
-    <color name="greenPrimaryColor">#81c784</color>
-    <color name="greenPrimaryLightColor">#b2fab4</color>
-    <color name="greenPrimaryDarkColor">#519657</color>
-    <color name="greenAccentTextColor">#000000</color>
 </resources>

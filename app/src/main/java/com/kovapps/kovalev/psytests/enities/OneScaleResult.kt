@@ -5,9 +5,9 @@ import kotlinx.android.parcel.Parcelize
 
 @Parcelize
 data class OneScaleResult(
+        override val id : Int,
         override val name: String,
         override val time: Long,
         override val interpretation: String,
-        val id : Int,
         val scale : Int)
     : Result, Parcelable

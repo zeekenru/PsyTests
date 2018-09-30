@@ -2,7 +2,6 @@ package com.kovapps.kovalev.psytests.ui.test
 
 import android.content.Intent
 import android.graphics.Color
-import android.opengl.Visibility
 import android.os.Bundle
 import android.support.v4.content.ContextCompat
 import android.support.v7.app.AppCompatActivity
@@ -14,17 +13,14 @@ import android.widget.Toast
 import com.google.android.gms.ads.AdListener
 import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.InterstitialAd
-import com.kovapps.kovalev.psytests.MenuItemDoubleClickListener
+import com.kovapps.kovalev.psytests.callbacks.MenuItemDoubleClickListener
 import com.kovapps.kovalev.psytests.R
 import com.kovapps.kovalev.psytests.TestsTypes
 import com.kovapps.kovalev.psytests.di.Scopes
 import com.kovapps.kovalev.psytests.enities.*
 import com.kovapps.kovalev.psytests.model.PreferenceHelper
 import com.kovapps.kovalev.psytests.model.TestDao
-import com.kovapps.kovalev.psytests.ui.result.BassResultActivity
-import com.kovapps.kovalev.psytests.ui.result.OneScaleResultActivity
-import com.kovapps.kovalev.psytests.ui.result.OstResultActivity
-import com.kovapps.kovalev.psytests.ui.result.ThreeScalesResultActivity
+import com.kovapps.kovalev.psytests.ui.result.*
 import com.orhanobut.logger.Logger
 import com.tinsuke.icekick.extension.freezeInstanceState
 import com.tinsuke.icekick.extension.parcelLateState
@@ -67,6 +63,8 @@ class BaseActivity : AppCompatActivity() {
 
     private var isRestoredState = false
 
+    private lateinit var toast: Toast
+
     @Inject
     lateinit var dao: TestDao
 
@@ -77,11 +75,11 @@ class BaseActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.base_activity)
         Toothpick.inject(this, Toothpick.openScope(Scopes.APP_SCOPE))
+        interstitialAd = InterstitialAd(this)
         if (savedInstanceState != null && !savedInstanceState.isEmpty) {
             isRestoredState = true
             unfreezeInstanceState(savedInstanceState)
             scalesValues.addAll(savedInstanceState.getIntegerArrayList(VALUES_RESTORE_KEY)!!)
-            Logger.d("OnRestoreInstanceState")
         } else {
             test = intent.getParcelableExtra(TEST_PARAM)
             scalesCount = test.scalesCount
@@ -96,7 +94,7 @@ class BaseActivity : AppCompatActivity() {
                 android.graphics.PorterDuff.Mode.SRC_IN)
         back_navigation_btn.setOnClickListener(object : MenuItemDoubleClickListener() {
             override fun onSingleClick(item: View) {
-                if (firstBackClick || currentQuestion == 1) {
+                if (firstBackClick) {
                     showBackToast()
                     firstBackClick = false
                 } else {
@@ -124,33 +122,19 @@ class BaseActivity : AppCompatActivity() {
         showQuestion()
     }
 
-
     override fun onSaveInstanceState(outState: Bundle) {
         super.onSaveInstanceState(outState)
-        Logger.d("OnSaveInstanceState")
         outState.putIntegerArrayList(VALUES_RESTORE_KEY, ArrayList(scalesValues))
         freezeInstanceState(outState)
     }
 
     private fun showBackToast() {
-        Toast.makeText(this@BaseActivity, getString(R.string.double_click_to_close),
-                Toast.LENGTH_SHORT).show()
+        toast = Toast.makeText(this@BaseActivity, getString(R.string.double_click_to_close), Toast.LENGTH_SHORT)
+        toast.show()
     }
 
-    private fun prepareAdView() {
-        ad_view.loadAd(AdRequest.Builder().build())
-        ad_view.adListener = object : AdListener(){
-            override fun onAdFailedToLoad(p0: Int) {
-                super.onAdFailedToLoad(p0)
-                ad_view.visibility = View.GONE
-            }
 
-            override fun onAdLoaded() {
-                super.onAdLoaded()
-                if (ad_view.visibility == View.GONE) ad_view.visibility = View.VISIBLE
-            }
-        }
-        interstitialAd = InterstitialAd(this)
+    private fun prepareAdView() {
         interstitialAd.adUnitId = getString(R.string.banner_ad_unit_id)
         interstitialAd.adListener = object : AdListener() {
             override fun onAdClosed() {
@@ -168,6 +152,20 @@ class BaseActivity : AppCompatActivity() {
         interstitialAd.loadAd(AdRequest.Builder()
                 .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
                 .build())
+
+        ad_view.loadAd(AdRequest.Builder().build())
+        ad_view.adListener = object : AdListener() {
+            override fun onAdFailedToLoad(p0: Int) {
+                super.onAdFailedToLoad(p0)
+                ad_view.visibility = View.GONE
+            }
+
+            override fun onAdLoaded() {
+                super.onAdLoaded()
+                if (ad_view.visibility == View.GONE) ad_view.visibility = View.VISIBLE
+            }
+        }
+
     }
 
     private fun addButton(text: String) {
@@ -216,6 +214,17 @@ class BaseActivity : AppCompatActivity() {
                 finish()
             }
         }
+
+    }
+
+    override fun onBackPressed() {
+        if (currentQuestion != -1) back()
+    }
+
+
+    override fun onStop() {
+        super.onStop()
+        if (::toast.isInitialized) toast.cancel()
 
     }
 
@@ -337,6 +346,22 @@ class BaseActivity : AppCompatActivity() {
             currentQuestion++
             showQuestion()
         }
+        val listener9 = View.OnClickListener {
+            val value = when (it.id) {
+                buttons[0].id -> if (test.questions[currentQuestion - 1].right!!) 1 else 5
+                buttons[1].id -> if (test.questions[currentQuestion - 1].right!!) 2 else 4
+                buttons[2].id -> 3
+                buttons[3].id -> if (test.questions[currentQuestion - 1].right!!) 4 else 2
+                buttons[4].id -> if (test.questions[currentQuestion - 1].right!!) 5 else 1
+                else -> throw IllegalArgumentException("wrond id")
+            }
+            val scale = test.questions[currentQuestion - 1].scale!! - 1
+            lastEditedScale = scale
+            scalesValues[scale] += value
+            addedValuesStack.push(value)
+            currentQuestion++
+            showQuestion()
+        }
         val clickListener = when (test.id) {
             TestsTypes.BECK_DEPRESSION -> listener1
             TestsTypes.ZUNG_DEPRESSION, TestsTypes.BECK_HOPELESSNESS, TestsTypes.ZUNG_ANXIETY -> listener2
@@ -344,8 +369,9 @@ class BaseActivity : AppCompatActivity() {
             TestsTypes.MASLACH -> listener4
             TestsTypes.BRETMEN, TestsTypes.TEST_17 -> listener5
             TestsTypes.OUB -> listener6
-            TestsTypes.EPI, TestsTypes.OST, TestsTypes.BASS, TestsTypes.TEST_14, TestsTypes.TEST_15,TestsTypes.TEST_16 -> listener7
+            TestsTypes.EPI, TestsTypes.OST, TestsTypes.BASS, TestsTypes.TEST_14, TestsTypes.TEST_15, TestsTypes.TEST_16 -> listener7
             TestsTypes.EQ -> listener8
+            TestsTypes.TEST_18 -> listener9
             else -> throw Exception("wrong test id")
         }
 
@@ -357,29 +383,30 @@ class BaseActivity : AppCompatActivity() {
 
     private fun showResult() {
         val result: Result = when (scalesCount) {
-            1 -> OneScaleResult(test.name!!, Date().time, test.interpretation, test.id, scalesValues[0])
-            3 -> ThreeScalesResult(test.name!!, Date().time,
-                    test.interpretation, test.id, scalesValues[0], scalesValues[1], scalesValues[2])
-            9 -> ScaleResult(test.name!!, Date().time, test.interpretation, test.id, scalesValues)
-            8 -> ScaleResult(test.name!!, Date().time, test.interpretation, test.id, scalesValues)
+            1 -> OneScaleResult(test.id, test.name!!, Date().time, test.interpretation, scalesValues[0])
+            3 -> ThreeScalesResult(test.id, test.name!!, Date().time,
+                    test.interpretation, scalesValues[0], scalesValues[1], scalesValues[2])
+            8, 9, 5 -> ScaleResult(test.id, test.name!!, Date().time, test.interpretation, test.id, scalesValues)
             else -> throw IllegalArgumentException("Unknown scales count")
         }
         if (preferenceHelper.saveResultsEnabled()) {
             dao.saveToHistory(result)
         }
-        val intent = when (result) {
-            is OneScaleResult -> Intent(this, OneScaleResultActivity::class.java)
-                    .putExtra(OneScaleResultActivity.RESULT_DATA_PARAM, result)
-            is ThreeScalesResult -> Intent(this, ThreeScalesResultActivity::class.java)
-                    .putExtra(ThreeScalesResultActivity.RESULT_DATA_PARAM, result)
-            is ScaleResult -> {
-                if (scalesCount == 9) Intent(this, OstResultActivity::class.java)
-                        .putExtra(OstResultActivity.RESULT_DATA_PARAM, result)
-                else Intent(this, BassResultActivity::class.java)
-                        .putExtra(BassResultActivity.RESULT_DATA_PARAM, result)
-            }
-            else -> throw IllegalArgumentException("wrong result type")
+        val intent = when (scalesCount) {
+            1 -> Intent(this, OneScaleResultActivity::class.java)
+                    .putExtra(OneScaleResultActivity.RESULT_DATA_PARAM, result as OneScaleResult)
+            3 -> Intent(this, ThreeScalesResultActivity::class.java)
+                    .putExtra(ThreeScalesResultActivity.RESULT_DATA_PARAM, result as ThreeScalesResult)
+            9 -> Intent(this, OstResultActivity::class.java)
+                    .putExtra(OstResultActivity.RESULT_DATA_PARAM, result as ScaleResult)
+            8 -> Intent(this, BassResultActivity::class.java)
+                    .putExtra(BassResultActivity.RESULT_DATA_PARAM, result as ScaleResult)
+            5 -> Intent(this, FiveScalesResultActivity::class.java)
+                    .putExtra(FiveScalesResultActivity.RESULT_DATA_PARAM, result as ScaleResult)
+            else -> throw IllegalArgumentException("Unknown scales count")
+
         }
+        preferenceHelper.incrementPassedTestsCount()
         startActivity(intent)
     }
 

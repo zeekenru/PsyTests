@@ -1,20 +1,34 @@
 package com.kovapps.kovalev.psytests.ui.test
 
+import android.content.Context
+import android.content.Intent
+import android.net.wifi.WifiManager
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.view.View
 import com.google.android.gms.ads.AdListener
 import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.InterstitialAd
+import com.google.android.gms.ads.MobileAds
+import com.google.android.gms.ads.reward.RewardItem
+import com.google.android.gms.ads.reward.RewardedVideoAd
+import com.google.android.gms.ads.reward.RewardedVideoAdListener
 import com.kovapps.kovalev.psytests.R
+import com.kovapps.kovalev.psytests.di.Scopes
+import com.kovapps.kovalev.psytests.enities.LuscherResult
 import com.kovapps.kovalev.psytests.enities.LusherColor
+import com.kovapps.kovalev.psytests.model.PreferenceHelper
+import com.kovapps.kovalev.psytests.model.TestDao
+import com.kovapps.kovalev.psytests.ui.result.LuscherResultActivity
 import com.orhanobut.logger.Logger
 import com.tinsuke.icekick.extension.freezeInstanceState
 import com.tinsuke.icekick.extension.serialState
 import com.tinsuke.icekick.extension.unfreezeInstanceState
 import kotlinx.android.synthetic.main.activity_luscher.*
 import kotlinx.android.synthetic.main.luscher_pause_laoyut.*
+import toothpick.Toothpick
 import java.util.*
+import javax.inject.Inject
 
 class LusherActivity : AppCompatActivity(), View.OnClickListener {
 
@@ -26,31 +40,38 @@ class LusherActivity : AppCompatActivity(), View.OnClickListener {
         private const val CARDS_COUNT = 8
     }
 
+    @Inject
+    lateinit var dao: TestDao
+
+    @Inject
+    lateinit var preferenceHelper: PreferenceHelper
+
     private lateinit var views: List<View>
     private val colors = LusherColor.values().toMutableList()
     private var firstAnswers = ArrayList<LusherColor>(CARDS_COUNT)
-    private var secondAnswers =  ArrayList<LusherColor>(CARDS_COUNT)
+    private var secondAnswers = ArrayList<LusherColor>(CARDS_COUNT)
     private var selectedViewsId = ArrayList<Int>(CARDS_COUNT)
-    private var isFirstState : Boolean by serialState(true)
-    private var answersCount : Int by serialState(0)
-    private lateinit var lastSelectedColorView : View
+    private var isFirstState: Boolean by serialState(true)
+    private var answersCount: Int by serialState(0)
+    private var adWasShowed: Boolean by serialState(false)
+    private lateinit var lastSelectedColorView: View
     private lateinit var interstitialAd: InterstitialAd
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_luscher)
+        Toothpick.inject(this, Toothpick.openScope(Scopes.APP_SCOPE))
         views = listOf(lusher_color_1, lusher_color_2, lusher_color_3,
                 lusher_color_4, lusher_color_5, lusher_color_6, lusher_color_7, lusher_color_8)
         if (savedInstanceState != null && !savedInstanceState.isEmpty) {
             unfreezeInstanceState(savedInstanceState)
-            Logger.d("restore instance state")
             firstAnswers = savedInstanceState.getParcelableArrayList(FIRST_ANSWERS)!!
             secondAnswers = savedInstanceState.getParcelableArrayList(SECOND_ANSWERS)!!
             selectedViewsId = savedInstanceState.getIntegerArrayList(SAVED_VIEWS)!!
+            colors.clear()
             colors.addAll(savedInstanceState.getParcelableArrayList(COLORS)!!)
             paintViews().apply { Logger.d("painting view") }
-            for (id in selectedViewsId){
-                findViewById<View>(id).visibility = View.INVISIBLE.apply { Logger.d("set invisible to : $id") }
-                //views.forEachIndexed { index, view -> view.setBackgroundColor(colors[index].color).apply {  Logger.d("setting background") } }
+            for (id in selectedViewsId) {
+                findViewById<View>(id).visibility = View.INVISIBLE
             }
         } else {
             paintViews()
@@ -62,22 +83,9 @@ class LusherActivity : AppCompatActivity(), View.OnClickListener {
         back_btn.setOnClickListener { finish() }
     }
 
-    private fun initAd() {
-        interstitialAd = InterstitialAd(this)
-        interstitialAd.adUnitId = "ca-app-pub-3940256099942544/1033173712"
-        interstitialAd.loadAd(AdRequest.Builder().build())
-        if (ad_view != null && resources.getBoolean(R.bool.isTablet)){
-            ad_view!!.loadAd(AdRequest.Builder().build())
-        }
-    }
-
-    private fun randomizeColors() {
-        colors.shuffle()
-    }
 
     override fun onSaveInstanceState(outState: Bundle) {
         super.onSaveInstanceState(outState)
-        Logger.d("save instance state")
         outState.putIntegerArrayList(SAVED_VIEWS, selectedViewsId)
         outState.putParcelableArrayList(FIRST_ANSWERS, firstAnswers)
         outState.putParcelableArrayList(SECOND_ANSWERS, secondAnswers)
@@ -139,27 +147,63 @@ class LusherActivity : AppCompatActivity(), View.OnClickListener {
         }
         selectedViewsId.add(v.id)
         if (answersCount == 8) {
-            if (isFirstState) {
-                if (interstitialAd.isLoaded){
-                    Logger.d("Ad is loaded")
+            if (!adWasShowed) {
+                if (interstitialAd.isLoaded) {
                     interstitialAd.show()
-                    interstitialAd.adListener = object : AdListener(){
+                    adWasShowed = true
+                    interstitialAd.adListener = object : AdListener() {
                         override fun onAdClosed() {
                             super.onAdClosed()
                             showPauseScreen()
                         }
                     }
                 } else showPauseScreen()
-            }
-            else showResult()
+            } else showResult()
         }
     }
 
-    private fun showResult() {
-        Logger.d("Answers: $firstAnswers ; $secondAnswers")
+    private fun initAd() {
+        interstitialAd = InterstitialAd(this)
+        interstitialAd.adUnitId = "ca-app-pub-3940256099942544/1033173712"
+        interstitialAd.loadAd(AdRequest.Builder().build())
+        if (ad_view != null && resources.getBoolean(R.bool.isTablet)) {
+            ad_view!!.loadAd(AdRequest.Builder().build())
+        }
+
     }
 
-    private fun paintViews(){
+    private fun randomizeColors() = colors.shuffle()
+
+    private fun showResult() {
+        val result = LuscherResult(time = Date().time, answers = secondAnswers, interpretation = "", id = 10)
+        if (preferenceHelper.saveResultsEnabled()) {
+            dao.saveToHistory(result)
+        }
+        val intent = Intent(this, LuscherResultActivity::class.java)
+                .putExtra(LuscherResultActivity.RESULT_DATA_PARAM, result)
+        if (!adWasShowed) {
+            if (interstitialAd.isLoaded) {
+                interstitialAd.show()
+                adWasShowed = true
+                interstitialAd.adListener = object : AdListener() {
+                    override fun onAdClosed() {
+                        super.onAdClosed()
+                        startActivity(intent)
+                        finish()
+                    }
+                }
+            } else {
+                startActivity(intent)
+                finish()
+            }
+        } else {
+            startActivity(intent)
+            finish()
+        }
+
+    }
+
+    private fun paintViews() {
         views.forEachIndexed { index, view ->
             view.setBackgroundColor(colors[index].color)
             view.visibility = View.VISIBLE
@@ -174,6 +218,7 @@ class LusherActivity : AppCompatActivity(), View.OnClickListener {
         continue_btn.setOnClickListener {
             showSecondColorList()
         }
+        close_btn.setOnClickListener { finish() }
     }
 
     private fun showSecondColorList() {
@@ -182,10 +227,12 @@ class LusherActivity : AppCompatActivity(), View.OnClickListener {
         instruction_text.visibility = View.VISIBLE
         colors_cards_layout.visibility = View.VISIBLE
         luscher_pause_layout.visibility = View.GONE
-        close_btn.setOnClickListener {finish()}
+        close_btn.setOnClickListener { finish() }
         isFirstState = false
         answersCount = 0
         colors.shuffle()
         paintViews()
     }
+
+   
 }

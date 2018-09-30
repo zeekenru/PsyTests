@@ -50,35 +50,35 @@
             android:id="@+id/lusher_color_1"
             android:layout_width="80dp"
             android:layout_height="120dp"
-            android:background="@color/primaryLightColor" />
+             />
 
         <View
             android:id="@+id/lusher_color_2"
             android:layout_width="80dp"
             android:layout_height="120dp"
             android:layout_marginStart="8dp"
-            android:background="@color/primaryLightColor" />
+            />
 
         <View
             android:id="@+id/lusher_color_3"
             android:layout_width="80dp"
             android:layout_height="120dp"
             android:layout_marginStart="8dp"
-            android:background="@color/primaryLightColor" />
+             />
 
         <View
             android:id="@+id/lusher_color_4"
             android:layout_width="80dp"
             android:layout_height="120dp"
             android:layout_marginStart="8dp"
-            android:background="@color/primaryLightColor" />
+            />
 
         <View
             android:id="@+id/lusher_color_5"
             android:layout_width="80dp"
             android:layout_height="120dp"
             android:layout_marginTop="24dp"
-            android:background="@color/primaryLightColor" />
+           />
 
         <View
             android:id="@+id/lusher_color_6"
@@ -86,7 +86,7 @@
             android:layout_height="120dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="24dp"
-            android:background="@color/primaryLightColor" />
+           />
 
         <View
             android:id="@+id/lusher_color_7"
@@ -94,7 +94,7 @@
             android:layout_height="120dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="24dp"
-            android:background="@color/primaryLightColor" />
+            />
 
         <View
             android:id="@+id/lusher_color_8"
@@ -102,7 +102,7 @@
             android:layout_height="120dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="24dp"
-            android:background="@color/primaryLightColor" />
+            />
 
     </GridLayout>
     <include

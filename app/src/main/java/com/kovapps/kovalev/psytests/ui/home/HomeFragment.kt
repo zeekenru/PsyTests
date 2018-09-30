@@ -9,12 +9,14 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.kovapps.kovalev.psytests.R
+import com.kovapps.kovalev.psytests.TestsTypes
 import com.kovapps.kovalev.psytests.di.Scopes
 import com.kovapps.kovalev.psytests.dialogs.TestDescriptionFragment
 import com.kovapps.kovalev.psytests.enities.Test
 import com.kovapps.kovalev.psytests.model.TestDao
 import com.kovapps.kovalev.psytests.ui.test.LusherActivity
 import com.kovapps.kovalev.psytests.ui.test.BaseActivity
+import com.kovapps.kovalev.psytests.ui.test.SondiActivity
 import kotlinx.android.synthetic.main.fragment_home.*
 import toothpick.Toothpick
 import javax.inject.Inject
@@ -52,9 +54,15 @@ class HomeFragment : Fragment() {
     }
 
     private fun handleClick(id: Int) {
-        if (id == 10) {
-            openLusherTest()
-        } else openBaseTest(dao.getTestById(id))
+        when (id) {
+            TestsTypes.LUSHER -> openLusherTest()
+            TestsTypes.SONDY -> openSondyTest()
+            else -> openBaseTest(dao.getTestById(id))
+        }
+    }
+
+    private fun openSondyTest() {
+        startActivity(Intent(context, SondiActivity::class.java))
     }
 
     private fun openBaseTest(test: Test) {

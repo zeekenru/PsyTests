@@ -1,4 +1,4 @@
-package com.kovapps.kovalev.psytests
+package com.kovapps.kovalev.psytests.callbacks
 
 import android.content.Context
 import android.graphics.*
@@ -6,6 +6,7 @@ import android.graphics.drawable.ColorDrawable
 import android.support.v4.content.ContextCompat
 import android.support.v7.widget.RecyclerView
 import android.support.v7.widget.helper.ItemTouchHelper
+import com.kovapps.kovalev.psytests.R
 
 
 abstract class SwipeToDeleteCallback(context : Context) : ItemTouchHelper.SimpleCallback(0, ItemTouchHelper.LEFT) {

@@ -27,4 +27,8 @@
     <string name="libraries">Используемые ресурсы и библиотеки</string>
     <string name="review_app">Оценить приложение</string>
     <string name="privacy_police">Privacy Police</string>
+    <string name="result">Результат</string>
+    <string name="colors_values">Значения цветов</string>
+    <string name="test_description">Test description</string>
+    <string name="pass">Пройти</string>
 </resources>

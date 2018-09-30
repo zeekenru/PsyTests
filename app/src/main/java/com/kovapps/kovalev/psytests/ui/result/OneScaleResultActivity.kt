@@ -170,7 +170,9 @@ class OneScaleResultActivity : AppCompatActivity() {
 
 
         interpretation_button.setOnClickListener {
-            InterpretationFragment.getInstance(resultData.interpretation).show(supportFragmentManager, "tag")
+            val intent = Intent(this, TestDescriptionActivity::class.java)
+                    .putExtra(TestDescriptionActivity.TEST_ID_PARAM, resultData.id)
+            startActivity(intent)
         }
         share_btn.setOnClickListener {
             val shareIntentText = "Пройден(а) ${resultData.name} в приложении ${getString(R.string.app_name)}: " +

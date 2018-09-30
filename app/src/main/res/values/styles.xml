@@ -8,11 +8,6 @@
         <item name="android:toolbarStyle">@style/DefaultToolbarStyle</item>
     </style>
 
-    <style name="WhiteAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
-        <item name="colorPrimary">@color/secondPrimaryColor</item>
-        <item name="colorPrimaryDark">@color/secondPrimaryDarkColor</item>
-        <item name="colorAccent">@color/secondAccentTextColor</item>
-    </style>
 
     <style name="DefaultToolbarStyle" parent="Widget.AppCompat.Toolbar">
         <item name="android:titleTextColor">@android:color/white</item>
@@ -47,10 +42,6 @@
         <item name="android:textSize">18sp</item>
     </style>
 
-    <style name="GreenAppTheme" parent="Theme.AppCompat.Light.NoActionBar" >
-        <item name="colorPrimary">@color/greenPrimaryColor</item>
-        <item name="colorPrimaryDark">@color/greenPrimaryDarkColor</item>
-        <item name="colorAccent">@color/greenPrimaryLightColor</item>
-    </style>
+
 
 </resources>
