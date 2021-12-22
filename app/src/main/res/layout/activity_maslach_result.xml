@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -9,80 +8,73 @@
     android:fillViewport="true"
     tools:context=".ui.result.OneScaleResultActivity">
 
-    <android.support.constraint.ConstraintLayout
-        android:layout_marginBottom="8dp"
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp">
 
 
         <ImageView
             android:id="@+id/close_btn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="16dp"
-            app:layout_constraintBottom_toBottomOf="@+id/share_btn"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/ic_close_white_24dp" />
 
-        <ImageView
-            android:id="@+id/share_btn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:layout_marginEnd="16dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/ic_share_white_24dp" />
 
         <TextView
             android:id="@+id/first_scale_name"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="104dp"
-            android:text="Эмоциальное истощение"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="8dp"
+            android:text="@string/maslach_result_summary_1"
+            android:textAlignment="center"
             android:textColor="@color/accentTextColor"
             android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.501"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toBottomOf="@id/close_btn" />
 
         <TextView
             android:id="@+id/first_scale_result"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:text="first_scale_result"
             android:textAlignment="center"
             android:textColor="@android:color/white"
             android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="@+id/first_scale_summary"
             app:layout_constraintStart_toStartOf="@+id/first_scale_summary"
-            app:layout_constraintTop_toBottomOf="@+id/first_scale_summary" />
+            app:layout_constraintTop_toBottomOf="@+id/first_scale_summary"
+            tools:text="High" />
 
         <TextView
             android:id="@+id/first_scale_summary"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="25/54"
             android:textColor="@color/accentTextColor"
             android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="@+id/first_scale_name"
             app:layout_constraintStart_toStartOf="@+id/first_scale_name"
-            app:layout_constraintTop_toBottomOf="@+id/first_scale_name" />
+            app:layout_constraintTop_toBottomOf="@+id/first_scale_name"
+            tools:text="25/54" />
 
         <TextView
             android:id="@+id/second_scale_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="50dp"
-            android:text="Деперсонализация"
+            android:text="@string/maslach_result_summary_2"
             android:textAlignment="center"
             android:textColor="@color/accentTextColor"
             android:textSize="24sp"
@@ -96,33 +88,35 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="11/30"
             android:textColor="@color/accentTextColor"
             android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="@+id/second_scale_name"
             app:layout_constraintStart_toStartOf="@+id/second_scale_name"
-            app:layout_constraintTop_toBottomOf="@+id/second_scale_name" />
+            app:layout_constraintTop_toBottomOf="@+id/second_scale_name"
+            tools:text="11/30" />
 
         <TextView
             android:id="@+id/second_scale_result"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:text="Средний уровень"
             android:textColor="@android:color/white"
             android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="@+id/second_scale_summary"
             app:layout_constraintStart_toStartOf="@+id/second_scale_summary"
-            app:layout_constraintTop_toBottomOf="@+id/second_scale_summary" />
+            app:layout_constraintTop_toBottomOf="@+id/second_scale_summary"
+            tools:text="Средний уровень" />
 
         <TextView
             android:id="@+id/third_scale_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
             android:layout_marginTop="48dp"
-            android:text="Редукция профессионализма"
+            android:layout_marginEnd="8dp"
+            android:text="@string/maslach_result_summary_3"
             android:textColor="@color/accentTextColor"
             android:textSize="24sp"
             android:textStyle="bold"
@@ -135,13 +129,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="15/30"
             android:textColor="@color/accentTextColor"
             android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="@+id/third_scale_name"
             app:layout_constraintStart_toStartOf="@+id/third_scale_name"
-            app:layout_constraintTop_toBottomOf="@+id/third_scale_name" />
+            app:layout_constraintTop_toBottomOf="@+id/third_scale_name"
+            tools:text="15/30" />
 
         <TextView
             android:id="@+id/third_scale_result"
@@ -149,23 +143,14 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:layout_marginBottom="16dp"
-            android:text="Низкий уровень"
             android:textColor="@android:color/white"
             android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="@+id/third_scale_summary"
             app:layout_constraintStart_toStartOf="@+id/third_scale_summary"
-            app:layout_constraintTop_toBottomOf="@+id/third_scale_summary" />
+            app:layout_constraintTop_toBottomOf="@+id/third_scale_summary"
+            tools:text="Низкий уровень" />
 
-        <ImageView
-            android:id="@+id/info_btn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:layout_marginEnd="32dp"
-            app:layout_constraintEnd_toStartOf="@+id/share_btn"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/ic_info_outline_white_24dp" />
 
-    </android.support.constraint.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

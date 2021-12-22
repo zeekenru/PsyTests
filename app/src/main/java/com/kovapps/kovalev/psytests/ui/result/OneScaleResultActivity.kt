@@ -1,13 +1,11 @@
 package com.kovapps.kovalev.psytests.ui.result
 
-import android.content.Intent
 import android.os.Bundle
-import android.support.v4.content.ContextCompat
-import android.support.v7.app.AppCompatActivity
-import com.kovapps.kovalev.psytests.dialogs.InterpretationFragment
-import com.kovapps.kovalev.psytests.model.PreferenceHelper
+import android.widget.ImageView
+import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.ContextCompat
 import com.kovapps.kovalev.psytests.R
-import com.kovapps.kovalev.psytests.TestsTypes
 import com.kovapps.kovalev.psytests.TestsTypes.BECK_DEPRESSION
 import com.kovapps.kovalev.psytests.TestsTypes.BECK_HOPELESSNESS
 import com.kovapps.kovalev.psytests.TestsTypes.BRETMEN
@@ -18,12 +16,12 @@ import com.kovapps.kovalev.psytests.TestsTypes.TEST_14
 import com.kovapps.kovalev.psytests.TestsTypes.TEST_15
 import com.kovapps.kovalev.psytests.TestsTypes.TEST_16
 import com.kovapps.kovalev.psytests.TestsTypes.TEST_17
+import com.kovapps.kovalev.psytests.TestsTypes.TEST_21
 import com.kovapps.kovalev.psytests.TestsTypes.ZUNG_ANXIETY
 import com.kovapps.kovalev.psytests.TestsTypes.ZUNG_DEPRESSION
 import com.kovapps.kovalev.psytests.di.Scopes
 import com.kovapps.kovalev.psytests.enities.OneScaleResult
-import com.orhanobut.logger.Logger
-import kotlinx.android.synthetic.main.activity_result.*
+import com.kovapps.kovalev.psytests.model.PreferenceHelper
 import toothpick.Toothpick
 import javax.inject.Inject
 
@@ -31,6 +29,10 @@ class OneScaleResultActivity : AppCompatActivity() {
 
     @Inject
     lateinit var preferenceHelper: PreferenceHelper
+
+    private lateinit var closeBtn: ImageView
+    private lateinit var summaryText: TextView
+    private lateinit var scale1: TextView
 
     init {
         Toothpick.inject(this, Toothpick.openScope(Scopes.APP_SCOPE))
@@ -43,146 +45,140 @@ class OneScaleResultActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_result)
-        Logger.d(this.javaClass.simpleName)
-        close_btn.setOnClickListener {
-            finish()
-        }
-        val resultData: OneScaleResult = intent.getParcelableExtra(RESULT_DATA_PARAM)
+        closeBtn = findViewById(R.id.close_btn)
+        summaryText = findViewById(R.id.summary_text)
+        scale1 = findViewById(R.id.first_scale_result)
+        closeBtn.setOnClickListener { finish() }
+        val resultData: OneScaleResult = intent.getParcelableExtra(RESULT_DATA_PARAM)!!
         val summary = resultData.scale
-        Logger.d(resultData)
-        when (resultData.id) {
+        when (resultData.testId) {
             BECK_DEPRESSION -> {
-                summary_text.text = "$summary из 63"
+                summaryText.text = "$summary/63"
                 when (summary) {
-                    in (0..9) -> first_scale_result.text = "Отсутствие депрессивных симптомов"
-                    in (10..15) -> first_scale_result.text = "Легкая депрессия (субдепрессия)"
-                    in (16..19) -> first_scale_result.text = "Умеренная депрессия"
-                    in (20..29) -> first_scale_result.text = "Выраженная депрессия (средней тяжести)"
-                    in (30..63) -> first_scale_result.text = "Тяжелая депрессия".apply { paintText() }
+                    in (0..9) -> scale1.text = getString(R.string.one_scale_result_1)
+                    in (10..15) -> scale1.text = getString(R.string.one_scale_result_2)
+                    in (16..19) -> scale1.text = getString(R.string.one_scale_result_3)
+                    in (20..29) -> scale1.text = getString(R.string.one_scale_result_4)
+                    in (30..63) -> scale1.text =
+                        getString(R.string.one_scale_result_5).apply { paintText() }
                 }
             }
             ZUNG_DEPRESSION -> {
-                summary_text.text = "$summary из 80"
+                summaryText.text = "$summary/80"
                 when (summary) {
-                    in (1..49) -> first_scale_result.text = "Нормальное состояние"
-                    in (50..59) -> first_scale_result.text = "Легкая депрессия"
-                    in (60..69) -> first_scale_result.text = "Умеренная депрессия"
-                    in (70..80) -> first_scale_result.text = "Тяжелая депрессия".apply { paintText() }
+                    in (1..49) -> scale1.text = getString(R.string.one_scale_result_6)
+                    in (50..59) -> scale1.text = getString(R.string.one_scale_result_7)
+                    in (60..69) -> scale1.text = getString(R.string.one_scale_result_8)
+                    in (70..80) -> scale1.text =
+                        getString(R.string.one_scale_result_9).apply { paintText() }
                 }
             }
             BECK_HOPELESSNESS -> {
-                summary_text.text = "$summary из 80"
+                summaryText.text = "$summary/80"
                 when (summary) {
-                    in (1..49) -> first_scale_result.text = "Нормальное состояние"
-                    in (50..59) -> first_scale_result.text = "Негативное отношение к будущеему"
-                    in (60..69) -> first_scale_result.text = "Умеренное ощущение безнадежности"
-                    in (70..80) -> first_scale_result.text = "Сильное ощущение безнадежности".apply { paintText() }
+                    in (1..49) -> scale1.text = getString(R.string.one_scale_result_10)
+                    in (50..59) -> scale1.text = getString(R.string.one_scale_result_11)
+                    in (60..69) -> scale1.text = getString(R.string.one_scale_result_12)
+                    in (70..80) -> scale1.text =
+                        getString(R.string.one_scale_result_13).apply { paintText() }
                 }
             }
             ZUNG_ANXIETY -> {
-                summary_text.text = "$summary из 80"
+                summaryText.text = "$summary/80"
                 when (summary) {
-                    in (20..40) -> first_scale_result.text = "Низкий уровень тревожности"
-                    in (41..60) -> first_scale_result.text = "Средний уровень тревожности"
-                    in (61..80) -> first_scale_result.text = "Высокий уровень тревожности".apply { paintText() }
+                    in (20..40) -> scale1.text = getString(R.string.one_scale_result_14)
+                    in (41..60) -> scale1.text = getString(R.string.one_scale_result_15)
+                    in (61..80) -> scale1.text =
+                        getString(R.string.one_scale_result_16).apply { paintText() }
                 }
             }
             KARPOV_REFLECTION -> {
 
-                summary_text.text = "$summary из 189"
+                summaryText.text = "$summary/189"
 
                 when (summary) {
-                    in (0..113) -> first_scale_result.text = "Низкий уровень развития рефлексивности"
-                    in (114..147) -> first_scale_result.text = "Средний уровень развития рефлексивности"
-                    in (147..189) -> first_scale_result.text = "Высокий уровень развития рефлексивности"
+                    in (0..113) -> scale1.text = getString(R.string.one_scale_result_17)
+                    in (114..147) -> scale1.text = getString(R.string.one_scale_result_18)
+                    in (147..189) -> scale1.text = getString(R.string.one_scale_result_19)
                 }
             }
             BRETMEN -> {
-                summary_text.text = "$summary из 10"
+                summaryText.text = "$summary/10"
                 if (summary <= 4) {
-                    first_scale_result.text = "Нервная орторексия отсутствует"
+                    scale1.text = getString(R.string.one_scale_result_20)
                 } else {
-                    first_scale_result.text = "Присутсвует вероятность нервной орторексии"
+                    scale1.text = getString(R.string.one_scale_result_21)
                 }
             }
             OUB -> {
-                summary_text.text = "$summary из 48"
+                summaryText.text = "$summary/48"
                 when (summary) {
-                    in (0..16) -> first_scale_result.text = "Абсолютно неблагополучная семья"
-                    in (17..22) -> first_scale_result.text = "Высокая степень неудовлетворенности"
-                    in (23..26) -> first_scale_result.text = "Выраженная неудовлетворенность"
-                    in (27..28) -> first_scale_result.text = "Переходный статус"
-                    in (29..32) -> first_scale_result.text = "Удовлетворенность браком"
-                    in (33..38) -> first_scale_result.text = "Благополучная семья"
-                    in (39..48) -> first_scale_result.text = "Абсолютно благополучная семья"
+                    in (0..16) -> scale1.text = getString(R.string.one_scale_result_22)
+                    in (17..22) -> scale1.text = getString(R.string.one_scale_result_23)
+                    in (23..26) -> scale1.text = getString(R.string.one_scale_result_24)
+                    in (27..28) -> scale1.text = getString(R.string.one_scale_result_25)
+                    in (29..32) -> scale1.text = getString(R.string.one_scale_result_26)
+                    in (33..38) -> scale1.text = getString(R.string.one_scale_result_27)
+                    in (39..48) -> scale1.text = getString(R.string.one_scale_result_28)
                 }
             }
             EQ -> {
-                summary_text.text = "$summary из 80"
+                summaryText.text = "$summary/80"
                 when (summary) {
-                    in (0..17) -> first_scale_result.text = "Очень низкий уровень сопереживания"
-                    in (17..28) -> first_scale_result.text = "Низкий уровень сопереживания"
-                    in (29..51) -> first_scale_result.text = "Средний уровень сопереживания"
-                    in (52..63) -> first_scale_result.text = "Высокий уровень сопереживания"
-                    in (63..80) -> first_scale_result.text = "Очень высокий уровень сопереживания"
+                    in (0..17) -> scale1.text = getString(R.string.one_scale_result_29)
+                    in (17..28) -> scale1.text = getString(R.string.one_scale_result_30)
+                    in (29..51) -> scale1.text = getString(R.string.one_scale_result_31)
+                    in (52..63) -> scale1.text = getString(R.string.one_scale_result_32)
+                    in (63..80) -> scale1.text = getString(R.string.one_scale_result_33)
                 }
             }
             TEST_14 -> {
-                summary_text.text = "$summary из 19"
+                summaryText.text = "$summary/19"
                 when (summary) {
-                    in (0..11) -> first_scale_result.text = "Низкиая выраженность мотивации одобрения"
-                    in (12..15) -> first_scale_result.text = "Средняя выраженность мотивации одобрения"
-                    in (16..19) -> first_scale_result.text = "Высокая выраженность мотивации одобрения"
+                    in (0..11) -> scale1.text = getString(R.string.one_scale_result_34)
+                    in (12..15) -> scale1.text = getString(R.string.one_scale_result_35)
+                    in (16..19) -> scale1.text = getString(R.string.one_scale_result_36)
                 }
             }
             TEST_15 -> {
-                summary_text.text = "$summary из 19"
+                summaryText.text = "$summary/19"
                 when (summary) {
-                    in (0..11) -> first_scale_result.text = "Низкиая выраженность мотивации достижения"
-                    in (12..15) -> first_scale_result.text = "Средняя выраженность мотивации достижения"
-                    in (16..22) -> first_scale_result.text = "Высокая выраженность мотивации достижения"
+                    in (0..11) -> scale1.text = getString(R.string.one_scale_result_37)
+                    in (12..15) -> scale1.text = getString(R.string.one_scale_result_38)
+                    in (16..22) -> scale1.text = getString(R.string.one_scale_result_39)
                 }
             }
             TEST_16 -> {
-                summary_text.text = "$summary из 50"
+                summaryText.text = "$summary/50"
                 val text = when (summary) {
-                    in (0..5) -> "Низкий уровень тревоги"
-                    in (6..25) -> "Средний уровень тревоги"
-                    in (26..40) -> "Высокий уровень тревоги".apply { paintText() }
-                    in (41..50) -> "Очень высокий уровень тревоги".apply { paintText() }
+                    in (0..5) -> getString(R.string.one_scale_result_40)
+                    in (6..25) -> getString(R.string.one_scale_result_41)
+                    in (26..40) -> getString(R.string.one_scale_result_42).apply { paintText() }
+                    in (41..50) -> getString(R.string.one_scale_result_43).apply { paintText() }
                     else -> ""
                 }
-                first_scale_result.text = text
+                scale1.text = text
             }
             TEST_17 -> {
-                summary_text.text = "$summary из 40"
+                summaryText.text = "$summary/40"
                 val text = when (summary) {
-                    in (0..23) -> "Низкая невротизация"
-                    in (24..40) -> "Высокая вероятность невроза".apply { paintText() }
+                    in (0..23) -> getString(R.string.one_scale_result_44)
+                    in (24..40) -> getString(R.string.one_scale_result_45).apply { paintText() }
                     else -> ""
                 }
-                first_scale_result.text = text
+                scale1.text = text
+            }
+            TEST_21 -> {
+                scale1.text = "$summary/160"
+                val text = when (summary) {
+                    in (0..69) -> getString(R.string.one_scale_result_46)
+                    in (70..119) -> getString(R.string.one_scale_result_47)
+                    in (120..160) -> getString(R.string.one_scale_result_48).apply { paintText() }
+                    else -> getString(R.string.one_scale_result_49)
+                }
+                scale1.text = text
             }
 
-
-        }
-
-
-
-        interpretation_button.setOnClickListener {
-            val intent = Intent(this, TestDescriptionActivity::class.java)
-                    .putExtra(TestDescriptionActivity.TEST_ID_PARAM, resultData.id)
-            startActivity(intent)
-        }
-        share_btn.setOnClickListener {
-            val shareIntentText = "Пройден(а) ${resultData.name} в приложении ${getString(R.string.app_name)}: " +
-                    "${first_scale_result.text.toString().toLowerCase()}. "
-            val shareIntent = Intent().apply {
-                action = Intent.ACTION_SEND
-                type = "text/plain"
-                putExtra(Intent.EXTRA_TEXT, shareIntentText)
-            }
-            startActivity(shareIntent)
 
         }
 
@@ -190,7 +186,7 @@ class OneScaleResultActivity : AppCompatActivity() {
 
 
     private fun paintText() {
-        first_scale_result.setTextColor(ContextCompat.getColor(this, android.R.color.holo_red_light))
+        scale1.setTextColor(ContextCompat.getColor(this, android.R.color.holo_red_light))
     }
 
 }

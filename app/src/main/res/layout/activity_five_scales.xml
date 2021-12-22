@@ -7,7 +7,7 @@
     android:background="@color/primaryDarkColor"
     android:fillViewport="true">
 
-    <android.support.constraint.ConstraintLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -15,45 +15,23 @@
 
         <ImageView
             android:id="@+id/close_btn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="16dp"
-            app:layout_constraintBottom_toBottomOf="@+id/share_btn"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/ic_close_white_24dp" />
 
-        <ImageView
-            android:id="@+id/share_btn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:layout_marginEnd="16dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/ic_share_white_24dp" />
-
-        <ImageView
-            android:id="@+id/info_btn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="32dp"
-            android:layout_marginTop="16dp"
-            app:srcCompat="@drawable/ic_info_outline_white_24dp"
-            app:layout_constraintEnd_toStartOf="@+id/share_btn"
-            app:layout_constraintTop_toTopOf="parent" />
-
-
         <TextView
             android:id="@+id/scale_1"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_marginTop="32dp"
             android:layout_marginEnd="8dp"
             android:drawablePadding="8dp"
-            android:text="Жесткость, твердость"
+            android:text="@string/five_scales_result_1"
             android:textAlignment="center"
             android:textColor="@color/accentTextColor"
             android:textSize="24sp"
@@ -69,24 +47,23 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
-            android:text="3/9"
             android:textColor="@android:color/white"
             android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="@+id/scale_1"
             app:layout_constraintStart_toStartOf="@+id/scale_1"
-            app:layout_constraintTop_toBottomOf="@+id/scale_1" />
-
+            app:layout_constraintTop_toBottomOf="@+id/scale_1"
+            tools:text="3/9" />
 
 
         <TextView
             android:id="@+id/scale_2"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_marginTop="32dp"
             android:layout_marginEnd="8dp"
-            android:text="Опора на собственные силы"
+            android:text="@string/five_scales_result_2"
             android:textAlignment="center"
             android:textColor="@color/accentTextColor"
             android:textSize="24sp"
@@ -103,24 +80,23 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
-            android:text="9/9"
             android:textColor="@android:color/white"
             android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="@+id/scale_2"
             app:layout_constraintStart_toStartOf="@+id/scale_2"
-            app:layout_constraintTop_toBottomOf="@+id/scale_2" />
-
+            app:layout_constraintTop_toBottomOf="@+id/scale_2"
+            tools:text="9/9" />
 
 
         <TextView
             android:id="@+id/scale_3"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_marginTop="32dp"
             android:layout_marginEnd="8dp"
-            android:text="Ориентация на достижения и высокий статус"
+            android:text="@string/five_scales_result_3"
             android:textAlignment="center"
             android:textColor="@color/accentTextColor"
             android:textSize="24sp"
@@ -137,24 +113,23 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
-            android:text="9/9"
             android:textColor="@android:color/white"
             android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="@+id/scale_3"
             app:layout_constraintStart_toStartOf="@+id/scale_3"
-            app:layout_constraintTop_toBottomOf="@+id/scale_3" />
-
+            app:layout_constraintTop_toBottomOf="@+id/scale_3"
+            tools:text="9/9" />
 
 
         <TextView
             android:id="@+id/scale_4"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_marginTop="32dp"
             android:layout_marginEnd="8dp"
-            android:text="Гомофобия"
+            android:text="@string/five_scales_result_4"
             android:textAlignment="center"
             android:textColor="@color/accentTextColor"
             android:textSize="24sp"
@@ -170,24 +145,23 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
-            android:text="9/9"
             android:textColor="@android:color/white"
             android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="@+id/scale_4"
             app:layout_constraintStart_toStartOf="@+id/scale_4"
-            app:layout_constraintTop_toBottomOf="@+id/scale_4" />
-
+            app:layout_constraintTop_toBottomOf="@+id/scale_4"
+            tools:text="9/9" />
 
 
         <TextView
             android:id="@+id/scale_5"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_marginTop="32dp"
             android:layout_marginEnd="8dp"
-            android:text="Принятие безличной сексуальности"
+            android:text="@string/five_scales_result_5"
             android:textAlignment="center"
             android:textColor="@color/accentTextColor"
             android:textSize="24sp"
@@ -203,24 +177,23 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
-            android:text="9/9"
             android:textColor="@android:color/white"
             android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="@+id/scale_5"
             app:layout_constraintStart_toStartOf="@+id/scale_5"
-            app:layout_constraintTop_toBottomOf="@+id/scale_5" />
-
+            app:layout_constraintTop_toBottomOf="@+id/scale_5"
+            tools:text="9/9" />
 
 
         <TextView
             android:id="@+id/scale_6"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_marginTop="32dp"
             android:layout_marginEnd="8dp"
-            android:text="Принятие безличной сексуальности"
+            android:text="@string/five_scales_result_6"
             android:textAlignment="center"
             android:textColor="@color/accentTextColor"
             android:textSize="24sp"
@@ -236,25 +209,28 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
-            android:text="9/9"
             android:textColor="@android:color/white"
             android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="@+id/scale_6"
             app:layout_constraintStart_toStartOf="@+id/scale_6"
-            app:layout_constraintTop_toBottomOf="@+id/scale_6" />
+            app:layout_constraintTop_toBottomOf="@+id/scale_6"
+            tools:text="9/9" />
 
         <TextView
             android:id="@+id/scale_6_summary"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="Low"
+            android:layout_marginBottom="8dp"
+            android:textAlignment="center"
             android:textColor="@android:color/white"
             android:textSize="24sp"
             android:textStyle="bold"
-            app:layout_constraintEnd_toEndOf="@+id/scale_6_value"
-            app:layout_constraintStart_toStartOf="@+id/scale_6_value"
-            app:layout_constraintTop_toBottomOf="@+id/scale_6_value" />
-    </android.support.constraint.ConstraintLayout>
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/scale_6"
+            app:layout_constraintStart_toStartOf="@+id/scale_6"
+            app:layout_constraintTop_toBottomOf="@+id/scale_6_value"
+            tools:text="Low" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

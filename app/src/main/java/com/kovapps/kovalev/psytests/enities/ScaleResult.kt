@@ -1,13 +1,13 @@
 package com.kovapps.kovalev.psytests.enities
 
 import android.os.Parcelable
-import kotlinx.android.parcel.Parcelize
+import kotlinx.parcelize.Parcelize
 
 @Parcelize
 data class ScaleResult(
-        override val id: Int,
-        override val name: String,
-        override val time: Long,
-        override val interpretation: String,
-        val tesType: Int,
-        val scalesValues: List<Int>) : Result, Parcelable
+    override val testId: Int,
+    override val testName: String,
+    override val date: Long,
+    val tesType: Int,
+    val scalesValues: List<Int>
+) : HistoryItem, Parcelable

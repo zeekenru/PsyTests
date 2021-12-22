@@ -21,4 +21,7 @@ object TestsTypes {
     const val TEST_17 = 17
     const val TEST_18 = 18
     const val SONDY = 19
+    const val TEST_20 = 20
+    const val TEST_21 = 21
+    const val TEST_22 = 22
 }

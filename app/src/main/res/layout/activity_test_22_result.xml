@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primaryDarkColor">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primaryDarkColor">
+
+        <ImageView
+            android:id="@+id/close_btn"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_close_white_24dp" />
+
+        <TextView
+            android:id="@+id/scale_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="@string/test22_result_summary_1"
+            android:textAlignment="center"
+            android:textColor="@color/accentTextColor"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@id/close_btn"
+            app:layout_constraintTop_toBottomOf="@id/close_btn" />
+
+        <TextView
+            android:id="@+id/scale_1_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/scale_1"
+            app:layout_constraintTop_toBottomOf="@+id/scale_1"
+            tools:text="3/9" />
+
+        <TextView
+            android:id="@+id/scale_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:lineSpacingExtra="4dp"
+            android:text="@string/test22_result_summary_2"
+            android:textAlignment="center"
+            android:textColor="@color/accentTextColor"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@id/close_btn"
+            app:layout_constraintTop_toBottomOf="@+id/scale_1_result" />
+
+
+        <TextView
+            android:id="@+id/scale_2_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/scale_2"
+            app:layout_constraintTop_toBottomOf="@+id/scale_2"
+            tools:text="9/9" />
+
+        <TextView
+            android:id="@+id/scale_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="8dp"
+            android:text="@string/test22_result_summary_3"
+            android:textColor="@color/accentTextColor"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@id/close_btn"
+            app:layout_constraintTop_toBottomOf="@+id/scale_2_result" />
+
+
+        <TextView
+            android:id="@+id/scale_3_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/scale_3"
+            app:layout_constraintTop_toBottomOf="@+id/scale_3"
+            tools:text="9/9" />
+
+        <TextView
+            android:id="@+id/scale_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="8dp"
+            android:text="@string/test22_result_summary_4"
+            android:textColor="@color/accentTextColor"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@id/close_btn"
+            app:layout_constraintTop_toBottomOf="@+id/scale_3_result" />
+
+        <TextView
+            android:id="@+id/scale_4_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/scale_4"
+            app:layout_constraintTop_toBottomOf="@+id/scale_4"
+            tools:text="9/9" />
+
+        <TextView
+            android:id="@+id/scale_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="8dp"
+            android:text="@string/test22_result_summary_5"
+            android:textColor="@color/accentTextColor"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@id/close_btn"
+            app:layout_constraintTop_toBottomOf="@+id/scale_4_result" />
+
+        <TextView
+            android:id="@+id/scale_5_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/scale_5"
+            app:layout_constraintTop_toBottomOf="@+id/scale_5"
+            tools:text="9/9" />
+
+        <TextView
+            android:id="@+id/scale_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="8dp"
+            android:text="@string/test22_result_summary_6"
+            android:textColor="@color/accentTextColor"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@id/close_btn"
+            app:layout_constraintTop_toBottomOf="@+id/scale_5_result" />
+
+        <TextView
+            android:id="@+id/scale_6_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/scale_6"
+            app:layout_constraintTop_toBottomOf="@+id/scale_6"
+            tools:text="9/9" />
+
+        <TextView
+            android:id="@+id/scale_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="8dp"
+            android:text="@string/test22_result_summary_7"
+            android:textColor="@color/accentTextColor"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@id/close_btn"
+            app:layout_constraintTop_toBottomOf="@+id/scale_6_result" />
+
+        <TextView
+            android:id="@+id/scale_7_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/scale_7"
+            app:layout_constraintTop_toBottomOf="@+id/scale_7"
+            tools:text="9/9" />
+
+        <TextView
+            android:id="@+id/scale_8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="8dp"
+            android:text="@string/test22_result_summary_8"
+            android:textColor="@color/accentTextColor"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@id/close_btn"
+            app:layout_constraintTop_toBottomOf="@+id/scale_7_result" />
+
+        <TextView
+            android:id="@+id/scale_8_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/scale_8"
+            app:layout_constraintTop_toBottomOf="@+id/scale_8"
+            tools:text="9/9" />
+
+        <TextView
+            android:id="@+id/scale_9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="@string/test22_result_summary_9"
+            android:textColor="@color/accentTextColor"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@id/close_btn"
+            app:layout_constraintTop_toBottomOf="@+id/scale_8_result" />
+
+        <TextView
+            android:id="@+id/scale_9_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/scale_9"
+            app:layout_constraintTop_toBottomOf="@+id/scale_9"
+            tools:text="9/9" />
+
+        <TextView
+            android:id="@+id/scale_10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="8dp"
+            android:text="@string/test22_result_summary_10"
+            android:textColor="@color/accentTextColor"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@id/close_btn"
+            app:layout_constraintTop_toBottomOf="@+id/scale_9_result" />
+
+        <TextView
+            android:id="@+id/scale_10_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/scale_10"
+            app:layout_constraintTop_toBottomOf="@+id/scale_10"
+            tools:text="9/9" />
+
+        <TextView
+            android:id="@+id/scale_1_result"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:fontFamily="@font/comfortaa_bold"
+            android:lineSpacingExtra="4dp"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/scale_1_value"
+            tools:text="Не помнит никаких обид, немстителен, не замечает оскорблений, отсутствует честолюбие, не обращает никакого внимания на критические замечания. Отсутствуют эгоцентрические побуждения (либо они блокированы). Границы психического образа «Я» не очерчены, отношение к себе не выработано. Формирование мотивации затруднено." />
+
+        <TextView
+            android:id="@+id/scale_2_result"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:fontFamily="@font/comfortaa_bold"
+            android:lineSpacingExtra="4dp"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/scale_2_value"
+            tools:text="Не помнит никаких обид, немстителен, не замечает оскорблений, отсутствует честолюбие, не обращает никакого внимания на критические замечания. Отсутствуют эгоцентрические побуждения (либо они блокированы). Границы психического образа «Я» не очерчены, отношение к себе не выработано. Формирование мотивации затруднено." />
+
+        <TextView
+            android:id="@+id/scale_3_result"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:fontFamily="@font/comfortaa_bold"
+            android:lineSpacingExtra="4dp"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/scale_3_value"
+            tools:text="Не помнит никаких обид, немстителен, не замечает оскорблений, отсутствует честолюбие, не обращает никакого внимания на критические замечания. Отсутствуют эгоцентрические побуждения (либо они блокированы). Границы психического образа «Я» не очерчены, отношение к себе не выработано. Формирование мотивации затруднено." />
+
+        <TextView
+            android:id="@+id/scale_4_result"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:fontFamily="@font/comfortaa_bold"
+            android:lineSpacingExtra="4dp"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/scale_4_value"
+            tools:text="Не помнит никаких обид, немстителен, не замечает оскорблений, отсутствует честолюбие, не обращает никакого внимания на критические замечания. Отсутствуют эгоцентрические побуждения (либо они блокированы). Границы психического образа «Я» не очерчены, отношение к себе не выработано. Формирование мотивации затруднено." />
+
+        <TextView
+            android:id="@+id/scale_5_result"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:fontFamily="@font/comfortaa_bold"
+            android:lineSpacingExtra="4dp"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/scale_5_value"
+            tools:text="Не помнит никаких обид, немстителен, не замечает оскорблений, отсутствует честолюбие, не обращает никакого внимания на критические замечания. Отсутствуют эгоцентрические побуждения (либо они блокированы). Границы психического образа «Я» не очерчены, отношение к себе не выработано. Формирование мотивации затруднено." />
+
+        <TextView
+            android:id="@+id/scale_6_result"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:fontFamily="@font/comfortaa_bold"
+            android:lineSpacingExtra="4dp"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/scale_6_value"
+            tools:text="Не помнит никаких обид, немстителен, не замечает оскорблений, отсутствует честолюбие, не обращает никакого внимания на критические замечания. Отсутствуют эгоцентрические побуждения (либо они блокированы). Границы психического образа «Я» не очерчены, отношение к себе не выработано. Формирование мотивации затруднено." />
+
+        <TextView
+            android:id="@+id/scale_7_result"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/comfortaa_bold"
+            android:lineSpacingExtra="4dp"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/scale_7_value"
+            tools:text="Не помнит никаких обид, немстителен, не замечает оскорблений, отсутствует честолюбие, не обращает никакого внимания на критические замечания. Отсутствуют эгоцентрические побуждения (либо они блокированы). Границы психического образа «Я» не очерчены, отношение к себе не выработано. Формирование мотивации затруднено." />
+
+        <TextView
+            android:id="@+id/scale_8_result"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:fontFamily="@font/comfortaa_bold"
+            android:lineSpacingExtra="4dp"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/scale_8_value"
+            tools:text="Не помнит никаких обид, немстителен, не замечает оскорблений, отсутствует честолюбие, не обращает никакого внимания на критические замечания. Отсутствуют эгоцентрические побуждения (либо они блокированы). Границы психического образа «Я» не очерчены, отношение к себе не выработано. Формирование мотивации затруднено." />
+
+        <TextView
+            android:id="@+id/scale_9_result"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:fontFamily="@font/comfortaa_bold"
+            android:lineSpacingExtra="4dp"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/scale_9_value"
+            tools:text="Не помнит никаких обид, немстителен, не замечает оскорблений, отсутствует честолюбие, не обращает никакого внимания на критические замечания. Отсутствуют эгоцентрические побуждения (либо они блокированы). Границы психического образа «Я» не очерчены, отношение к себе не выработано. Формирование мотивации затруднено." />
+
+        <TextView
+            android:id="@+id/scale_10_result"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/comfortaa_bold"
+            android:lineSpacingExtra="4dp"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/scale_10_value"
+            tools:text="Не помнит никаких обид, немстителен, не замечает оскорблений, отсутствует честолюбие, не обращает никакого внимания на критические замечания. Отсутствуют эгоцентрические побуждения (либо они блокированы). Границы психического образа «Я» не очерчены, отношение к себе не выработано. Формирование мотивации затруднено." />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

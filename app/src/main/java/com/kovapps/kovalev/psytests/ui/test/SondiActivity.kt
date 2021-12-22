@@ -1,16 +1,21 @@
 package com.kovapps.kovalev.psytests.ui.test
 
+
 import android.content.Intent
 import android.os.Bundle
-import android.support.v4.content.ContextCompat
-import android.support.v7.app.AppCompatActivity
-import android.text.Spannable
-import android.text.style.StyleSpan
 import android.view.View
+import android.widget.GridLayout
 import android.widget.ImageView
-import com.google.android.gms.ads.AdListener
+import android.widget.ProgressBar
+import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.ContextCompat
+import com.google.android.gms.ads.AdError
 import com.google.android.gms.ads.AdRequest
-import com.google.android.gms.ads.InterstitialAd
+import com.google.android.gms.ads.FullScreenContentCallback
+import com.google.android.gms.ads.LoadAdError
+import com.google.android.gms.ads.interstitial.InterstitialAd
+import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback
 import com.kovapps.kovalev.psytests.R
 import com.kovapps.kovalev.psytests.TestsTypes
 import com.kovapps.kovalev.psytests.di.Scopes
@@ -18,11 +23,6 @@ import com.kovapps.kovalev.psytests.enities.ScaleResult
 import com.kovapps.kovalev.psytests.model.PreferenceHelper
 import com.kovapps.kovalev.psytests.model.TestDao
 import com.kovapps.kovalev.psytests.ui.result.SondiResultActivity
-import com.tinsuke.icekick.extension.freezeInstanceState
-import com.tinsuke.icekick.extension.serialState
-import com.tinsuke.icekick.extension.unfreezeInstanceState
-import kotlinx.android.synthetic.main.activity_sondy.*
-import ru.noties.markwon.SpannableBuilder
 import toothpick.Toothpick
 import java.util.*
 import javax.inject.Inject
@@ -34,6 +34,8 @@ class SondiActivity : AppCompatActivity(), View.OnClickListener {
     companion object {
         private const val SAVED_VIEWS = "views"
         private const val SAVED_VECTORS = "vectors"
+        private const val ANSWERS_COUNT_SAVE = "answers_count"
+        private const val SERIES_SAVE = "series"
     }
 
     @Inject
@@ -46,60 +48,136 @@ class SondiActivity : AppCompatActivity(), View.OnClickListener {
 
     private var vectors = mutableListOf(0, 0, 0, 0, 0, 0, 0, 0)
 
-    private var answersCount: Int by serialState(0)
+    private var answersCount = 0
 
-    private var series: Int by serialState(1)
+    private var series: Int = 1
 
     private var selectedViewsId = ArrayList<Int>(8)
 
-    private lateinit var interstitialAd: InterstitialAd
+    private var ad: InterstitialAd? = null
+
+    private var adWasShowed = false
+    private var adError = false
+
+    private lateinit var backBtn: ImageView
+    private lateinit var instructionText: TextView
+    private lateinit var portrait1: ImageView
+    private lateinit var portrait2: ImageView
+    private lateinit var portrait3: ImageView
+    private lateinit var portrait4: ImageView
+    private lateinit var portrait5: ImageView
+    private lateinit var portrait6: ImageView
+    private lateinit var portrait7: ImageView
+    private lateinit var portrait8: ImageView
+    private lateinit var progressBar: ProgressBar
+    private lateinit var portraitsLayout: GridLayout
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sondy)
-        unfreezeInstanceState(savedInstanceState)
         Toothpick.inject(this, Toothpick.openScope(Scopes.APP_SCOPE))
-        portraitsViews = arrayOf(portrait_1, portrait_2, portrait_3, portrait_4, portrait_5,
-                portrait_6, portrait_7, portrait_8)
+        backBtn = findViewById(R.id.back_btn)
+        instructionText = findViewById(R.id.temperament_value)
+        portrait1 = findViewById(R.id.portrait_1)
+        portrait2 = findViewById(R.id.portrait_2)
+        portrait3 = findViewById(R.id.portrait_3)
+        portrait4 = findViewById(R.id.portrait_4)
+        portrait5 = findViewById(R.id.portrait_5)
+        portrait6 = findViewById(R.id.portrait_6)
+        portrait7 = findViewById(R.id.portrait_7)
+        portrait8 = findViewById(R.id.portrait_8)
+        progressBar = findViewById(R.id.progress_bar)
+        portraitsLayout = findViewById(R.id.portraits_layout)
+        portraitsViews = arrayOf(
+            portrait1,
+            portrait2,
+            portrait3,
+            portrait4,
+            portrait5,
+            portrait6,
+            portrait7,
+            portrait8
+        )
         if (savedInstanceState != null && !savedInstanceState.isEmpty) {
+            answersCount = savedInstanceState.getInt(ANSWERS_COUNT_SAVE)
+            series = savedInstanceState.getInt(SERIES_SAVE)
             selectedViewsId = savedInstanceState.getIntegerArrayList(SAVED_VIEWS)!!
             vectors = savedInstanceState.getIntegerArrayList(SAVED_VECTORS)!!
-            for (id in selectedViewsId) { findViewById<View>(id).visibility = View.INVISIBLE }
+            for (id in selectedViewsId) {
+                findViewById<View>(id).visibility = View.INVISIBLE
+            }
         } else setAllPortraitsVisible()
         setPortraits()
         initAd()
         showProgress(true)
-        back_btn.setOnClickListener { finish() }
+        backBtn.setOnClickListener { finish() }
         setPositiveInstructionText()
         showProgress(false)
     }
 
     private fun initAd() {
-        interstitialAd = InterstitialAd(this)
-        interstitialAd.adUnitId = "ca-app-pub-3940256099942544/1033173712"
-        interstitialAd.loadAd(AdRequest.Builder().build())
-        interstitialAd.adListener = object : AdListener() {
-            override fun onAdClosed() {
-                super.onAdClosed()
-                showResult()
-            }
-        }
+        val adRequest = AdRequest.Builder().build()
+        InterstitialAd.load(this, getString(R.string.full_screen_ad_id), adRequest,
+            object : InterstitialAdLoadCallback() {
+                override fun onAdLoaded(ad1: InterstitialAd) {
+                    super.onAdLoaded(ad1)
+                    ad = ad1
+                }
+
+                override fun onAdFailedToLoad(adError: LoadAdError) {
+                    super.onAdFailedToLoad(adError)
+                    ad = null
+                }
+            })
     }
 
     private fun showResult() {
-        val result = ScaleResult(19, "Тест Сонди", Date().time, "", TestsTypes.SONDY, vectors)
+        val result =
+            ScaleResult(19, getString(R.string.szondi_test), Date().time, TestsTypes.SONDY, vectors)
         val intent = Intent(this, SondiResultActivity::class.java)
-                .putExtra(SondiResultActivity.RESULT_DATA_PARAM, result)
+            .putExtra(SondiResultActivity.RESULT_DATA_PARAM, result)
         if (preferenceHelper.saveResultsEnabled()) dao.saveToHistory(result)
-        startActivity(intent)
-        finish()
+        dao.incrementCompletedTests(TestsTypes.SONDY)
+        if (ad != null && !adError) {
+            ad!!.fullScreenContentCallback = object : FullScreenContentCallback() {
+                override fun onAdFailedToShowFullScreenContent(p0: AdError) {
+                    super.onAdFailedToShowFullScreenContent(p0)
+                    adError = true
+                    startActivity(intent)
+                    finish()
+                }
+
+                override fun onAdShowedFullScreenContent() {
+                    super.onAdShowedFullScreenContent()
+                    adWasShowed = true
+                }
+
+                override fun onAdDismissedFullScreenContent() {
+                    super.onAdDismissedFullScreenContent()
+                    startActivity(intent)
+                    finish()
+                }
+
+                override fun onAdClicked() {
+                    super.onAdClicked()
+                    adWasShowed = true
+
+                }
+            }
+            ad!!.show(this)
+        } else {
+            startActivity(intent)
+            finish()
+        }
     }
 
     override fun onSaveInstanceState(outState: Bundle) {
         super.onSaveInstanceState(outState)
         outState.putIntegerArrayList(SAVED_VIEWS, selectedViewsId)
         outState.putIntegerArrayList(SAVED_VECTORS, ArrayList(vectors))
-        freezeInstanceState(outState)
+        outState.putInt(SERIES_SAVE, series)
+        outState.putInt(ANSWERS_COUNT_SAVE, answersCount)
     }
 
     private fun setPortraits() {
@@ -176,14 +254,14 @@ class SondiActivity : AppCompatActivity(), View.OnClickListener {
             else -> throw IllegalArgumentException("Unexpected series")
         }
         portraitsViews.forEach { it.setOnClickListener(this) }
-        portrait_1.setImageDrawable(ContextCompat.getDrawable(this, resource1))
-        portrait_2.setImageDrawable(ContextCompat.getDrawable(this, resource2))
-        portrait_3.setImageDrawable(ContextCompat.getDrawable(this, resource3))
-        portrait_4.setImageDrawable(ContextCompat.getDrawable(this, resource4))
-        portrait_5.setImageDrawable(ContextCompat.getDrawable(this, resource5))
-        portrait_6.setImageDrawable(ContextCompat.getDrawable(this, resource6))
-        portrait_7.setImageDrawable(ContextCompat.getDrawable(this, resource7))
-        portrait_8.setImageDrawable(ContextCompat.getDrawable(this, resource8))
+        portrait1.setImageDrawable(ContextCompat.getDrawable(this, resource1))
+        portrait2.setImageDrawable(ContextCompat.getDrawable(this, resource2))
+        portrait3.setImageDrawable(ContextCompat.getDrawable(this, resource3))
+        portrait4.setImageDrawable(ContextCompat.getDrawable(this, resource4))
+        portrait5.setImageDrawable(ContextCompat.getDrawable(this, resource5))
+        portrait6.setImageDrawable(ContextCompat.getDrawable(this, resource6))
+        portrait7.setImageDrawable(ContextCompat.getDrawable(this, resource7))
+        portrait8.setImageDrawable(ContextCompat.getDrawable(this, resource8))
     }
 
     override fun onClick(v: View) {
@@ -207,10 +285,7 @@ class SondiActivity : AppCompatActivity(), View.OnClickListener {
             series++
             answersCount = 0
             if (series > 6) {
-                if (interstitialAd.isLoaded) interstitialAd.show()
-                else {
-                    showResult()
-                }
+                showResult()
             } else {
                 selectedViewsId.clear()
                 setAllPortraitsVisible()
@@ -223,11 +298,11 @@ class SondiActivity : AppCompatActivity(), View.OnClickListener {
 
     private fun showProgress(show: Boolean) {
         if (show) {
-            progress_bar.visibility = View.VISIBLE
-            portraits_layout.visibility = View.INVISIBLE
+            progressBar.visibility = View.VISIBLE
+            portraitsLayout.visibility = View.INVISIBLE
         } else {
-            progress_bar.visibility = View.INVISIBLE
-            portraits_layout.visibility = View.VISIBLE
+            progressBar.visibility = View.INVISIBLE
+            portraitsLayout.visibility = View.VISIBLE
         }
     }
 
@@ -235,15 +310,13 @@ class SondiActivity : AppCompatActivity(), View.OnClickListener {
 
 
     private fun setPositiveInstructionText() {
-        val span = SpannableBuilder("Выберите два наиболее приятных или симпатичных портрета из лежащих перед вами. Если не нравится ни один из них, то выберите два наименее неприятных.")
-        span.setSpan(StyleSpan(android.graphics.Typeface.BOLD), 14, 38, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE)
-        instruction_text.text = span
+        val span = getString(R.string.szondi_positive_instruction)
+        instructionText.text = span
     }
 
     private fun setNegativeInstructionText() {
-        val span = SpannableBuilder("Выберите два самых неприятных, несимпатичных портрета из лежащих перед вами.")
-        span.setSpan(StyleSpan(android.graphics.Typeface.BOLD), 14, 39, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE)
-        instruction_text.text = span
+        val span = getString(R.string.szondi_negative_instruction)
+        instructionText.text = span
     }
 
 }

@@ -6,38 +6,40 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/white"
-    tools:context=".ui.test.SondiActivity"
-    android:fillViewport="true">
+    android:fillViewport="true"
+    tools:context=".ui.test.SondiActivity">
 
-    <android.support.constraint.ConstraintLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
         <ImageView
             android:id="@+id/back_btn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="32dp"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/ic_arrow_back_black_24dp" />
 
         <TextView
-            android:id="@+id/instruction_text"
-            android:layout_width="wrap_content"
+            android:id="@+id/temperament_value"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/sondy_instruction_margin_top"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
             android:minHeight="70dp"
             android:paddingStart="8dp"
             android:paddingEnd="8dp"
-            android:text="Выберите, пожалуйста, два наиболее приятных или симпатичных портрета из лежащих перед вами."
             android:textAlignment="center"
             android:textColor="@color/accentTextColor"
-            android:textSize="16sp"
+            android:textSize="@dimen/sondi_instruction_text_size"
+            app:layout_constraintBottom_toTopOf="@+id/divider4"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/back_btn" />
+            app:layout_constraintTop_toBottomOf="@+id/back_btn"
+            tools:text="Выберите, пожалуйста, два наиболее приятных или симпатичных портрета из лежащих перед вами." />
 
         <GridLayout
             android:id="@+id/portraits_layout"
@@ -50,7 +52,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/instruction_text">
+            app:layout_constraintTop_toBottomOf="@+id/divider4">
 
             <ImageView
                 android:id="@+id/portrait_1"
@@ -139,5 +141,20 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-    </android.support.constraint.ConstraintLayout>
+        <View
+            android:id="@+id/divider4"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginEnd="1dp"
+            android:background="?android:attr/listDivider"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/back_btn"
+            app:layout_constraintVertical_bias="0.26" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

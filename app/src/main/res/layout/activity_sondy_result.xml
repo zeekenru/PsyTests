@@ -1,32 +1,257 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:fitsSystemWindows="true"
     android:background="@color/primaryDarkColor"
+    android:fitsSystemWindows="true"
     tools:context=".ui.result.SondiResultActivity">
-    <android.support.design.widget.AppBarLayout
+
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
-        <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:layout_width="match_parent"
-            app:title=""
-            android:layout_height="?attr/actionBarSize"
-            android:background="@color/primaryDarkColor"
-            app:layout_scrollFlags="scroll|enterAlways"/>
-    </android.support.design.widget.AppBarLayout>
-    <android.support.v4.widget.NestedScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginBottom="8dp"
-        app:layout_behavior="@string/appbar_scrolling_view_behavior">
-        <include
-            layout="@layout/sondy_result"/>
-    </android.support.v4.widget.NestedScrollView>
+        android:background="@color/primaryDarkColor">
 
-</android.support.design.widget.CoordinatorLayout>
+        <TextView
+            android:id="@+id/scale_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:drawablePadding="8dp"
+            android:text="@string/sondy_result_factor_1"
+            android:textAlignment="center"
+            android:textColor="@color/accentTextColor"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/sondi_close_btn"
+            app:layout_constraintTop_toBottomOf="@id/sondi_close_btn" />
+
+        <TextView
+            android:id="@+id/scale_1_value"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:textColor="@android:color/white"
+            android:textSize="21sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/scale_1"
+            app:layout_constraintTop_toBottomOf="@+id/scale_1"
+            tools:text="3/9" />
+
+        <TextView
+            android:id="@+id/scale_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:drawablePadding="8dp"
+            android:text="@string/sondy_result_factor_2"
+            android:textAlignment="center"
+            android:textColor="@color/accentTextColor"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/sondi_close_btn"
+            app:layout_constraintTop_toBottomOf="@+id/scale_1_value" />
+
+
+        <TextView
+            android:id="@+id/scale_2_value"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:textColor="@android:color/white"
+            android:textSize="21sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/scale_2"
+            app:layout_constraintTop_toBottomOf="@+id/scale_2"
+            tools:text="9/9" />
+
+        <TextView
+            android:id="@+id/scale_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:drawablePadding="8dp"
+            android:text="@string/sondy_result_factor_3"
+            android:textAlignment="center"
+            android:textColor="@color/accentTextColor"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/sondi_close_btn"
+            app:layout_constraintTop_toBottomOf="@+id/scale_2_value" />
+
+
+        <TextView
+            android:id="@+id/scale_3_value"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:textColor="@android:color/white"
+            android:textSize="21sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/scale_3"
+            app:layout_constraintTop_toBottomOf="@+id/scale_3"
+            tools:text="9/9" />
+
+        <TextView
+            android:id="@+id/scale_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:drawablePadding="8dp"
+            android:text="@string/sondy_result_factor_4"
+            android:textAlignment="center"
+            android:textColor="@color/accentTextColor"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/sondi_close_btn"
+            app:layout_constraintTop_toBottomOf="@+id/scale_3_value" />
+
+        <TextView
+            android:id="@+id/scale_4_value"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:textColor="@android:color/white"
+            android:textSize="21sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/scale_4"
+            app:layout_constraintTop_toBottomOf="@+id/scale_4"
+            tools:text="9/9" />
+
+        <TextView
+            android:id="@+id/scale_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:drawablePadding="8dp"
+            android:text="@string/sondy_result_factor_5"
+            android:textAlignment="center"
+            android:textColor="@color/accentTextColor"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/sondi_close_btn"
+            app:layout_constraintTop_toBottomOf="@+id/scale_4_value" />
+
+        <TextView
+            android:id="@+id/scale_5_value"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:textColor="@android:color/white"
+            android:textSize="21sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/scale_5"
+            app:layout_constraintTop_toBottomOf="@+id/scale_5"
+            tools:text="9/9" />
+
+        <TextView
+            android:id="@+id/scale_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:drawablePadding="8dp"
+            android:text="@string/sondy_result_factor_6"
+            android:textAlignment="center"
+            android:textColor="@color/accentTextColor"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/sondi_close_btn"
+            app:layout_constraintTop_toBottomOf="@+id/scale_5_value" />
+
+        <TextView
+            android:id="@+id/scale_6_value"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:textColor="@android:color/white"
+            android:textSize="21sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/scale_6"
+            app:layout_constraintTop_toBottomOf="@+id/scale_6"
+            tools:text="9/9" />
+
+        <TextView
+            android:id="@+id/scale_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:drawablePadding="8dp"
+            android:text="@string/sondy_result_factor_7"
+            android:textAlignment="center"
+            android:textColor="@color/accentTextColor"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/sondi_close_btn"
+            app:layout_constraintTop_toBottomOf="@+id/scale_6_value" />
+
+        <TextView
+            android:id="@+id/scale_7_value"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:textColor="@android:color/white"
+            android:textSize="21sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/scale_7"
+            app:layout_constraintTop_toBottomOf="@+id/scale_7"
+            tools:text="9/9" />
+
+        <TextView
+            android:id="@+id/scale_8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="8dp"
+            android:drawablePadding="8dp"
+            android:text="@string/sondy_result_factor_8"
+            android:textAlignment="center"
+            android:textColor="@color/accentTextColor"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/sondi_close_btn"
+            app:layout_constraintTop_toBottomOf="@+id/scale_7_value" />
+
+        <TextView
+            android:id="@+id/scale_8_value"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="24dp"
+            android:textColor="@android:color/white"
+            android:textSize="21sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/scale_8"
+            app:layout_constraintTop_toBottomOf="@+id/scale_8"
+            tools:text="9/9" />
+
+        <ImageView
+            android:id="@+id/sondi_close_btn"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_close_white_24dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

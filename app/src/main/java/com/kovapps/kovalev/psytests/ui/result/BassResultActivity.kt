@@ -1,50 +1,91 @@
 package com.kovapps.kovalev.psytests.ui.result
 
-import android.content.Intent
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.support.v4.content.ContextCompat
-import android.view.View
+import android.widget.ImageView
+import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.ContextCompat
 import com.kovapps.kovalev.psytests.R
-import com.kovapps.kovalev.psytests.dialogs.InterpretationFragment
+import com.kovapps.kovalev.psytests.TestsTypes
 import com.kovapps.kovalev.psytests.enities.ScaleResult
-import kotlinx.android.synthetic.main.activity_bass_result.*
+import java.util.*
 
-class BassResultActivity : AppCompatActivity(), View.OnClickListener {
+class BassResultActivity : AppCompatActivity() {
 
 
     companion object {
         const val RESULT_DATA_PARAM = "test"
     }
 
+    private lateinit var result: ScaleResult
+    private lateinit var closeBtn: ImageView
+    private lateinit var scale1: TextView
+    private lateinit var scale2: TextView
+    private lateinit var scale3: TextView
+    private lateinit var scale4: TextView
+    private lateinit var scale5: TextView
+    private lateinit var scale6: TextView
+    private lateinit var scale7: TextView
+    private lateinit var scale8: TextView
+    private lateinit var scale9: TextView
+    private lateinit var scale10: TextView
+
+    private lateinit var scale1Value: TextView
+    private lateinit var scale2Value: TextView
+    private lateinit var scale3Value: TextView
+    private lateinit var scale4Value: TextView
+    private lateinit var scale5Value: TextView
+    private lateinit var scale6Value: TextView
+    private lateinit var scale7Value: TextView
+    private lateinit var scale8Value: TextView
+    private lateinit var scale9Value: TextView
+    private lateinit var scale10Value: TextView
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_bass_result)
-        close_btn.setOnClickListener { finish() }
-        val result: ScaleResult = intent.getParcelableExtra(RESULT_DATA_PARAM)
-        info_btn.setOnClickListener {
-            val intent = Intent(this, TestDescriptionActivity::class.java)
-                    .putExtra(TestDescriptionActivity.TEST_ID_PARAM, result.id)
-            startActivity(intent)
-        }
-        scale_1_value.text = "${result.scalesValues[0]}/10"
-        scale_2_value.text = "${result.scalesValues[1]}/9"
-        scale_3_value.text = "${result.scalesValues[2]}/11"
-        scale_4_value.text = "${result.scalesValues[3]}/5"
-        scale_5_value.text = "${result.scalesValues[4]}/8"
-        scale_6_value.text = "${result.scalesValues[5]}/10"
-        scale_7_value.text = "${result.scalesValues[6]}/13"
-        scale_8_value.text = "${result.scalesValues[7]}/9"
-        scale_1.setOnClickListener(this)
-        scale_2.setOnClickListener(this)
-        scale_3.setOnClickListener(this)
-        scale_4.setOnClickListener(this)
-        scale_5.setOnClickListener(this)
-        scale_6.setOnClickListener(this)
-        scale_7.setOnClickListener(this)
-        scale_8.setOnClickListener(this)
-        scale_9.setOnClickListener(this)
-        scale_10.setOnClickListener(this)
+        closeBtn = findViewById(R.id.close_btn)
+        scale1 = findViewById(R.id.scale_1)
+        scale2 = findViewById(R.id.scale_2)
+        scale3 = findViewById(R.id.scale_3)
+        scale4 = findViewById(R.id.scale_4)
+        scale5 = findViewById(R.id.scale_5)
+        scale6 = findViewById(R.id.scale_6)
+        scale7 = findViewById(R.id.scale_7)
+        scale8 = findViewById(R.id.scale_8)
+        scale9 = findViewById(R.id.scale_9)
+        scale10 = findViewById(R.id.scale_10)
+        scale1Value = findViewById(R.id.scale_1_value)
+        scale2Value = findViewById(R.id.scale_2_value)
+        scale3Value = findViewById(R.id.scale_3_value)
+        scale4Value = findViewById(R.id.scale_4_value)
+        scale5Value = findViewById(R.id.scale_5_value)
+        scale6Value = findViewById(R.id.scale_6_value)
+        scale7Value = findViewById(R.id.scale_7_value)
+        scale8Value = findViewById(R.id.scale_8_value)
+        scale9Value = findViewById(R.id.scale_9_value)
+        scale10Value = findViewById(R.id.scale_10_value)
+
+
+        closeBtn.setOnClickListener { finish() }
+        result = if (!intent.hasExtra(RESULT_DATA_PARAM)) {
+            ScaleResult(
+                testId = TestsTypes.BASS,
+                testName = "Диагностика состояния агрессии",
+                date = Date().time,
+                tesType = TestsTypes.BASS,
+                scalesValues = listOf(7, 1, 5, 4, 2, 9, 3, 7)
+            )
+        } else intent.getParcelableExtra(RESULT_DATA_PARAM)!!
+        scale1Value.text = "${result.scalesValues[0]}/10"
+        scale2Value.text = "${result.scalesValues[1]}/9"
+        scale3Value.text = "${result.scalesValues[2]}/11"
+        scale4Value.text = "${result.scalesValues[3]}/5"
+        scale5Value.text = "${result.scalesValues[4]}/8"
+        scale6Value.text = "${result.scalesValues[5]}/10"
+        scale7Value.text = "${result.scalesValues[6]}/13"
+        scale8Value.text = "${result.scalesValues[7]}/9"
         calculateIndex(result.scalesValues)
     }
 
@@ -52,52 +93,30 @@ class BassResultActivity : AppCompatActivity(), View.OnClickListener {
         val firstIndex = values[0] + values[2] + values[6]
         val secondIndex = values[4] + values[5]
         val text = when (firstIndex) {
-            in 25..31 -> "Высокий уровень".apply {
-                scale_9_value.setTextColor(ContextCompat
-                        .getColor(this@BassResultActivity, android.R.color.holo_red_dark))
+            in 25..31 -> getString(R.string.high_level).apply {
+                scale9.setTextColor(
+                    ContextCompat
+                        .getColor(this@BassResultActivity, android.R.color.holo_red_dark)
+                )
             }
-            in 17..24 -> "Средний уровень"
-            in 0..16 -> "Низкий уровень"
+            in 17..24 -> getString(R.string.middle_level)
+            in 0..16 -> getString(R.string.low_level)
             else -> throw IllegalArgumentException("unexpected index value")
         }
-        scale_9_value.text = text
+        scale9Value.text = text
         val secondText = when (secondIndex) {
-            in 11..18 -> "Высокий уровень".apply {
-                scale_10_value.setTextColor(ContextCompat
-                        .getColor(this@BassResultActivity, android.R.color.holo_red_dark))
+            in 11..18 -> getString(R.string.high_level).apply {
+                scale10Value.setTextColor(
+                    ContextCompat
+                        .getColor(this@BassResultActivity, android.R.color.holo_red_dark)
+                )
             }
-            in 4..10 -> "Средний урвоень"
-            in 0..3 -> "Низкий уровень"
+            in 4..10 -> getString(R.string.middle_level)
+            in 0..3 -> getString(R.string.low_level)
             else -> throw IllegalArgumentException("unexpected index value")
         }
-        scale_10_value.text = secondText
+        scale10Value.text = secondText
 
-        share_btn.setOnClickListener {
-            val shareIntentText = "Пройдена диагностика агрессии в приложении '${getString(R.string.app_name)}': " +
-                    "${scale_9_value.text.toString().toLowerCase()} агрессивности, ${scale_10_value.text.toString().toLowerCase()} враждебности"
-            val shareIntent = Intent().apply {
-                action = Intent.ACTION_SEND
-                type = "text/plain"
-                putExtra(Intent.EXTRA_TEXT, shareIntentText)
-            }
-            startActivity(shareIntent)
-        }
     }
 
-    override fun onClick(v: View) {
-        val message: String = when (v.id) {
-            R.id.scale_1 -> " Использование физической силы против другого лица"
-            R.id.scale_2 -> "Действия, неявно направленные на другое лицо или на неодушевленные предметы"
-            R.id.scale_3 -> "Повышенная нервность, возбудимость, готовность к проявлению негативных реакций на незначительные раздражители"
-            R.id.scale_4 -> "Оппозиционная манера в поведении, проявляющаяся в диапазоне от пассивного неприятия до активного сопротивления и борьбы"
-            R.id.scale_5 -> "Негативное чувство, в основе которого лежат переживания человека по поводу допущенной по отношению к нему несправедливости (действительной или вымышленной), непонимания со стороны окружающих, ущемления интересов, задетого чувства собственного достоинства"
-            R.id.scale_6 -> "Сложный комплекс чувств, проявляющийся в широком диапазоне: от недоверия и осторожности по отношению к другим людям до убежденности в том, что они вредят"
-            R.id.scale_7 -> "Выражение негативных чувств посредством словесных реакций (проклятия, угрозы, сарказм)"
-            R.id.scale_8 -> "Негативно окрашенные переживания, связанные с допущенной ошибкой, причиненным вредом, с чувством невыполненного долга, часто приводящие к снижению самооценки"
-            R.id.scale_9 -> "Норма для показателя индекса агрессивности — 21 ± 4 балла"
-            R.id.scale_10 -> "Норма для показателя индекса враждебности — 7 ± 3 балла"
-            else -> throw IllegalArgumentException("Unexpected id ")
-        }
-        InterpretationFragment.getInstance(message).show(supportFragmentManager, "tag")
-    }
 }

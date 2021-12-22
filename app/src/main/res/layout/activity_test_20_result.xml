@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primaryDarkColor">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primaryDarkColor">
+
+        <ImageView
+            android:id="@+id/close_btn"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_close_white_24dp" />
+
+        <TextView
+            android:id="@+id/scale_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="8dp"
+            android:text="@string/test20_result_summary_1"
+            android:textAlignment="textStart"
+            android:textColor="@color/accentTextColor"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/close_btn"
+            app:layout_constraintTop_toBottomOf="@id/close_btn" />
+
+        <TextView
+            android:id="@+id/scale_1_value"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/scale_1"
+            app:layout_constraintTop_toBottomOf="@+id/scale_1"
+            tools:text="3/9" />
+
+        <TextView
+            android:id="@+id/scale_2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="@string/test20_result_summary_2"
+            android:textAlignment="textStart"
+            android:textColor="@color/accentTextColor"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/close_btn"
+            app:layout_constraintTop_toBottomOf="@+id/scale_1_value" />
+
+
+        <TextView
+            android:id="@+id/scale_2_value"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/close_btn"
+            app:layout_constraintTop_toBottomOf="@+id/scale_2"
+            tools:text="9/9" />
+
+        <TextView
+            android:id="@+id/scale_3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="8dp"
+            android:drawablePadding="8dp"
+            android:text="@string/test20_result_summary_3"
+            android:textAlignment="textStart"
+            android:textColor="@color/accentTextColor"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/close_btn"
+            app:layout_constraintTop_toBottomOf="@+id/scale_2_value" />
+
+
+        <TextView
+            android:id="@+id/scale_3_value"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/close_btn"
+            app:layout_constraintTop_toBottomOf="@+id/scale_3"
+            tools:text="9/9" />
+
+        <TextView
+            android:id="@+id/scale_4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="8dp"
+            android:text="@string/test20_result_summary_4"
+            android:textAlignment="textStart"
+            android:textColor="@color/accentTextColor"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/close_btn"
+            app:layout_constraintTop_toBottomOf="@+id/scale_3_value" />
+
+        <TextView
+            android:id="@+id/scale_4_value"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/scale_4"
+            app:layout_constraintTop_toBottomOf="@+id/scale_4"
+            tools:text="9/9" />
+
+        <TextView
+            android:id="@+id/scale_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="8dp"
+            android:text="@string/test20_result_summary_5"
+            android:textAlignment="textStart"
+            android:textColor="@color/accentTextColor"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/close_btn"
+            app:layout_constraintTop_toBottomOf="@+id/scale_4_value" />
+
+        <TextView
+            android:id="@+id/scale_5_value"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/close_btn"
+            app:layout_constraintTop_toBottomOf="@+id/scale_5"
+            tools:text="9/9" />
+
+        <TextView
+            android:id="@+id/scale_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="8dp"
+            android:text="@string/test20_result_summary_6"
+            android:textAlignment="textStart"
+            android:textColor="@color/accentTextColor"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/close_btn"
+            app:layout_constraintTop_toBottomOf="@+id/scale_5_value" />
+
+        <TextView
+            android:id="@+id/scale_6_value"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/scale_6"
+            app:layout_constraintTop_toBottomOf="@+id/scale_6"
+            tools:text="9/9" />
+
+        <TextView
+            android:id="@+id/scale_7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="8dp"
+            android:text="@string/test20_result_summary_7"
+            android:textAlignment="textStart"
+            android:textColor="@color/accentTextColor"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/close_btn"
+            app:layout_constraintTop_toBottomOf="@+id/scale_6_value" />
+
+        <TextView
+            android:id="@+id/scale_7_value"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/scale_7"
+            app:layout_constraintTop_toBottomOf="@+id/scale_7"
+            tools:text="9/9" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

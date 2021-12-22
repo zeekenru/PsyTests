@@ -1,171 +1,144 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:fillViewport="true"
     android:background="@color/primaryDarkColor"
+    android:fillViewport="true"
     tools:context=".ui.result.OneScaleResultActivity">
-    <android.support.constraint.ConstraintLayout
+
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        >
+        android:layout_marginBottom="8dp">
 
         <ImageView
             android:id="@+id/close_btn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/back_btn_margin_start"
-            android:layout_marginTop="@dimen/back_btn_margin_top"
-            app:layout_constraintBottom_toBottomOf="@+id/share_btn"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/ic_close_white_24dp" />
 
-        <ImageView
-            android:id="@+id/share_btn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:layout_marginEnd="16dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/ic_share_white_24dp" />
 
         <TextView
             android:id="@+id/first_scale_name"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="104dp"
-            android:textAlignment="center"
-            android:text="Желаемые цели, или поведение, диктуемое желаемыми целями"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="8dp"
+            android:text="@string/luscher_result_summary_1"
             android:textColor="@color/accentTextColor"
             android:textSize="20sp"
-            android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.51"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintStart_toStartOf="@+id/close_btn"
+            app:layout_constraintTop_toBottomOf="@id/close_btn" />
 
 
         <TextView
             android:id="@+id/first_scale_result"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:paddingStart="8dp"
-            android:paddingEnd="8dp"
-            android:text="Источником внутреннего перенапряжения является неспособность дать выход накопившимся эмоциям. Это создает возможность для импульсивных поступков или неуравновешенного поведения"
-            android:textAlignment="center"
+            android:layout_marginEnd="8dp"
+            android:lineSpacingExtra="4dp"
             android:textColor="@android:color/white"
             android:textSize="16sp"
-            android:textStyle="bold"
-            app:layout_constraintStart_toStartOf="@+id/first_scale_name"
-            app:layout_constraintTop_toBottomOf="@+id/first_scale_name" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/close_btn"
+            app:layout_constraintTop_toBottomOf="@+id/first_scale_name"
+            tools:text="Источником внутреннего перенапряжения является неспособность дать выход накопившимся эмоциям. Это создает возможность для импульсивных поступков или неуравновешенного поведения" />
 
         <TextView
             android:id="@+id/second_scale_name"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="50dp"
-            android:text="Отвергнутые или подавленные черты поведения, или источники беспокойства"
-            android:textAlignment="center"
+            android:layout_marginEnd="8dp"
+            android:text="@string/luscher_result_summary_2"
             android:textColor="@color/accentTextColor"
             android:textSize="20sp"
-            android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="@+id/first_scale_result"
-            app:layout_constraintStart_toStartOf="@+id/first_scale_result"
+            app:layout_constraintStart_toStartOf="@+id/close_btn"
             app:layout_constraintTop_toBottomOf="@+id/first_scale_result" />
 
         <TextView
             android:id="@+id/second_scale_result"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:paddingStart="8dp"
-            android:paddingEnd="8dp"
-            android:text="Cостояние стресса из-за глубокого разочарования, фрустрация, чувство тревожности, бессилия решить конфликтную проблему, желание выйти из фрустрирующей ситуации любым путем, сомнение в том, что это удастся."
-            android:textAlignment="center"
+            android:layout_marginEnd="8dp"
+            android:lineSpacingExtra="4dp"
             android:textColor="@android:color/white"
             android:textSize="16sp"
-            android:textStyle="bold"
-            app:layout_constraintEnd_toEndOf="@+id/second_scale_name"
-            app:layout_constraintStart_toStartOf="@+id/second_scale_name"
-            app:layout_constraintTop_toBottomOf="@+id/second_scale_name" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/close_btn"
+            app:layout_constraintTop_toBottomOf="@+id/second_scale_name"
+            tools:text="Cостояние стресса из-за глубокого разочарования, фрустрация, чувство тревожности, бессилия решить конфликтную проблему, желание выйти из фрустрирующей ситуации любым путем, сомнение в том, что это удастся." />
 
 
         <TextView
             android:id="@+id/third_scale_name"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="50dp"
-            android:text="Личностные особенности"
-            android:textAlignment="center"
+            android:layout_marginEnd="8dp"
+            android:text="@string/luscher_result_summary_3"
             android:textColor="@color/accentTextColor"
             android:textSize="20sp"
-            android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="@id/second_scale_result"
-            app:layout_constraintStart_toStartOf="@+id/second_scale_result"
+            app:layout_constraintStart_toStartOf="@+id/close_btn"
             app:layout_constraintTop_toBottomOf="@+id/second_scale_result" />
 
         <TextView
             android:id="@+id/third_scale_result"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="Чувство целостности, активное и не всегда осознанное стремление к тесным отношениям. Потребность во внимании со стороны других."
-            android:textAlignment="center"
+            android:layout_marginEnd="8dp"
+            android:lineSpacingExtra="4dp"
             android:textColor="@android:color/white"
             android:textSize="16sp"
-            android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="@+id/third_scale_name"
-            app:layout_constraintStart_toStartOf="@+id/third_scale_name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/close_btn"
             app:layout_constraintTop_toBottomOf="@+id/third_scale_name"
-            app:layout_constraintVertical_bias="0.0" />
+            app:layout_constraintVertical_bias="0.0"
+            tools:text="Чувство целостности, активное и не всегда осознанное стремление к тесным отношениям. Потребность во внимании со стороны других." />
+
         <TextView
             android:id="@+id/scale_4_name"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="50dp"
-            android:text="Cуществующее положение вещей и поведение, уместное при данном положении вещей"
-            android:textAlignment="center"
+            android:layout_marginEnd="8dp"
+            android:text="@string/luscher_result_summary_4"
             android:textColor="@color/accentTextColor"
             android:textSize="20sp"
-            android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="@id/third_scale_result"
-            app:layout_constraintStart_toStartOf="@+id/third_scale_result"
+            app:layout_constraintStart_toStartOf="@+id/close_btn"
             app:layout_constraintTop_toBottomOf="@+id/third_scale_result" />
 
         <TextView
             android:id="@+id/scale_4_result"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="Чувство целостности, активное и не всегда осознанное стремление к тесным отношениям. Потребность во внимании со стороны других."
-            android:textAlignment="center"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="18dp"
+            android:lineSpacingExtra="4dp"
             android:textColor="@android:color/white"
             android:textSize="16sp"
-            android:textStyle="bold"
-            android:layout_marginBottom="8dp"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="@+id/scale_4_name"
-            app:layout_constraintStart_toStartOf="@+id/scale_4_name"
-            app:layout_constraintTop_toBottomOf="@+id/scale_4_name" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.49"
+            app:layout_constraintStart_toStartOf="@id/close_btn"
+            app:layout_constraintTop_toBottomOf="@+id/scale_4_name"
+            tools:text="Чувство целостности, активное и не всегда осознанное стремление к тесным отношениям. Потребность во внимании со стороны других." />
 
 
-
-        <ImageView
-            android:id="@+id/info_btn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:layout_marginEnd="32dp"
-            app:layout_constraintEnd_toStartOf="@+id/share_btn"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/ic_info_outline_white_24dp" />
-    </android.support.constraint.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

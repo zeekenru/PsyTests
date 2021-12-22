@@ -1,8 +1,6 @@
 package com.kovapps.kovalev.psytests.model
 
 import android.content.Context
-import android.content.SharedPreferences
-import com.orhanobut.logger.Logger
 import javax.inject.Inject
 
 
@@ -13,8 +11,8 @@ class PreferenceHelper @Inject constructor(val context: Context) {
         private const val SP_NAME = "com.kovapss.psy.sp"
         private const val FIRST_LAUNCH_KEY = "first_launch"
         private const val SAVE_RESULTS_ENABLED_KEY = "save_results_enabled"
-        private const val PASSED_TESTS_COUNT = "passed_tests_count"
     }
+
 
     private val sp = context.getSharedPreferences(SP_NAME, Context.MODE_PRIVATE)
 
@@ -27,13 +25,6 @@ class PreferenceHelper @Inject constructor(val context: Context) {
     fun saveResultsEnabled(enabled: Boolean) =
         sp.edit().putBoolean(SAVE_RESULTS_ENABLED_KEY, enabled).apply()
 
+    fun saveResultsEnabled(): Boolean = sp.getBoolean(SAVE_RESULTS_ENABLED_KEY, false)
 
-    fun saveResultsEnabled(): Boolean = sp.getBoolean(SAVE_RESULTS_ENABLED_KEY, true)
-
-    fun incrementPassedTestsCount() {
-        Logger.d("Increment: ${getPassedTestsCount()} ")
-        sp.edit().putInt(PASSED_TESTS_COUNT, getPassedTestsCount() + 1).apply()
-    }
-
-    fun getPassedTestsCount() : Int = sp.getInt(PASSED_TESTS_COUNT, 0)
 }

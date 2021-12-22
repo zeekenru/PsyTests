@@ -1,9 +1,11 @@
 package com.kovapps.kovalev.psytests.enities
 
+import android.os.Parcelable
+import kotlinx.parcelize.Parcelize
 
-interface Result {
-    val id : Int
-    val name: String
-    val time : Long
-    val interpretation : String
-}
+@Parcelize
+data class Result(
+    val min: Int,
+    val max: Int,
+    val text: String
+) : Parcelable

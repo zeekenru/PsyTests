@@ -11,21 +11,40 @@
 #-keepclassmembers class fqcn.of.javascript.interface.for.webview {
 #   public *;
 #}
--dontwarn icepick.**
--keep class icepick.** { *; }
--keep class **$$Icepick { *; }
--keepclasseswithmembernames class * {
-    @icepick.* <fields>;
-}
--keepnames class * { @icepick.State *;}
--keep class .R
+
+-keep class com.kovapps.kovalev.psytests.** {*;}
+-keep class **.R
 -keep class **.R$* {
     <fields>;
 }
 -keepclasseswithmembers class **.R$* {
     public static final int define_*;
 }
--keep class com.kovapps.kovalev.psytests.enities.** { *; }
+-keepclassmembers class * implements android.os.Parcelable {
+    public static final ** CREATOR;
+}
+-keep class com.colintmiller.simplenosql.**
+-keep class * extends com.google.gson.TypeAdapter
+-keep class * implements com.google.gson.TypeAdapterFactory
+-keep class * implements com.google.gson.JsonSerializer
+-keep class * implements com.google.gson.JsonDeserializer
+
+# Prevent R8 from leaving Data object members always null
+-keepclassmembers,allowobfuscation class * {
+  @com.google.gson.annotations.SerializedName <fields>;
+}
+-keepattributes *Annotation*
+-keepattributes SourceFile,LineNumberTable
+# prevent Crashlytics obfuscation
+-keep class com.crashlytics.** { *; }
+-dontwarn com.crashlytics.**
+-keep class com.google.android.gms.ads.*
+-keep class com.google.android.gms.common.GooglePlayServicesUtil {*;}
+-keep class com.google.android.gms.ads.identifier.AdvertisingIdClient {*;}
+-keep class com.google.android.gms.ads.identifier.AdvertisingIdClient$Info {*;}
+
+#-keep class com.kovapps.kovalev.psytest.** {*;}
+#-keep class com.kovapps.kovalev.psytests.enities.** { *; }
 # Uncomment this to preserve the line number information for
 # debugging stack traces.
 #-keepattributes SourceFile,LineNumberTable
@@ -33,3 +52,6 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+
+
+

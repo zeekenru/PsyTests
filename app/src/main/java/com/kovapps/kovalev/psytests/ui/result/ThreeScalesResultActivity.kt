@@ -1,14 +1,12 @@
 package com.kovapps.kovalev.psytests.ui.result
 
-import android.content.Intent
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import com.kovapps.kovalev.psytests.dialogs.InterpretationFragment
+import android.widget.ImageView
+import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
 import com.kovapps.kovalev.psytests.R
 import com.kovapps.kovalev.psytests.TestsTypes
 import com.kovapps.kovalev.psytests.enities.ThreeScalesResult
-import com.orhanobut.logger.Logger
-import kotlinx.android.synthetic.main.activity_maslach_result.*
 
 
 class ThreeScalesResultActivity : AppCompatActivity() {
@@ -17,78 +15,70 @@ class ThreeScalesResultActivity : AppCompatActivity() {
         const val RESULT_DATA_PARAM = "result_data"
     }
 
+    private lateinit var scale1Name: TextView
+    private lateinit var scale2Name: TextView
+    private lateinit var scale3Name: TextView
+    private lateinit var scale1Result: TextView
+    private lateinit var scale2Result: TextView
+    private lateinit var scale3Result: TextView
+    private lateinit var closeBtn: ImageView
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_maslach_result)
-        Logger.d(this.javaClass.simpleName)
-        close_btn.setOnClickListener { finish() }
-        val result : ThreeScalesResult = intent.getParcelableExtra(RESULT_DATA_PARAM)
-        when (result.id){
-            TestsTypes.EPI ->{
-                first_scale_name.text = "Экстраверсия"
-                second_scale_name.text = "Нейротизм"
-                third_scale_name.text = "Ложь"
-                when (result.firstScale){
-                    in (0..4) -> first_scale_result.text = "Глубокий интроверт"
-                    in (5..8) -> first_scale_result.text = "Интроверт"
-                    in (9..14) -> first_scale_result.text = "Амбивалентность, неопределённость"
-                    in (15..18) -> first_scale_result.text = "Экстраверт"
-                    in (19..24) -> first_scale_result.text = "Яркий экстраверт"
+        scale1Name = findViewById(R.id.first_scale_name)
+        scale2Name = findViewById(R.id.second_scale_name)
+        scale3Name = findViewById(R.id.third_scale_name)
+        scale1Result = findViewById(R.id.first_scale_result)
+        scale2Result = findViewById(R.id.second_scale_result)
+        scale3Result = findViewById(R.id.third_scale_result)
+        closeBtn = findViewById(R.id.close_btn)
+        closeBtn.setOnClickListener { finish() }
+        val result: ThreeScalesResult = intent.getParcelableExtra(RESULT_DATA_PARAM)!!
+        when (result.testId) {
+            TestsTypes.EPI -> {
+                scale1Name.text = getString(R.string.three_scales_result_1)
+                scale2Name.text = getString(R.string.three_scales_result_2)
+                scale3Name.text = getString(R.string.three_scales_result_3)
+                when (result.firstScale) {
+                    in (0..4) -> scale1Result.text = getString(R.string.three_scales_result_4)
+                    in (5..8) -> scale1Result.text = getString(R.string.three_scales_result_5)
+                    in (9..14) -> scale1Result.text = getString(R.string.three_scales_result_6)
+                    in (15..18) -> scale1Result.text = getString(R.string.three_scales_result_7)
+                    in (19..24) -> scale1Result.text = getString(R.string.three_scales_result_8)
                 }
-                when (result.secondScale){
-                    in (0..6) -> second_scale_result.text = "Низкий уровень"
-                    in (7..13) -> second_scale_result.text = "Средний уровень"
-                    in (14..18) ->second_scale_result.text = "Высокий уровень"
-                    in (19..24) -> second_scale_result.text = "Очень высокий уровень"
+                when (result.secondScale) {
+                    in (0..6) -> scale2Result.text = getString(R.string.three_scales_result_9)
+                    in (7..13) -> scale2Result.text = getString(R.string.three_scales_result_10)
+                    in (14..18) -> scale2Result.text = getString(R.string.three_scales_result_11)
+                    in (19..24) -> scale2Result.text = getString(R.string.three_scales_result_12)
                 }
-                when (result.thirdScale){
-                    in (0..4) -> third_scale_result.text = "Норма"
-                    in (5..9) -> third_scale_result.text = "Неискренность в ответах"
-                }
-            }
-            TestsTypes.MASLACH ->{
-                first_scale_name.text = "Эмоциаональное истощение"
-                second_scale_name.text = "Деперсонализация"
-                third_scale_name.text = "Редукция проффесионализма"
-                when (result.firstScale){
-                    in (0..15) -> first_scale_result.text = "Низкий уровень"
-                    in (16..24) -> first_scale_result.text = "Средний уровень"
-                    in (25..55) -> first_scale_result.text = "Высокий уровень"
-                }
-                when (result.secondScale){
-                    in (0..5) -> second_scale_result.text = "Низкий уровень"
-                    in (6..10) -> second_scale_result.text = "Средний уровень"
-                    in (11..30) -> second_scale_result.text = "Высокий уровень"
-                }
-                when (result.thirdScale){
-                    in (37..48) -> third_scale_result.text = "Низкий уровень"
-                    in (31..36) -> third_scale_result.text = "Средний уровень"
-                    in (0..30) -> third_scale_result.text = "Высокий уровень"
+                when (result.thirdScale) {
+                    in (0..4) -> scale3Result.text = getString(R.string.three_scales_result_13)
+                    in (5..9) -> scale3Result.text = getString(R.string.three_scales_result_14)
                 }
             }
-        }
-        info_btn.setOnClickListener {
-            val intent = Intent(this, TestDescriptionActivity::class.java)
-                    .putExtra(TestDescriptionActivity.TEST_ID_PARAM, result.id)
-            startActivity(intent)
-        }
-        share_btn.setOnClickListener {
-            val textMessage = when (result.id){
-                TestsTypes.EPI -> """Пройден личностный опросник Айзенка в приложение PsyTests:
-                    |${first_scale_result.text}, ${second_scale_result.text.toString().toLowerCase()} нейротизма"""
-                    .trimMargin()
-                TestsTypes.MASLACH -> "Пройден личностный опросник выгорания Маслач в приложении PsyTests: " +
-                        "${first_scale_result.text.toString().toLowerCase()} эмоцианального истощения, " +
-                        "${second_scale_result.text.toString().toLowerCase()} деперсонализации, " +
-                        "${third_scale_result.text.toString().toLowerCase()} редукции професионализма"
-                else -> throw IllegalArgumentException("Unexpected test type")
+            TestsTypes.MASLACH -> {
+                scale1Name.text = getString(R.string.three_scales_result_15)
+                scale2Name.text = getString(R.string.three_scales_result_16)
+                scale3Name.text = getString(R.string.three_scales_result_17)
+                when (result.firstScale) {
+                    in (0..15) -> scale1Result.text = getString(R.string.three_scales_result_9)
+                    in (16..24) -> scale1Result.text = getString(R.string.three_scales_result_10)
+                    in (25..55) -> scale1Result.text = getString(R.string.three_scales_result_11)
+                }
+                when (result.secondScale) {
+                    in (0..5) -> scale2Result.text = getString(R.string.three_scales_result_9)
+                    in (6..10) -> scale2Result.text = getString(R.string.three_scales_result_10)
+                    in (11..30) -> scale2Result.text = getString(R.string.three_scales_result_11)
+                }
+                when (result.thirdScale) {
+                    in (37..48) -> scale3Result.text = getString(R.string.three_scales_result_9)
+                    in (31..36) -> scale3Result.text = getString(R.string.three_scales_result_10)
+                    in (0..30) -> scale3Result.text = getString(R.string.three_scales_result_11)
+                }
             }
-            val intent = Intent().apply {
-                action = Intent.ACTION_SEND
-                type  = "text/plain"
-                putExtra(Intent.EXTRA_TEXT, textMessage)
-            }
-            startActivity(intent)
         }
     }
 
