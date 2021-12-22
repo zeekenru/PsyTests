@@ -1,0 +1,115 @@
+{
+  "id": 2,
+  "name": "Tsung Depression self-assessment Scale",
+  "questions_count": 20,
+  "scales_count": 1,
+  "interpretation": "25-49: normal, 50-59: mild depression, 60-69: moderate depression, 70 and above: severe depression.",
+  "answers": [
+    "Never or occasionally",
+    "Sometimes",
+    "Often",
+    "Almost always or constantly"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "question": "I feel depressed",
+      "right": true
+    },
+    {
+      "number": 2,
+      "question": "I feel best in the morning",
+      "right": false
+    },
+    {
+      "number": 3,
+      "question": "I have periods of crying or close to tears",
+      "right": true
+    },
+    {
+      "number": 4,
+      "question": "I have a bad night 's sleep",
+      "right": true
+    },
+    {
+      "number": 5,
+      "question": "My appetite is as good as usual",
+      "right": false
+    },
+    {
+      "number": 6,
+      "question": "I enjoy looking at attractive women, talking to them, being around them",
+      "right": false
+    },
+    {
+      "number": 7,
+      "question": "I notice, that I'm losing weight",
+      "right": true
+    },
+    {
+      "number": 8,
+      "question": "I 'm worried about constipation",
+      "right": true
+    },
+    {
+      "number": 9,
+      "question": "My heart is beating faster, than usual",
+      "right": true
+    },
+    {
+      "number": 10,
+      "question": "I get tired for no reason",
+      "right": true
+    },
+    {
+      "number": 11,
+      "question": "I think as clearly as ever",
+      "right": false
+    },
+    {
+      "number": 12,
+      "question": "It's easy for me to do what I can do",
+      "right": false
+    },
+    {
+      "number": 13,
+      "question": "I feel restless and can't sit still",
+      "right": true
+    },
+    {
+      "number": 14,
+      "question": "I have hopes for the future",
+      "right": false
+    },
+    {
+      "number": 15,
+      "question": "I'm more irritable than usual",
+      "right": true
+    },
+    {
+      "number": 16,
+      "question": "It's easy for me to make decisions",
+      "right": false
+    },
+    {
+      "number": 17,
+      "question": "I feel that I am useful and necessary",
+      "right": false
+    },
+    {
+      "number": 18,
+      "question": "I live a fairly full life",
+      "right": false
+    },
+    {
+      "number": 19,
+      "question": "I feel that other people will be better off if I die",
+      "right": true
+    },
+    {
+      "number": 20,
+      "question": "I'm still happy with what I've always been happy with",
+      "right": false
+    }
+  ]
+}

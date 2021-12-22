@@ -1,0 +1,127 @@
+{
+  "id": 14,
+  "name": "Échelle d'évaluation de la motivation d'approbation",
+  "questions_count": 19,
+  "scales_count": 1,
+  "answers": [
+    "Oui",
+    "Pas"
+  ],
+  "interpretation": "",
+  "questions": [
+    {
+      "number": 1,
+      "question": "je lis attentivement chaque livre avant de le ramener à la bibliothèque",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 2,
+      "question": "je n'hésite pas quand quelqu'un a besoin d'aide en difficulté",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 3,
+      "question": "Je regarde toujours de près comment je suis habillé",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 4,
+      "question": "à la Maison, je me comporte à la table comme à la salle à manger",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 5,
+      "question": "je n'ai jamais ressenti d'antipathie envers personne",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 6,
+      "question": "il y a eu Un ou plusieurs cas où j'ai arrêté de faire quelque chose parce que je n'étais pas sûr de mes capacités",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 7,
+      "question": "Parfois, j'aime faire honte aux absents",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 8,
+      "question": "j'écoute toujours attentivement l'interlocuteur, quel qu'il soit",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 9,
+      "question": "il y a Eu un cas où je suis venu avec une bonne raison de se justifier",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 10,
+      "question": "il est Arrivé que j'ai utilisé la gaffe d'un homme",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 11,
+      "question": "Parfois, au lieu de pardonner à une personne, j'essaie de lui rendre la même chose",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 12,
+      "question": "il y a eu Des cas où j'ai insisté pour faire à mon avis",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 13,
+      "question": "je n'ai pas de protestation interne quand on me demande de rendre service",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 14,
+      "question": "je n'ai jamais eu d'ennui quand ils expriment une opinion contraire à la mienne",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 15,
+      "question": "Avant un long voyage, je réfléchis toujours à ce qu'il faut apporter",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 16,
+      "question": "il y a eu Des moments où j'enviais la chance des autres",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 17,
+      "question": "parfois, je suis ennuyé par les gens qui me demandent",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 18,
+      "question": "Quand les gens ont des ennuis, je pense parfois qu'ils ont eu le mérite",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 19,
+      "question": "je n'ai jamais dit des choses désagréables avec un sourire",
+      "scale": 1,
+      "right": true
+    }
+  ]
+}

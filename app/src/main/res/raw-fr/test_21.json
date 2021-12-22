@@ -1,0 +1,216 @@
+{
+  "id": 21,
+  "questions_count": 40,
+  "name": "test de dépendance à Internet de Kimberly-Young",
+  "scales_count": 1,
+  "interpretation": "",
+  "answers": [
+    "Jamais",
+    "Rare",
+    "Régulièrement",
+    "Souvent",
+    "Permanent"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "question": "avez-vous Remarqué que vous passez plus de temps en ligne que prévu?",
+      "scale": 1
+    },
+    {
+      "number": 2,
+      "question": "Négligez les tâches ménagères pour vous promener plus longtemps sur le net?",
+      "scale": 1
+    },
+    {
+      "number": 3,
+      "question": "préférez-Vous rester en ligne à une communication intime avec votre partenaire?",
+      "scale": 1
+    },
+    {
+      "number": 4,
+      "question": "rencontrez-vous des internautes en ligne?",
+      "scale": 1
+    },
+    {
+      "number": 5,
+      "answer": "Irrité à cause de ce que les gens s'intéressent à la quantité de temps, une tribune de vous dans le réseau?",
+      "scale": 1
+    },
+    {
+      "number": 6,
+      "question": "avez-vous Remarqué que vous avez cessé de progresser dans vos études ou votre travail parce que vous passez trop de temps en ligne?",
+      "scale": 1
+    },
+    {
+      "number": 7,
+      "question": "avez-vous Vérifié vos e-mails avant de faire quelque chose d'autre, plus nécessaire?",
+      "scale": 1
+    },
+    {
+      "number": 8,
+      "question": "avez-vous Remarqué que la productivité diminue en raison de l'engouement pour Internet?",
+      "scale": 1
+    },
+    {
+      "number": 9,
+      "question": "Êtes-vous défensif et furtif quand on vous demande ce que vous faites en ligne?",
+      "scale": 1
+    },
+    {
+      "number": 10,
+      "question": "bloquez-Vous les pensées troublantes de votre vie réelle avec des pensées sur Internet?",
+      "scale": 1
+    },
+    {
+      "number": 11,
+      "answer": "Vous vous trouvez impatient d'une autre sortie sur Internet?",
+      "scale": 1
+    },
+    {
+      "number": 12,
+      "question": "vous Sentez que la vie sans Internet est ennuyeuse, vide et sans joie?",
+      "scale": 1
+    },
+    {
+      "number": 13,
+      "question": "vous Jurez, criez ou exprimez votre frustration lorsque quelqu'un essaie de vous distraire de rester en ligne?",
+      "scale": 1
+    },
+    {
+      "number": 14,
+      "question": "Négligez-vous de dormir en restant sur Internet tard?",
+      "scale": 1
+    },
+    {
+      "number": 15,
+      "answer": "Vous vous attendez à ce que vous fassiez sur Internet, en étant hors ligne?",
+      "scale": 1
+    },
+    {
+      "number": 16,
+      "question": "Dites-vous: \" Encore une minute\" lorsque vous êtes en ligne?",
+      "scale": 1
+    },
+    {
+      "number": 17,
+      "question": "voulez-vous réduire le temps passé en ligne?",
+      "scale": 1
+    },
+    {
+      "number": 18,
+      "question": "Essayez-vous de masquer le temps passé en ligne?",
+      "scale": 1
+    },
+    {
+      "number": 19,
+      "question": "au Lieu de sortir avec des amis, choisissez Internet?",
+      "scale": 1
+    },
+    {
+      "number": 20,
+      "question": "Éprouvez-vous de la dépression, de la dépression ou de la nervosité lorsque vous êtes hors ligne et constatez que cette condition disparaît dès que vous êtes en ligne?",
+      "scale": 1
+    },
+    {
+      "number": 21,
+      "question": "Ressentez-vous de l'euphorie, de la vivacité, de l'excitation lorsque vous êtes devant un ordinateur?",
+      "scale": 1
+    },
+    {
+      "number": 22,
+      "question": "Avez-vous besoin de passer de plus en plus de temps devant votre ordinateur pour obtenir les mêmes sensations?",
+      "scale": 1
+    },
+    {
+      "number": 23,
+      "question": "vous Sentez-vous vide, déprimé, irrité alors que vous n'êtes pas à l'ordinateur?",
+      "scale": 1
+    },
+    {
+      "number": 24,
+      "question": "Avez-vous déjà négligé des choses importantes alors que Vous étiez occupé à l'ordinateur, mais pas au travail?",
+      "scale": 1
+    },
+    {
+      "number": 25,
+      "question": "Passez-vous plus de 3 heures en ligne par jour?",
+      "scale": 1
+    },
+    {
+      "number": 26,
+      "question": "Si vous utilisez principalement un ordinateur pour le travail, communiquez-vous dans des salles de discussion pendant les heures de travail ou accédez-vous à des sites non liés au travail plus de 2 fois par jour?",
+      "scale": 1
+    },
+    {
+      "number": 27,
+      "question": "téléchargez-Vous des fichiers à partir de sites pornographiques?",
+      "scale": 1
+    },
+    {
+      "number": 28,
+      "question": "Pensez-vous qu'il est plus facile de communiquer avec une personne» en ligne qu'en personne?",
+      "scale": 1
+    },
+    {
+      "number": 29,
+      "question": "vos amis ou votre famille Vous ont-ils Dit que vous passiez trop de temps en ligne?",
+      "scale": 1
+    },
+    {
+      "number": 30,
+      "question": "votre activité est-elle Entravée par Le temps passé en ligne?",
+      "scale": 1
+    },
+    {
+      "number": 31,
+      "question": "est-il Arrivé que vos tentatives de limiter Le temps passé en ligne aient échoué?",
+      "scale": 1
+    },
+    {
+      "number": 32,
+      "question": "est-ce Que Vos doigts sont fatigués de travailler sur le clavier ou de cliquer sur la souris?",
+      "scale": 1
+    },
+    {
+      "number": 33,
+      "question": "Avez-vous déjà menti sur le temps passé en ligne?",
+      "scale": 1
+    },
+    {
+      "number": 34,
+      "question": "avez-vous déjà eu un» syndrome du canal carpien (engourdissement et douleur à la main)?",
+      "scale": 1
+    },
+    {
+      "number": 35,
+      "question": "avez-vous des maux de dos plus d'une fois par semaine?",
+      "scale": 1
+    },
+    {
+      "number": 36,
+      "question": "avez-vous Des yeux secs?",
+      "scale": 1
+    },
+    {
+      "number": 37,
+      "question": "le temps que vous passez en ligne Augmente-t-il?",
+      "scale": 1
+    },
+    {
+      "number": 38,
+      "question": "avez-vous déjà négligé De manger ou de manger juste devant votre ordinateur pour rester en ligne?",
+      "scale": 1
+    },
+    {
+      "number": 39,
+      "question": "avez-vous déjà négligé L'hygiène personnelle, par exemple le rasage, le peignage, etc., pour passer ce temps à l'ordinateur?",
+      "scale": 1
+    },
+    {
+      "number": 40,
+      "question": "Avez-vous eu des troubles du sommeil et/ou avez-vous changé De mode de sommeil depuis que vous avez commencé à utiliser votre ordinateur tous les jours?",
+      "scale": 1
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "id": 14,
+  "name": "ratingskala Motivation Billigung",
+  "questions_count": 19,
+  "scales_count": 1,
+  "answers": [
+    "Ja",
+    "Nein"
+  ],
+  "interpretation": "",
+  "questions": [
+    {
+      "number": 1,
+      "question": "Ich aufmerksam lese jedes Buch, bevor es zurück in die Bibliothek",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 2,
+      "question": "Ich habe keine Bedenken, wenn wem auch immer, ob in not zu helfen",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 3,
+      "question": "Ich habe immer ein Auge darauf, wie ich angezogen bin",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 4,
+      "question": "zu Hause verhalte ich mich am Tisch genauso wie im Speisesaal",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 5,
+      "question": "Ich habe nie gehört habe, nicht erlebt Antipathie",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 6,
+      "question": "Es gab Zeiten, in denen ich aufhörte, etwas zu tun, weil ich mir meiner Fähigkeiten nicht sicher war",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 7,
+      "question": "Manchmal sage ich gerne schlechte Dinge über die Abwesenden",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 8,
+      "question": "Ich habe immer aufmerksam Kumpel hören, wer auch immer es war",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 9,
+      "question": "der Fall War, wenn ich kam mit einem guten Grund, um zu rechtfertigen",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 10,
+      "question": "ist es Geschehen, genoss ich die Nachlässigkeit des Menschen",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 11,
+      "question": "Manchmal anstatt Menschen zu vergeben, versuche ich etwas zurückzugeben, die ihm gleichen",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 12,
+      "question": "es gab Zeiten, als ich darauf Bestand, zu tun nach meinem",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 13,
+      "question": "Ich habe nicht auftreten eines inneren Protestes, wenn Sie mich bitten, einen gefallen tun",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 14,
+      "question": "Ich habe nie eine Enttäuschung entsteht, wenn die Meinung, das Gegenteil von meinem",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 15,
+      "question": "ich bei längeren Reisen immer sorgfältig darüber nachdenken, was mitnehmen",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 16,
+      "question": "es gab Fälle, in denen ich neidisch auf das Glück anderer",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 17,
+      "question": "Manchmal ärgern mich Leute, die mich um Hilfe bitten",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 18,
+      "question": "Wann haben Menschen Schwierigkeiten, manchmal denke ich, dass Sie bekommen, was Sie verdienen",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 19,
+      "question": "Ich habe nie mit einem lächeln unangenehme Dinge nicht gesagt",
+      "scale": 1,
+      "right": true
+    }
+  ]
+}
+

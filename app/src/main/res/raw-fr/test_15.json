@@ -1,0 +1,145 @@
+{
+  "id": 15,
+  "name": "Échelle d'évaluation du besoin de réalisation",
+  "questions_count": 22,
+  "scales_count": 1,
+  "answers": [
+    "Oui",
+    "Pas"
+  ],
+  "interpretation": "",
+  "questions": [
+    {
+      "number": 1,
+      "question": "je Pense que le succès dans la vie est plus susceptible de dépendre du cas que du calcul",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 2,
+      "question": "Si je perds mon activité préférée, la vie perdra tout sens pour moi",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 3,
+      "question": "pour moi, ce n'est pas son exécution qui compte le plus, mais le résultat final qui compte le plus",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 4,
+      "question": "je Crois que les gens sont plus touchés par les échecs au travail que par les mauvaises relations avec leurs proches",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 5,
+      "question": "À mon avis, la plupart des gens vivent des objectifs lointains, pas des proches",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 6,
+      "question": "Dans la vie, j'ai eu plus de succès que de pas de chance",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 7,
+      "question": "j'aime les gens Émotionnels plus que les gens actifs",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 8,
+      "question": "Même dans un travail normal, j'essaie d'améliorer certains de ses éléments",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 9,
+      "question": "Absorbé par la pensée du succès, je peux oublier les précautions",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 10,
+      "question": "Mes proches me trouvent paresseux",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 11,
+      "question": "je Pense que les circonstances sont plus responsables de mes échecs que moi-même",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 12,
+      "question": "j'ai plus de Patience que de capacité",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 13,
+      "question": "Mes parents me contrôlaient trop strictement",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 14,
+      "question": "la Paresse plutôt que le doute sur le succès m'oblige souvent à abandonner mes intentions",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 15,
+      "question": "je Pense que je suis une personne confiante",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 16,
+      "question": "Pour réussir, je peux prendre le risque même si Shan fils",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 17,
+      "question": "Je suis une personne assidue",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 18,
+      "question": "Quand tout se passe bien, mon énergie augmente",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 19,
+      "question": "Si j'étais journaliste, j'écrirais plus sur les inventions originales des gens que sur les incidents",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 20,
+      "question": "Mes proches ne partagent généralement pas mes plans",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 21,
+      "question": "le Niveau de mes exigences de vie est inférieur à celui de mes camarades",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 22,
+      "question": "il me semble que la persévérance est plus grande en moi que les capacités",
+      "scale": 1,
+      "right": true
+    }
+  ]
+}

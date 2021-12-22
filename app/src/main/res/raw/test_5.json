@@ -1,0 +1,153 @@
+{
+  "id": 5,
+  "questions_count": 27,
+  "name": "Karpov Reflexivity Questionnaire",
+  "scales_count": 1,
+  "interpretation": "When interpreting the results, it is advisable to proceed from the differentiation of the results obtained into three main categories. The results of the technique, equal to or greater than 7walls, indicate a highly developed reflexivity.  Results in the range from 4 to 7 walls are indicators of the average level of reflexivity.  Indicators less than 4 walls indicate a low level of development of reflexivity",
+  "answers": [
+    "Totally disagree",
+    "I don't agree",
+    "Rather disagree",
+    "I can't decide",
+    "I rather agree",
+    "I agree",
+    "I totally agree"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "question": "After reading a good book, I always think about it for a long time afterwards; I want to discuss it with someone",
+      "right": true
+    },
+    {
+      "number": 2,
+      "question": "When I am suddenly asked about something, I can answer the first thing that came to mind",
+      "right": false
+    },
+    {
+      "number": 3,
+      "question": "Before picking up the phone to make a business call, I usually mentally plan the upcoming conversation",
+      "right": true
+    },
+    {
+      "number": 4,
+      "question": "After making a mistake, I can't stop thinking about it for a long time afterwards",
+      "right": true
+    },
+    {
+      "number": 5,
+      "question": "When I think about something or have a conversation with another person, I find it interesting to suddenly remember what started the chain of thoughts",
+      "right": true
+    },
+    {
+      "number": 6,
+      "question": "When starting a difficult task, I try not to think about the upcoming difficulties",
+      "right": false
+    },
+    {
+      "number": 7,
+      "question": "The main thing for me is to present the ultimate goal of my activity, and the details are of secondary importance",
+      "right": false
+    },
+    {
+      "number": 8,
+      "question": "Sometimes I can't understand why someone is unhappy with me",
+      "right": false
+    },
+    {
+      "number": 9,
+      "question": "I often put myself in the other person's shoes",
+      "right": true
+    },
+    {
+      "number": 10,
+      "question": "It is important for me to understand in detail the progress of the upcoming work",
+      "right": true
+    },
+    {
+      "number": 11,
+      "question": "It would be difficult for me to write a serious letter if I didn't make a plan in advance",
+      "right": true
+    },
+    {
+      "number": 12,
+      "question": "I prefer to act rather than reflect on the reasons for my failures",
+      "right": false
+    },
+    {
+      "number": 13,
+      "question": "I can easily make a decision about an expensive purchase",
+      "right": false
+    },
+    {
+      "number": 14,
+      "question": "As a rule, having conceived something, I scroll through my plans in my head, clarifying the details, considering all the options",
+      "right": true
+    },
+    {
+      "number": 15,
+      "question": "I'm worried about my future",
+      "right": true
+    },
+    {
+      "number": 16,
+      "question": "I think that in many situations it is necessary to act quickly, guided by the first thought that came to mind",
+      "right": false
+    },
+    {
+      "number": 17,
+      "question": "Sometimes I make rash decisions",
+      "right": false
+    },
+    {
+      "number": 18,
+      "question": "After finishing a conversation, I sometimes continue to conduct it mentally, giving more and more new arguments in defense of my point of view",
+      "right": true
+    },
+    {
+      "number": 19,
+      "question": "If there is a conflict, then when thinking about who is to blame for it, I first start with myself",
+      "right": true
+    },
+    {
+      "number": 20,
+      "question": "Before making a decision, I always try to think and weigh everything carefully",
+      "right": true
+    },
+    {
+      "number": 21,
+      "question": "I have conflicts from the fact that I sometimes can't predict what behavior others expect from me",
+      "right": false
+    },
+    {
+      "number": 22,
+      "question": "It happens that when I think about a conversation with another person, I sort of mentally conduct a dialogue with them",
+      "right": true
+    },
+    {
+      "number": 23,
+      "question": "I try not to think about what thoughts and feelings my words and actions evoke in other people",
+      "right": false
+    },
+    {
+      "number": 24,
+      "question": "Before making a remark to another person, I will definitely think about what words are best to do it so as not to offend them",
+      "right": true
+    },
+    {
+      "number": 25,
+      "question": "When solving a difficult task, I think about it even when I'm doing other things",
+      "right": true
+    },
+    {
+      "number": 26,
+      "question": "If I quarrel with someone, then in most cases I don't consider myself guilty",
+      "right": false
+    },
+    {
+      "number": 27,
+      "question": "It rarely happens that I regret what I said",
+      "right": false
+    }
+  ]
+}

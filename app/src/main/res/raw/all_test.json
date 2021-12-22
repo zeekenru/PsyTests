@@ -1,0 +1,360 @@
+[
+  {
+    "id": 10,
+    "name": "Luscher color test",
+    "category": 0,
+    "duration": "5 minutes",
+    "description": "The Lusher color test is based on the assumption that the choice of color often reflects the orientation of the subject to a certain activity, mood, functional state and the most stable personality traits. The color diagnostics of the Lusher allows you to measure the psychophysiological state of a person, his stress resistance, activity and communicative abilities. The Lusher test allows you to determine the causes of psychological stress, which can lead to the appearance of physiological symptoms."
+  },
+  {
+    "id": 19,
+    "name": "Szondi test",
+    "duration": "5 minutes",
+    "category": 0,
+    "description": "A projective personality test that provides answers to many questions, including explaining a person's choice in love, friendship, profession, at work, and indicates a predisposition to certain diseases."
+  },
+  {
+    "id": 1,
+    "name": "Depression questionnaire",
+    "questions_count": 21,
+    "duration": "2 minutes",
+    "category": 0,
+    "description": "The Beck Depression Inventory Scale was proposed by A.T. Beck in 1961 and developed on the basis of clinical observations that made it possible to identify a limited set of the most relevant and significant symptoms of depression and the most frequent complaints made by patients. After correlating this list of parameters with clinical descriptions of depression contained in the relevant literature, a questionnaire was developed that includes 21 categories of symptoms and complaints. Each category consists of 4-5 statements corresponding to specific manifestations/symptoms of depression. These statements are ranked as the specific contribution of the symptom to the overall severity of depression increases."
+  },
+  {
+    "id": 2,
+    "name": "Zung Self-Rating Depression Scale",
+    "questions_count": 20,
+    "duration": "2 minutes",
+    "category": 0,
+    "description": "The Tsung Scale for self-assessment of depression - a test for self-assessment of depression was developed at Duke University by psychiatrist Dr. William Tsung. The test allows you to assess the level of depression of patients and determine the degree of depressive disorder. With the help of the \"Tsung Scale\", the subject or the doctor can perform an independent examination or screening of depression."
+  },
+  {
+    "id": 3,
+    "name": "Hopelessness questionnaire",
+    "questions_count": 20,
+    "duration": "2 minutes",
+    "category": 0,
+    "description": "The Beck Hopelessness Inventory Scale (abbreviated BHI) is a scale that measures the severity of negative attitudes towards the subjective future in adults and adolescents. The scale was developed by A. Beck and a group of his collaborators at the Center for Cognitive Therapy at the University of Pennsylvania Medical School (USA). The basis of this concept as a theoretical construct is the cognitive theory of mental processes, including depression as a consequence of cognitive delusions. When developing the scale, the authors followed the Stotland concept, in which hopelessness is considered as a system of cognitive schemes, a common feature for which is the negative coloring of expectations about the near and distant future. Beck's Hopelessness Scale measures the severity of a subject's negative attitude to their own future. This technique is of particular value as an indirect indicator of suicidal risk in patients suffering from depression, as well as in people who have previously attempted suicide."
+  },
+  {
+    "id": 4,
+    "name": "Scale of self-assessment of anxiety",
+    "questions_count": 20,
+    "duration": "6 min",
+    "category": 0,
+    "description": "the Scale of self-assessment of anxiety was developed by Zung in 1971 (abbr. ZARS), is a valuable tool for measuring anxiety and offers all the advantages of self-assessment scales.The formulations of the points of the scale are based on the author's revision of the diagnostic criteria of anxiety and records of surveys of patients with anxiety disorders. 5 points evaluate affective symptoms, the remaining 15 — somatic"
+  },
+  {
+    "id": 5,
+    "name": "Reflexivity questionnaire",
+    "questions_count": 27,
+    "duration": "3 minutes",
+    "category": 0,
+    "description": "The methodology is a questionnaire designed to measure the degree of development of such a personal property as reflexivity. Developed in Russian in 2003 by A.V. Karpov. The questionnaire consists of 27 items, the answers to which are formed on a 7-point Likkert scale. According to the questionnaire, one value is formed that characterizes the overall degree of development of reflexivity of the individual."
+  },
+  {
+    "id": 6,
+    "name": "Burnout questionnaire",
+    "questions_count": 22,
+    "duration": "2 minutes",
+    "category": 0,
+    "description": "Maslach Burnout Questionnaire (abbreviated MBI) is a test technique designed to diagnose professional burnout. In most cases, occupational burnout is presented as a destructive process of loss of professional effectiveness, reduction of communicative qualities and development of neuropsychiatric maladaptation up to irreversible personality changes. The cause of professional burnout is both unsatisfactory working conditions and individual characteristics of the employee's personality."
+  },
+  {
+    "id": 7,
+    "name": "Questionnaire nervous orthorexia",
+    "questions_count": 10,
+    "duration": "1 minute",
+    "category": 0,
+    "description": "the Questionnaire is built on the idea of Steve Bratman about the existence of such mental disorder that is characterized by excessive, abnormal, unhealthy commitment to a healthy diet, susceptibility to diet and nutritional limitations which overshadow other psychological problems and impoverish human life."
+  },
+  {
+    "id": 8,
+    "name": "Marriage satisfaction questionnaire",
+    "questions_count": 24,
+    "duration": "2 minutes",
+    "category": 0,
+    "description": "The marriage satisfaction questionnaire, developed by V.V. Stolin, T.L. Romanova, G.P. Butenko, is intended for express diagnostics of the degree of satisfaction-dissatisfaction with marriage, as well as the degree of agreement-mismatch of satisfaction with marriage in a particular social group.The questionnaire is a one-dimensional scale consisting of 24 statements relating to various spheres: perceptions of oneself and a partner, opinions, assessments, attitudes, etc. "
+  },
+  {
+    "id": 9,
+    "name": "Eysenck Personality questionnaire",
+    "questions_count": 57,
+    "duration": "3 minutes",
+    "category": 0,
+    "description": "the EPI (Eysenck Personality Inventory) was published in 1963 and contains 57 questions, 24 of which is aimed at identifying extraversion-introversion, 24 others at assessing emotional stability-instability (neuroticism), the other 9 are in the control group of questions designed to assess the sincerity of the subject, its relationship to the survey and the reliability of the results."
+  },
+  {
+    "id": 11,
+    "name": "Temperament structure questionnaire",
+    "questions_count": 105,
+    "duration": "5 minutes",
+    "category": 0,
+    "description": "The technique is used to diagnose the subject-activity and communicative aspects of temperament and allows you to quantify its properties: energy, plasticity, pace and emotionality. The ratio of the levels of severity of the listed properties indicates the type of temperament of the subject (choleric, sanguine, phlegmatic, melancholic). The technique allows us to determine the levels of ergicity, plasticity, tempo and emotionality as properties of temperament."
+  },
+  {
+    "id": 12,
+    "name": "Level of empathy",
+    "questions_count": 60,
+    "duration": "3 minutes",
+    "category": 0,
+    "description": "The Level of empathy is a questionnaire designed for the study of the ability to empathize (or empathy), the personal property, which refers to the ability to understand and reproduce (including manslaughter) emotional States of other people."
+  },
+  {
+    "id": 13,
+    "name": "Diagnosis of aggression",
+    "questions_count": 75,
+    "duration": "3 minutes",
+    "category": 0,
+    "description": ""
+  },
+  {
+    "id": 14,
+    "name": "Approval motivation rating scale",
+    "questions_count": 19,
+    "duration": "1 minute",
+    "category": 0,
+    "description": ""
+  },
+  {
+    "id": 15,
+    "name": "Achievement need assessment scale",
+    "questions_count": 22,
+    "duration": "1 minute",
+    "category": 0,
+    "description": ""
+  },
+  {
+    "id": 16,
+    "name": "Measuring Taylor's anxiety level",
+    "questions_count": 50,
+    "duration": "3 minutes",
+    "category": 0,
+    "description": "Taylor's Personal Anxiety Scale (Teilor's Manifest Anxiety Scale) is designed to measure the manifestations of anxiety. Published by J. Taylor in 1953The scale in question consists of 50 statements to which the subject must answer \"yes\" or \"no\". The statements were selected from a set of statements from the Minnesota Multidimensional Personality Questionnaire (MMPI). Selection of items for the test. it was carried out on the basis of an analysis of their ability to distinguish between persons with \"chronic anxiety reactions\"."
+  },
+  {
+    "id": 17,
+    "name": "Rapid diagnosis of the probability of Heck and Hess neurosis",
+    "questions_count": 40,
+    "duration": "2 minutes",
+    "category": 0,
+    "description": "The test allows you to identify the degree of probability of neurosis"
+  },
+  {
+    "id": 18,
+    "name": "Male regulatory settings",
+    "questions_count": 40,
+    "duration": "2 minutes",
+    "category": 0,
+    "description": "The Male Attitude Norms Inventory methodology is designed for psychological diagnostics of the subjective concept of \"masculinity\" in humans.The questionnaire is designed to identify a system of beliefs and attitudes about masculinity and male roles that encourages you to act in accordance with these attitudes and avoid what they do not encourage."
+  },
+  {
+    "id": 20,
+    "name": "Questionnaire of neurotic personality traits",
+    "questions_count": 119,
+    "duration": "5 minutes",
+    "category": 0,
+    "description": "Clinical test technique, which is a modification of the questionnaire of neurotic disorders. The questionnaire was created in 2003 as a shortened and revised version of the original methodology."
+  },
+  {
+    "id": 21,
+    "name": "Internet addiction test",
+    "questions_count": 40,
+    "duration": "2 minutes",
+    "category": 0,
+    "description": "eats is a tool for self-diagnosis of pathological addiction to the Internet (regardless of the form of this addiction)."
+  },
+  {
+    "id": 22,
+    "name": "Questionnaire traits of an adult",
+    "questions_count": 80,
+    "duration": "3 minutes",
+    "category": 0,
+    "description": "Allows you to measure the traits of an adult and allows you to get customized profile character, consisting of \"deaccentuate\", \"norms\" and \"accentuate\"."
+  },
+  {
+    "id": 23,
+    "name": "Male or female character?",
+    "duration": "2 minutes",
+    "questions_count": 15,
+    "description": "",
+    "category": 2
+  },
+  {
+    "id": 24,
+    "name": "Degree of jealousy",
+    "duration": "2 minutes",
+    "questions_count": 12,
+    "description": "",
+    "category": 2
+  },
+  {
+    "id": 25,
+    "name": "With friends",
+    "duration": "2 minutes",
+    "questions_count": 15,
+    "description": "",
+    "category": 2
+  },
+  {
+    "id": 26,
+    "name": "Are you a good friend?",
+    "duration": "1 minute",
+    "questions_count": 12,
+    "category": 2,
+    "description": "How attentive and kind are you to your friends? Are you able to sacrifice the latter for the sake of someone who has a hard time? These and many other questions will be answered by this test."
+  },
+  {
+    "id": 27,
+    "name": "Are you really a reliable friend?",
+    "questions_count": 14,
+    "duration": "1 minute",
+    "category": 2,
+    "description": "Are you really a reliable friend? Or are you one of those on whom you can rely not always because of some selfishness?"
+  },
+  {
+    "id": 28,
+    "name": "Are you touchy?",
+    "duration": "2 minutes",
+    "questions_count": 14,
+    "category": 2,
+    "description": "This test will help determine whether you are touchy or, on the contrary, tolerance itself"
+  },
+  {
+    "id": 29,
+    "name": "Is it nice to talk to you?",
+    "duration": "1 minute",
+    "questions_count": 11,
+    "category": 2,
+    "description": "Many people find it difficult to look at themselves from the outside. This test will allow you to find out if you are pleasant in communication"
+  },
+  {
+    "id": 30,
+    "name": "Are you tolerant of your friends?",
+    "duration": "1 minute",
+    "questions_count": 9,
+    "category": 2,
+    "description": ""
+  },
+  {
+    "id": 31,
+    "name": "How selfish are you towards your friends?",
+    "duration": "1 minute",
+    "questions_count": 12,
+    "category": 2,
+    "description": ""
+  },
+  {
+    "id": 32,
+    "name": "Is it easy for you to get along with people?",
+    "duration": "2 minutes",
+    "questions_count": 10,
+    "category": 2,
+    "description": "How easily do you get along with people? Do you feel at ease in any environment? Do you belong to the category of people who can be said to be characterized by ease of communication? The test will help answer all these questions. In addition, it will allow you to determine how much this property of character is expressed in you."
+  },
+  {
+    "id": 33,
+    "name": "How much do your friends like you?",
+    "duration": "3 minutes",
+    "questions_count": 20,
+    "category": 2,
+    "description": ""
+  },
+  {
+    "id": 34,
+    "name": "Are you a good friend?",
+    "duration": "2 minutes",
+    "questions_count": 10,
+    "category": 2,
+    "description": "Everyone wants his friend to be a reliable person who can be relied on in everything. Answer the test questions, and you will understand how much you yourself meet the requirements that you tend to impose on others. Besides, it's interesting to find out for yourself what kind of friend you are - reliable or not."
+  },
+  {
+    "id": 35,
+    "name": "How soft are you?",
+    "duration": "2 minutes",
+    "questions_count": 25,
+    "description": "",
+    "category": 2
+  },
+  {
+    "id": 36,
+    "name": "Imagination level",
+    "duration": "2 minutes",
+    "questions_count": 12,
+    "description": "Using this test, you can identify your and your friends' opportunities in the field of creative professions.",
+    "category": 3
+  },
+  {
+    "id": 37,
+    "name": "Artistic ability",
+    "duration": "2 minutes",
+    "questions_count": 24,
+    "description": "This test allows you to identify artistic abilities in yourself and your friends. Are you able to subtly feel everything that happens in the world and nature, do you love art or is it not of particular interest to you? Answer the test questions and you will find out",
+    "category": 3
+  },
+  {
+    "id": 38,
+    "name": "Creativity",
+    "duration": "1 minutes",
+    "questions_count": 18,
+    "description": "If you and your friends think about creative profession for yourself, try to figure out what you creativity",
+    "category": 3
+  },
+  {
+    "id": 39,
+    "name": "Do you like to command?",
+    "duration": "2 minutes",
+    "questions_count": 23,
+    "description": "",
+    "category": 3
+  },
+  {
+    "id": 40,
+    "name": "Are you a careerist?",
+    "duration": "3 minutes",
+    "description": "",
+    "questions_count": 30,
+    "category": 3
+  },
+  {
+    "id": 41,
+    "name": "Are you keeping up with the times or are you stuck in the past?",
+    "duration": "2 minutes",
+    "description": "",
+    "questions_count": 25,
+    "category": 3
+  },
+  {
+    "id": 42,
+    "name": "How well do you handle critical circumstances",
+    "duration": "2 minutes",
+    "description": "",
+    "questions_count": 28,
+    "category": 4
+  },
+  {
+    "id": 43,
+    "name": "Self-control in communication",
+    "duration": "1 minute",
+    "description": "With this test you can determine your level of control when dealing with other people",
+    "questions_count": 10,
+    "category": 4
+  },
+  {
+    "id": 44,
+    "name": "Type circadian rhythm",
+    "duration": "2 minutes",
+    "description": "Test will reveal the relationship between your sleep and productivity",
+    "questions_count": 19,
+    "category": 4
+  },
+  {
+    "id": 45,
+    "name": "Demonstrativeness test",
+    "duration": "2 minutes",
+    "description": "The purpose of this test is to identify the level of demonstrativeness of the subject. Demonstrativeness is a complex, multifaceted characteristic. This is the desire for \"show-off\", getting pleasure from attracting positive attention to your personality.",
+    "questions_count": 36,
+    "category": 4
+  }
+]

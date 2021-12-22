@@ -1,0 +1,145 @@
+{
+  "id": 15,
+  "name": "Achievement need assessment scale",
+  "questions_count": 22,
+  "scales_count": 1,
+  "answers": [
+    "Yes",
+    "No"
+  ],
+  "interpretation": "",
+  "questions": [
+    {
+      "number": 1,
+      "question": "I think that success in life is more likely to depend on chance than on calculation",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 2,
+      "question": "If I lose my favorite activity, life will lose all meaning for me",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 3,
+      "question": "For me, in any business, the final result is more important than its execution",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 4,
+      "question": "I believe that people suffer more from failures at work than from bad relationships with loved ones",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 5,
+      "question": "In my opinion, most people live with distant goals, not close ones",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 6,
+      "question": "I've had more success in my life than no success",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 7,
+      "question": "I like emotional people more than active ones",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 8,
+      "question": "Even in normal work, I try to improve some of its elements",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 9,
+      "question": "Absorbed in thoughts of success, I can forget about precautions",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 10,
+      "question": "My loved ones think I'm lazy",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 11,
+      "question": "I think that my failures are more likely to be caused by circumstances than by myself",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 12,
+      "question": "I have more patience than ability",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 13,
+      "question": "My parents controlled me too much",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 14,
+      "question": "Laziness, not doubt of success, often forces me to abandon my intentions",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 15,
+      "question": "I think I'm a confident person",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 16,
+      "question": "For the sake of success, I can take a risk even if Shang Seung is small",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 17,
+      "question": "I'm a hardworking person",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 18,
+      "question": "When everything goes smoothly, my energy increases",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 19,
+      "question": "If I were a journalist, I would write more often about people's original inventions than about incidents",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 20,
+      "question": "My loved ones usually don't share my plans",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 21,
+      "question": "The level of my requirements for life is lower than that of my comrades",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 22,
+      "question": "It seems to me that I have more perseverance than ability",
+      "scale": 1,
+      "right": true
+    }
+  ]
+}

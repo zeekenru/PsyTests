@@ -1,0 +1,355 @@
+{
+  "id": 9,
+  "questions_count": 57,
+  "name": "Aizenk Personal questionnaire",
+  "scales_count": 3,
+  "answers": [
+    "Yes",
+    "No"
+  ],
+  "interpretation": "Extroversion and introversion: when describing a typical extrovert, you can note his sociability and the individual's appeal to the outside, a wide range of acquaintances, the need for contacts. He acts on the spur of the moment, impulsive, quick-tempered, carefree, optimistic, good-natured, cheerful. Prefers movement and action, tends to be aggressive. Feelings and emotions do not have strict control, and are prone to risky actions. You can't always rely on him. Pintroversion is a set of directly opposite personality traits. The typical introvert is a calm, shy person who tends to introspect. Reserved and distant from everyone but close friends. Plans and considers his actions in advance, does not trust sudden impulses, takes decision-making seriously, likes everything in order. A person who is characterized by personal introversion, controls his feelings, it is not easy to get out of himself. Pessimistic, highly values moral norms. Neuroticism characterizes emotional stability or instability (emotional stability or instability)./ Emotional stability is a trait that expresses the preservation of organized behavior, situational purposefulness in ordinary and stressful situations. It is characterized by maturity, excellent adaptation, lack of great tension, anxiety, as well as a tendency to leadership, sociability. Neirotism is expressed in extreme nervousness, instability, poor adaptation, a tendency to quickly change moods (lability), feelings of guilt and anxiety, preoccupation, depressive reactions, distraction, instability in stressful situations. Neuroticism corresponds to emotionality, impulsivity; unevenness in contacts with people, variability of interests, self-doubt, pronounced sensitivity, impressionability, a tendency to irritability. Neurotic personality is characterized by inadequately strong reactions to the stimuli that cause them. Individuals with high scores on the neuroticism scale may develop neurosis in adverse stressful situations. Sincerity scale: high values on this scale indicate insincerity in responses. It may also indicate some demonstrative behavior, the desire to appear better in the eyes of other people, to express only socially approved opinions. If your result is considered doubtful or unreliable, try taking the test again, answering more openly, without thinking about the possible impression that your answers might make.",
+  "questions": [
+    {
+      "number": 1,
+      "question": "Do you often have a craving for new experiences, distractions, and strong feelings?",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 2,
+      "question": "Do you often feel that you need friends who can understand, encourage or sympathize with you?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 3,
+      "question": "Do you consider yourself a carefree person?",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 4,
+      "question": "Is it very difficult for you to give up your intentions?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 5,
+      "question": "Do you think things through slowly and prefer to wait before taking action?",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 6,
+      "question": "Do you always keep your promises, even if it is not profitable for you?",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 7,
+      "question": "Do you often have mood swings and swings?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 8,
+      "question": "Do you usually act and speak quickly, and don't spend a lot of time thinking about it?",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 9,
+      "question": "Have you ever had the feeling that you are unhappy, although there was no serious reason for this?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 10,
+      "question": "Is it true that you can do anything on a bet?",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 11,
+      "question": "Do you feel embarrassed when you want to meet someone of the opposite sex who you like?",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 12,
+      "question": "Does it ever happen that when you get angry, you lose your temper?",
+      "scale": 3,
+      "right": false
+    },
+    {
+      "number": 13,
+      "question": "Does it often happen that you act rashly, on the spur of the moment?",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 14,
+      "question": "Do you often get bothered by thoughts that you shouldn't have done or said something?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 15,
+      "question": "Do you prefer reading books to meeting people?",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 16,
+      "question": "Is it true that you are easily offended?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 17,
+      "question": "Do you like to visit the company often?",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 18,
+      "question": "Do you sometimes have thoughts that you don't want to share with other people?",
+      "scale": 3,
+      "right": false
+    },
+    {
+      "number": 19,
+      "question": "Is it true that sometimes you are so full of energy that everything burns in your hands, and sometimes you feel very sluggish?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 20,
+      "question": "Do you try to limit your circle of acquaintances to a small number of your closest friends?",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 21,
+      "question": "Do you dream a lot?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 22,
+      "question": "When people yell at you, do you respond in kind?",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 23,
+      "question": "Do you think all your habits are good?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 24,
+      "question": "Do you often get the feeling that you are guilty of something?",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 25,
+      "question": "Are you sometimes able to give free rein to your feelings and have a carefree time with a fun company?",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 26,
+      "question": "Can you say that your nerves are often stretched to the limit?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 27,
+      "question": "Do you have a reputation for being lively and cheerful?",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 28,
+      "question": "After a job is done, do you often think back to it and think about what you could have done better?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 29,
+      "question": "Do you feel restless being in a big company?",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 30,
+      "question": "Does it happen that you transmit rumors?",
+      "scale": 3,
+      "right": false
+    },
+    {
+      "number": 31,
+      "question": "Does it happen that you can't sleep because different thoughts are coming into your head?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 32,
+      "question": "What do you prefer if you want to learn something: find it in a book or ask your friends?",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 33,
+      "question": "Do you have strong palpitations?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 34,
+      "question": "Do you like work that requires concentration?",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 35,
+      "question": "Do you have trembling attacks?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 36,
+      "question": "Do you always tell only the truth?",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 37,
+      "question": "Do you ever find it unpleasant to be in a company where everyone is making fun of each other?",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 38,
+      "question": "Are you irritable?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 39,
+      "question": "Do you like a job that requires quick action?",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 40,
+      "question": "Is it true that you are often haunted by thoughts of various troubles and \"horrors\" that could have happened, although everything ended well?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 41,
+      "question": "Is it true that you are slow in your movements and somewhat slow?",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 42,
+      "question": "Have you ever been late for work or a meeting with someone?",
+      "scale": 3,
+      "right": false
+    },
+    {
+      "number": 43,
+      "question": "Do you often have nightmares?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 44,
+      "question": "Is it true that you love to talk so much that you do not miss any opportunity to talk with a new person?",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 45,
+      "question": "Do any pains bother you?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 46,
+      "question": "Would you be upset if you couldn't see your friends for a long time?",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 47,
+      "question": "Can you call yourself a nervous person?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 48,
+      "question": "Are there any people you know that you obviously don't like?",
+      "scale": 3,
+      "right": false
+    },
+    {
+      "number": 49,
+      "question": "Could you say that you are a confident person?",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 50,
+      "question": "Are you easily offended by criticism of your shortcomings or your work?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 51,
+      "question": "Is it difficult for you to get real pleasure from events that involve a lot of people?",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 52,
+      "question": "Does it bother you to feel that you are somehow worse than others?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 53,
+      "question": "Would you be able to bring life to a boring company?",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 54,
+      "question": "Do you ever talk about things that you don't understand at all?",
+      "scale": 3,
+      "right": false
+    },
+    {
+      "number": 55,
+      "question": "Are you worried about your health?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 56,
+      "question": "Do you like to make fun of others?",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 57,
+      "question": "Do you suffer from insomnia?",
+      "scale": 2,
+      "right": true
+    }
+  ]
+}

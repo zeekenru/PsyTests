@@ -1,0 +1,147 @@
+{
+  "id": 15,
+  "name": "ratingskala Zwecke zu erreichen",
+  "questions_count": 22,
+  "scales_count": 1,
+  "answers": [
+    "Ja",
+    "Nein"
+  ],
+  "interpretation": "",
+  "questions": [
+    {
+      "number": 1,
+      "question": "ich Denke, dass der Erfolg im Leben wahrscheinlich ist abhängig vom Fall, als die Berechnung von",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 2,
+      "question": "Wenn ich verliere meine Hobbys, das Leben für mich alle Bedeutung verlieren",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 3,
+      "question": "ist Für mich in jedem Fall wichtiger als seine Leistung, und das Endergebnis",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 4,
+      "question": "ich Glaube, dass mehr Menschen leiden unter Fehlern bei der Arbeit, als von den schlechten Beziehungen mit der Familie",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 5,
+      "question": "meiner Meinung Nach, die meisten Menschen Leben weit entfernten Zielen, und nicht lieben",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 6,
+      "question": "In meinem Leben habe ich mehr Erfolg als die Erfolge nicht",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 7,
+      "question": "ich mag Emotionale Menschen mehr, als wirkende",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 8,
+      "question": "Auch in der normalen Arbeit, die ich versuche, einige Elemente zu verbessern",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 9,
+      "question": "Absorbiert Gedanken über den Erfolg, ich kann vergessen Vorsichtsmaßnahmen",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 10,
+      "question": "Meine Familie denkt ich bin faul",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 11,
+      "question": "ich Denke, dass in meiner Verfehlungen schuldig Umstände wahrscheinlich, als ich selbst",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 12,
+      "question": "der Geduld in mir mehr, als Fähigkeiten",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 13,
+      "question": "Meine Eltern sind sehr streng kontrolliert mich",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 14,
+      "question": "Faulheit und keine Zweifel am Erfolg zwingt mich oft geben, Ihre Absichten",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 15,
+      "question": "ich Denke, dass ich eine selbstbewusste Person",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 16,
+      "question": "Um des Erfolgs willen kann ich Risiken eingehen, auch wenn die Chancen gering sind",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 17,
+      "question": "Ich habe harte Mann",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 18,
+      "question": "Wenn alles glatt geht, meine Energie verstärkt",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 19,
+      "question": "Wenn ich ein Journalist war, schrieb ich würde RMS Rey nur Originale Erfindungen der Menschen, als über Vorfälle",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 20,
+      "question": "Meine Familie ist normalerweise nicht teilen meine Pläne",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 21,
+      "question": "Die meine Anforderungen an das Leben geringer als bei meiner Kameraden",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 22,
+      "question": "Ich glaube, dass Beharrlichkeit in mir mehr, als Fähigkeiten",
+      "scale": 1,
+      "right": true
+    }
+  ]
+}
+
+

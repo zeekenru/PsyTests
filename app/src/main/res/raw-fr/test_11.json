@@ -1,0 +1,643 @@
+{
+  "id": 11,
+  "questions_count": 105,
+  "name": "Questionnaire sur la structure du tempérament de Rusalov",
+  "scales_count": 9,
+  "answers": [
+    "Oui",
+    "Pas"
+  ],
+  "interpretation": "on Considère qu'une propriété particulière du tempérament est fortement développée chez le sujet, s'il a reçu 9 points ou plus; faiblement développé - s'il a reçu 4 points ou moins. Avec un nombre total de points de 5 à 8, cette propriété du tempérament est considérée comme moyenne.La Conclusion sur le type dominant de tempérament d'une personne est basée sur la comparaison des indicateurs obtenus à partir de différentes propriétés de tempérament, avec les données ci-dessous les combinaisons typiques de ces propriétés correspondant à différents types de tempérament.Sanguine-indicateurs moyennement développés pour toutes les propriétés du tempérament.Colérique-des indicateurs élevés d'énergie, de rythme et d'émotivité avec des indicateurs moyens ou élevés de plasticité.Flegmatique - faible performance sur toutes les propriétés du tempérament.Mélancolique - faibles indicateurs d'énergie, de plasticité, de rythme avec des indicateurs moyens ou élevés d'émotivité.Pour le type pur de sanguine, de colérique, de flegmatique ou de mélancolique, une personne ne se réfère qu'à la coïncidence complète du degré de développement de ses indicateurs avec ceux associés aux types décrits. Dans tous les autres cas, on pense qu'une personne a un type de tempérament dit mixte.",
+  "questions": [
+    {
+      "number": 1,
+      "question": "êtes-vous une personne Mobile?",
+      "right": true,
+      "scale": 5
+    },
+    {
+      "number": 2,
+      "question": "êtes-Vous toujours prêt à vous engager dans une conversation sans hésitation?",
+      "right": true,
+      "scale": 4
+    },
+    {
+      "number": 3,
+      "question": "préférez-Vous l'intimité d'une grande entreprise?",
+      "right": false,
+      "scale": 2
+    },
+    {
+      "number": 4,
+      "question": "Avez-vous une soif constante d'activité?",
+      "right": true,
+      "scale": 1
+    },
+    {
+      "number": 5,
+      "question": "votre discours est-il généralement lent et tranquille?",
+      "right": false,
+      "scale": 6
+    },
+    {
+      "number": 6,
+      "question": "Êtes-vous une personne Vulnérable?",
+      "right": true,
+      "scale": 8
+    },
+    {
+      "number": 7,
+      "question": "ne dormez-vous pas souvent Parce que vous vous disputez avec des amis?",
+      "right": true,
+      "scale": 8
+    },
+    {
+      "number": 8,
+      "question": "avez-vous toujours envie de faire quelque chose pendant Votre temps libre?",
+      "right": true,
+      "scale": 1
+    },
+    {
+      "number": 9,
+      "question": "lorsque vous parlez à d'autres personnes, votre discours est-il souvent en avance sur votre pensée?",
+      "right": true,
+      "scale": 4
+    },
+    {
+      "number": 10,
+      "question": "le discours rapide de L'interlocuteur vous Irrite-t-il?",
+      "right": false,
+      "scale": 6
+    },
+    {
+      "number": 11,
+      "question": "vous Sentiriez-vous malheureux si vous étiez longtemps privé de la possibilité de communiquer avec les gens?",
+      "right": true,
+      "scale": 2
+    },
+    {
+      "number": 12,
+      "question": "Avez-vous déjà été en retard à un rendez-vous ou au travail?",
+      "right": false,
+      "scale": 9
+    },
+    {
+      "number": 13,
+      "question": "Aimez-vous courir vite?",
+      "right": true,
+      "scale": 5
+    },
+    {
+      "number": 14,
+      "question": "avez-vous Beaucoup de problèmes dans Votre travail?",
+      "right": true,
+      "scale": 7
+    },
+    {
+      "number": 15,
+      "question": "est-il Facile pour vous de faire un travail qui nécessite beaucoup d'attention et de concentration?",
+      "right": true,
+      "scale": 1
+    },
+    {
+      "number": 16,
+      "question": "avez-vous Du mal à parler très vite?",
+      "right": false,
+      "scale": 6
+    },
+    {
+      "number": 17,
+      "question": "vous sentez-Vous souvent anxieux d'avoir fait le travail différemment?",
+      "right": true,
+      "scale": 7
+    },
+    {
+      "number": 18,
+      "question": "Vos pensées sautent-elles Souvent de l'une à l'autre pendant une conversation?",
+      "right": false,
+      "scale": 4
+    },
+    {
+      "number": 19,
+      "question": "aimez-Vous les jeux qui exigent de la rapidité et de l'agilité?",
+      "right": true,
+      "scale": 5
+    },
+    {
+      "number": 20,
+      "question": "pouvez-vous Facilement trouver d'autres solutions à un problème connu?",
+      "right": true,
+      "scale": 3
+    },
+    {
+      "number": 21,
+      "question": "vous sentez-vous anxieux d'être mal compris dans la conversation?",
+      "right": true,
+      "scale": 8
+    },
+    {
+      "number": 22,
+      "question": "êtes-vous Prêt à faire un travail difficile et responsable?",
+      "right": true,
+      "scale": 1
+    },
+    {
+      "number": 23,
+      "question": "est-ce que vous parlez De choses que vous ne connaissez pas?",
+      "right": false,
+      "scale": 9
+    },
+    {
+      "number": 24,
+      "question": "prenez-vous Facilement un discours rapide?",
+      "right": true,
+      "scale": 6
+    },
+    {
+      "number": 25,
+      "question": "est-il Facile pour vous de faire beaucoup de choses en même temps?",
+      "right": true,
+      "scale": 3
+    },
+    {
+      "number": 26,
+      "question": "Avez-vous des conflits avec vos amis parce que vous leur avez dit quelque chose sans y penser à l'avance?",
+      "right": true,
+      "scale": 4
+    },
+    {
+      "number": 27,
+      "question": "préférez-vous généralement faire des choses simples qui ne nécessitent pas beaucoup d'énergie de Votre part?",
+      "right": false,
+      "scale": 1
+    },
+    {
+      "number": 28,
+      "question": "êtes-vous Facilement frustré lorsque vous découvrez des défauts mineurs dans votre travail?",
+      "right": true,
+      "scale": 7
+    },
+    {
+      "number": 29,
+      "question": "aimez-Vous le travail sédentaire?",
+      "right": false,
+      "scale": 5
+    },
+    {
+      "number": 30,
+      "question": "est-il Facile pour vous de communiquer avec différentes personnes?",
+      "right": true,
+      "scale": 2
+    },
+    {
+      "number": 31,
+      "question": "préférez-vous généralement réfléchir, peser et ensuite seulement parler?",
+      "right": false,
+      "scale": 4
+    },
+    {
+      "number": 32,
+      "question": "est-ce Que toutes Vos habitudes sont bonnes, souhaitables?",
+      "right": true,
+      "scale": 9
+    },
+    {
+      "number": 33,
+      "question": "Avez-vous des mouvements de bras Rapides?",
+      "right": true,
+      "scale": 5
+    },
+    {
+      "number": 34,
+      "question": "avez-vous l'habitude de rester silencieux et de ne pas entrer en contact lorsque vous êtes en compagnie de personnes inconnues?",
+      "right": false,
+      "scale": 2
+    },
+    {
+      "number": 35,
+      "question": "est-il facile pour vous de passer D'une solution à une autre?",
+      "right": true,
+      "scale": 3
+    },
+    {
+      "number": 36,
+      "question": "Avez-vous tendance à exagérer dans votre imagination l'attitude négative des proches?",
+      "right": true,
+      "scale": 8
+    },
+    {
+      "number": 37,
+      "question": "êtes-vous une personne Bavarde?",
+      "right": true,
+      "scale": 6
+    },
+    {
+      "number": 38,
+      "question": "Est-il généralement facile pour vous de faire une affaire qui nécessite des réactions instantanées?",
+      "right": true,
+      "scale": 3
+    },
+    {
+      "number": 39,
+      "question": "parlez-vous couramment, sans hésitation?",
+      "right": true,
+      "scale": 6
+    },
+    {
+      "number": 40,
+      "question": "Avez-vous peur de ne pas faire Le travail?",
+      "right": true,
+      "scale": 7
+    },
+    {
+      "number": 41,
+      "question": "êtes-Vous facilement offensé lorsque des personnes proches de Vous soulignent Vos défauts?",
+      "right": true,
+      "scale": 8
+    },
+    {
+      "number": 42,
+      "question": "Avez-vous envie d'une activité intense et responsable?",
+      "right": true,
+      "scale": 1
+    },
+    {
+      "number": 43,
+      "question": "Pensez-vous que vos mouvements sont lents et lents?",
+      "right": false,
+      "scale": 5
+    },
+    {
+      "number": 44,
+      "question": "avez-Vous des pensées que vous aimeriez cacher aux autres?",
+      "right": false,
+      "scale": 9
+    },
+    {
+      "number": 45,
+      "question": "pouvez-vous poser une question délicate à une autre personne sans réfléchir?",
+      "right": true,
+      "scale": 4
+    },
+    {
+      "number": 46,
+      "question": "les mouvements rapides vous plaisent-ils?",
+      "right": true,
+      "scale": 5
+    },
+    {
+      "number": 47,
+      "question": "générez-vous Facilement de nouvelles idées liées au travail?",
+      "right": true,
+      "scale": 3
+    },
+    {
+      "number": 48,
+      "question": "est-ce que vous Sucez sous la cuillère avant une conversation responsable?",
+      "right": true,
+      "scale": 8
+    },
+    {
+      "number": 49,
+      "question": "est-Il possible de dire que vous accomplissez rapidement les tâches qui vous sont confiées?",
+      "right": true,
+      "scale": 5
+    },
+    {
+      "number": 50,
+      "question": "aimez-Vous faire de grandes choses par Vous-même?",
+      "right": true,
+      "scale": 1
+    },
+    {
+      "number": 51,
+      "question": "avez-vous des expressions faciales Riches dans la conversation?",
+      "right": true,
+      "scale": 6
+    },
+    {
+      "number": 52,
+      "question": "si vous avez promis de faire quelque chose, respectez-vous toujours votre promesse, que cela vous convienne ou non?",
+      "right": true,
+      "scale": 9
+    },
+    {
+      "number": 53,
+      "question": "Ressentez-vous le ressentiment que les gens autour de vous vous traitent pire qu'ils ne le devraient?",
+      "right": true,
+      "scale": 8
+    },
+    {
+      "number": 54,
+      "question": "préférez-vous généralement effectuer une seule opération à la fois?",
+      "right": false,
+      "scale": 3
+    },
+    {
+      "number": 55,
+      "question": "aimez-Vous les jeux rapides?",
+      "right": true,
+      "scale": 5
+    },
+    {
+      "number": 56,
+      "question": "y a-t-il beaucoup de longues pauses dans Votre discours?",
+      "right": false,
+      "scale": 6
+    },
+    {
+      "number": 57,
+      "question": "est-il Facile Pour vous de faire revivre l'entreprise?",
+      "right": true,
+      "scale": 2
+    },
+    {
+      "number": 58,
+      "question": "vous sentez-vous habituellement trop de force et avez-vous envie de faire quelque chose?",
+      "right": false,
+      "scale": 1
+    },
+    {
+      "number": 59,
+      "question": "avez-vous Généralement du mal à passer d'une affaire à l'autre?",
+      "right": false,
+      "scale": 3
+    },
+    {
+      "number": 60,
+      "question": "est-il Possible Que vous ayez longtemps gâché l'humeur de ce qui a déraillé l'affaire prévue?",
+      "right": true,
+      "scale": 7
+    },
+    {
+      "number": 61,
+      "question": "est-ce que Vous ne dormez pas souvent Parce que vous ne vous entendez pas dans les affaires directement liées au travail?",
+      "right": true,
+      "scale": 7
+    },
+    {
+      "number": 62,
+      "question": "aimez-Vous être en grande compagnie?",
+      "right": true,
+      "scale": 2
+    },
+    {
+      "number": 63,
+      "question": "êtes-vous Inquiet de trouver une relation avec vos amis?",
+      "right": true,
+      "scale": 8
+    },
+    {
+      "number": 64,
+      "question": "Éprouvez-vous le besoin d'un travail qui nécessite un rendement total?",
+      "right": true,
+      "scale": 1
+    },
+    {
+      "number": 65,
+      "question": "vous énervez-vous parfois?",
+      "right": false,
+      "scale": 9
+    },
+    {
+      "number": 66,
+      "question": "avez-vous Tendance à résoudre plusieurs tâches en même temps?",
+      "right": true,
+      "scale": 3
+    },
+    {
+      "number": 67,
+      "question": "Restez-vous libre dans une grande entreprise?",
+      "right": true,
+      "scale": 2
+    },
+    {
+      "number": 68,
+      "question": "exprimez-vous souvent votre première impression sans y penser?",
+      "right": true,
+      "scale": 4
+    },
+    {
+      "number": 69,
+      "question": "Êtes-vous Préoccupé par le sentiment d'insécurité dans le processus de travail?",
+      "right": true,
+      "scale": 7
+    },
+    {
+      "number": 70,
+      "question": "vos mouvements sont-Ils Lents lorsque vous bricolez quelque chose?",
+      "right": false,
+      "scale": 5
+    },
+    {
+      "number": 71,
+      "question": "passez-vous Facilement d'un emploi à l'autre?",
+      "right": true,
+      "scale": 3
+    },
+    {
+      "number": 72,
+      "question": "lisez-vous Rapidement à haute voix?",
+      "right": true,
+      "scale": 6
+    },
+    {
+      "number": 73,
+      "question": "commérages-tu parfois?",
+      "right": false,
+      "scale": 9
+    },
+    {
+      "number": 74,
+      "question": "êtes-vous Silencieux lorsque vous êtes dans un cercle d'amis?",
+      "right": false,
+      "scale": 2
+    },
+    {
+      "number": 75,
+      "question": "Avez-vous besoin de personnes Pour vous encourager et vous réconforter?",
+      "right": true,
+      "scale": 8
+    },
+    {
+      "number": 76,
+      "question": "êtes-vous Prêt à effectuer plusieurs tâches différentes en même temps?",
+      "right": true,
+      "scale": 3
+    },
+    {
+      "number": 77,
+      "question": "êtes-vous Prêt à faire le travail à un rythme rapide?",
+      "right": true,
+      "scale": 5
+    },
+    {
+      "number": 78,
+      "question": "pendant Votre temps libre, vous êtes généralement attiré par les gens?",
+      "right": true,
+      "scale": 2
+    },
+    {
+      "number": 79,
+      "question": "avez-vous souvent de L'insomnie en cas d'échec au travail?",
+      "right": true,
+      "scale": 7
+    },
+    {
+      "number": 80,
+      "question": "avez-vous parfois les mains Tremblantes pendant Une querelle?",
+      "right": true,
+      "scale": 8
+    },
+    {
+      "number": 81,
+      "question": "combien de temps vous préparez-vous mentalement avant de donner votre opinion?",
+      "right": true,
+      "scale": 4
+    },
+    {
+      "number": 82,
+      "question": "y a-t-il des gens parmi Vos connaissances que vous n'aimez manifestement pas?",
+      "right": false,
+      "scale": 9
+    },
+    {
+      "number": 83,
+      "question": "préférez-Vous généralement un travail facile?",
+      "right": false,
+      "scale": 1
+    },
+    {
+      "number": 84,
+      "question": "est-il Facile De vous offenser dans une conversation de Trivia?",
+      "right": false,
+      "scale": 4
+    },
+    {
+      "number": 85,
+      "question": "habituellement, vous êtes le premier dans l'entreprise à décider d'entamer une conversation?",
+      "right": true,
+      "scale": 4
+    },
+    {
+      "number": 86,
+      "question": "Avez-vous des envies pour les gens?",
+      "right": true,
+      "scale": 2
+    },
+    {
+      "number": 87,
+      "question": "avez-vous Tendance à réfléchir avant de parler?",
+      "right": false,
+      "scale": 4
+    },
+    {
+      "number": 88,
+      "question": "vous inquiétez-vous souvent De votre travail?",
+      "right": true,
+      "scale": 7
+    },
+    {
+      "number": 89,
+      "question": "auriez-Vous toujours payé vos bagages si vous n'aviez pas peur de vérifier?",
+      "right": true,
+      "scale": 9
+    },
+    {
+      "number": 90,
+      "question": "Restez-vous généralement à l'écart des fêtes ou des entreprises?",
+      "right": false,
+      "scale": 2
+    },
+    {
+      "number": 91,
+      "question": "Avez-vous tendance à exagérer dans votre imagination les échecs liés au travail?",
+      "right": true,
+      "scale": 7
+    },
+    {
+      "number": 92,
+      "question": "Aimez-vous parler rapidement?",
+      "right": true,
+      "scale": 6
+    },
+    {
+      "number": 93,
+      "question": "est-il Facile Pour vous de vous empêcher de dire une idée inattendue?",
+      "right": false,
+      "scale": 4
+    },
+    {
+      "number": 94,
+      "question": "préférez-Vous travailler lentement?",
+      "right": false,
+      "scale": 5
+    },
+    {
+      "number": 95,
+      "question": "vous Inquiétez-vous du moindre problème au travail?",
+      "right": true,
+      "scale": 7
+    },
+    {
+      "number": 96,
+      "question": "préférez-vous une conversation lente et calme?",
+      "right": false,
+      "scale": 6
+    },
+    {
+      "number": 97,
+      "question": "vous inquiétez-vous Souvent des erreurs de travail que vous avez commises?",
+      "right": true,
+      "scale": 7
+    },
+    {
+      "number": 98,
+      "question": "êtes-vous Capable d'effectuer avec succès un travail long et laborieux?",
+      "right": true,
+      "scale": 5
+    },
+    {
+      "number": 99,
+      "question": "Pouvez-vous, sans hésiter, demander à une autre personne?",
+      "right": true,
+      "scale": 4
+    },
+    {
+      "number": 100,
+      "question": "Êtes-Vous souvent préoccupé par le sentiment de doute de soi lorsque vous communiquez avec les gens?",
+      "right": true,
+      "scale": 8
+    },
+    {
+      "number": 101,
+      "question": "est-ce que Vous vous engagez Facilement dans de nouvelles tâches?",
+      "right": true,
+      "scale": 3
+    },
+    {
+      "number": 102,
+      "question": "êtes-vous Fatigué quand vous devez parler longtemps?",
+      "right": false,
+      "scale": 6
+    },
+    {
+      "number": 103,
+      "question": "préférez-vous travailler avec de la fraîcheur, sans trop de stress?",
+      "right": false,
+      "scale": 1
+    },
+    {
+      "number": 104,
+      "question": "aimez-Vous le travail varié qui nécessite un changement d'attention?",
+      "right": true,
+      "scale": 3
+    },
+    {
+      "number": 105,
+      "question": "Aimez-vous rester seul pendant longtemps?",
+      "right": false,
+      "scale": 2
+    }
+  ]
+}

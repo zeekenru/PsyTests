@@ -1,0 +1,116 @@
+{
+  "id": 4,
+  "questions_count": 20,
+  "name": "Tsungs Selbsteinschätzungsskala für Angstzustände",
+  "scales_count": 1,
+  "interpretation": "Punktzahl wird in übereinstimmung mit 4 Abstufungen Schweregrad des symptoms, der für jedes Element. Die Antworten auf die Ziffern 5, 9, 13, 17 und 19 codiert «gespiegelt».Die maximale Gesamt-Punktzahl beträgt 80. Index Alarm wird berechnet durch die Aufteilung der resultierenden bei der Untersuchung des Patienten Gesamt Punkte auf die maximal mögliche Gesamt-Punktzahl (80).",
+  "answers": [
+    "Sehr selten",
+    "Selten",
+    "Die meiste Zeit",
+    "Die meiste Zeit"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "question": "Ich Fühle mich mehr als nervös und störend als üblich",
+      "right": true
+    },
+    {
+      "number": 2,
+      "question": "Erlebe das Gefühl der Angst absolut ohne Grund",
+      "right": true
+    },
+    {
+      "number": 3,
+      "question": "Leicht verärgert oder verfalle in Panik",
+      "right": true
+    },
+    {
+      "number": 4,
+      "question": "Ich habe das Gefühl, ich kann nicht packen und selbst in die Hand nehmen",
+      "right": true
+    },
+    {
+      "number": 5,
+      "question": "Ich habe ein Gefühl des vollständigen Wohlbefindens, ich fühle, dass mir nichts schlimmes passieren wird",
+      "right": false
+    },
+    {
+      "number": 6,
+      "question": "Meine Arme und Beine zittern und zittern",
+      "right": true
+    },
+    {
+      "number": 7,
+      "question": "Ich habe Kopfschmerzen; Schmerzen in Nacken und Rücken",
+      "right": true
+    },
+    {
+      "number": 8,
+      "question": "ich Fühle Schwäche und schnell müde",
+      "right": true
+    },
+    {
+      "number": 9,
+      "question": "Ich bin ruhig, kann ruhig sitzen, ohne viel Aufwand",
+      "right": false
+    },
+    {
+      "number": 10,
+      "question": "Ich habe manchmal das Gefühl von Herzklopfen",
+      "right": true
+    },
+    {
+      "number": 11,
+      "question": "Ich habe es kommen Anfälle von Schwindel",
+      "right": true
+    },
+    {
+      "number": 12,
+      "question": "Ich habe es kommen Anfälle von Schwäche",
+      "right": true
+    },
+    {
+      "number": 13,
+      "question": "Ich atme frei",
+      "right": false
+    },
+    {
+      "number": 14,
+      "question": "das Gefühl von Taubheit und Kribbeln in den Fingern und Zehen",
+      "right": true
+    },
+    {
+      "number": 15,
+      "question": "Magenschmerzen und Verdauungsstörungen",
+      "right": true
+    },
+    {
+      "number": 16,
+      "question": "häufiger Harndrang",
+      "right": true
+    },
+    {
+      "number": 17,
+      "question": "Meine Hände sind in der Regel trocken und warm",
+      "right": false
+    },
+    {
+      "number": 18,
+      "question": "Mein Gesicht brennt und rötet sich",
+      "right": true
+    },
+    {
+      "number": 19,
+      "question": "Ich leicht einschlafen und schlafe einen tiefen und erholsamen Schlaf",
+      "right": false
+    },
+    {
+      "number": 20,
+      "question": "ich Habe Albträume",
+      "right": true
+    }
+  ]
+}
+

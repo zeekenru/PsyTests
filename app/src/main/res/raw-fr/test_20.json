@@ -1,0 +1,731 @@
+{
+  "id": 20,
+  "questions_count": 119,
+  "name": "Questionnaire sur les traits de personnalité névrotiques",
+  "scales_count": 9,
+  "interpretation": "",
+  "answers": [
+    "Pas",
+    "Peu",
+    "Insignifiant",
+    "Plutôt",
+    "Principalement",
+    "Entièrement"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "question": "Je suis assez vif et capricieux",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 2,
+      "question": "je n'aime pas faire la même chose longtemps",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 3,
+      "question": "je ne me retrouve presque jamais dans des situations que je n'ai pas envisagées à l'avance",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 4,
+      "question": "je ne peux Travailler que seul sur des tâches complexes",
+      "scale": 5,
+      "right": true
+    },
+    {
+      "number": 5,
+      "question": "Je prends tout très vite",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 6,
+      "question": "J'agis selon mes principes de toute façon, quoi qu'il arrive",
+      "scale": 9,
+      "right": true
+    },
+    {
+      "number": 7,
+      "question": "Je dois être contraint de prendre une décision",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 8,
+      "question": "J'ai une grande influence sur les autres",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 9,
+      "question": "le Blâme me rend facilement découragé",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 10,
+      "question": "je peux parler aux autres de choses qui m'oppriment",
+      "scale": 5,
+      "right": false
+    },
+    {
+      "number": 11,
+      "question": "j'aime mieux s'amuser que de divertir les autres",
+      "scale": 2,
+      "right": false
+    },
+    {
+      "number": 12,
+      "question": "fondamentalement, je n'aime pas les troubles",
+      "scale": 6,
+      "right": true
+    },
+    {
+      "number": 13,
+      "question": "Je peux être très patient",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 14,
+      "question": "je suis tellement habitué à certaines choses et au cours des événements que je suis très gêné par tout changement",
+      "scale": 6,
+      "right": true
+    },
+    {
+      "number": 15,
+      "question": "je ne fais presque pas de plans pour l'avenir, car d'habitude ce sera toujours différent",
+      "scale": 3,
+      "right": false
+    },
+    {
+      "number": 16,
+      "question": "Même si les chances de succès ne sont pas très grandes, je le cherche toujours",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 17,
+      "question": "Je suis assez bien informé sur les maladies et leurs conséquences pour ne rien manquer chez moi",
+      "scale": 6,
+      "right": true
+    },
+    {
+      "number": 18,
+      "question": "Je ne peux m'entraîner seul que difficilement",
+      "scale": 5,
+      "right": false
+    },
+    {
+      "number": 19,
+      "question": "je connais peu de gens avec qui j'aimerais être amis",
+      "scale": 5,
+      "right": true
+    },
+    {
+      "number": 20,
+      "question": "j'avale toute rancune",
+      "scale": 4,
+      "right": false
+    },
+    {
+      "number": 21,
+      "question": "D'autres personnes me sont indifférentes",
+      "scale": 7,
+      "right": true
+    },
+    {
+      "number": 22,
+      "question": "parfois, je suis un peu jubilatoire",
+      "scale": 8,
+      "right": true
+    },
+    {
+      "number": 23,
+      "question": "Avec peu de gens, je suis en conflit",
+      "scale": 7,
+      "right": false
+    },
+    {
+      "number": 24,
+      "question": "je ne peux pas m'amuser avant minuit car je ne dors pas après ça",
+      "scale": 6,
+      "right": true
+    },
+    {
+      "number": 25,
+      "question": "je pense que je peux facilement m'adapter à une variété de conditions de vie",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 26,
+      "question": "Au travail, je ne me fixe que de petits objectifs pour les atteindre",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 27,
+      "question": "Quand je commence à être ami avec quelqu'un, généralement l'initiative est de mon côté",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 28,
+      "question": "il est facile De m'influencer",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 29,
+      "question": "je pense que je cache souvent mes erreurs à moi-même",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 30,
+      "question": "j'ai souvent tellement de pensées dans ma tête que je ne peux pas trouver une solution raisonnable",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 31,
+      "question": "j'ai du mal à refuser les décisions prises, même si les arguments contre elles prévalent",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 32,
+      "question": "je Me sens le plus heureux quand je suis seul",
+      "scale": 5,
+      "right": true
+    },
+    {
+      "number": 33,
+      "question": "Je devrais parler plus souvent de ce que je n'aime pas",
+      "scale": 9,
+      "right": true
+    },
+    {
+      "number": 34,
+      "question": "Rien d'important dans ma vie, je ne voudrais pas faire différemment",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 35,
+      "question": "souvent, Je me mets en colère contre quelqu'un d'autre",
+      "scale": 4,
+      "right": true
+    },
+    {
+      "number": 36,
+      "question": "j'essaie d'éviter une tension excessive pour économiser de l'énergie",
+      "scale": 6,
+      "right": true
+    },
+    {
+      "number": 37,
+      "question": "j'avoue toujours mes erreurs",
+      "scale": 9,
+      "right": true
+    },
+    {
+      "number": 38,
+      "question": "j'ai du mal À trouver le bon ton",
+      "scale": 7,
+      "right": true
+    },
+    {
+      "number": 39,
+      "question": "j'ai plein de pensées et d'idées",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 40,
+      "question": "Je réfléchis soigneusement à toutes les possibilités de ma vie",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 41,
+      "question": "je ne peux pas retenir des sentiments comme la joie et la colère",
+      "scale": 5,
+      "right": false
+    },
+    {
+      "number": 42,
+      "question": "je ne peux traiter mes problèmes avec personne sans avoir peur que cela finisse par être utilisé d'une manière ou d'une autre",
+      "scale": 5,
+      "right": true
+    },
+    {
+      "number": 43,
+      "question": "je suis confiant dans mes décisions",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 44,
+      "question": "je pense que je me sous-estime souvent",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 45,
+      "question": "Je suis un bon organisateur",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 46,
+      "question": "j'essaie de ne pas transpirer car on peut facilement attraper un rhume",
+      "scale": 6,
+      "right": true
+    },
+    {
+      "number": 47,
+      "question": "Je ne suis satisfait que de la résolution finale et approfondie du problème",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 48,
+      "question": "je prends volontiers un gros risque",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 49,
+      "question": "je Pense que je peux transformer la vie en vacances",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 50,
+      "question": "Il est très facile de m'offenser et d'insulter",
+      "scale": 4,
+      "right": true
+    },
+    {
+      "number": 51,
+      "question": "J'ai envie de faire face à la mauvaise nouvelle",
+      "scale": 5,
+      "right": true
+    },
+    {
+      "number": 52,
+      "question": "je ne dis pas toujours la vérité",
+      "scale": 8,
+      "right": true
+    },
+    {
+      "number": 53,
+      "question": "Je n'oublie pas l'injustice depuis un certain temps",
+      "scale": 4,
+      "right": true
+    },
+    {
+      "number": 54,
+      "question": "Je me fais souvent prendre parce que je me suis mal classé moi-même et les autres",
+      "scale": 7,
+      "right": true
+    },
+    {
+      "number": 55,
+      "question": "j'ai besoin de diversité dans La vie pour ne pas m'ennuyer",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 56,
+      "question": "j'ai beaucoup de mal à percevoir le nouveau",
+      "scale": 2,
+      "right": false
+    },
+    {
+      "number": 57,
+      "question": "Parfois, dès le matin, je me sens fatigué",
+      "scale": 8,
+      "right": true
+    },
+    {
+      "number": 58,
+      "question": "parfois, je suis de mauvaise humeur",
+      "scale": 8,
+      "right": true
+    },
+    {
+      "number": 59,
+      "question": "Pas tous ceux que je connais, j'aime",
+      "scale": 8,
+      "right": true
+    },
+    {
+      "number": 60,
+      "question": "je n'aime pas penser à mes erreurs",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 61,
+      "question": "je m'énerve quand les gens se présentent en état d'ébriété en public",
+      "scale": 4,
+      "right": true
+    },
+    {
+      "number": 62,
+      "question": "toutes mes habitudes sont bonnes et souhaitables",
+      "scale": 9,
+      "right": true
+    },
+    {
+      "number": 63,
+      "question": "on me dit souvent que je suis insensible",
+      "scale": 7,
+      "right": true
+    },
+    {
+      "number": 64,
+      "question": "il me semble que je manque un sens du tact",
+      "scale": 7,
+      "right": true
+    },
+    {
+      "number": 65,
+      "question": "Si j'avais encore l'occasion, je ferais les choses différemment dans la vie",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 66,
+      "question": "quand je parle quelque part, je fais souvent rire par inadvertance",
+      "scale": 7,
+      "right": true
+    },
+    {
+      "number": 67,
+      "question": "quand je reçois de bonnes nouvelles, je peux être fou de joie",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 68,
+      "question": "je perds rapidement patience et je laisse tomber s'il n'y a pas de succès immédiat",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 69,
+      "question": "J'ai deja \"porté les vêtements de quelqu'un d'autre\"",
+      "scale": 8,
+      "right": true
+    },
+    {
+      "number": 70,
+      "question": "j'essaie d'être toujours précis et correct, et je peux parfois en faire trop",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 71,
+      "question": "je planifie rarement quelque chose à l'avance, je préfère agir sans réfléchir",
+      "scale": 3,
+      "right": false
+    },
+    {
+      "number": 72,
+      "question": "Je ne peux pas prendre un rhume à la légère et essayer de le guérir complètement",
+      "scale": 6,
+      "right": true
+    },
+    {
+      "number": 73,
+      "question": "fondamentalement, pour que je me sente bien, quelqu'un doit toujours être avec moi",
+      "scale": 5,
+      "right": false
+    },
+    {
+      "number": 74,
+      "question": "J'ai besoin de quelqu'un qui me \"passionne\"",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 75,
+      "question": "souvent, en prenant des décisions, je sais d'avance que je vais faire le mauvais pas",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 76,
+      "question": "fondamentalement, je peux être satisfait de ce que je suis devenu",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 77,
+      "question": "Parfois, j'aime les blagues qui peuvent offenser les autres",
+      "scale": 7,
+      "right": true
+    },
+    {
+      "number": 78,
+      "question": "je suis toujours amical et équilibré même si je me sens mal",
+      "scale": 9,
+      "right": true
+    },
+    {
+      "number": 79,
+      "question": "fondamentalement, je laisse la vie suivre son cours et je n'y pense pas beaucoup",
+      "scale": 3,
+      "right": false
+    },
+    {
+      "number": 80,
+      "question": "en me Baignant, je ne peux rester dans l'eau que quelques minutes, car je me refroidis très facilement",
+      "scale": 6,
+      "right": true
+    },
+    {
+      "number": 81,
+      "question": "Avant de résoudre des cas difficiles, je dois toujours consulter quelqu'un d'abord",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 82,
+      "question": "je me lance dans un travail qui me semble intéressant, même si je ne peux pas évaluer avec précision si je peux le faire",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 83,
+      "question": "j'invite rarement des amis à me rendre visite",
+      "scale": 5,
+      "right": true
+    },
+    {
+      "number": 84,
+      "question": "d'Autres personnes ont une meilleure idée de la façon de passer leur temps libre",
+      "scale": 7,
+      "right": true
+    },
+    {
+      "number": 85,
+      "question": "j'aime quand on me dit ce que je dois faire",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 86,
+      "question": "je me sens spirituellement mûr pour répondre aux exigences de la vie",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 87,
+      "question": "Parfois, j'ai envie de tout casser",
+      "scale": 4,
+      "right": true
+    },
+    {
+      "number": 88,
+      "question": "Je peux compter sur ma mémoire",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 89,
+      "question": "Avant de manger, je me lave toujours les mains",
+      "scale": 9,
+      "right": true
+    },
+    {
+      "number": 90,
+      "question": "Je ne peux pas voir la souffrance des animaux",
+      "scale": 4,
+      "right": true
+    },
+    {
+      "number": 91,
+      "question": "je m'entends toujours bien avec les autres",
+      "scale": 7,
+      "right": false
+    },
+    {
+      "number": 92,
+      "question": "par rapport à d'autres personnes, j'ai besoin de plus de temps pour accomplir une tâche",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 93,
+      "question": "je fais souvent beaucoup de choses en même temps",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 94,
+      "question": "j'ai besoin de toujours contrôler mon comportement",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 95,
+      "question": "je fais beaucoup pour prévenir les maladies car on peut facilement être infecté",
+      "scale": 6,
+      "right": true
+    },
+    {
+      "number": 96,
+      "question": "Beaucoup de mes amis me consultent quand ils ont des problèmes",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 97,
+      "question": "je suis plus disposé à décider moi-même de ce qu'il faut faire que de faire ce que les autres proposent",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 98,
+      "question": "Je suis enclin à des solutions rapides",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 99,
+      "question": "je ne panique pas immédiatement si quelque chose ne fonctionne pas",
+      "scale": 4,
+      "right": false
+    },
+    {
+      "number": 100,
+      "question": "je n'Ai pas tenu ma promesse une fois, car elle est devenue inconfortable et douloureuse",
+      "scale": 9,
+      "right": true
+    },
+    {
+      "number": 101,
+      "question": "Je suis tellement absorbé par mon travail que les pauses peuvent me gêner beaucoup",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 102,
+      "question": "j'essaie de suivre un régime selon les directives scientifiques",
+      "scale": 6,
+      "right": true
+    },
+    {
+      "number": 103,
+      "question": "c'est très difficile pour moi de Donner vie à mes opinions",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 104,
+      "question": "Quand je suis énervé, je fais parfois quelque chose que je regrette plus tard",
+      "scale": 4,
+      "right": true
+    },
+    {
+      "number": 105,
+      "question": "je peux admettre devant les autres mes erreurs",
+      "scale": 9,
+      "right": true
+    },
+    {
+      "number": 106,
+      "question": "je peux être tellement excité à propos de quelque chose que je perds le contrôle de mon comportement",
+      "scale": 4,
+      "right": true
+    },
+    {
+      "number": 107,
+      "question": "j'aime me moquer des gens que j'aime en principe",
+      "scale": 7,
+      "right": true
+    },
+    {
+      "number": 108,
+      "question": "Je suis assez facile à confondre et à confondre",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 109,
+      "question": "je pense que je suis une personne assez calme et équilibrée",
+      "scale": 4,
+      "right": false
+    },
+    {
+      "number": 110,
+      "question": "je peux être très persévérant si je veux atteindre un certain objectif",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 111,
+      "question": "je crois aux promesses des autres",
+      "scale": 7,
+      "right": false
+    },
+    {
+      "number": 112,
+      "question": "Parfois, je m'inquiète pendant des jours à propos d'un événement désagréable",
+      "scale": 4,
+      "right": true
+    },
+    {
+      "number": 113,
+      "question": "je me fiche de ce que les autres pensent de moi",
+      "scale": 5,
+      "right": true
+    },
+    {
+      "number": 114,
+      "question": "je ne sais jamais si je suis suffisamment au courant de cette question pour prendre une décision",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 115,
+      "question": "j'ai déjà jeté mon blâme sur un autre",
+      "scale": 9,
+      "right": true
+    },
+    {
+      "number": 116,
+      "question": "j'essaie de ne pas être impoli et impoli envers les autres",
+      "scale": 7,
+      "right": false
+    },
+    {
+      "number": 117,
+      "question": "j'essaie de justifier mes décisions avec soin et précision",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 118,
+      "question": "Je peux faire des concessions",
+      "scale": 4,
+      "right": false
+    },
+    {
+      "number": 119,
+      "question": "j'ai tendance À repenser mes décisions",
+      "scale": 1,
+      "right": true
+    }
+  ]
+}

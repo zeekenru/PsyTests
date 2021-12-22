@@ -1,0 +1,115 @@
+{
+  "id": 4,
+  "questions_count": 20,
+  "name": "Tsung Anxiety Rating Scale",
+  "scales_count": 1,
+  "interpretation": "The score is determined in accordance with 4 gradations of the severity of the symptom for each item. Responses to items 5, 9, 13, 17, and 19 are encoded \"mirrored\".The maximum total score is 80. The anxiety index is calculated by dividing the total score obtained during the examination of the patient by the maximum possible total score (80).",
+  "answers": [
+    "Very rare",
+    "Rarely",
+    "A significant part of the time",
+    "Most of the time"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "question": "I feel more nervous and anxious than usual",
+      "right": true
+    },
+    {
+      "number": 2,
+      "question": "I feel a sense of fear for absolutely no reason",
+      "right": true
+    },
+    {
+      "number": 3,
+      "question": "I get upset or panic easily",
+      "right": true
+    },
+    {
+      "number": 4,
+      "question": "I feel like I can't pull myself together",
+      "right": true
+    },
+    {
+      "number": 5,
+      "question": "I have a feeling of complete well-being, I feel that nothing bad will happen to me",
+      "right": false
+    },
+    {
+      "number": 6,
+      "question": "My hands and feet are shaking and shaking",
+      "right": true
+    },
+    {
+      "number": 7,
+      "question": "I have headaches, neck and back pain",
+      "right": true
+    },
+    {
+      "number": 8,
+      "question": "I feel broken and get tired quickly",
+      "right": true
+    },
+    {
+      "number": 9,
+      "question": "I am calm, I can sit still without much effort",
+      "right": false
+    },
+    {
+      "number": 10,
+      "question": "I have a feeling of rapid heartbeat",
+      "right": true
+    },
+    {
+      "number": 11,
+      "question": "I get dizzy spells",
+      "right": true
+    },
+    {
+      "number": 12,
+      "question": "I have bouts of weakness",
+      "right": true
+    },
+    {
+      "number": 13,
+      "question": "I 'm breathing freely",
+      "right": false
+    },
+    {
+      "number": 14,
+      "question": "Numbness and tingling sensation in the fingers and toes",
+      "right": true
+    },
+    {
+      "number": 15,
+      "question": "Stomach pains and dyspeptic disorders",
+      "right": true
+    },
+    {
+      "number": 16,
+      "question": "Frequent urge to urinate",
+      "right": true
+    },
+    {
+      "number": 17,
+      "question": "My hands are usually dry and warm",
+      "right": false
+    },
+    {
+      "number": 18,
+      "question": "My face burns and turns red",
+      "right": true
+    },
+    {
+      "number": 19,
+      "question": "I fall asleep easily and have a deep and refreshing sleep",
+      "right": false
+    },
+    {
+      "number": 20,
+      "question": "I have nightmares",
+      "right": true
+    }
+  ]
+}

@@ -1,0 +1,219 @@
+{
+  "id": 1,
+  "name": "Beck's depression scale",
+  "questions_count": 21,
+  "scales_count": 1,
+  "interpretation": "The indicator for each category is calculated as follows: each point of the scale is rated from 0 to 3 in accordance with the increase in the severity of the symptom. The total score is from 0 to 62 and decreases in accordance with the improvement of the condition: 0-9 – no depressive symptoms 10-15 – mild depression (subdepression), 16-19 – moderate depression. 20-29 – severe depression (moderate severity), 30-63-severe depression.A depression score of 19 points is considered a clinical disorder; a level higher than 24 points indicates the need for therapy-possibly with the use of antidepressants. The goal of treatment should be to achieve a level of depression below 10 points.",
+  "questions": [
+    {
+      "number": 1,
+      "question": "How did you feel this week and today?",
+      "answers": [
+        "I don't feel upset, sad",
+        "I'm upset",
+        "I get frustrated all the time and I can't get out of it",
+        "I'm so upset and unhappy that I can't stand it"
+      ]
+    },
+    {
+      "number": 2,
+      "question": "How did you feel this week and today?",
+      "answers": [
+        "I'm not worried about my future",
+        "I feel puzzled about the future",
+        "I get frustrated all the time and I can't get out of it",
+        "I'm so upset and unhappy that I can't stand it"
+      ]
+    },
+    {
+      "number": 3,
+      "question": "How did you feel this week and today?",
+      "answers": [
+        "I don't feel like a failure",
+        "I feel like I've suffered more setbacks than other people",
+        "When I look back on my life, I see a lot of failures in it",
+        "I feel like I'm a complete failure as a person"
+      ]
+    },
+    {
+      "number": 4,
+      "question": "How did you feel this week and today?",
+      "answers": [
+        "I get just as much satisfaction out of life as I used to",
+        "I don't get as much satisfaction out of life as I used to",
+        "I don't get satisfaction from anything anymore",
+        "I'm not completely satisfied with my life, and I'm tired of everything"
+      ]
+    },
+    {
+      "number": 5,
+      "question": "How did you feel this week and today?",
+      "answers": [
+        "I don't feel guilty about anything",
+        "Quite often I feel guilty",
+        "Most of the time I feel guilty",
+        "I feel guilty all the time"
+      ]
+    },
+    {
+      "number": 6,
+      "question": "How did you feel this week and today?",
+      "answers": [
+        "I don't feel like I can be punished for anything",
+        "I feel like I can be punished",
+        "I expect that I can be punished",
+        "I feel already punished"
+      ]
+    },
+    {
+      "number": 7,
+      "question": "How did you feel this week and today?",
+      "answers": [
+        "I wasn't disappointed in myself",
+        "I was disappointed in myself",
+        "I'm disgusted with myself",
+        "I hate myself"
+      ]
+    },
+    {
+      "number": 8,
+      "question": "How did you feel this week and today?",
+      "answers": [
+        "I know I'm as good as anyone",
+        "I criticize myself for my mistakes and weaknesses",
+        "I blame myself for my actions all the time",
+        "I blame myself for all the bad things that happen"
+      ]
+    },
+    {
+      "number": 9,
+      "question": "How did you feel this week and today?",
+      "answers": [
+        "I never thought about killing myself",
+        "I have thoughts of killing myself, but I will not carry them out",
+        "I would like to kill myself",
+        "I would kill myself if I had the chance"
+      ]
+    },
+    {
+      "number": 10,
+      "question": "How did you feel this week and today?",
+      "answers": [
+        "I don't pay any more than usual",
+        "I'm crying more often now than I used to",
+        "Now I cry all the time",
+        "I used to be able to cry, but now I can't, even if I want to"
+      ]
+    },
+    {
+      "number": 11,
+      "question": "How did you feel this week and today?",
+      "answers": [
+        "I'm no more irritable than usual right now",
+        "I get annoyed more easily than I used to",
+        "Now I constantly feel annoyed",
+        "I became indifferent to things that used to annoy me"
+      ]
+    },
+    {
+      "number": 12,
+      "question": "How did you feel this week and today?",
+      "answers": [
+        "I haven't lost interest in other people",
+        "I'm less interested in other people than I used to be",
+        "I almost lost interest in other people",
+        "I completely lost interest in other people"
+      ]
+    },
+    {
+      "number": 13,
+      "question": "How did you feel this week and today?",
+      "answers": [
+        "I delay making a decision sometimes, just like before",
+        "I put off making a decision more often than before",
+        "I find it harder to make decisions than before",
+        "I can't make any more decisions"
+      ]
+    },
+    {
+      "number": 14,
+      "question": "How did you feel this week and today?",
+      "answers": [
+        "I don't feel like I look any worse than usual",
+        "It bothers me that I look old and unattractive",
+        "I know that there have been significant changes in my appearance that make me unattractive",
+        "I know I look ugly"
+      ]
+    },
+    {
+      "number": 15,
+      "question": "How did you feel this week and today?",
+      "answers": [
+        "I can work just as well as before",
+        "I need to make an extra effort to start doing something",
+        "I can hardly force myself to do anything",
+        "I can't do any work at all"
+      ]
+    },
+    {
+      "number": 16,
+      "question": "How did you feel this week and today?",
+      "answers": [
+        "I sleep just as well as before",
+        "Now I sleep worse than before",
+        "I wake up 1-2 hours earlier and find it difficult to fall asleep again",
+        "I wake up a few hours earlier than usual and can't sleep anymore"
+      ]
+    },
+    {
+      "number": 17,
+      "question": "How did you feel this week and today?",
+      "answers": [
+        "I don't get any more tired than usual",
+        "Now I get tired faster than before",
+        "I get tired of almost everything I do",
+        "I can't do anything because I'm tired"
+      ]
+    },
+    {
+      "number": 18,
+      "question": "How did you feel this week and today?",
+      "answers": [
+        "My appetite is not worse than usual",
+        "My appetite is worse than before",
+        "My appetite is much worse now",
+        "I have no appetite at all"
+      ]
+    },
+    {
+      "number": 19,
+      "question": "How did you feel this week and today?",
+      "answers": [
+        "I haven't lost any weight recently, or the weight loss has been negligible",
+        "I've lost more than 2 kg recently",
+        "I lost more than 5 kg",
+        "I lost more than 7 kg"
+      ]
+    },
+    {
+      "number": 20,
+      "question": "How did you feel this week and today?",
+      "answers": [
+        "I don't worry about my health any more than usual",
+        "I am concerned about my physical health problems, such as pain, upset stomach, constipation, etc",
+        "I'm very concerned about my physical condition, and I find it hard to think about anything else",
+        "I'm so concerned about my physical condition that I can't think of anything else"
+      ]
+    },
+    {
+      "number": 21,
+      "question": "How did you feel this week and today?",
+      "answers": [
+        "I haven't noticed a change in my interest in sex lately",
+        "I'm less preoccupied with sex issues than I used to be",
+        "I'm much less interested in sexual issues now than I used to be",
+        "I completely lost my sexual interest"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,463 @@
+{
+  "id": 13,
+  "questions_count": 75,
+  "name": "Diagnostic de l'état d'agression",
+  "scales_count": 8,
+  "interpretation": "",
+  "answers": [
+    "Oui",
+    "Pas"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "question": "parfois, je ne peux pas gérer le désir de blesser les autres",
+      "right": true,
+      "scale": 1
+    },
+    {
+      "number": 2,
+      "question": "Parfois, je bavarde sur des gens que je n'aime pas",
+      "right": true,
+      "scale": 2
+    },
+    {
+      "number": 3,
+      "question": "je m'énerve facilement mais je me calme rapidement",
+      "right": true,
+      "scale": 3
+    },
+    {
+      "number": 4,
+      "question": "Si on ne me demande pas de bien, je ne le ferai pas",
+      "right": true,
+      "scale": 4
+    },
+    {
+      "number": 5,
+      "question": "Je ne reçois pas toujours ce que je suis censé faire",
+      "right": true,
+      "scale": 5
+    },
+    {
+      "number": 6,
+      "question": "je ne sais pas ce que les gens disent de moi derrière mon dos",
+      "right": true,
+      "scale": 6
+    },
+    {
+      "number": 7,
+      "question": "Si je désapprouve le comportement de mes amis, je leur donne le sentiment",
+      "right": true,
+      "scale": 7
+    },
+    {
+      "number": 8,
+      "question": "Quand il m'est arrivé de tromper quelqu'un, j'ai eu des remords douloureux",
+      "right": true,
+      "scale": 8
+    },
+    {
+      "number": 9,
+      "question": "il me semble que je ne suis pas capable de frapper un homme",
+      "right": false,
+      "scale": 1
+    },
+    {
+      "number": 10,
+      "question": "je ne m'énerve jamais assez pour jeter des objets",
+      "right": false,
+      "scale": 2
+    },
+    {
+      "number": 11,
+      "question": "je suis toujours indulgent pour les défauts des autres",
+      "right": false,
+      "scale": 3
+    },
+    {
+      "number": 12,
+      "question": "Si je n'aime pas la règle établie, j'ai envie de la briser",
+      "right": true,
+      "scale": 4
+    },
+    {
+      "number": 13,
+      "question": "d'Autres savent presque toujours profiter des circonstances favorables",
+      "right": true,
+      "scale": 5
+    },
+    {
+      "number": 14,
+      "question": "je me méfie des gens qui me traitent un peu plus amicaux que prévu",
+      "right": true,
+      "scale": 6
+    },
+    {
+      "number": 15,
+      "question": "je suis souvent en désaccord avec les gens",
+      "right": true,
+      "scale": 7
+    },
+    {
+      "number": 16,
+      "question": "Parfois, des pensées me viennent à l'esprit dont j'ai honte",
+      "right": true,
+      "scale": 8
+    },
+    {
+      "number": 17,
+      "question": "Si quelqu'un me frappe en premier, je ne lui répondrai pas",
+      "right": false,
+      "scale": 1
+    },
+    {
+      "number": 18,
+      "question": "Quand je m'énerve, je claque des portes",
+      "right": true,
+      "scale": 2
+    },
+    {
+      "number": 19,
+      "question": "Je suis beaucoup plus irritable qu'il n'y paraît",
+      "right": true,
+      "scale": 3
+    },
+    {
+      "number": 20,
+      "question": "Si quelqu'un s'imagine comme un patron, je le fais toujours mal",
+      "right": true,
+      "scale": 4
+    },
+    {
+      "number": 21,
+      "question": "Je suis un peu bouleversé par mon destin",
+      "right": true,
+      "scale": 5
+    },
+    {
+      "number": 22,
+      "question": "je pense que beaucoup de gens ne m'aiment pas",
+      "right": true,
+      "scale": 6
+    },
+    {
+      "number": 23,
+      "question": "Je ne peux pas résister à une dispute si les gens ne sont pas d'accord avec moi",
+      "right": true,
+      "scale": 7
+    },
+    {
+      "number": 24,
+      "question": "Les gens qui s'éloignent du travail doivent se sentir coupables",
+      "right": true,
+      "scale": 8
+    },
+    {
+      "number": 25,
+      "question": "Celui qui m'insulte, moi et ma famille, demande une bagarre",
+      "right": true,
+      "scale": 1
+    },
+    {
+      "number": 26,
+      "question": "je ne suis pas capable de blagues grossières",
+      "right": false,
+      "scale": 2
+    },
+    {
+      "number": 27,
+      "question": "J'ai de la rage quand on se moque de moi",
+      "right": true,
+      "scale": 3
+    },
+    {
+      "number": 28,
+      "question": "Quand les gens se construisent des patrons, je fais tout pour qu'ils ne se fassent pas connaître",
+      "right": true,
+      "scale": 4
+    },
+    {
+      "number": 29,
+      "question": "Presque chaque semaine, je vois quelqu'un que je n'aime pas",
+      "right": true,
+      "scale": 5
+    },
+    {
+      "number": 30,
+      "question": "Beaucoup de gens m'envient",
+      "right": true,
+      "scale": 6
+    },
+    {
+      "number": 31,
+      "question": "j'exige que les gens me respectent",
+      "right": true,
+      "scale": 7
+    },
+    {
+      "number": 32,
+      "question": "Je suis déprimé par ce que je fais peu pour mes parents",
+      "right": true,
+      "scale": 8
+    },
+    {
+      "number": 33,
+      "question": "les Gens qui vous harcèlent constamment valent la peine d'être «cliqués sur le nez»",
+      "right": true,
+      "scale": 1
+    },
+    {
+      "number": 34,
+      "question": "je ne suis jamais sombre de colère",
+      "right": true,
+      "scale": 2
+    },
+    {
+      "number": 35,
+      "question": "Si je suis traité pire que ce que je mérite, je ne suis pas contrarié",
+      "right": false,
+      "scale": 3
+    },
+    {
+      "number": 36,
+      "question": "Si quelqu'un me rend fou, je ne fais pas attention",
+      "right": false,
+      "scale": 4
+    },
+    {
+      "number": 37,
+      "question": "Même si je ne le montre pas, j'ai parfois envie",
+      "right": true,
+      "scale": 5
+    },
+    {
+      "number": 38,
+      "question": "parfois, j'ai l'impression Qu'on se moque de moi",
+      "right": true,
+      "scale": 6
+    },
+    {
+      "number": 39,
+      "question": "Même si je suis en colère, je n'ai pas recours à des expressions \"fortes\"",
+      "right": false,
+      "scale": 7
+    },
+    {
+      "number": 40,
+      "question": "je veux que mes péchés soient pardonnés",
+      "right": false,
+      "scale": 8
+    },
+    {
+      "number": 41,
+      "question": "je donne rarement de la monnaie, même si quelqu'un me frappe",
+      "right": false,
+      "scale": 1
+    },
+    {
+      "number": 42,
+      "question": "Quand ça ne marche pas à mon avis, je m'offusque parfois",
+      "right": true,
+      "scale": 2
+    },
+    {
+      "number": 43,
+      "question": "Parfois, les gens m'ennuient avec leur présence",
+      "right": true,
+      "scale": 3
+    },
+    {
+      "number": 44,
+      "question": "il n'y a Pas de gens que je détesterais vraiment",
+      "right": false,
+      "scale": 5
+    },
+    {
+      "number": 45,
+      "question": "Mon principe: \"ne jamais faire confiance à des étrangers\"",
+      "right": true,
+      "scale": 6
+    },
+    {
+      "number": 46,
+      "question": "Si quelqu'un m'énerve, je suis prêt à dire ce que je pense de lui",
+      "right": true,
+      "scale": 7
+    },
+    {
+      "number": 47,
+      "question": "je fais beaucoup de choses que je regrette par la suite",
+      "right": true,
+      "scale": 8
+    },
+    {
+      "number": 48,
+      "question": "Si je suis en colère, je peux frapper quelqu'un",
+      "right": true,
+      "scale": 1
+    },
+    {
+      "number": 49,
+      "question": "Depuis mon enfance, je n'ai jamais montré de crises de colère",
+      "right": false,
+      "scale": 2
+    },
+    {
+      "number": 50,
+      "question": "je me sens souvent comme une Poudrière prête à exploser",
+      "right": true,
+      "scale": 3
+    },
+    {
+      "number": 51,
+      "question": "si tout le monde savait ce que je ressentais, je serais considéré comme une personne avec qui travailler n'est pas facile",
+      "right": true,
+      "scale": 5
+    },
+    {
+      "number": 52,
+      "question": "je pense toujours aux raisons secrètes qui poussent les gens à faire quelque chose de bien pour moi",
+      "right": true,
+      "scale": 6
+    },
+    {
+      "number": 53,
+      "question": "Quand on me crie dessus, je commence à crier en retour",
+      "right": true,
+      "scale": 7
+    },
+    {
+      "number": 54,
+      "question": "les Échecs m'affligent",
+      "right": true,
+      "scale": 8
+    },
+    {
+      "number": 55,
+      "question": "Je me bats pas moins souvent et pas plus souvent que les autres",
+      "right": true,
+      "scale": 1
+    },
+    {
+      "number": 56,
+      "question": "je me souviens d'occasions où j'étais tellement en colère que j'ai attrapé une chose qui m'était tombée sous le bras et l'ai cassée",
+      "right": true,
+      "scale": 2
+    },
+    {
+      "number": 57,
+      "question": "Parfois, je me sens prêt à me battre en premier",
+      "right": true,
+      "scale": 3
+    },
+    {
+      "number": 58,
+      "question": "parfois, j'ai L'impression que la vie me fait mal",
+      "right": true,
+      "scale": 5
+    },
+    {
+      "number": 59,
+      "question": "j'avais l'Habitude de penser que la plupart des gens disent la vérité, mais maintenant je n'y crois pas",
+      "right": true,
+      "scale": 6
+    },
+    {
+      "number": 60,
+      "question": "Je ne jure que par colère",
+      "right": true,
+      "scale": 7
+    },
+    {
+      "number": 61,
+      "question": "Quand je me trompe, ma conscience me tourmente",
+      "right": true,
+      "scale": 8
+    },
+    {
+      "number": 62,
+      "question": "Si je dois utiliser la force physique pour défendre mes droits, je l'utilise",
+      "right": true,
+      "scale": 1
+    },
+    {
+      "number": 63,
+      "question": "Parfois, j'exprime ma colère en frappant mon poing sur la table",
+      "right": true,
+      "scale": 2
+    },
+    {
+      "number": 64,
+      "question": "Je suis grossier envers les gens que je n'aime pas",
+      "right": true,
+      "scale": 4
+    },
+    {
+      "number": 65,
+      "question": "je n'ai pas d'ennemis qui voudraient me faire du mal",
+      "right": false,
+      "scale": 6
+    },
+    {
+      "number": 66,
+      "question": "je ne sais pas mettre un homme à sa place, même s'il le mérite",
+      "right": false,
+      "scale": 7
+    },
+    {
+      "number": 67,
+      "question": "je pense souvent que j'ai mal vécu",
+      "right": true,
+      "scale": 8
+    },
+    {
+      "number": 68,
+      "question": "je connais des gens qui sont capables de me mener à des bagarres",
+      "right": true,
+      "scale": 1
+    },
+    {
+      "number": 69,
+      "question": "Je ne suis pas affligé par les petites choses",
+      "right": false,
+      "scale": 3
+    },
+    {
+      "number": 70,
+      "question": "il Me vient rarement à l'esprit que les gens essaient de me mettre en colère ou de m'insulter",
+      "right": false,
+      "scale": 6
+    },
+    {
+      "number": 71,
+      "question": "je menace souvent des gens, même si je ne vais pas mettre des menaces à exécution",
+      "right": true,
+      "scale": 7
+    },
+    {
+      "number": 72,
+      "question": "dernièrement, je suis devenu un nerd",
+      "right": true,
+      "scale": 3
+    },
+    {
+      "number": 73,
+      "question": "Dans le débat, j'élève souvent la voix",
+      "right": true,
+      "scale": 7
+    },
+    {
+      "number": 74,
+      "question": "d'habitude, j'essaie De cacher ma mauvaise attitude envers les gens",
+      "right": false,
+      "scale": 7
+    },
+    {
+      "number": 75,
+      "question": "je préfère être d'accord avec quoi que ce soit que de discuter",
+      "right": false,
+      "scale": 7
+    }
+  ]
+}

@@ -1,0 +1,495 @@
+{
+  "id": 22,
+  "questions_count": 80,
+  "name": "Adult Character Traits Questionnaire",
+  "scales_count": 10,
+  "interpretation": "",
+  "answers": [
+    "Totally he disagree",
+    "Rather disagree",
+    "I agree",
+    "I totally agree"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "question": "Is your mood mostly cheerful and upbeat?",
+      "scale": 5,
+      "right": true
+    },
+    {
+      "number": 2,
+      "question": "Can the offense inflicted on you be experienced as acutely or even more strongly after a long time?",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 3,
+      "question": "Deep emotions make you cry?",
+      "scale": 9,
+      "right": true
+    },
+    {
+      "number": 4,
+      "question": "At the end of any work, do you have any doubts about the quality of its execution?",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 5,
+      "question": "Does any new event in your life scare you?",
+      "scale": 10,
+      "right": false
+    },
+    {
+      "number": 6,
+      "question": "Do you have mood swings from very happy to very sad?",
+      "scale": 7,
+      "right": true
+    },
+    {
+      "number": 7,
+      "question": "Do you constantly strive to be the center of attention?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 8,
+      "question": "Are you often annoyed and dissatisfied with your surroundings?",
+      "scale": 4,
+      "right": true
+    },
+    {
+      "number": 9,
+      "question": "Are you a reserved, taciturn person?",
+      "scale": 6,
+      "right": true
+    },
+    {
+      "number": 10,
+      "question": "Are you able to admire something to the point of oblivion?",
+      "scale": 8,
+      "right": true
+    },
+    {
+      "number": 11,
+      "question": "Do you infect people with optimism?",
+      "scale": 5,
+      "right": true
+    },
+    {
+      "number": 12,
+      "question": "Do you have a hard time forgetting minor grievances?",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 13,
+      "question": "Are you a sensitive, soft-hearted person?",
+      "scale": 9,
+      "right": true
+    },
+    {
+      "number": 14,
+      "question": "When you drop a message in the mailbox, do you check whether it has dropped or not, whether it is stuck in the slot?",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 15,
+      "question": "Are you ready to avenge personal infidelity?",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 16,
+      "question": "Were you afraid of thunderstorms (or dogs) as a child?",
+      "scale": 10,
+      "right": true
+    },
+    {
+      "number": 17,
+      "question": "Do you always strive to maintain order in everything?",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 18,
+      "question": "Is your mood constantly fluctuating for no particular reason?",
+      "scale": 7,
+      "right": true
+    },
+    {
+      "number": 19,
+      "question": "Can your joyful mood be abruptly replaced by deep sadness?",
+      "scale": 8,
+      "right": true
+    },
+    {
+      "number": 20,
+      "question": "Are you a hot-tempered person?",
+      "scale": 4,
+      "right": true
+    },
+    {
+      "number": 21,
+      "question": "Are you usually in a depressed mood?",
+      "scale": 6,
+      "right": true
+    },
+    {
+      "number": 22,
+      "question": "Is your perception of artistic works extremely sharpened?",
+      "scale": 8,
+      "right": true
+    },
+    {
+      "number": 23,
+      "question": "Are you constantly busy with business?",
+      "scale": 5,
+      "right": true
+    },
+    {
+      "number": 24,
+      "question": "Do the insults inflicted on you cause a hidden rage in you?",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 25,
+      "question": "Can you kill a live bird?",
+      "scale": 9,
+      "right": false
+    },
+    {
+      "number": 26,
+      "question": "Does it annoy you when an item is not in its proper place?",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 27,
+      "question": "Are you afraid to stay home alone?",
+      "scale": 10,
+      "right": true
+    },
+    {
+      "number": 28,
+      "question": "Do you have causeless mood swings?",
+      "scale": 7,
+      "right": true
+    },
+    {
+      "number": 29,
+      "question": "Do you strive to be the first in your professional activity?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 30,
+      "question": "Do you get angry easily?",
+      "scale": 4,
+      "right": true
+    },
+    {
+      "number": 31,
+      "question": "Are you capable of being cheerful for a long time?",
+      "scale": 6,
+      "right": false
+    },
+    {
+      "number": 32,
+      "question": "Do you have a feeling of exuberant delight against the background of a bad mood?",
+      "scale": 8,
+      "right": true
+    },
+    {
+      "number": 33,
+      "question": "Are your contacts with people easy and diverse?",
+      "scale": 5,
+      "right": true
+    },
+    {
+      "number": 34,
+      "question": "Are you impressionable as a child?",
+      "scale": 8,
+      "right": true
+    },
+    {
+      "number": 35,
+      "question": "Does the sight of blood scare you?",
+      "scale": 9,
+      "right": true
+    },
+    {
+      "number": 36,
+      "question": "Can your talkativeness be replaced by complete isolation at the moment?",
+      "scale": 8,
+      "right": true
+    },
+    {
+      "number": 37,
+      "question": "Are you an ambitious person at heart?",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 38,
+      "question": "Are you afraid to go down to a dark cellar, enter an empty unlit room?",
+      "scale": 10,
+      "right": true
+    },
+    {
+      "number": 39,
+      "question": "Do you prefer thorough and slow work?",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 40,
+      "question": "Sometimes you are a sociable person, and sometimes you can't get a word out of you?",
+      "scale": 7,
+      "right": true
+    },
+    {
+      "number": 41,
+      "question": "Do you feel great on stage?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 42,
+      "question": "Do you find it difficult to control your strong desires?",
+      "scale": 4,
+      "right": true
+    },
+    {
+      "number": 43,
+      "question": "Do you find life unbearably hard?",
+      "scale": 6,
+      "right": true
+    },
+    {
+      "number": 44,
+      "question": "Is it easy for you to pretend to be ill so that you don't have to go to work or study?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 45,
+      "question": "Even if you fail, do you still have a sense of humor and optimism?",
+      "scale": 5,
+      "right": true
+    },
+    {
+      "number": 46,
+      "question": "Is it easy for you to make peace with a person who has offended you greatly?",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 47,
+      "question": "Do you feel a sense of compassion for stray animals?",
+      "scale": 9,
+      "right": true
+    },
+    {
+      "number": 48,
+      "question": "Do you constantly worry that something will happen to you or your family?",
+      "scale": 10,
+      "right": true
+    },
+    {
+      "number": 49,
+      "question": "Does your mood fluctuate depending on the weather?",
+      "scale": 7,
+      "right": true
+    },
+    {
+      "number": 50,
+      "question": "Is it difficult for you to speak at a meeting, make a report, etc. in front of a large audience?",
+      "scale": 2,
+      "right": false
+    },
+    {
+      "number": 51,
+      "question": "Are you ready to hit a person if they offend you too much?",
+      "scale": 4,
+      "right": true
+    },
+    {
+      "number": 52,
+      "question": "Do you like being in fun companies?",
+      "scale": 6,
+      "right": false
+    },
+    {
+      "number": 53,
+      "question": "Are you a romantic person-sometimes full of dreams, sometimes full of sadness?",
+      "scale": 8,
+      "right": true
+    },
+    {
+      "number": 54,
+      "question": "Is it easy for you to engage in organizational activities?",
+      "scale": 5,
+      "right": true
+    },
+    {
+      "number": 55,
+      "question": "Can tragic films move you so much that tears come to your eyes?",
+      "scale": 9,
+      "right": true
+    },
+    {
+      "number": 56,
+      "question": "How long do you remember the critical comments about you?",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 57,
+      "question": "Are you afraid to walk down a dark street at a late hour?",
+      "scale": 10,
+      "right": true
+    },
+    {
+      "number": 58,
+      "question": "Do you carefully ensure that every item in your home is in its proper place?",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 59,
+      "question": "When you go to bed in a good mood, do you often get up in the morning in a depressed, gloomy mood?",
+      "scale": 7,
+      "right": true
+    },
+    {
+      "number": 60,
+      "question": "Do you take a leading role in any situation?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 61,
+      "question": "When you are 'hurt', can you hit?",
+      "scale": 4,
+      "right": true
+    },
+    {
+      "number": 62,
+      "question": "Do you laugh often?",
+      "scale": 6,
+      "right": false
+    },
+    {
+      "number": 63,
+      "question": "Does the initiative usually come from you?",
+      "scale": 5,
+      "right": true
+    },
+    {
+      "number": 64,
+      "question": "Do you really love nature?",
+      "scale": 9,
+      "right": true
+    },
+    {
+      "number": 65,
+      "question": "Do you strive to restore order everywhere and in everything?",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 66,
+      "question": "Are you a fearful person?",
+      "scale": 10,
+      "right": true
+    },
+    {
+      "number": 67,
+      "question": "Does your mood fluctuate under the influence of alcohol?",
+      "scale": 7,
+      "right": true
+    },
+    {
+      "number": 68,
+      "question": "Do you like to be admired?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 69,
+      "question": "Can you use your fists during an argument?",
+      "scale": 4,
+      "right": true
+    },
+    {
+      "number": 70,
+      "question": "Are you pessimistic about the future?",
+      "scale": 6,
+      "right": true
+    },
+    {
+      "number": 71,
+      "question": "Are you subject to frequent mood swings from joy to sadness?",
+      "scale": 8,
+      "right": true
+    },
+    {
+      "number": 72,
+      "question": "Do you create a happy mood in any company?",
+      "scale": 5,
+      "right": true
+    },
+    {
+      "number": 73,
+      "question": "Are you ready to take revenge even on a strong opponent?",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 74,
+      "question": "Do you feel strongly about other people's sorrows?",
+      "scale": 9,
+      "right": true
+    },
+    {
+      "number": 75,
+      "question": "In your school years, did you start a new notebook because of one blot?",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 76,
+      "question": "Do scary dreams make a strong impression on you?",
+      "scale": 10,
+      "right": true
+    },
+    {
+      "number": 77,
+      "question": "Can your period of good mood change to apathy for no reason?",
+      "scale": 7,
+      "right": true
+    },
+    {
+      "number": 78,
+      "question": "Do you become aggressive under the influence of alcohol?",
+      "scale": 4,
+      "right": true
+    },
+    {
+      "number": 79,
+      "question": "Are you rather taciturn in conversation?",
+      "scale": 6,
+      "right": true
+    },
+    {
+      "number": 80,
+      "question": "Are you able to captivate others with the originality of your actions and thoughts?",
+      "scale": 2,
+      "right": true
+    }
+  ]
+}

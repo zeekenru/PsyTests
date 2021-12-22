@@ -1,0 +1,356 @@
+{
+  "id": 9,
+  "questions_count": 57,
+  "name": "Eysencks Persönlichkeitsfragebogen",
+  "scales_count": 3,
+  "answers": [
+    "Ja",
+    "Nein"
+  ],
+  "interpretation": "Charakteristisch für einen typischen Extrovertierten sind seine Geselligkeit und die Außenorientierung des Einzelnen, ein breiter Bekanntenkreis und das Bedürfnis nach Kontakten. Er agiert unter dem Einfluss des Augenblicks, impulsiv, aufbrausend, sorglos, optimistisch, gutmütig, fröhlich. Bevorzugt Bewegung und Action, neigt dazu, aggressiv zu sein. Gefühle und Emotionen haben keine strenge Kontrolle und sind anfällig für riskante Handlungen. Es ist nicht immer möglich, sich darauf zu verlassen.Introversion ist eine Reihe von direkt gegensätzlichen Persönlichkeitsmerkmalen. Der typische Introvertierte ist eine ruhige, schüchterne Person, die zur Selbstbeobachtung neigt. Zurückhaltend und distanziert von allen außer engen Freunden. Er plant und überlegt seine Handlungen im Voraus, traut plötzlichen Eingebungen nicht, trifft Entscheidungen ernst, liebt die Ordnung in allem. Eine Person, die der persönlichen Introvertiertheit innewohnt, kontrolliert ihre Gefühle, es ist nicht leicht, sie zu verärgern. Besitzt Pessimismus, schätzt moralische Standards. Neurotizismus charakterisiert emotionale Stabilität oder Instabilität (emotionale Stabilität oder Instabilität). Emotionale Stabilität ist ein Merkmal, das die Bewahrung von organisiertem Verhalten, situative Zielstrebigkeit in gewöhnlichen und stressigen Situationen ausdrückt. Es zeichnet sich durch Reife, ausgezeichnete Anpassungsfähigkeit, das Fehlen großer Anspannung, Angst sowie Neigung zur Führung, Geselligkeit aus. / NNeurotismus äußert sich in extremer Nervosität, Instabilität, schlechter Anpassung, Neigung zu schnellem Stimmungswechsel (Labilität), Schuld- und Angstgefühl, Angst, depressive Reaktionen, Ablenkung der Aufmerksamkeit, Instabilität in Stresssituationen. Neurotizismus entspricht Emotionalität, Impulsivität; ungleichmäßige Kontakte zu Menschen, Variabilität der Interessen, Selbstzweifel, ausgeprägte Sensibilität, Beeinflussbarkeit, Neigung zur Reizbarkeit. Die neurotische Persönlichkeit zeichnet sich durch ungenügend starke Reaktionen auf die sie auslösenden Reize aus. Personen mit hohen Indizes auf der Neurotizismusskala können in ungünstigen Stresssituationen eine Neurose entwickeln. Aufrichtigkeitsskala: Hohe Werte auf dieser Skala weisen auf Unaufrichtigkeit bei den Antworten hin. Es kann auch auf demonstratives Verhalten hinweisen, den Wunsch, in den Augen der Menschen besser zu erscheinen, nur eine gesellschaftlich anerkannte Meinung zu äußern. Wenn sich Ihr Ergebnis als fragwürdig oder unzuverlässig herausstellt, versuchen Sie es erneut und antworten Sie aufrichtiger, ohne darüber nachzudenken, welchen Eindruck Ihre Antworten hinterlassen könnten.",
+  "questions": [
+    {
+      "number": 1,
+      "question": "Wie Oft haben Sie erleben das verlangen nach neuen Erfahrungen, auf die Tatsache, um Ihren Geist, starke Empfindung?",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 2,
+      "question": "Wie Oft haben Sie das Gefühl, dass Sie brauchen Freunde, die Sie verstehen, zu ermutigen oder zu sympathisieren?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 3,
+      "question": "Haben Sie sich unbeschwerte Mensch?",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 4,
+      "question": "ob Sehr schwer, Sie zu geben, Ihre Absichten?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 5,
+      "question": "darüber nachzudenken, ob Sie Ihr Geschäft langsam und bevorzugen warten, bevor Sie handeln?",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 6,
+      "question": "haben Sie Immer Ihre Versprechen halten, auch wenn es unrentabel ist?",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 7,
+      "question": "haben Sie Oft die Höhen und tiefen der Stimmung?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 8,
+      "question": "wie Schnell ist Sie in der Regel handeln und sprechen, verbringen nicht viel Zeit zum nachdenken bleibt?",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 9,
+      "question": "hatten Sie jemals das Gefühl, dass Sie unglücklich sind, obwohl es keinen guten Grund dafür war?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 10,
+      "question": "ist es Wahr, dass der Streit Sie sind in der Lage, zu entscheiden, auf die alle?",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 11,
+      "question": "seid Ihr so erschrocken, ob Sie, wenn Sie wollen durch die Person des anderen Geschlechts, die Sie hübsch?",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 12,
+      "question": "gibt es jemals so wütend, dass Sie die Beherrschung zu verlieren?",
+      "scale": 3,
+      "right": false
+    },
+    {
+      "number": 13,
+      "question": "wie Oft kommt es vor, dass Sie vorschnell handeln, die unter der Eingebung des Augenblicks?",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 14,
+      "question": "wie Oft haben Sie sich über den Gedanken, dass Sie sollten nicht etwas tun oder sagen?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 15,
+      "question": "ob Sie es Vorziehen, Bücher zu Lesen Begegnungen mit den Menschen?",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 16,
+      "question": "ist es Wahr, dass Sie leicht zu verletzen?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 17,
+      "question": "Mögen Sie kommen oft in Gesellschaft?",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 18,
+      "question": "Gibt es auch manchmal hast du solche Gedanken, die Sie lieber nicht teilen mit anderen Menschen?",
+      "scale": 3,
+      "right": false
+    },
+    {
+      "number": 19,
+      "question": "ist es Wahr, dass Sie manchmal so voller Energie, dass alles leuchtet in der Hand und fühlen sich manchmal eine starke Lethargie?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 20,
+      "question": "Versuchen Sie begrenzen den Kreis Ihrer Freunde mit einer kleinen Anzahl von engsten Freunde?",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 21,
+      "question": "wie Viel haben Sie geträumt?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 22,
+      "question": "Wenn du zu Schreien, reagieren werden, ob Sie das gleiche sagen?",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 23,
+      "question": "haben Sie das Gefühl, alle Ihre Gewohnheiten gut?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 24,
+      "question": "wie Oft haben Sie das Gefühl, dass Sie etwas schuldig?",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 25,
+      "question": "sind Sie manchmal Ihren Gefühlen freien Lauf lassen und unbeschwert Spaß haben mit guter Gesellschaft?",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 26,
+      "question": "Kann man sagen, dass die Nerven oft angespannt bis an die Grenze?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 27,
+      "question": "Sind Sie für den Menschen einen lebendigen und unterhaltsamen?",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 28,
+      "question": "Nachdem die Arbeit erledigt ist, haben Sie oft in Gedanken zu ihm zurück und denken, dass es besser machen könnte?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 29,
+      "question": "Fühlen Sie sich unruhig, während in einem großen Unternehmen?",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 30,
+      "question": "gibt es, was Sie übertragen Gerüchte?",
+      "scale": 3,
+      "right": false
+    },
+    {
+      "number": 31,
+      "question": "kommt es vor, dass Sie nicht schlafen wegen dem, was in den Sinn kommen verschiedene Gedanken?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 32,
+      "question": "Was bevorzugen Sie, wenn Sie irgend etwas wissen: im Buch finden oder Fragen Sie Freunde?",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 33,
+      "question": "Gibt es starke Herzschlag?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 34,
+      "question": "wie Gefällt Ihnen die Arbeit, die der Konzentration?",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 35,
+      "question": "Haben Sie Zitterattacken?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 36,
+      "question": "haben Sie Immer nur die Wahrheit sagen?",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 37,
+      "question": "ob es Ihnen unangenehm ist, sich in der Gesellschaft, wo alle machen sich lustig über einander?",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 38,
+      "question": "Sind Sie?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 39,
+      "question": "wie Gefällt Ihnen die Arbeit, die erfordert eine schnelle Aktion?",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 40,
+      "question": "ist es Wahr, dass Sie oft Gedanken über verschiedene Probleme und Schrecken, die auftreten würden, obwohl alles endete glücklich?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 41,
+      "question": "ist es Wahr, dass Sie bedächtig in seinen Bewegungen und langsam ein paar?",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 42,
+      "question": "zu Spät, ob Sie jemals zur Arbeit oder zum treffen mit jemandem?",
+      "scale": 3,
+      "right": false
+    },
+    {
+      "number": 43,
+      "question": "wie Oft haben Sie Albträume?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 44,
+      "question": "ist es Wahr, dass Sie so gerne reden, dass Sie nicht verpassen jede Gelegenheit ein Gespräch mit einer neuen Person?",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 45,
+      "question": "Besorgt über ob Sie irgendwelche Schmerzen?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 46,
+      "question": "Sie grämten sich, wenn lange Zeit nicht sehen konnten mit Ihren Freunden?",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 47,
+      "question": "Können Sie sich selbst nennen ein Mann nervös?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 48,
+      "question": "Gibt es unter Ihren bekannten solche, die Ihnen offensichtlich nicht gefallen?",
+      "scale": 3,
+      "right": false
+    },
+    {
+      "number": 49,
+      "question": "Sie Könnten sagen, dass Sie selbstbewusste Person?",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 50,
+      "question": "wie Einfach ist es, Sie berührt die Kritik Ihrer Mängel Ihrer Arbeit oder?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 51,
+      "question": "ist es Schwierig für Sie zu erhalten eine wahre Freude von Veranstaltungen, bei denen viele Menschen beteiligt?",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 52,
+      "question": "beunruhigen Sie das Gefühl, dass Sie etwas schlechter als andere?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 53,
+      "question": "haben es Geschafft, wäre Sie ein Revival in der langweiligen Firma?",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 54,
+      "question": "kommt es vor, dass Sie sprechen über die Dinge, in denen man gar keine Ahnung hast?",
+      "scale": 3,
+      "right": false
+    },
+    {
+      "number": 55,
+      "question": "sind Sie Besorgt über Ihre Gesundheit?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 56,
+      "question": "Mögen Sie machen sich lustig über die anderen?",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 57,
+      "question": "Leiden ob Sie Schlaflosigkeit?",
+      "scale": 2,
+      "right": true
+    }
+  ]
+}
+

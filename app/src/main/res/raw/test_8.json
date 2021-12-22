@@ -1,0 +1,250 @@
+{
+  "id": 8,
+  "questions_count": 24,
+  "name": "Marriage Satisfaction Questionnaire",
+  "scales_count": 1,
+  "interpretation": "High score speaks about the satisfaction of marriage. 0-16 points - totally dysfunctional family, 17-22 points - a dysfunctional family, 23-26 points - rather dysfunctional family, 27-28 points - transitional family 29-32 points - rather prosperous family, 33-38 points - prosperous family, 39-48 points - absolutely happy family.",
+  "questions": [
+    {
+      "number": 1,
+      "question": "When people live as close as they do in family life, they inevitably lose their mutual understanding and sharpness of perception of the other person",
+      "answers": [
+        "True",
+        "Not sure",
+        "Incorrect"
+      ],
+      "scale": 1,
+      "key": 3
+    },
+    {
+      "number": 2,
+      "question": "Your marital relations bring you",
+      "answers": [
+        "Rather anxiety and suffering",
+        "I can't answer",
+        "Rather joy and satisfaction"
+      ],
+      "key": 3
+    },
+    {
+      "number": 3,
+      "question": "Relatives and friends rate your marriage",
+      "answers": [
+        "how successful",
+        "Something in between",
+        "as failed"
+      ],
+      "key": 1
+    },
+    {
+      "number": 4,
+      "question": "If you could, then",
+      "answers": [
+        "You would change a lot in the character of your spouse",
+        "it's hard to say",
+        "You wouldn't change anything"
+      ],
+      "key": 3
+    },
+    {
+      "number": 5,
+      "question": "One of the problems of modern marriage is that everything gets boring, including sexual relations:",
+      "answers": [
+        "True",
+        "It's hard to say",
+        "Incorrect"
+      ],
+      "key": 3
+    },
+    {
+      "number": 6,
+      "question": "When you compare your family life with the family life of your friends and acquaintances, you think",
+      "answers": [
+        "That you are more unhappy than others",
+        "It's hard to say",
+        "that you are happier than others"
+      ],
+      "key": 3
+    },
+    {
+      "number": 7,
+      "question": "Life without a family, without a loved one — too expensive price for complete independence",
+      "answers": [
+        "True",
+        "It's hard to say",
+        "Incorrect"
+      ],
+      "key": 1
+    },
+    {
+      "number": 8,
+      "question": "Do you think that your spouse's life would be incomplete without you?",
+      "answers": [
+        "Yes, I do",
+        "It's hard to say",
+        "No, I don't think so"
+      ],
+      "key": 1
+    },
+    {
+      "number": 9,
+      "question": "Most people are somewhat deceived in their expectations about marriage",
+      "answers": [
+        "True",
+        "It's hard to say",
+        "Incorrect"
+      ],
+      "key": 3
+    },
+    {
+      "number": 10,
+      "question": "Only a lot of different circumstances prevent you from thinking about divorce",
+      "answers": [
+        "True",
+        "I can't say",
+        "Incorrect"
+      ],
+      "key": 3
+    },
+    {
+      "number": 11,
+      "question": "If the time when you were married came back, then your husband (wife)would be the same. could have been",
+      "answers": [
+        "Anyone but your current spouse",
+        "It's hard to say",
+        "It is possible that it is the current spouse"
+      ],
+      "key": 3
+    },
+    {
+      "number": 12,
+      "question": "Are you proud to have someone like your spouse by your side?",
+      "answers": [
+        "True",
+        "It's hard to say",
+        "Incorrect"
+      ],
+      "key": 1
+    },
+    {
+      "number": 13,
+      "question": "Unfortunately, the disadvantages of your spouse often outweigh their advantages",
+      "answers": [
+        "True",
+        "It's hard to say",
+        "Incorrect"
+      ],
+      "key": 3
+    },
+    {
+      "number": 14,
+      "question": "The main obstacles to a happy married life are hidden",
+      "answers": [
+        "Most likely in the character of your spouse",
+        "It's hard to say",
+        "Rather, in yourself"
+      ],
+      "key": 3
+    },
+    {
+      "number": 15,
+      "question": "Feelings with which you got married",
+      "answers": [
+        "Increased",
+        "It's hard to say",
+        "Weakened"
+      ],
+      "key": 1
+    },
+    {
+      "number": 16,
+      "question": "Marriage blunts a person's creative abilities",
+      "answers": [
+        "True",
+        "It's hard to say",
+        "Incorrect"
+      ],
+      "key": 3
+    },
+    {
+      "number": 17,
+      "question": "You can say that your spouse has such advantages that compensate for his shortcomings",
+      "answers": [
+        "I agree",
+        "Something in between",
+        "I don't agree"
+      ],
+      "key": 1
+    },
+    {
+      "number": 18,
+      "question": "Unfortunately, your marriage is not going well with each other's emotional support:",
+      "answers": [
+        "True",
+        "It's hard to say",
+        "Incorrect"
+      ],
+      "key": 3
+    },
+    {
+      "number": 19,
+      "question": "It seems to you that your spouse often does stupid things, says inappropriate things, makes inappropriate jokes",
+      "answers": [
+        "True",
+        "It's hard to say",
+        "Incorrect"
+      ],
+      "key": 3
+    },
+    {
+      "number": 20,
+      "question": "Life in the family, as you think, does not depend on your will",
+      "answers": [
+        "True",
+        "It's hard to say",
+        "Incorrect"
+      ],
+      "key": 3
+    },
+    {
+      "number": 21,
+      "question": "Your family relations did not bring the order and organization that you expected to your life",
+      "answers": [
+        "True",
+        "It's hard to say",
+        "Incorrect"
+      ],
+      "key": 3
+    },
+    {
+      "number": 22,
+      "question": "Those who believe that it is in the family that a person can least expect respect are wrong",
+      "answers": [
+        "True",
+        "It's hard to say",
+        "Incorrect"
+      ],
+      "key": 1
+    },
+    {
+      "number": 23,
+      "question": "As a rule, the company of your spouse gives you pleasure",
+      "answers": [
+        "True",
+        "It's hard to say",
+        "Incorrect"
+      ],
+      "key": 1
+    },
+    {
+      "number": 24,
+      "question": "To tell you the truth, there is not and has not been a single bright moment in your married life",
+      "answers": [
+        "True",
+        "It's hard to say",
+        "Incorrect"
+      ],
+      "key": 3
+    }
+  ]
+}

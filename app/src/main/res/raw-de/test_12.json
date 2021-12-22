@@ -1,0 +1,319 @@
+{
+  "id": 12,
+  "name": "Level Empathie",
+  "questions_count": 60,
+  "scales_count": 1,
+  "interpretation": "<17 - sehr geringe Empathie, 17-28 - geringe Empathie, 29-51 - die mittlere Ebene der Empathie, 52-63 - ein hohes Maß an Empathie, >63 - sehr hohes Maß an Empathie",
+  "answers": [
+    "Völlig einverstanden",
+    "Eher einverstanden",
+    "Eher nicht einverstanden",
+    "Absolut nicht einverstanden"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "question": "Ich kann leicht sagen, ob eine Person ein Gespräch zu verwickeln",
+      "key": 1
+    },
+    {
+      "number": 2,
+      "question": "Ich bevorzuge Tiere als Menschen",
+      "key": -1
+    },
+    {
+      "number": 3,
+      "question": "Ich achte auf den neuen Tendenzen",
+      "key": -1
+    },
+    {
+      "number": 4,
+      "question": "ist Mir schwer zu erklären, um dem anderen etwas, was ich gut verstehe, wenn Sie nicht verstehen es ist das erste mal",
+      "key": 0
+    },
+    {
+      "number": 5,
+      "question": "in der Regel sehe ich Träume in der Nacht",
+      "key": -1
+    },
+    {
+      "number": 6,
+      "question": "Ich mag die sich um andere zu kümmern",
+      "key": 1
+    },
+    {
+      "number": 7,
+      "question": "Ich bevorzuge es, selbst zu lösen Ihre Schwierigkeiten, und Sie nicht zu diskutieren mit anderen",
+      "key": -1
+    },
+    {
+      "number": 8,
+      "question": "Ich war nie besonders gut, wie man sich in dem einen oder anderen Fall in der Kommunikation",
+      "key": 0
+    },
+    {
+      "number": 9,
+      "question": "Ich bin am besten fühle mich am morgen",
+      "key": -1
+    },
+    {
+      "number": 10,
+      "question": "die Leute sagen mir oft, dass ich Lüge nicht, verteidigen Ihren Standpunkt in einem Gespräch",
+      "key": 0
+    },
+    {
+      "number": 11,
+      "question": "Ich bin nicht allzu besorgt, wenn Sie spät dran für einen Termin mit einem Freund",
+      "key": 0
+    },
+    {
+      "number": 12,
+      "question": "Freundschaft und Beziehungen zu Komplex sind, und ich möchte nicht, um Ihnen Besondere Aufmerksamkeit in meinem Leben",
+      "key": 0
+    },
+    {
+      "number": 13,
+      "question": "Ich würde nie gegen das Gesetz verstoßen hat, auch nur die geringste",
+      "key": -1
+    },
+    {
+      "number": 14,
+      "question": "sind Oft nur schwer beurteilen, ob eine Handlung als unhöflich oder höflich",
+      "key": 0
+    },
+    {
+      "number": 15,
+      "question": "ich Im Gespräch, in der Regel konzentriere mich auf Ihre eigenen Gedanken und nicht auf das, was hätte denken meine Zuhörer",
+      "key": 0
+    },
+    {
+      "number": 16,
+      "question": "Ich bevorzuge die Ziehungen als mündliche Witze",
+      "key": -1
+    },
+    {
+      "number": 17,
+      "question": "Ich Lebe eher heute als morgen",
+      "key": -1
+    },
+    {
+      "number": 18,
+      "question": "als Kind liebte ich die geschnitten Würmer, um zu sehen, was passiert",
+      "key": 0
+    },
+    {
+      "number": 19,
+      "question": "Ich schnell verstehe, wenn jemand sagt, eine Sache und meint eine andere",
+      "key": 1
+    },
+    {
+      "number": 20,
+      "question": "In der Regel, ich habe Feste überzeugungen in Bezug auf die Moral",
+      "key": -1
+    },
+    {
+      "number": 21,
+      "question": "es fällt mir schwer zu verstehen, dass das frustrierend anderen",
+      "key": 0
+    },
+    {
+      "number": 22,
+      "question": "Ich kann einfach versetzen Sie sich in die Lage eines anderen",
+      "key": 1
+    },
+    {
+      "number": 23,
+      "question": "Ich denke, dass Höflichkeit - das wichtigste, was ein Elternteil kann einem Kind beibringen",
+      "key": -1
+    },
+    {
+      "number": 24,
+      "question": "Ich Liebe, Dinge in einem Ansturm von Gefühlen",
+      "key": -1
+    },
+    {
+      "number": 25,
+      "question": "Ich sage Voraus gut die Gefühle anderer",
+      "key": 1
+    },
+    {
+      "number": 26,
+      "question": "Ich merke schnell, wenn sich jemand in der Gesellschaft anderer Menschen unbehaglich oder unwohl fühlt",
+      "key": 1
+    },
+    {
+      "number": 27,
+      "question": "Wenn ich etwas sage, was verletzt den anderen, dann ist das seine Sache, nicht meine",
+      "key": 0
+    },
+    {
+      "number": 28,
+      "question": "Wenn jemand fragt, ob ich seine Frisur, ich gebe dir eine ehrliche Antwort, auch wenn es mir nicht gefällt",
+      "key": 0
+    },
+    {
+      "number": 29,
+      "question": "Ich nicht immer verstehe, warum jemand Sauer auf irgendeine Bemerkung",
+      "key": 0
+    },
+    {
+      "number": 30,
+      "question": "die Leute sagen mir oft, dass ich unberechenbar",
+      "key": -1
+    },
+    {
+      "number": 31,
+      "question": "Ich mag es, im Mittelpunkt der Aufmerksamkeit in irgendeiner Gesellschaft",
+      "key": -1
+    },
+    {
+      "number": 32,
+      "question": "Ich bin nicht stark aufregen, wenn jemand anderes weint",
+      "key": 0
+    },
+    {
+      "number": 33,
+      "question": "ich unterhalte Mich gern über Politik",
+      "key": -1
+    },
+    {
+      "number": 34,
+      "question": "Ich habe genug gerade in einem Gespräch, dass andere manchmal nehmen für unhöflich, obwohl ich mich so verhalte, ohne es zu wollen",
+      "key": 0
+    },
+    {
+      "number": 35,
+      "question": "in der Regel in der Kommunikation ich fühle mich nicht peinlich",
+      "key": 1
+    },
+    {
+      "number": 36,
+      "question": "Andere Leute sagen mir, dass ich gut verstehe, was Sie fühlen und denken",
+      "key": -1
+    },
+    {
+      "number": 37,
+      "question": "Wenn ich mit Menschen Rede, Gespräch oft baut auf deren Erfahrungen, und nicht meiner",
+      "key": 1
+    },
+    {
+      "number": 38,
+      "question": "Ich ärgere mich, wenn ich ein Tier mit Schmerzen sehe",
+      "key": 1
+    },
+    {
+      "number": 39,
+      "question": "Ich kann Entscheidungen treffen, unabhängig von den Gefühlen anderer",
+      "key": 0
+    },
+    {
+      "number": 40,
+      "question": "Ich kann nicht entspannen, solange nicht erfülle alle Dinge, die sich versammelt, um für den Tag",
+      "key": -1
+    },
+    {
+      "number": 41,
+      "question": "Ich kann leicht sagen, mit Neugier oder Langeweile mich hören, wenn ich spreche",
+      "key": 1
+    },
+    {
+      "number": 42,
+      "question": "Ich ärgere mich, wenn ich sehe das leiden der Menschen in den Nachrichten-Sendungen",
+      "key": 1
+    },
+    {
+      "number": 43,
+      "question": "Friends oft erzählen mir über Ihre Erfahrungen zu sprechen, weil Sie glauben, dass ich verständnisvoller Mann",
+      "key": 1
+    },
+    {
+      "number": 44,
+      "question": "Ich fühle, dass ich beginne aufgezwungen, auch wenn mein Gesprächspartner spricht nicht davon",
+      "key": 1
+    },
+    {
+      "number": 45,
+      "question": "Ich habe oft wollte nur ein neues Hobby, dann ist es mir langweilig, und ich drehe mich auf etwas anderes",
+      "key": -1
+    },
+    {
+      "number": 46,
+      "question": "Ich werde oft gesagt, dass ich oft weit gehe, nicht Sauer wenn jemand",
+      "key": 0
+    },
+    {
+      "number": 47,
+      "question": "Ich bin zu nervös, um eine Fahrt auf einer Achterbahn",
+      "key": -1
+    },
+    {
+      "number": 48,
+      "question": "Andere sagen mir oft, dass ich gefühllos, obwohl ich nicht verstehe, warum",
+      "key": 0
+    },
+    {
+      "number": 49,
+      "question": "Wann sehe ich Anfänger in irgendeiner Umgebung, es scheint mir, dass er selbst die Mühe machen muss, um sich in diese Umgebung",
+      "key": 0
+    },
+    {
+      "number": 50,
+      "question": "Normalerweise bin ich nicht emotional, wenn ich Filme anschaue",
+      "key": 0
+    },
+    {
+      "number": 51,
+      "question": "Ich mag die Art und Weise in alltäglichen Angelegenheiten und oft mache eine Liste von Aufgaben für den Tag",
+      "key": -1
+    },
+    {
+      "number": 52,
+      "question": "kann Ich einfach und ohne zu zögern Tune auf das Gefühl, was die andere Person erlebt",
+      "key": 1
+    },
+    {
+      "number": 53,
+      "question": "Ich mag es nicht, Risiken einzugehen",
+      "key": -1
+    },
+    {
+      "number": 54,
+      "question": "kann leicht verstehen, was will die andere Person reden",
+      "key": 1
+    },
+    {
+      "number": 55,
+      "question": "Ich sehe, wenn jemand versteckt seine wahren Gefühle",
+      "key": 1
+    },
+    {
+      "number": 56,
+      "question": "Vor einer Entscheidung die ich immer Wiegen alle vor-und Nachteile",
+      "key": -1
+    },
+    {
+      "number": 57,
+      "question": "Ich bin nicht sorgfältig darüber nachdenken, wie man sich in der Gesellschaft",
+      "key": 1
+    },
+    {
+      "number": 58,
+      "question": "Ich einfach sage Voraus, Verhalten sich wie ein anderer Mensch",
+      "key": 1
+    },
+    {
+      "number": 59,
+      "question": "plädiere Ich mich emotional in die Probleme meiner Freunde",
+      "key": -1
+    },
+    {
+      "number": 60,
+      "question": "Ich kann immer schätzen die Meinung einer anderen Person, auch wenn ich nicht mit ihm einverstanden",
+      "key": 1
+    }
+  ]
+}
+
+
+
+

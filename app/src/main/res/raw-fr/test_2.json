@@ -1,0 +1,115 @@
+{
+  "id": 2,
+  "name": "échelle d'auto-évaluation de la dépression de Tsung",
+  "questions_count": 20,
+  "scales_count": 1,
+  "interpretation": "25-49: normal, 50-59: dépression légère, 60-69: dépression modérée, 70 et plus: dépression sévère.",
+  "answers": [
+    "Jamais ou occasionnellement",
+    "Parfois",
+    "Souvent",
+    "Presque toujours ou constamment"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "question": "Je me sens déprimé",
+      "right": true
+    },
+    {
+      "number": 2,
+      "question": "le Matin, je me sens mieux",
+      "right": false
+    },
+    {
+      "number": 3,
+      "question": "j'ai des périodes de pleurs ou de larmes",
+      "right": true
+    },
+    {
+      "number": 4,
+      "question": "j'ai une mauvaise nuit de sommeil",
+      "right": true
+    },
+    {
+      "number": 5,
+      "question": "mon Appétit n'est pas pire que d'habitude",
+      "right": false
+    },
+    {
+      "number": 6,
+      "question": "je suis content de regarder des femmes attirantes, de leur parler, d'être à proximité",
+      "right": false
+    },
+    {
+      "number": 7,
+      "question": "je remarque que je perds du poids",
+      "right": true
+    },
+    {
+      "number": 8,
+      "question": "Je suis dérangé par la constipation",
+      "right": true
+    },
+    {
+      "number": 9,
+      "question": "le Cœur Bat plus vite que d'habitude",
+      "right": true
+    },
+    {
+      "number": 10,
+      "question": "Je suis fatigué sans raison",
+      "right": true
+    },
+    {
+      "number": 11,
+      "question": "je pense aussi clairement que jamais",
+      "right": false
+    },
+    {
+      "number": 12,
+      "question": "c'est facile pour moi de faire ce que je sais faire",
+      "right": false
+    },
+    {
+      "number": 13,
+      "question": "je me Sens anxieux et je ne peux pas rester immobile",
+      "right": true
+    },
+    {
+      "number": 14,
+      "question": "j'ai des espoirs pour l'avenir",
+      "right": false
+    },
+    {
+      "number": 15,
+      "question": "Je suis plus irritable que d'habitude",
+      "right": true
+    },
+    {
+      "number": 16,
+      "question": "c'est facile pour moi de prendre des décisions",
+      "right": false
+    },
+    {
+      "number": 17,
+      "question": "je me sens utile et nécessaire",
+      "right": false
+    },
+    {
+      "number": 18,
+      "question": "je vis une vie assez complète",
+      "right": false
+    },
+    {
+      "number": 19,
+      "question": "je sens que les autres vont mieux si je meurs",
+      "right": true
+    },
+    {
+      "number": 20,
+      "question": "Je suis toujours content de ce qui m'a toujours plu",
+      "right": false
+    }
+  ]
+}

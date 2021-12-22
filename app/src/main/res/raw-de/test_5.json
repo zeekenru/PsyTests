@@ -1,0 +1,154 @@
+{
+  "id": 5,
+  "questions_count": 27,
+  "name": "Fragebogen Reflexivität Karpov",
+  "scales_count": 1,
+  "interpretation": "Bei der Interpretation der Ergebnisse empfiehlt es sich, von der Differenzierung der erhaltenen Ergebnisse in drei Hauptkategorien auszugehen. Die Ergebnisse der Technik, gleich oder größer als 7 Wände, weisen auf eine hoch entwickelte Reflexivität hin. Ergebnisse von 4 bis 7 Wänden sind Indikatoren für ein durchschnittliches Maß an Reflexivität. Indikatoren mit weniger als 4 Wänden weisen auf eine geringe Entwicklung der Reflexivität hin",
+  "answers": [
+    "Völlig einverstanden",
+    "Stimme nicht zu",
+    "Eher nicht einverstanden",
+    "Ich kann mich nicht entscheiden",
+    "Eher einverstanden",
+    "Einverstanden",
+    "Stimme völlig zu"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "question": "Nach dem Lesen ein gutes Buch bin ich immer dann lange darüber nachdenken; ich möchte es mit jemandem zu besprechen",
+      "right": true
+    },
+    {
+      "number": 2,
+      "question": "Wenn mir plötzlich über etwas zu Fragen, ich beantworte das erste, was mir eingefallen ist",
+      "right": false
+    },
+    {
+      "number": 3,
+      "question": "Bevor Sie einen Anruf annehmen, um in der Sache anrufen, ich in der Regel gedanklich Plane das kommende Gespräch",
+      "right": true
+    },
+    {
+      "number": 4,
+      "question": "Nachdem er einige Ausrutscher, ich habe lange danach können nicht ablenken von den Gedanken über ihn",
+      "right": true
+    },
+    {
+      "number": 5,
+      "question": "Ich denke über etwas oder unterhalte mich mit jemandem, ich werde manchmal plötzlich interessant, daran zu erinnern, was war der Beginn einer Kette von Gedanken",
+      "right": true
+    },
+    {
+      "number": 6,
+      "question": "Einführung in den schwierigen Auftrag, ich versuche nicht zu denken über kommende Herausforderungen",
+      "right": false
+    },
+    {
+      "number": 7,
+      "question": "die Hauptsache für mich – vorstellen ultimative Ziel Ihrer Tätigkeit, und die Teile sind von untergeordneter Bedeutung",
+      "right": false
+    },
+    {
+      "number": 8,
+      "question": "Es kommt vor, dass ich kann nicht verstehen, warum jemand unzufrieden mit mir",
+      "right": false
+    },
+    {
+      "number": 9,
+      "question": "Ich versetze mich oft in die Lage eines anderen Menschen",
+      "right": true
+    },
+    {
+      "number": 10,
+      "question": "Für mich ist es wichtig, im Detail vorstellen den Verlauf der bevorstehenden Arbeit",
+      "right": true
+    },
+    {
+      "number": 11,
+      "question": "Mir wäre es schwer zu schreiben ernstes schreiben, wenn ich nicht im Voraus einen Plan",
+      "right": true
+    },
+    {
+      "number": 12,
+      "question": "Ich ziehe es vor, zu handeln, nicht zu reflektieren über die Gründe für Ihre Misserfolge",
+      "right": false
+    },
+    {
+      "number": 13,
+      "question": "Ich akzeptiere die Entscheidung ziemlich leicht ist relativ teuer Einkaufen",
+      "right": false
+    },
+    {
+      "number": 14,
+      "question": "In der Regel etwas konzipiert, Scroll-ich Ihre Ideen in meinem Kopf, Klärung der Details, untersuchen alle Möglichkeiten",
+      "right": true
+    },
+    {
+      "number": 15,
+      "question": "Ich mache mir sorgen um meine Zukunft",
+      "right": true
+    },
+    {
+      "number": 16,
+      "question": "Ich Denke, dass in vielen Situationen ist es notwendig, schnell zu handeln, geleitet von der ersten kam der Gedanke in den Kopf",
+      "right": false
+    },
+    {
+      "number": 17,
+      "question": "Manchmal nehme ich unbedachte Entscheidungen",
+      "right": false
+    },
+    {
+      "number": 18,
+      "question": "Nach Beendigung des Gesprächs, ich, es, weiterhin führen ihn gedanklich, was immer neue Argumente zur Verteidigung seiner Sicht",
+      "right": true
+    },
+    {
+      "number": 19,
+      "question": "Wenn ein Konflikt Auftritt, ist, darüber nachzudenken, wer in ihm die Schuld, ich bin in Erster Linie beginne mit sich selbst",
+      "right": true
+    },
+    {
+      "number": 20,
+      "question": "Bevor Sie sich entscheiden, ich versuche immer, alles sorgfältig zu prüfen und abzuwägen",
+      "right": true
+    },
+    {
+      "number": 21,
+      "question": "Ich habe es kommen Konflikte auf, dass ich manchmal nicht Vorhersagen kann, welches Verhalten von mir erwartet umliegenden",
+      "right": false
+    },
+    {
+      "number": 22,
+      "question": "Es kommt vor, dass, wenn man bedenkt Gespräch mit einer anderen Person, ich wäre geistig führe einen Dialog mit ihm",
+      "right": true
+    },
+    {
+      "number": 23,
+      "question": "Ich versuche, nicht darüber nachzudenken, welche Gedanken und Gefühle in anderen Menschen wecken meine Worte und Taten",
+      "right": false
+    },
+    {
+      "number": 24,
+      "question": "Bevor Sie eine Bemerkung einer anderen Person, ich werde darüber nachdenken, mit welchen Worten Sie am besten zu tun, um ihn nicht zu beleidigen",
+      "right": true
+    },
+    {
+      "number": 25,
+      "question": "Die Lösung der schwierigen Aufgabe, ich glaube über ihm selbst dann, wenn beschäftige mich mit anderen Dingen beschäftigt",
+      "right": true
+    },
+    {
+      "number": 26,
+      "question": "Wenn ich mit jemandem Streite, in den meisten Fällen halte mich nicht für schuldig",
+      "right": false
+    },
+    {
+      "number": 27,
+      "question": "Ist Selten so, dass ich endlich zu sagen",
+      "right": false
+    }
+  ]
+}
+

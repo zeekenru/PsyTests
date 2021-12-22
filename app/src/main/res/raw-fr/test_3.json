@@ -1,0 +1,115 @@
+{
+  "id": 3,
+  "questions_count": 20,
+  "interpretation": "",
+  "scales_count": 1,
+  "name": "Échelle de désespoir de Beck",
+  "answers": [
+    "Complètement faux",
+    "Plutôt faux",
+    "Plutôt vrai",
+    "Très vrai"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "question": "je regarde vers L'avenir avec espoir et enthousiasme",
+      "right": false
+    },
+    {
+      "number": 2,
+      "question": "avec le même succès, je peux tout cracher, car je ne peux pas rendre ma vie meilleure",
+      "right": true
+    },
+    {
+      "number": 3,
+      "question": "Quand les choses tournent mal, ça m'aide de savoir que ça ne peut pas durer éternellement",
+      "right": false
+    },
+    {
+      "number": 4,
+      "question": "je ne peux pas imaginer ce que sera ma vie dans dix ans",
+      "right": true
+    },
+    {
+      "number": 5,
+      "question": "j'ai assez de temps pour faire ce qui compte le plus pour moi",
+      "right": false
+    },
+    {
+      "number": 6,
+      "question": "à l'avenir, j'espère réussir dans ce qui me prend le plus",
+      "right": false
+    },
+    {
+      "number": 7,
+      "question": "Mon avenir me semble sombre",
+      "right": true
+    },
+    {
+      "number": 8,
+      "question": "je suppose que j'aurai plus de bien dans la vie que la personne moyenne",
+      "right": false
+    },
+    {
+      "number": 9,
+      "question": "Je n'ai pas de répit et je ne pense pas que ce sera plus facile à l'avenir",
+      "right": true
+    },
+    {
+      "number": 10,
+      "question": "Mon expérience passée m'a bien préparé pour l'avenir",
+      "right": false
+    },
+    {
+      "number": 11,
+      "question": "Tout ce que je vois devant est plus désagréable que agréable",
+      "right": true
+    },
+    {
+      "number": 12,
+      "question": "je ne m'attends pas à obtenir ce que je veux vraiment",
+      "right": true
+    },
+    {
+      "number": 13,
+      "question": "Quand je pense à l'avenir, j'espère être plus heureux que maintenant",
+      "right": false
+    },
+    {
+      "number": 14,
+      "question": "Rien dans la vie ne s'additionne comme je veux",
+      "right": true
+    },
+    {
+      "number": 15,
+      "question": "je crois en mon avenir",
+      "right": false
+    },
+    {
+      "number": 16,
+      "question": "je ne reçois jamais ce que je veux, ce qui signifie vouloir quelque chose de stupide",
+      "right": true
+    },
+    {
+      "number": 17,
+      "question": "Il est très peu probable que je sois satisfait de mon avenir",
+      "right": true
+    },
+    {
+      "number": 18,
+      "question": "Mon avenir me semble très vague et incertain",
+      "right": true
+    },
+    {
+      "number": 19,
+      "question": "j'attends de l'avenir plus de bien que de mal",
+      "right": false
+    },
+    {
+      "number": 20,
+      "question": "il est Inutile d'essayer vraiment d'obtenir ce que je veux, car il est probable que je ne réussisse pas",
+      "right": true
+    }
+  ]
+}

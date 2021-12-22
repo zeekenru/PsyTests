@@ -1,0 +1,643 @@
+{
+  "id": 11,
+  "questions_count": 105,
+  "name": "Rusalov Temperament Structure Questionnaire",
+  "scales_count": 9,
+  "answers": [
+    "Yes",
+    "No"
+  ],
+  "interpretation": "It is considered that a certain property of temperament is strongly developed in the subject if he received 9 or more points on it; poorly developed-if he received 4 or less points on it. If the total number of points is from 5 to 8, this property of temperament is considered average.The conclusion about the dominant type of human temperament is made on the basis of comparing the indicators obtained for different temperament properties with the typical combinations of these properties given below, corresponding to different temperament types.Sanguine - average developed indicators for all temperament characteristics. Choleric - high indicators of energy, pace and emotionality with medium or high indicators of plasticity. Phlegmatic - low indicators for all the properties of temperament. Melancholic - low indicators of energy, plasticity, pace with medium or high indicators of emotionality. A person belongs to the pure type of sanguine, choleric, phlegmatic or melancholic only if the degree of development of his indicators completely coincides with those associated with the described types. In all other cases, it is considered that a person has a so-called mixed type of temperament.",
+  "questions": [
+    {
+      "number": 1,
+      "question": "Are you a mobile man?",
+      "right": true,
+      "scale": 5
+    },
+    {
+      "number": 2,
+      "question": "Are you always ready to join the conversation on the spot, without hesitation?",
+      "right": true,
+      "scale": 4
+    },
+    {
+      "number": 3,
+      "question": "Do you prefer the privacy of a large company?",
+      "right": false,
+      "scale": 2
+    },
+    {
+      "number": 4,
+      "question": "Do you have a constant thirst for activity?",
+      "right": true,
+      "scale": 1
+    },
+    {
+      "number": 5,
+      "question": "Is your speech usually slow and unhurried?",
+      "right": false,
+      "scale": 6
+    },
+    {
+      "number": 6,
+      "question": "Vulnerable Lee Are you human?",
+      "right": true,
+      "scale": 8
+    },
+    {
+      "number": 7,
+      "question": "Do you often find yourself unable to sleep because you have quarreled with your friends?",
+      "right": true,
+      "scale": 8
+    },
+    {
+      "number": 8,
+      "question": "Do you always want to do something in your free time?",
+      "right": true,
+      "scale": 1
+    },
+    {
+      "number": 9,
+      "question": "When talking to other people, does your speech often get ahead of your thought?",
+      "right": true,
+      "scale": 4
+    },
+    {
+      "number": 10,
+      "question": "Are you annoyed by the other person's fast speech?",
+      "right": false,
+      "scale": 6
+    },
+    {
+      "number": 11,
+      "question": "Would you feel like an unhappy person if you were deprived of the opportunity to communicate with people for a long time?",
+      "right": true,
+      "scale": 2
+    },
+    {
+      "number": 12,
+      "question": "Have you ever been late for a date or work?",
+      "right": false,
+      "scale": 9
+    },
+    {
+      "number": 13,
+      "question": "Do you like to run fast?",
+      "right": true,
+      "scale": 5
+    },
+    {
+      "number": 14,
+      "question": "How much do you worry about problems in your work?",
+      "right": true,
+      "scale": 7
+    },
+    {
+      "number": 15,
+      "question": "Is it easy for you to perform work that requires long-term attention and great concentration?",
+      "right": true,
+      "scale": 1
+    },
+    {
+      "number": 16,
+      "question": "Is it difficult for you to speak very fast?",
+      "right": false,
+      "scale": 6
+    },
+    {
+      "number": 17,
+      "question": "Do you often feel anxious that you didn't do the right job?",
+      "right": true,
+      "scale": 7
+    },
+    {
+      "number": 18,
+      "question": "Do your thoughts often jump from one thing to another during a conversation?",
+      "right": false,
+      "scale": 4
+    },
+    {
+      "number": 19,
+      "question": "Do you like games that require speed and dexterity?",
+      "right": true,
+      "scale": 5
+    },
+    {
+      "number": 20,
+      "question": "Can you easily find other solutions to a known problem?",
+      "right": true,
+      "scale": 3
+    },
+    {
+      "number": 21,
+      "question": "Do you feel uneasy about being misunderstood in a conversation?",
+      "right": true,
+      "scale": 8
+    },
+    {
+      "number": 22,
+      "question": "Are you willing to perform complex responsible work?",
+      "right": true,
+      "scale": 1
+    },
+    {
+      "number": 23,
+      "question": "Do you ever talk about things that you don't understand?",
+      "right": false,
+      "scale": 9
+    },
+    {
+      "number": 24,
+      "question": "Do you perceive fast speech easily?",
+      "right": true,
+      "scale": 6
+    },
+    {
+      "number": 25,
+      "question": "Is it easy for you to do so many things at once?",
+      "right": true,
+      "scale": 3
+    },
+    {
+      "number": 26,
+      "question": "Do you have conflicts with your friends because you said something to them without thinking ahead?",
+      "right": true,
+      "scale": 4
+    },
+    {
+      "number": 27,
+      "question": "Do you usually prefer to do simple tasks that do not require much energy from you?",
+      "right": false,
+      "scale": 1
+    },
+    {
+      "number": 28,
+      "question": "Do you easily get upset when you discover minor flaws in your work?",
+      "right": true,
+      "scale": 7
+    },
+    {
+      "number": 29,
+      "question": "Do you like it Do you have a sedentary job?",
+      "right": false,
+      "scale": 5
+    },
+    {
+      "number": 30,
+      "question": "Is it easy for you to communicate with different people?",
+      "right": true,
+      "scale": 2
+    },
+    {
+      "number": 31,
+      "question": "Do you usually prefer to think, weigh and only then speak out?",
+      "right": false,
+      "scale": 4
+    },
+    {
+      "number": 32,
+      "question": "Are all your habits good and desirable?",
+      "right": true,
+      "scale": 9
+    },
+    {
+      "number": 33,
+      "question": "Are your hand movements fast?",
+      "right": true,
+      "scale": 5
+    },
+    {
+      "number": 34,
+      "question": "Do you usually remain silent and do not make contacts when you are in the company of strangers?",
+      "right": false,
+      "scale": 2
+    },
+    {
+      "number": 35,
+      "question": "Is it easy for you to switch from one solution to another?",
+      "right": true,
+      "scale": 3
+    },
+    {
+      "number": 36,
+      "question": "Do you tend to exaggerate in your imagination the negative attitude of your loved ones?",
+      "right": true,
+      "scale": 8
+    },
+    {
+      "number": 37,
+      "question": "Are you a talkative person?",
+      "right": true,
+      "scale": 6
+    },
+    {
+      "number": 38,
+      "question": "Is it usually easy for you to perform tasks that require instant responses?",
+      "right": true,
+      "scale": 3
+    },
+    {
+      "number": 39,
+      "question": "Do you usually speak fluently, without hesitation?",
+      "right": true,
+      "scale": 6
+    },
+    {
+      "number": 40,
+      "question": "Are you worried that you won't be able to do the job?",
+      "right": true,
+      "scale": 7
+    },
+    {
+      "number": 41,
+      "question": "Are you easily offended when people close to you point out your shortcomings?",
+      "right": true,
+      "scale": 8
+    },
+    {
+      "number": 42,
+      "question": "Do you have a craving for strenuous responsible activities?",
+      "right": true,
+      "scale": 1
+    },
+    {
+      "number": 43,
+      "question": "Do you consider your movements slow and unhurried?",
+      "right": false,
+      "scale": 5
+    },
+    {
+      "number": 44,
+      "question": "Do you have any thoughts that you would like to hide from others?",
+      "right": false,
+      "scale": 9
+    },
+    {
+      "number": 45,
+      "question": "Can you ask a sensitive question to another person without much hesitation?",
+      "right": true,
+      "scale": 4
+    },
+    {
+      "number": 46,
+      "question": "Do you enjoy fast movements?",
+      "right": true,
+      "scale": 5
+    },
+    {
+      "number": 47,
+      "question": "Do you easily generate new ideas related to your work?",
+      "right": true,
+      "scale": 3
+    },
+    {
+      "number": 48,
+      "question": "Does the pit of your stomach ache before a responsible conversation?",
+      "right": true,
+      "scale": 8
+    },
+    {
+      "number": 49,
+      "question": "Can I say that you are quickly completing the task assigned to you?",
+      "right": true,
+      "scale": 5
+    },
+    {
+      "number": 50,
+      "question": "Do you like to take on big things on your own?",
+      "right": true,
+      "scale": 1
+    },
+    {
+      "number": 51,
+      "question": "Do you have rich facial expressions in conversation?",
+      "right": true,
+      "scale": 6
+    },
+    {
+      "number": 52,
+      "question": "If you promised to do something, do you always fulfill your promise, regardless of whether it is convenient for you or not?",
+      "right": true,
+      "scale": 9
+    },
+    {
+      "number": 53,
+      "question": "Do you feel resentful that people around you treat you worse than they should?",
+      "right": true,
+      "scale": 8
+    },
+    {
+      "number": 54,
+      "question": "Do you usually prefer to perform only one operation at a time?",
+      "right": false,
+      "scale": 3
+    },
+    {
+      "number": 55,
+      "question": "Do you like fast-paced games?",
+      "right": true,
+      "scale": 5
+    },
+    {
+      "number": 56,
+      "question": "Are there many long pauses in your speech?",
+      "right": false,
+      "scale": 6
+    },
+    {
+      "number": 57,
+      "question": "Is it easy for you to revitalize your company?",
+      "right": true,
+      "scale": 2
+    },
+    {
+      "number": 58,
+      "question": "Do you usually feel overwhelmed and want to do something else?",
+      "right": false,
+      "scale": 1
+    },
+    {
+      "number": 59,
+      "question": "Do you usually find it difficult to switch your attention from one case to another?",
+      "right": false,
+      "scale": 3
+    },
+    {
+      "number": 60,
+      "question": "Does it happen that you have a bad mood for a long time because a planned task has failed?",
+      "right": true,
+      "scale": 7
+    },
+    {
+      "number": 61,
+      "question": "Do you often find yourself unable to sleep due to the fact that things related directly to work are not going well?",
+      "right": true,
+      "scale": 7
+    },
+    {
+      "number": 62,
+      "question": "Do you like to be in a big company?",
+      "right": true,
+      "scale": 2
+    },
+    {
+      "number": 63,
+      "question": "Are you worried about finding out with your friends?",
+      "right": true,
+      "scale": 8
+    },
+    {
+      "number": 64,
+      "question": "Do you feel the need for a full-time job?",
+      "right": true,
+      "scale": 1
+    },
+    {
+      "number": 65,
+      "question": "Do you sometimes lose your temper, get angry?",
+      "right": false,
+      "scale": 9
+    },
+    {
+      "number": 66,
+      "question": "Do you tend to solve many tasks at once?",
+      "right": true,
+      "scale": 3
+    },
+    {
+      "number": 67,
+      "question": "Do you keep yourself free in a big company?",
+      "right": true,
+      "scale": 2
+    },
+    {
+      "number": 68,
+      "question": "Do you often express your first impression without thinking?",
+      "right": true,
+      "scale": 4
+    },
+    {
+      "number": 69,
+      "question": "Does it bother you to feel insecure while doing your job?",
+      "right": true,
+      "scale": 7
+    },
+    {
+      "number": 70,
+      "question": "Are your movements slow when you make something?",
+      "right": false,
+      "scale": 5
+    },
+    {
+      "number": 71,
+      "question": "Do you easily switch from one job to another?",
+      "right": true,
+      "scale": 3
+    },
+    {
+      "number": 72,
+      "question": "Do you read aloud quickly?",
+      "right": true,
+      "scale": 6
+    },
+    {
+      "number": 73,
+      "question": "Do you sometimes gossip?",
+      "right": false,
+      "scale": 9
+    },
+    {
+      "number": 74,
+      "question": "Are you silent when you are in the circle of friends?",
+      "right": false,
+      "scale": 2
+    },
+    {
+      "number": 75,
+      "question": "Do you need people to encourage and comfort you?",
+      "right": true,
+      "scale": 8
+    },
+    {
+      "number": 76,
+      "question": "Are you willing to run many different tasks at the same time?",
+      "right": true,
+      "scale": 3
+    },
+    {
+      "number": 77,
+      "question": "Are you willing to do work at a fast pace?",
+      "right": true,
+      "scale": 5
+    },
+    {
+      "number": 78,
+      "question": "Do you usually want to talk to people in your free time?",
+      "right": true,
+      "scale": 2
+    },
+    {
+      "number": 79,
+      "question": "Do you often have insomnia when you fail at work?",
+      "right": true,
+      "scale": 7
+    },
+    {
+      "number": 80,
+      "question": "Do your hands sometimes shake during a fight?",
+      "right": true,
+      "scale": 8
+    },
+    {
+      "number": 81,
+      "question": "How long do you mentally prepare yourself before expressing your opinion?",
+      "right": true,
+      "scale": 4
+    },
+    {
+      "number": 82,
+      "question": "Are there any people you know who you obviously don't like?",
+      "right": false,
+      "scale": 9
+    },
+    {
+      "number": 83,
+      "question": "Do you usually prefer light work?",
+      "right": false,
+      "scale": 1
+    },
+    {
+      "number": 84,
+      "question": "Is it easy to offend you in a conversation over nothing?",
+      "right": false,
+      "scale": 4
+    },
+    {
+      "number": 85,
+      "question": "Are you usually the first person in the company to start a conversation?",
+      "right": true,
+      "scale": 4
+    },
+    {
+      "number": 86,
+      "question": "Are you attracted to people?",
+      "right": true,
+      "scale": 2
+    },
+    {
+      "number": 87,
+      "question": "Do you tend to think first and then speak?",
+      "right": false,
+      "scale": 4
+    },
+    {
+      "number": 88,
+      "question": "Do you often worry about your work?",
+      "right": true,
+      "scale": 7
+    },
+    {
+      "number": 89,
+      "question": "Would you always pay for baggage transportation if you weren't afraid of being checked?",
+      "right": true,
+      "scale": 9
+    },
+    {
+      "number": 90,
+      "question": "Do you usually keep to yourself at parties or in companies?",
+      "right": false,
+      "scale": 2
+    },
+    {
+      "number": 91,
+      "question": "Do you tend to exaggerate work-related failures in your imagination?",
+      "right": true,
+      "scale": 7
+    },
+    {
+      "number": 92,
+      "question": "Do you like to talk fast?",
+      "right": true,
+      "scale": 6
+    },
+    {
+      "number": 93,
+      "question": "Is it easy for you to refrain from expressing an unexpected idea?",
+      "right": false,
+      "scale": 4
+    },
+    {
+      "number": 94,
+      "question": "Do you prefer to work slowly?",
+      "right": false,
+      "scale": 5
+    },
+    {
+      "number": 95,
+      "question": "Do you worry about the slightest problems at work?",
+      "right": true,
+      "scale": 7
+    },
+    {
+      "number": 96,
+      "question": "Do you prefer a slow, calm conversation?",
+      "right": false,
+      "scale": 6
+    },
+    {
+      "number": 97,
+      "question": "Do you often worry about mistakes in your work that you made?",
+      "right": true,
+      "scale": 7
+    },
+    {
+      "number": 98,
+      "question": "Are you able to successfully perform long, time-consuming work?",
+      "right": true,
+      "scale": 5
+    },
+    {
+      "number": 99,
+      "question": "Can you make a request to another person without hesitation?",
+      "right": true,
+      "scale": 4
+    },
+    {
+      "number": 100,
+      "question": "Do you often worry about feeling insecure when communicating with people?",
+      "right": true,
+      "scale": 8
+    },
+    {
+      "number": 101,
+      "question": "Do you take on new tasks easily?",
+      "right": true,
+      "scale": 3
+    },
+    {
+      "number": 102,
+      "question": "Do you get tired when you have to talk for a long time?",
+      "right": false,
+      "scale": 6
+    },
+    {
+      "number": 103,
+      "question": "Do you prefer to work with coolness, without much stress?",
+      "right": false,
+      "scale": 1
+    },
+    {
+      "number": 104,
+      "question": "Do you like a variety of work that requires switching your attention?",
+      "right": true,
+      "scale": 3
+    },
+    {
+      "number": 105,
+      "question": "Do you like to be alone for a long time?",
+      "right": false,
+      "scale": 2
+    }
+  ]
+}

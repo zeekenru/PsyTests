@@ -1,0 +1,115 @@
+{
+  "id": 3,
+  "questions_count": 20,
+  "interpretation": "",
+  "scales_count": 1,
+  "name": "Beck's Hopelessness scale",
+  "answers": [
+    "Absolutely wrong",
+    "Rather incorrect",
+    "Rather true",
+    "Very true"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "question": "I look to the future with hope and enthusiasm",
+      "right": false
+    },
+    {
+      "number": 2,
+      "question": "I might as well just give up on everything, since I can't make my life better",
+      "right": true
+    },
+    {
+      "number": 3,
+      "question": "When things go wrong, it helps me to know that this can't go on forever",
+      "right": false
+    },
+    {
+      "number": 4,
+      "question": "I can't imagine what my life will be like in ten years",
+      "right": true
+    },
+    {
+      "number": 5,
+      "question": "I have enough time to do what is most important to me",
+      "right": false
+    },
+    {
+      "number": 6,
+      "question": "In the future, I hope to succeed in what interests me most",
+      "right": false
+    },
+    {
+      "number": 7,
+      "question": "My future seems dark to me",
+      "right": true
+    },
+    {
+      "number": 8,
+      "question": "I believe that I will have more good things in my life than the average person",
+      "right": false
+    },
+    {
+      "number": 9,
+      "question": "I just don't get a break and I don't think it will get any easier in the future",
+      "right": true
+    },
+    {
+      "number": 10,
+      "question": "My past experience has prepared me well for the future",
+      "right": false
+    },
+    {
+      "number": 11,
+      "question": "Everything I see ahead is more unpleasant than pleasant",
+      "right": true
+    },
+    {
+      "number": 12,
+      "question": "I don't expect to get what I really want",
+      "right": true
+    },
+    {
+      "number": 13,
+      "question": "When I think about the future, I hope that I will be happier than I am now",
+      "right": false
+    },
+    {
+      "number": 14,
+      "question": "Nothing in life works out the way I want it to",
+      "right": true
+    },
+    {
+      "number": 15,
+      "question": "I believe in my future",
+      "right": false
+    },
+    {
+      "number": 16,
+      "question": "I never get what I want, so it's stupid to want something",
+      "right": true
+    },
+    {
+      "number": 17,
+      "question": "It is very unlikely that I will be happy with my future",
+      "right": true
+    },
+    {
+      "number": 18,
+      "question": "My future seems very vague and uncertain to me",
+      "right": true
+    },
+    {
+      "number": 19,
+      "question": "I expect more good from the future than bad",
+      "right": false
+    },
+    {
+      "number": 20,
+      "question": "It is useless to really strive to get what I want, because most likely I will not succeed",
+      "right": true
+    }
+  ]
+}

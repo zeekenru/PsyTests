@@ -1,0 +1,257 @@
+{
+  "id": 18,
+  "questions_count": 40,
+  "name": "Herren Normative Installation",
+  "scales_count": 5,
+  "interpretation": ">102 - 110: niedrige Punktzahl, 111 - 128: unterdurchschnittlich, 129 -146: Mittelwerte 147-164: überdurchschnittlich 165-200: hohe Werte ",
+  "answers": [
+    "Absolut nicht einverstanden",
+    "Stimme nicht zu",
+    "Schwer zu sagen",
+    "Einverstanden",
+    "Absolut einverstanden"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "question": "der Mann sollte lieber Sport (z.B. Hockey, Fußball) Kunst (Z. B. Theater, Ausstellungen)",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 2,
+      "question": "Wenn ein Mann sich verletzt haben, er sollte nicht zulassen, dass andere bemerken, dass er Schmerzen hatte",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 3,
+      "question": "die Männer, auf Menschen die Weinen, sind schwach",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 4,
+      "question": "Wenn ein Mann etwas nervös, er muss teilen Sie Ihre Angst mit anderen Menschen",
+      "scale": 2,
+      "right": false
+    },
+    {
+      "number": 5,
+      "question": "Mann muss sein hart",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 6,
+      "question": "der Spitzname «Puh» – eine der schlimmsten Beleidigungen für Männer",
+      "scale": 4,
+      "right": true
+    },
+    {
+      "number": 7,
+      "question": "der Mann muss die Probleme zu lösen, unter Berufung auf die Logik",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 8,
+      "question": "Männer müssen scheinen zuversichtlich zu sein, auch wenn Sie etwas nicht wissen",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 9,
+      "question": "ist Genau der Mann muss akzeptieren alle endgültigen Entscheidungen in der Familie",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 10,
+      "question": "Männer nehmen an den spielen, um zu gewinnen",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 11,
+      "question": "Wenn nötig, Mann sollte sich nicht scheuen schlafen im selben Bett mit einem anderen Mann",
+      "scale": 4,
+      "right": false
+    },
+    {
+      "number": 12,
+      "question": "die Menschen müssen Arbeit haben, respektiert in der Gesellschaft",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 13,
+      "question": "ein Erfolgreicher Mann sollte, um bequem zu Leben",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 14,
+      "question": "ein Mann muss in der Familie zu respektieren",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 15,
+      "question": "Herren sexuellen Bedürfnisse erfüllt werden sollen",
+      "scale": 5,
+      "right": true
+    },
+    {
+      "number": 16,
+      "question": "Männer müssen fühlen Sie sich verlegen fühlen, wenn Sie verschwindet eine Erektion während des Geschlechts",
+      "scale": 5,
+      "right": true
+    },
+    {
+      "number": 17,
+      "question": "die Männer, die Kinder oder zubereitet in den Restaurants, sollten stolz auf das sein, was Sie tun",
+      "scale": 3,
+      "right": false
+    },
+    {
+      "number": 18,
+      "question": "Für Männer ist nicht so wichtig erreichen Orgasmus beim Sex",
+      "scale": 5,
+      "right": false
+    },
+    {
+      "number": 19,
+      "question": "Für die Männer normalerweise auf andere verlassen",
+      "scale": 2,
+      "right": false
+    },
+    {
+      "number": 20,
+      "question": "Wenn ein Mann Angst hat, er sollte nicht zulassen, dass andere es sehen",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 21,
+      "question": "Normale Männer gehen nicht in Bars für Homosexuelle",
+      "scale": 4,
+      "right": true
+    },
+    {
+      "number": 22,
+      "question": "die Männer müssen bereit sein, schützen Sie sich körperlich in einer schwierigen Situation",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 23,
+      "question": "der Mann ist würdig der Bewunderung, Wann übernimmt die Führung in einer Situation, wo Sie brauchen, um etwas zu tun",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 24,
+      "question": "der Heterosexuelle Mann sollte sich nicht scheuen, dass er Homosexuell Freunde",
+      "scale": 4,
+      "right": false
+    },
+    {
+      "number": 25,
+      "question": "ein Mann soll nicht sorgen machen über die Zukunft",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 26,
+      "question": "Ich werde nicht kündigen, wer schießt Homosexuell",
+      "scale": 4,
+      "right": true
+    },
+    {
+      "number": 27,
+      "question": "die Entscheidung des Mannes sollte nicht in Frage gestellt",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 28,
+      "question": "Männer müssen angepasst werden, um erfolgreich zu sein",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 29,
+      "question": "Für Männer ist es wichtig, beruflich erfolgreich sein",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 30,
+      "question": "Homosexuelle Männer sind nicht geeignet für viele Arbeitsplätze",
+      "scale": 4,
+      "right": true
+    },
+    {
+      "number": 31,
+      "question": "Männer müssen konzentriert zu bleiben auch in schwierigen Situationen",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 32,
+      "question": "Mann muss respektieren, seine Freunde und ihn bewundern",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 33,
+      "question": "Männer können einander küssen, ohne Scham",
+      "scale": 4,
+      "right": false
+    },
+    {
+      "number": 34,
+      "question": "Männer sollten peinlich sein, Sprach mit Freunden über Sex",
+      "scale": 5,
+      "right": false
+    },
+    {
+      "number": 35,
+      "question": "die Männer sind für das Risiko",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 36,
+      "question": "ist Nicht immer eine Einladung zu einem Termin muss vom Mann ausgehen",
+      "scale": 2,
+      "right": false
+    },
+    {
+      "number": 37,
+      "question": "der Vater sollte empört sein, wenn er erfährt, dass sein Sohn Homosexuell ist",
+      "scale": 4,
+      "right": false
+    },
+    {
+      "number": 38,
+      "question": "der Mann muß glauben, daß er weiß alles über Sex",
+      "scale": 5,
+      "right": true
+    },
+    {
+      "number": 39,
+      "question": "ein Mann ist erfolgreich, wenn er gut verdient",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 40,
+      "question": "die Menschen müssen ruhig sein in schwierigen Situationen",
+      "scale": 1,
+      "right": true
+    }
+  ]
+}
+

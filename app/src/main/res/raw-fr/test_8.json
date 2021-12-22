@@ -1,0 +1,250 @@
+{
+  "id": 8,
+  "questions_count": 24,
+  "name": "Questionnaire de satisfaction conjugale",
+  "scales_count": 1,
+  "interpretation": "Un score élevé indique la satisfaction conjugale.0-16 points - familles absolument dysfonctionnelles, 17-22 points-familles dysfonctionnelles, 23-26 points - familles plutôt dysfonctionnelles, 27-28 points-familles de transition, 29-32 points-familles plutôt prospères, 33-38 points-familles prospères, 39-48 points-familles absolument prospères.",
+  "questions": [
+    {
+      "number": 1,
+      "question": "quand les gens vivent aussi près que dans la vie de famille, ils perdent inévitablement la compréhension mutuelle et la netteté de la perception de l'autre personne",
+      "answers": [
+        "Sûrement",
+        "Pas sûr",
+        "Incorrect"
+      ],
+      "scale": 1,
+      "key": 3
+    },
+    {
+      "number": 2,
+      "question": "Votre relation conjugale vous apporte",
+      "answers": [
+        "Plus d'anxiété et de souffrance",
+        "J'ai du mal à répondre",
+        "Plus de joie et de satisfaction"
+      ],
+      "key": 3
+    },
+    {
+      "number": 3,
+      "question": "Parents et amis évaluent Votre mariage",
+      "answers": [
+        "Comment réussi",
+        "Quelque chose du milieu",
+        "Comme un échec"
+      ],
+      "key": 1
+    },
+    {
+      "number": 4,
+      "question": "si vous pouviez, alors",
+      "answers": [
+        "Vous changeriez beaucoup de choses dans le caractère de Votre conjoint (Votre conjoint)",
+        "difficile à dire",
+        "Vous ne changeriez rien"
+      ],
+      "key": 3
+    },
+    {
+      "number": 5,
+      "question": "L'un des problèmes du mariage moderne est que tout le monde est ennuyé, y compris les relations sexuelles:",
+      "answers": [
+        "Sûrement",
+        "Difficile à dire",
+        "Incorrect"
+      ],
+      "key": 3
+    },
+    {
+      "number": 6,
+      "question": "lorsque vous comparez Votre vie de famille à celle de Vos amis et connaissances, il vous semble",
+      "answers": [
+        "Que Vous êtes plus malheureux que les autres",
+        "Difficile à dire",
+        "que Vous êtes plus heureux que les autres"
+      ],
+      "key": 3
+    },
+    {
+      "number": 7,
+      "question": "Vivre sans famille, sans être aimé est un prix trop cher pour une autonomie complète",
+      "answers": [
+        "Sûrement",
+        "Difficile à dire",
+        "Incorrect"
+      ],
+      "key": 1
+    },
+    {
+      "number": 8,
+      "question": "pensez-vous que sans Vous, la vie de Votre conjoint serait défectueuse",
+      "answers": [
+        "Oui, je crois",
+        "Difficile à dire",
+        "Non, je ne compte pas"
+      ],
+      "key": 1
+    },
+    {
+      "number": 9,
+      "question": "la Plupart des gens sont en quelque sorte trompés dans leurs attentes concernant le mariage",
+      "answers": [
+        "Sûrement",
+        "Difficile à dire",
+        "Incorrect"
+      ],
+      "key": 3
+    },
+    {
+      "number": 10,
+      "question": "seules de nombreuses circonstances différentes vous empêchent de penser au divorce",
+      "answers": [
+        "Sûrement",
+        "Je ne peux pas dire",
+        "Incorrect"
+      ],
+      "key": 3
+    },
+    {
+      "number": 11,
+      "question": "Si l'époque où Vous vous êtes mariés revenait, Votre mari pourrait être votre femme",
+      "answers": [
+        "N'importe qui, mais pas le conjoint actuel",
+        "Difficile à dire",
+        "Il est possible que ce soit le conjoint actuel"
+      ],
+      "key": 3
+    },
+    {
+      "number": 12,
+      "question": "vous êtes fier d'avoir une personne comme Votre conjoint à Côté de vous",
+      "answers": [
+        "Sûrement",
+        "Difficile à dire",
+        "Incorrect"
+      ],
+      "key": 1
+    },
+    {
+      "number": 13,
+      "question": "malheureusement, les défauts de Votre conjoint l'emportent souvent sur ses mérites",
+      "answers": [
+        "Sûrement",
+        "Difficile à dire",
+        "Incorrect"
+      ],
+      "key": 3
+    },
+    {
+      "number": 14,
+      "question": "Les principaux obstacles à une vie conjugale heureuse résident",
+      "answers": [
+        "Très probablement dans le caractère de Votre conjoint",
+        "Difficile à dire",
+        "Plutôt en Vous"
+      ],
+      "key": 3
+    },
+    {
+      "number": 15,
+      "question": "Sentiments avec lesquels Vous avez été marié",
+      "answers": [
+        "Se renforcer",
+        "Difficile à dire",
+        "Affaiblirent"
+      ],
+      "key": 1
+    },
+    {
+      "number": 16,
+      "question": "le Mariage ternit les capacités créatives d'une personne",
+      "answers": [
+        "Sûrement",
+        "Difficile à dire",
+        "Incorrect"
+      ],
+      "key": 3
+    },
+    {
+      "number": 17,
+      "question": "on Peut dire que Votre conjoint a des mérites qui compensent ses défauts",
+      "answers": [
+        "D'accord",
+        "Quelque chose au milieu,",
+        "N'est pas d'accord"
+      ],
+      "key": 1
+    },
+    {
+      "number": 18,
+      "question": "malheureusement, dans Votre mariage, tout ne va pas bien avec le soutien émotionnel de l'autre:",
+      "answers": [
+        "Sûrement",
+        "Difficile à dire",
+        "Incorrect"
+      ],
+      "key": 3
+    },
+    {
+      "number": 19,
+      "question": "vous avez l'impression que Votre conjoint fait souvent des bêtises, dit nevpopad, fait des blagues inappropriées",
+      "answers": [
+        "Sûrement",
+        "Difficile à dire",
+        "Incorrect"
+      ],
+      "key": 3
+    },
+    {
+      "number": 20,
+      "question": "La vie dans la famille ne dépend pas de Votre volonté",
+      "answers": [
+        "Sûrement",
+        "Difficile à dire",
+        "Incorrect"
+      ],
+      "key": 3
+    },
+    {
+      "number": 21,
+      "question": "Vos relations familiales n'ont pas apporté L'ordre et l'organisation que vous attendiez",
+      "answers": [
+        "Sûrement",
+        "Difficile à dire",
+        "Incorrect"
+      ],
+      "key": 3
+    },
+    {
+      "number": 22,
+      "question": "ce sont Ceux qui pensent que c'est dans la famille que l'on peut le moins compter sur le respect",
+      "answers": [
+        "Sûrement",
+        "Difficile à dire",
+        "Incorrect"
+      ],
+      "key": 1
+    },
+    {
+      "number": 23,
+      "question": "en règle générale, la société de Votre conjoint vous fait plaisir",
+      "answers": [
+        "Sûrement",
+        "Difficile à dire",
+        "Incorrect"
+      ],
+      "key": 1
+    },
+    {
+      "number": 24,
+      "question": "en vérité, il n'y a pas eu de moment lumineux dans Votre vie conjugale",
+      "answers": [
+        "Sûrement",
+        "Difficile à dire",
+        "Incorrect"
+      ],
+      "key": 3
+    }
+  ]
+}

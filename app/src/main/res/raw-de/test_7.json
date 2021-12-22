@@ -1,0 +1,64 @@
+{
+  "id": 7,
+  "questions_count": 10,
+  "name": "Orthorexia nervosa-Fragebogen",
+  "scales_count": 1,
+  "interpretation": "Nur in dem 10 Punkte, maximale Anzahl von Punkten, die ein Tor erzielt - 10. Wenn der befragte erzielte 4 Punkte und mehr bei ihm sein kann, ABER, und er braucht professionelle Beratung.",
+  "answers": [
+    "Ja",
+    "Nein"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "question": "Ich verbringe mehr als drei Stunden pro Tag in nachdenken über gesunde Ernährung",
+      "key": 1
+    },
+    {
+      "number": 2,
+      "question": "Das Menü für morgen Plane ich schon heute",
+      "key": 1
+    },
+    {
+      "number": 3,
+      "question": "Ist Für mich viel wichtiger ist der nutzen, den Sie bringt Lebensmittel, dessen Vergnügen von Ihr",
+      "key": 1
+    },
+    {
+      "number": 4,
+      "question": "Je besser meine Ernährung, desto eintöniger mein Lebensstil",
+      "key": 1
+    },
+    {
+      "number": 5,
+      "question": "Meine diätetische Einschränkungen mit jedem Tag immer strenger",
+      "key": 1
+    },
+    {
+      "number": 6,
+      "question": "Ich opfere Beschäftigungen, die ich früher mochte, wenn Sie mich daran hindert, mir, richtig zu Essen",
+      "key": 1
+    },
+    {
+      "number": 7,
+      "question": "Mein Selbstwertgefühl steigt, wenn ich esse eine gesunde Ernährung. Ich schaue herab auf diejenigen, die dies nicht tun",
+      "key": 1
+    },
+    {
+      "number": 8,
+      "question": "Mich quälen Schuldgefühle und Selbsthass, wenn ich esse das, was mir gefällt, aber nicht die Regeln meiner Ernährung",
+      "key": 1
+    },
+    {
+      "number": 9,
+      "question": "Der Landtag trennt mich von den anderen, da kann ich nur Essen zu Hause",
+      "key": 1
+    },
+    {
+      "number": 10,
+      "question": "Wann ich esse die richtigen Produkte bin ich beruhigt und fühle, dass ich alles unter Kontrolle",
+      "key": 1
+    }
+  ]
+}
+

@@ -1,0 +1,217 @@
+{
+  "id": 21,
+  "questions_count": 40,
+  "name": "Test Kimberly-Young auf der Internet-Abhängigkeit",
+  "scales_count": 1,
+  "interpretation": "",
+  "answers": [
+    "Nie",
+    "Selten",
+    "Regelmäßig",
+    "Oft",
+    "Ständig"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "question": "Bemerken, dass Sie verbringen mehr Zeit Online, als gedacht?",
+      "scale": 1
+    },
+    {
+      "number": 2,
+      "question": "Vernachlässigung der Hausarbeit, um Sie länger zu bummeln im Netz?",
+      "scale": 1
+    },
+    {
+      "number": 3,
+      "question": "Bevorzugen den Aufenthalt in einem Netzwerk intimen Verkehr mit Ihrem Partner?",
+      "scale": 1
+    },
+    {
+      "number": 4,
+      "question": "Schmiede mit den Nutzern des Internets, während Sie Online spielen?",
+      "scale": 1
+    },
+    {
+      "number": 5,
+      "question": "Irritiert aufgrund der Tatsache, dass andere interessieren sich für die Menge der Zeit, die Ihnen im Netz?",
+      "scale": 1
+    },
+    {
+      "number": 6,
+      "question": "Markierst, aufgehört, dass Erfolg in der Schule oder Arbeit, da Sie zu viel Zeit im Internet verbringen?",
+      "scale": 1
+    },
+    {
+      "number": 7,
+      "question": "E-Mails abrufen früher als tun Sie etwas anderes, mehr als das notwendige?",
+      "scale": 1
+    },
+    {
+      "number": 8,
+      "question": "Markierst, das verringert die Produktivität wegen der Faszination Internet?",
+      "scale": 1
+    },
+    {
+      "number": 9,
+      "question": "Sind Sie defensiv und geheimnisvoll, wenn Sie gefragt werden, was Sie online tun?",
+      "scale": 1
+    },
+    {
+      "number": 10,
+      "question": "die Sperrung des störenden Gedanken über Ihre Lebens Gedanken über das Internet?",
+      "scale": 1
+    },
+    {
+      "number": 11,
+      "question": "Sie freuen sich schon auf Ihre nächste Internetverbindung?",
+      "scale": 1
+    },
+    {
+      "number": 12,
+      "question": "Haben Sie das Gefühl, dass ein Leben ohne Internet langweilig, leer und freudlos ist?",
+      "scale": 1
+    },
+    {
+      "number": 13,
+      "question": "Sie schimpfen, Schreien oder anderweitig seinen ärger auszudrücken, wenn jemand versucht, Sie abzulenken von der Aufenthaltsdauer im Netz?",
+      "scale": 1
+    },
+    {
+      "number": 14,
+      "question": "Schlaf Vernachlässigen, sitzen im Internet zu spät?",
+      "scale": 1
+    },
+    {
+      "number": 15,
+      "question": "Vorweg, was werde im Internet, während Sie offline?",
+      "scale": 1
+    },
+    {
+      "number": 16,
+      "question": "zu sich selbst Sagen: \"Noch einen Augenblick\", sitzt im Netz?",
+      "scale": 1
+    },
+    {
+      "number": 17,
+      "question": "scheitern in einem Versuch, die Zeit zu verkürzen, die Online spielen?",
+      "scale": 1
+    },
+    {
+      "number": 18,
+      "question": "Versuchen ausblenden Menge an Zeit, die Ihnen im Netz?",
+      "scale": 1
+    },
+    {
+      "number": 19,
+      "question": "Anstatt raus irgendwo mit Freunden, wählen Sie Internet?",
+      "scale": 1
+    },
+    {
+      "number": 20,
+      "question": "das Gefühl von Depressionen, Niedergeschlagenheit oder Nervosität, als außerhalb des Netzes-und weisen darauf hin, dass dieser Zustand geht, sobald Sie sich in der Online-Branche?",
+      "scale": 1
+    },
+    {
+      "number": 21,
+      "question": "haben Sie das Gefühl der Euphorie, Aufregung, Erregung, während Sie am Computer?",
+      "scale": 1
+    },
+    {
+      "number": 22,
+      "question": "muss ich Ihnen verbringen immer mehr Zeit am Computer, um die gleichen Gefühle?",
+      "scale": 1
+    },
+    {
+      "number": 23,
+      "question": "haben Sie das Gefühl der leere, Depression, Reizungen, während Sie nicht am Computer?",
+      "scale": 1
+    },
+    {
+      "number": 24,
+      "question": "haben Sie schon einmal wichtige Dinge zu vernachlässigen, während Sie damit beschäftigt waren, am Computer, aber nicht Arbeit?",
+      "scale": 1
+    },
+    {
+      "number": 25,
+      "question": "haben Sie in Ihrem Netzwerk mehr als 3 Stunden am Tag?",
+      "scale": 1
+    },
+    {
+      "number": 26,
+      "question": "vor allem Wenn Sie einen Computer für die Arbeit, egal ob während der Arbeitszeit in Chatrooms oder auf Websites, die nichts mit der Arbeit, mehr als 2 mal am Tag?",
+      "scale": 1
+    },
+    {
+      "number": 27,
+      "question": "Schütteln Sie Dateien von Websites mit pornografischen Inhalt?",
+      "scale": 1
+    },
+    {
+      "number": 28,
+      "question": "haben Sie das Gefühl, dass mit dem Menschen leichter kommunizieren «Online», denn persönlich?",
+      "scale": 1
+    },
+    {
+      "number": 29,
+      "question": "haben Sie Freunde oder Familienmitglieder, dass Sie verbringen zu viel Zeit «Online»?",
+      "scale": 1
+    },
+    {
+      "number": 30,
+      "question": "Stört ob Ihre Geschäftsaktivitäten Menge an Zeit, die im Netz?",
+      "scale": 1
+    },
+    {
+      "number": 31,
+      "question": "ob solches Geschehen, dass Ihre versuche, die Zeit zu begrenzen, die im Netz, waren erfolglos?",
+      "scale": 1
+    },
+    {
+      "number": 32,
+      "question": "Ist es möglich, dass Sie Ihre Finger müde von der Arbeit auf der Tastatur oder Maustaste darauf klicken?",
+      "scale": 1
+    },
+    {
+      "number": 33,
+      "question": "haben Sie schon einmal mit den Lügen auf die Frage über die Menge an Zeit, die er im Netz?",
+      "scale": 1
+    },
+    {
+      "number": 34,
+      "question": "haben Sie schon einmal «Karpaltunnelsyndrom» (Taubheitsgefühl und Schmerzen in der Hand)?",
+      "scale": 1
+    },
+    {
+      "number": 35,
+      "question": "Haben Sie Rückenschmerzen öfter als 1 Mal pro Woche?",
+      "scale": 1
+    },
+    {
+      "number": 36,
+      "question": "haben Sie jemals ein Gefühl von Trockenheit in den Augen?",
+      "scale": 1
+    },
+    {
+      "number": 37,
+      "question": "Erhöht, wenn die Zeit, die Ihnen im Netz?",
+      "scale": 1
+    },
+    {
+      "number": 38,
+      "question": "haben Sie schon einmal vernachlässigt Mahlzeit oder direkt am Computer, im Netzwerk zu bleiben?",
+      "scale": 1
+    },
+    {
+      "number": 39,
+      "question": "Haben Sie schon einmal die Körperpflege, zB Rasieren, Kämmen etc. vernachlässigt, um diese Zeit am Computer zu verbringen?",
+      "scale": 1
+    },
+    {
+      "number": 40,
+      "question": "Haben Sie Schlafstörungen und/oder verändert ob Schlaf-Modus, seitdem Sie angefangen zu benutzen Computer jeden Tag?",
+      "scale": 1
+    }
+  ]
+}
+

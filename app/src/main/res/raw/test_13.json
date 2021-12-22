@@ -1,0 +1,463 @@
+{
+  "id": 13,
+  "questions_count": 75,
+  "name": "Diagnostics of the state of aggression",
+  "scales_count": 8,
+  "interpretation": "",
+  "answers": [
+    "Yes",
+    "No"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "question": "Sometimes I can't handle the urge to hurt others",
+      "right": true,
+      "scale": 1
+    },
+    {
+      "number": 2,
+      "question": "Sometimes I gossip about people I don't like",
+      "right": true,
+      "scale": 2
+    },
+    {
+      "number": 3,
+      "question": "I get annoyed easily, but I calm down quickly",
+      "right": true,
+      "scale": 3
+    },
+    {
+      "number": 4,
+      "question": "If I'm not asked in a nice way, I won't do it",
+      "right": true,
+      "scale": 4
+    },
+    {
+      "number": 5,
+      "question": "I don't always get what I'm supposed to",
+      "right": true,
+      "scale": 5
+    },
+    {
+      "number": 6,
+      "question": "I do not know what people say about me behind my back",
+      "right": true,
+      "scale": 6
+    },
+    {
+      "number": 7,
+      "question": "If I don't approve of my friends 'behavior, I let them feel it",
+      "right": true,
+      "scale": 7
+    },
+    {
+      "number": 8,
+      "question": "When I happened to deceive someone, I experienced excruciating remorse",
+      "right": true,
+      "scale": 8
+    },
+    {
+      "number": 9,
+      "question": "I don't think I can hit a person",
+      "right": false,
+      "scale": 1
+    },
+    {
+      "number": 10,
+      "question": "I never get so annoyed that I throw objects",
+      "right": false,
+      "scale": 2
+    },
+    {
+      "number": 11,
+      "question": "I am always forgiving of other people's shortcomings",
+      "right": false,
+      "scale": 3
+    },
+    {
+      "number": 12,
+      "question": "If I don't like the established rule, I want to break it",
+      "right": true,
+      "scale": 4
+    },
+    {
+      "number": 13,
+      "question": "Others are almost always able to take advantage of favorable circumstances",
+      "right": true,
+      "scale": 5
+    },
+    {
+      "number": 14,
+      "question": "I am wary of people who treat me somewhat more amicably than I expect",
+      "right": true,
+      "scale": 6
+    },
+    {
+      "number": 15,
+      "question": "I often disagree with people",
+      "right": true,
+      "scale": 7
+    },
+    {
+      "number": 16,
+      "question": "Sometimes thoughts come to my mind that I'm ashamed of",
+      "right": true,
+      "scale": 8
+    },
+    {
+      "number": 17,
+      "question": "If someone hits me first, I won't answer them",
+      "right": false,
+      "scale": 1
+    },
+    {
+      "number": 18,
+      "question": "When I get annoyed, I slam doors",
+      "right": true,
+      "scale": 2
+    },
+    {
+      "number": 19,
+      "question": "I'm much more irritable than I seem",
+      "right": true,
+      "scale": 3
+    },
+    {
+      "number": 20,
+      "question": "If someone imagines themselves to be a boss, I always act against them",
+      "right": true,
+      "scale": 4
+    },
+    {
+      "number": 21,
+      "question": "I'm a little sad about my fate",
+      "right": true,
+      "scale": 5
+    },
+    {
+      "number": 22,
+      "question": "I think a lot of people don't like me",
+      "right": true,
+      "scale": 6
+    },
+    {
+      "number": 23,
+      "question": "I can't resist arguing if people don't agree with me",
+      "right": true,
+      "scale": 7
+    },
+    {
+      "number": 24,
+      "question": "People who shirk their jobs should feel guilty",
+      "right": true,
+      "scale": 8
+    },
+    {
+      "number": 25,
+      "question": "Anyone who insults me and my family is asking for a fight",
+      "right": true,
+      "scale": 1
+    },
+    {
+      "number": 26,
+      "question": "I 'm not capable of making rude joke",
+      "right": false,
+      "scale": 2
+    },
+    {
+      "number": 27,
+      "question": "I get angry when someone mocks me",
+      "right": true,
+      "scale": 3
+    },
+    {
+      "number": 28,
+      "question": "When people pretend to be superiors, I do everything possible so that they don't get conceited",
+      "right": true,
+      "scale": 4
+    },
+    {
+      "number": 29,
+      "question": "Almost every week I see someone I don't like",
+      "right": true,
+      "scale": 5
+    },
+    {
+      "number": 30,
+      "question": "Quite a few people are jealous of me",
+      "right": true,
+      "scale": 6
+    },
+    {
+      "number": 31,
+      "question": "I demand that people respect me",
+      "right": true,
+      "scale": 7
+    },
+    {
+      "number": 32,
+      "question": "It depresses me that I don't do enough for my parents",
+      "right": true,
+      "scale": 8
+    },
+    {
+      "number": 33,
+      "question": "People who constantly harass you are worth being 'snapped on the nose'",
+      "right": true,
+      "scale": 1
+    },
+    {
+      "number": 34,
+      "question": "I'm never gloomy with anger",
+      "right": true,
+      "scale": 2
+    },
+    {
+      "number": 35,
+      "question": "If I'm treated worse than I deserve, I don't get upset",
+      "right": false,
+      "scale": 3
+    },
+    {
+      "number": 36,
+      "question": "If someone pisses me off, I don't pay attention",
+      "right": false,
+      "scale": 4
+    },
+    {
+      "number": 37,
+      "question": "Although I don't show it, I sometimes get jealous",
+      "right": true,
+      "scale": 5
+    },
+    {
+      "number": 38,
+      "question": "Sometimes I feel like I'm being laughed at",
+      "right": true,
+      "scale": 6
+    },
+    {
+      "number": 39,
+      "question": "Even if I'm angry, I don't use strong language",
+      "right": false,
+      "scale": 7
+    },
+    {
+      "number": 40,
+      "question": "I want my sins to be forgiven",
+      "right": false,
+      "scale": 8
+    },
+    {
+      "number": 41,
+      "question": "I rarely fight back, even if someone hits me",
+      "right": false,
+      "scale": 1
+    },
+    {
+      "number": 42,
+      "question": "When it doesn't work out my way, I sometimes get offended",
+      "right": true,
+      "scale": 2
+    },
+    {
+      "number": 43,
+      "question": "Sometimes people annoy me just by being there",
+      "right": true,
+      "scale": 3
+    },
+    {
+      "number": 44,
+      "question": "There are no people I really hate",
+      "right": false,
+      "scale": 5
+    },
+    {
+      "number": 45,
+      "question": "My principle: \"Never trust strangers\"",
+      "right": true,
+      "scale": 6
+    },
+    {
+      "number": 46,
+      "question": "If someone annoys me, I'm ready to say what I think of them",
+      "right": true,
+      "scale": 7
+    },
+    {
+      "number": 47,
+      "question": "I do a lot of things that I later regret",
+      "right": true,
+      "scale": 8
+    },
+    {
+      "number": 48,
+      "question": "If I get angry, I can hit someone",
+      "right": true,
+      "scale": 1
+    },
+    {
+      "number": 49,
+      "question": "I have never shown outbursts of anger since I was a child",
+      "right": false,
+      "scale": 2
+    },
+    {
+      "number": 50,
+      "question": "I often feel like a powder keg about to explode",
+      "right": true,
+      "scale": 3
+    },
+    {
+      "number": 51,
+      "question": "If everyone knew how I feel, I would be considered a person who is not easy to work with",
+      "right": true,
+      "scale": 5
+    },
+    {
+      "number": 52,
+      "question": "I always think about what secret reasons make people do something nice for me",
+      "right": true,
+      "scale": 6
+    },
+    {
+      "number": 53,
+      "question": "When someone yells at me, I start yelling back",
+      "right": true,
+      "scale": 7
+    },
+    {
+      "number": 54,
+      "question": "Failures make me sad",
+      "right": true,
+      "scale": 8
+    },
+    {
+      "number": 55,
+      "question": "I fight no less often and no more often than others",
+      "right": true,
+      "scale": 1
+    },
+    {
+      "number": 56,
+      "question": "I can remember times when I was so angry that I would grab something that came to hand and break it",
+      "right": true,
+      "scale": 2
+    },
+    {
+      "number": 57,
+      "question": "Sometimes I feel like I'm ready to start a fight first",
+      "right": true,
+      "scale": 3
+    },
+    {
+      "number": 58,
+      "question": "Sometimes I feel that life treats me unfairly",
+      "right": true,
+      "scale": 5
+    },
+    {
+      "number": 59,
+      "question": "I used to think that most people were telling the truth, but now I don't believe it",
+      "right": true,
+      "scale": 6
+    },
+    {
+      "number": 60,
+      "question": "I only swear out of anger",
+      "right": true,
+      "scale": 7
+    },
+    {
+      "number": 61,
+      "question": "When I do something wrong, my conscience torments me",
+      "right": true,
+      "scale": 8
+    },
+    {
+      "number": 62,
+      "question": "If I need to use physical force to protect my rights, I will use it",
+      "right": true,
+      "scale": 1
+    },
+    {
+      "number": 63,
+      "question": "Sometimes I express my anger by banging my fist on the table",
+      "right": true,
+      "scale": 2
+    },
+    {
+      "number": 64,
+      "question": "I can be rude to people I don't like",
+      "right": true,
+      "scale": 4
+    },
+    {
+      "number": 65,
+      "question": "I don't have any enemies who would want to hurt me",
+      "right": false,
+      "scale": 6
+    },
+    {
+      "number": 66,
+      "question": "I don't know how to put a person in their place, even if they deserve it",
+      "right": false,
+      "scale": 7
+    },
+    {
+      "number": 67,
+      "question": "I often think that I lived incorrectly",
+      "right": true,
+      "scale": 8
+    },
+    {
+      "number": 68,
+      "question": "I know people who can bring me to fights",
+      "right": true,
+      "scale": 1
+    },
+    {
+      "number": 69,
+      "question": "I don't get upset about small things",
+      "right": false,
+      "scale": 3
+    },
+    {
+      "number": 70,
+      "question": "It rarely occurs to me that people are trying to anger or insult me",
+      "right": false,
+      "scale": 6
+    },
+    {
+      "number": 71,
+      "question": "I often threaten people, although I don't intend to carry out threats",
+      "right": true,
+      "scale": 7
+    },
+    {
+      "number": 72,
+      "question": "I've been getting boring lately",
+      "right": true,
+      "scale": 3
+    },
+    {
+      "number": 73,
+      "question": "I often raise my voice in an argument",
+      "right": true,
+      "scale": 7
+    },
+    {
+      "number": 74,
+      "question": "I usually try to hide my bad attitude towards people",
+      "right": false,
+      "scale": 7
+    },
+    {
+      "number": 75,
+      "question": "I'd rather agree with something than argue",
+      "right": false,
+      "scale": 7
+    }
+  ]
+}

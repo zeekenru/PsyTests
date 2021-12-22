@@ -1,0 +1,150 @@
+{
+  "id": 6,
+  "questions_count": 22,
+  "name": "Maslach Burnout Inventory ",
+  "scales_count": 3,
+  "interpretation": "Emotional exhaustion is considered as the main component of burnout and manifests itself in a reduced emotional background, indifference or emotional saturation. Depersonalization affects the deformation of relationships with other people. In some cases, this may be an increase in dependence on others. In others, the strengthening of negative, cynical attitudes and feelings toward recipients: patients, clients, etc. Reduction of professional achievements may occur either in the trend negatively evaluate themselves to underestimate their professional achievements and successes, negativism to business advantages and opportunities, either in the understatement of self-esteem, limiting their opportunities, responsibilities to others",
+  "answers": [
+    "Never",
+    "Very rare",
+    "Rarely",
+    "Sometimes",
+    "Often",
+    "Very often",
+    "Every day"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "question": "I feel emotionally drained",
+      "right": true,
+      "scale": 1
+    },
+    {
+      "number": 2,
+      "question": "After work, I feel like a \"squeezed lemon\"",
+      "right": true,
+      "scale": 1
+    },
+    {
+      "number": 3,
+      "question": "In the morning I feel tired and unwilling to go to work",
+      "right": true,
+      "scale": 1
+    },
+    {
+      "number": 4,
+      "question": "I am well aware of how my subordinates and colleagues feel, and I try to take this into account in the interests of the cause",
+      "right": true,
+      "scale": 3
+    },
+    {
+      "number": 5,
+      "question": "I feel that I communicate with some subordinates and colleagues as objects (without warmth and affection for them)",
+      "right": true,
+      "scale": 2
+    },
+    {
+      "number": 6,
+      "question": "After work, I want to get away from everyone and everything for a while",
+      "right": false,
+      "scale": 1
+    },
+    {
+      "number": 7,
+      "question": "I know how to find the right solution in conflict situations that arise when communicating with colleagues",
+      "right": true,
+      "scale": 3
+    },
+    {
+      "number": 8,
+      "question": "I feel depressed and apathetic",
+      "right": true,
+      "scale": 1
+    },
+    {
+      "number": 9,
+      "question": "I am sure that people need my work",
+      "right": true,
+      "scale": 3
+    },
+    {
+      "number": 10,
+      "question": "Recently I have become more \"callous\" towards those with whom I work",
+      "right": true,
+      "scale": 2
+    },
+    {
+      "number": 11,
+      "question": "I notice that my work hardens me",
+      "right": true,
+      "scale": 2
+    },
+    {
+      "number": 12,
+      "question": "I have many plans for the future, and I believe in their implementation",
+      "right": true,
+      "scale": 3
+    },
+    {
+      "number": 13,
+      "question": "My work is increasingly disappointing me",
+      "right": true,
+      "scale": 1
+    },
+    {
+      "number": 14,
+      "question": "I think I work too hard",
+      "right": true,
+      "scale": 1
+    },
+    {
+      "number": 15,
+      "question": "It happens that I really don't care what happens to some of my subordinates and colleagues",
+      "right": true,
+      "scale": 2
+    },
+    {
+      "number": 16,
+      "question": "I want to be alone and take a break from everything and everyone",
+      "right": true,
+      "scale": 1
+    },
+    {
+      "number": 17,
+      "question": "I can easily create an atmosphere of goodwill and cooperation in the team",
+      "right": true,
+      "scale": 3
+    },
+    {
+      "number": 18,
+      "question": "I feel a pleasant excitement while working",
+      "right": true,
+      "scale": 3
+    },
+    {
+      "number": 19,
+      "question": "Thanks to my work, I have already done a lot of really valuable things in my life",
+      "right": true,
+      "scale": 3
+    },
+    {
+      "number": 20,
+      "question": "I feel indifferent and disinterested in many things that made me happy in my work",
+      "right": true,
+      "scale": 1
+    },
+    {
+      "number": 21,
+      "question": "At work, I calmly cope with emotional problems",
+      "right": true,
+      "scale": 2
+    },
+    {
+      "number": 22,
+      "question": "Recently, it seems to me that colleagues and subordinates are increasingly shifting the burden of their problems and responsibilities to me",
+      "right": true,
+      "scale": 3
+    }
+  ]
+}

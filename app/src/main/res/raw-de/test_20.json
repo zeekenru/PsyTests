@@ -1,0 +1,732 @@
+{
+  "id": 20,
+  "questions_count": 119,
+  "name": "Fragebogen neurotische Persönlichkeitsmerkmale",
+  "scales_count": 9,
+  "interpretation": "",
+  "answers": [
+    "Nein",
+    "Wenig",
+    "Geringfügig",
+    "Vielmehr",
+    "Überwiegend",
+    "Voll"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "question": "Ich bin ziemlich lebhaft und temperamentvoll",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 2,
+      "question": "Ich weiß nicht wie lange der gleichen engagieren",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 3,
+      "question": "Ich bin fast nie in eine solche Situation Gerate, die ich vorher nicht gedacht",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 4,
+      "question": "Über die Herausforderungen kann ich nur allein",
+      "scale": 5,
+      "right": true
+    },
+    {
+      "number": 5,
+      "question": "Ich sehr schnell alle erfasse es",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 6,
+      "question": "Ich bin in jedem Fall handeln in Einklang mit seinen Prinzipien, egal was passiert",
+      "scale": 9,
+      "right": true
+    },
+    {
+      "number": 7,
+      "question": "muss Mich zwingen, Maßnahmen zu ergreifen",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 8,
+      "question": "Ich Leiste einen großen Einfluss auf die anderen",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 9,
+      "question": "Tadel leicht führt mich in Verzweiflung",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 10,
+      "question": "Ich spreche mit anderen über Dinge, die mich bedrückt",
+      "scale": 5,
+      "right": false
+    },
+    {
+      "number": 11,
+      "question": "Ich mag, wenn Sie mich unterhalten, als die meisten anderen zu unterhalten",
+      "scale": 2,
+      "right": false
+    },
+    {
+      "number": 12,
+      "question": "In Prinzip, ich mag es nicht, irgendwelchen Unruhen",
+      "scale": 6,
+      "right": true
+    },
+    {
+      "number": 13,
+      "question": "Ich kann sein sehr geduldig",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 14,
+      "question": "Ich bin so immer auf bestimmte Angelegenheiten und dem Gang der Dinge, dass mir sehr stören irgendwelche Veränderungen",
+      "scale": 6,
+      "right": true
+    },
+    {
+      "number": 15,
+      "question": "Ich habe fast keine Schmiede ich Pläne für die Zukunft, da in der Regel sowieso wird alles anders sein",
+      "scale": 3,
+      "right": false
+    },
+    {
+      "number": 16,
+      "question": "Auch wenn die Chancen nicht sehr groß sind, ich bemühe mich immer noch zu ihm",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 17,
+      "question": "Ich bin ziemlich gut informiert über Krankheiten und deren Folgen, um nichts zu verpassen bei sich",
+      "scale": 6,
+      "right": true
+    },
+    {
+      "number": 18,
+      "question": "Ich kann sich selbst nur mit Mühe",
+      "scale": 5,
+      "right": false
+    },
+    {
+      "number": 19,
+      "question": "Ich kenne ein paar Leute, mit denen befreundet sein möchte",
+      "scale": 5,
+      "right": true
+    },
+    {
+      "number": 20,
+      "question": "das vergesse Ich jede Beleidigung",
+      "scale": 4,
+      "right": false
+    },
+    {
+      "number": 21,
+      "question": "Andere Menschen sind mir im Prinzip gleichgültig",
+      "scale": 7,
+      "right": true
+    },
+    {
+      "number": 22,
+      "question": "Manchmal bin ich etwas boshaft",
+      "scale": 8,
+      "right": true
+    },
+    {
+      "number": 23,
+      "question": "Nur mit wenigen Menschen, die ich in den Haaren",
+      "scale": 7,
+      "right": false
+    },
+    {
+      "number": 24,
+      "question": "Ich kann nicht bis Mitternacht unterhalten, da dann nicht genug schlafen",
+      "scale": 6,
+      "right": true
+    },
+    {
+      "number": 25,
+      "question": "Ich denke, es kann leicht Anpassung an die verschiedenen Lebensbedingungen",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 26,
+      "question": "Auf der Arbeit habe ich nur vor sich kleine Ziele, um auf jeden Fall, Sie zu erreichen",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 27,
+      "question": "Wann fange ich an, Freunde mit jemandem, in der Regel auf Initiative meiner Seite",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 28,
+      "question": "ich war leicht zu beeinflussen",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 29,
+      "question": "Ich denke, dass oft verstecken Sie Ihre Fehler vor sich selbst",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 30,
+      "question": "Ich habe oft so viele Gedanken im Kopf, dass ich kann nicht finden, eine vernünftige Lösung",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 31,
+      "question": "Ich konnte kaum darauf verzichte getroffenen Entscheidungen, auch wenn Wiegen die Argumente gegen Sie",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 32,
+      "question": "Über alles, was ich fühle mich glücklich, wenn ich allein bin",
+      "scale": 5,
+      "right": true
+    },
+    {
+      "number": 33,
+      "question": "Ich hätte öfter sagen, was ich nicht mag",
+      "scale": 9,
+      "right": true
+    },
+    {
+      "number": 34,
+      "question": "Nichts wesentliches in seinem Leben ich würde es anders machen",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 35,
+      "question": "Oft lasse ich meine Wut an anderen aus",
+      "scale": 4,
+      "right": true
+    },
+    {
+      "number": 36,
+      "question": "Ich versuche, vermeiden Sie übermäßigen Stress, um Kraft zu sparen",
+      "scale": 6,
+      "right": true
+    },
+    {
+      "number": 37,
+      "question": "Ich gestehe, immer in Ihren Fehlern",
+      "scale": 9,
+      "right": true
+    },
+    {
+      "number": 38,
+      "question": "Ich finde es schwer finden, den richtigen Ton",
+      "scale": 7,
+      "right": true
+    },
+    {
+      "number": 39,
+      "question": "Ich habe viele Gedanken und Ideen",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 40,
+      "question": "beschäftige Ich mich ausführlich alle Möglichkeiten für ein Gerät seines Lebens",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 41,
+      "question": "Ich kann nicht zurückhalten, in der sich Gefühle wie Freude und Zorn",
+      "scale": 5,
+      "right": false
+    },
+    {
+      "number": 42,
+      "question": "Ich kann das weder an wen Sie sich mit Ihren Problemen, ohne Angst, dass am Ende ist es wie zuvor verwendet wird",
+      "scale": 5,
+      "right": true
+    },
+    {
+      "number": 43,
+      "question": "Ich bin in meinen Entscheidungen",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 44,
+      "question": "Ich glaube, ich unterschätze mich oft",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 45,
+      "question": "Ich bin ein guter Organisator",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 46,
+      "question": "Ich versuche, nicht zu Schwitzen, da es leicht möglich, sich zu erkälten",
+      "scale": 6,
+      "right": true
+    },
+    {
+      "number": 47,
+      "question": "Ich bin nur zufrieden sein, wenn die endgültige und ausgezeichnete Rechtsberatung mit absolutem der Lösung des Problems",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 48,
+      "question": "Ich gehe gerne in großer Gefahr",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 49,
+      "question": "ich Denke, dass ich Ihr Leben in eine feier",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 50,
+      "question": "ich war sehr leicht zu kränken und zu beleidigen",
+      "scale": 4,
+      "right": true
+    },
+    {
+      "number": 51,
+      "question": "Mit schlechten Nachrichten möchte ich selbst fertig zu werden",
+      "scale": 5,
+      "right": true
+    },
+    {
+      "number": 52,
+      "question": "Ich sage immer die Wahrheit",
+      "scale": 8,
+      "right": true
+    },
+    {
+      "number": 53,
+      "question": "Ich bin ziemlich lange nicht vergesse Ungerechtigkeit",
+      "scale": 4,
+      "right": true
+    },
+    {
+      "number": 54,
+      "question": "wie Oft habe ich doch für ein Esel, weil sich selbst und andere Schätze falsch",
+      "scale": 7,
+      "right": true
+    },
+    {
+      "number": 55,
+      "question": "Ich muss in die Vielfalt des Lebens um, damit es nicht langweilig wird",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 56,
+      "question": "Ich bin sehr schwer zu erkennen, eine neue",
+      "scale": 2,
+      "right": false
+    },
+    {
+      "number": 57,
+      "question": "Manchmal schon am morgen, ich fühle mich müde",
+      "scale": 8,
+      "right": true
+    },
+    {
+      "number": 58,
+      "question": "Manchmal bin ich in schlechter Stimmung",
+      "scale": 8,
+      "right": true
+    },
+    {
+      "number": 59,
+      "question": "Nicht alle, die ich kenne, ich Liebe",
+      "scale": 8,
+      "right": true
+    },
+    {
+      "number": 60,
+      "question": "Ich denke nicht gerne über seine Fehler",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 61,
+      "question": "es ärgert Mich, wenn Leute erscheinen in alkoholisiertem Zustand in der öffentlichkeit",
+      "scale": 4,
+      "right": true
+    },
+    {
+      "number": 62,
+      "question": "Alle meine Gewohnheiten sind gut und erstrebenswert",
+      "scale": 9,
+      "right": true
+    },
+    {
+      "number": 63,
+      "question": "Ich werde oft gesagt, dass ich gefühllos",
+      "scale": 7,
+      "right": true
+    },
+    {
+      "number": 64,
+      "question": "Ich denke, dass ich nicht so blöd",
+      "scale": 7,
+      "right": true
+    },
+    {
+      "number": 65,
+      "question": "was wäre, Wenn ich noch die Chance dazu hatten, das ich im Leben Tat, wäre alles ganz anders",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 66,
+      "question": "Wenn ich irgendwo sage, ich habe oft unbeabsichtigt rufe lachen",
+      "scale": 7,
+      "right": true
+    },
+    {
+      "number": 67,
+      "question": "wie erhalten Sie gute Nachrichten ich kann überglücklich",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 68,
+      "question": "Ich verliere schnell die Geduld und werfe alles, falls nicht sofort ein Erfolg",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 69,
+      "question": "Ich versuche andere zu imitieren",
+      "scale": 8,
+      "right": true
+    },
+    {
+      "number": 70,
+      "question": "Ich versuche stets präzise und korrekt, wobei ich manchmal übertreiben kann",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 71,
+      "question": "Ich Plane selten etwas im Voraus, vielmehr handle ich ohne zu zögern",
+      "scale": 3,
+      "right": false
+    },
+    {
+      "number": 72,
+      "question": "Die Erkältung kann ich nicht ernst genommen und versuche gründlich von Ihr geheilt zu werden",
+      "scale": 6,
+      "right": true
+    },
+    {
+      "number": 73,
+      "question": "In Prinzip, dass ich fühlte mich gut, jemand ist immer bei mir sein",
+      "scale": 5,
+      "right": false
+    },
+    {
+      "number": 74,
+      "question": "Ich brauche jemanden, der würde mich «fesselte»",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 75,
+      "question": "Oft, wenn Sie Entscheidungen treffen, ich weiß jetzt schon, dass wieder begehe ich eine falsche Bewegung",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 76,
+      "question": "Im Prinzip kann ich mit dem zufrieden sein, was aus mir geworden ist",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 77,
+      "question": "Manchmal mag ich Witze, die andere schwer verletzt",
+      "scale": 7,
+      "right": true
+    },
+    {
+      "number": 78,
+      "question": "Ich bin immer freundlich und ausgeglichen, auch wenn ich fühle mich schlecht",
+      "scale": 9,
+      "right": true
+    },
+    {
+      "number": 79,
+      "question": "In Prinzip, ich lasse das Leben seinen Lauf nehmen und Frage mich nicht viel damit",
+      "scale": 3,
+      "right": false
+    },
+    {
+      "number": 80,
+      "question": "Beim Schwimmen kann ich nur wenige Minuten im Wasser sein, da ich sehr leicht unterkühle",
+      "scale": 6,
+      "right": true
+    },
+    {
+      "number": 81,
+      "question": "Bevor komplexe Fälle zu lösen, muss ich immer zuerst mit jemandem zu beraten",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 82,
+      "question": "Ich entscheide mich bei der Arbeit, das scheint mir interessant, und zwar auch dann, wenn nicht genau beurteilen kann, ob ich es ausführen",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 83,
+      "question": "Ich lade Freunde zu sich auf einem Besuch äußerst selten",
+      "scale": 5,
+      "right": true
+    },
+    {
+      "number": 84,
+      "question": "Andere Leute besser vorstellen, wie Sie Ihre freie Zeit verbringen",
+      "scale": 7,
+      "right": true
+    },
+    {
+      "number": 85,
+      "question": "Ich Liebe es, wenn man mir sagt, was ich tun muss",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 86,
+      "question": "Ich fühle mich geistig reif, um die Anforderungen des Lebens",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 87,
+      "question": "Manchmal Wünsche ich mich in tausend Stücke zerschlagen alle",
+      "scale": 4,
+      "right": true
+    },
+    {
+      "number": 88,
+      "question": "Ich kann mich darauf verlassen, Ihr Gedächtnis",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 89,
+      "question": "Vor dem Essen habe ich immer meine Hand",
+      "scale": 9,
+      "right": true
+    },
+    {
+      "number": 90,
+      "question": "Ich kann nicht sehen, das leiden von Tieren",
+      "scale": 4,
+      "right": true
+    },
+    {
+      "number": 91,
+      "question": "Ich verstehe mich immer gut mit anderen",
+      "scale": 7,
+      "right": false
+    },
+    {
+      "number": 92,
+      "question": "im Vergleich zu anderen Menschen brauche ich mehr Zeit für die Ausführung einer Aufgabe",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 93,
+      "question": "das Tue Ich oft viele Dinge auf einmal",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 94,
+      "question": "Ich habe das Bedürfnis immer, Ihr Verhalten zu kontrollieren",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 95,
+      "question": "Ich mache viele für die Prävention von Krankheiten, weil Sie können leicht infiziert",
+      "scale": 6,
+      "right": true
+    },
+    {
+      "number": 96,
+      "question": "Viele meiner Freunde sich mit mir, wenn Sie haben Probleme",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 97,
+      "question": "Ich bin eher bereit, bestimme selbst, was zu tun ist, als zu tun, was andere bieten",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 98,
+      "question": "Ich Neige dazu, zu schnellen Lösungen",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 99,
+      "question": "Ich verfalle nicht sofort in Panik, wenn etwas nicht funktioniert",
+      "scale": 4,
+      "right": false
+    },
+    {
+      "number": 100,
+      "question": "Ich habe schon einmal ein Versprechen gebrochen, weil es unbequem und schmerzhaft",
+      "scale": 9,
+      "right": true
+    },
+    {
+      "number": 101,
+      "question": "Ich bin so vertieft in Ihre Arbeit, dass mir Pausen können sehr stören",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 102,
+      "question": "Ich versuche, eine Diät in Einklang mit den wissenschaftlichen Empfehlungen",
+      "scale": 6,
+      "right": true
+    },
+    {
+      "number": 103,
+      "question": "Kann in das Leben, Ihre Ansichten mir sehr schwer",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 104,
+      "question": "Wann bin ich genervt ich manchmal Tue etwas, worüber später es tut mir Leid",
+      "scale": 4,
+      "right": true
+    },
+    {
+      "number": 105,
+      "question": "Ich kann erkennen, bevor Sie anderen Ihre Fehler",
+      "scale": 9,
+      "right": true
+    },
+    {
+      "number": 106,
+      "question": "kann Ich geil bei irgendeiner Gelegenheit so, dass verliere die Kontrolle über Ihr Verhalten",
+      "scale": 4,
+      "right": true
+    },
+    {
+      "number": 107,
+      "question": "Ich mag das lustig machen über die Menschen, denen ich im Prinzip Liebe",
+      "scale": 7,
+      "right": true
+    },
+    {
+      "number": 108,
+      "question": "ich bin ziemlich leicht zu verwirren und verwirren",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 109,
+      "question": "Ich denke, dass ich eher ruhiger und ausgeglichener Mensch",
+      "scale": 4,
+      "right": false
+    },
+    {
+      "number": 110,
+      "question": "Ich kann sehr hartnäckig, wenn Sie einen bestimmten Zweck erreichen will",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 111,
+      "question": "Ich glaube Versprechungen andere Menschen",
+      "scale": 7,
+      "right": false
+    },
+    {
+      "number": 112,
+      "question": "Manchmal erlebe ich den ganzen Tag über irgendwelchen unangenehmen Ereignisse",
+      "scale": 4,
+      "right": true
+    },
+    {
+      "number": 113,
+      "question": "ist Mir gleichgültig, was andere von mir denken",
+      "scale": 5,
+      "right": true
+    },
+    {
+      "number": 114,
+      "question": "Ich weiß nie, ob ich den Stand der Dinge zu diesem Thema, eine bestimmte Lösung zu akzeptieren",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 115,
+      "question": "Ich habe schon einmal warf die Schuld auf den anderen",
+      "scale": 9,
+      "right": true
+    },
+    {
+      "number": 116,
+      "question": "Ich versuche nicht unhöflich sein, und unhöflich gegenüber anderen",
+      "scale": 7,
+      "right": false
+    },
+    {
+      "number": 117,
+      "question": "Ich versuche, sorgfältig und genau begründen Ihre Entscheidungen",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 118,
+      "question": "Ich kann gehen und auf Konzessionen",
+      "scale": 4,
+      "right": false
+    },
+    {
+      "number": 119,
+      "question": "Ich Neige dazu, re-denken Lösungen",
+      "scale": 1,
+      "right": true
+    }
+  ]
+}
+

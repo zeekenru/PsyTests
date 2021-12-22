@@ -1,0 +1,153 @@
+{
+  "id": 5,
+  "questions_count": 27,
+  "name": "Questionnaire de réflexivité",
+  "scales_count": 1,
+  "interpretation": "lors de l'interprétation des résultats, il est conseillé de procéder à la différenciation des résultats en trois Catégories principales. Les résultats de la technique, égaux ou supérieurs à 7 murs, indiquent une réflexivité très développée.  Les résultats dans la gamme de 4 à 7 murs sont des indicateurs du niveau moyen de réflexivité.  Indicateurs inférieurs à 4 murs-preuve d'un faible niveau de développement de la réflexivité",
+  "answers": [
+    "Totalement en désaccord",
+    "Pas d'accord",
+    "Plutôt pas d'accord",
+    "Je ne peux pas décider",
+    "Plutôt d'accord",
+    "D'accord",
+    "Totalement d'accord"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "question": "après avoir Lu un bon livre, j'y pense toujours longtemps; j'aimerais en discuter avec quelqu'un",
+      "right": true
+    },
+    {
+      "number": 2,
+      "question": "Quand on me demande soudainement quelque chose, je peux répondre à la première chose qui m'est venue à l'esprit",
+      "right": false
+    },
+    {
+      "number": 3,
+      "question": "Avant de décrocher le téléphone pour appeler une affaire, je prévois généralement mentalement une conversation à venir",
+      "right": true
+    },
+    {
+      "number": 4,
+      "question": "après Avoir commis une erreur, je ne peux pas m'empêcher de penser à lui pendant longtemps",
+      "right": true
+    },
+    {
+      "number": 5,
+      "question": "Quand je réfléchis à quelque chose ou que je parle à une autre personne, je me demande ce qui a déclenché la chaîne de pensée",
+      "right": true
+    },
+    {
+      "number": 6,
+      "question": "quand je me lance dans une tâche difficile, j'essaie de ne pas penser aux difficultés à venir",
+      "right": false
+    },
+    {
+      "number": 7,
+      "question": "l'essentiel pour moi est de présenter l'objectif final de mon activité, et les détails sont d'une importance secondaire",
+      "right": false
+    },
+    {
+      "number": 8,
+      "question": "il arrive Que je ne comprenne pas pourquoi quelqu'un est mécontent de moi",
+      "right": false
+    },
+    {
+      "number": 9,
+      "question": "je me mets souvent à la place d'une autre personne",
+      "right": true
+    },
+    {
+      "number": 10,
+      "question": "il est important pour moi d'avoir une idée détaillée du déroulement des travaux à venir",
+      "right": true
+    },
+    {
+      "number": 11,
+      "question": "J'aurais du mal à écrire une lettre sérieuse si je n'avais pas préparé un plan à l'avance",
+      "right": true
+    },
+    {
+      "number": 12,
+      "question": "je préfère agir plutôt que de réfléchir aux raisons de mes échecs",
+      "right": false
+    },
+    {
+      "number": 13,
+      "question": "Je prends assez facilement une décision concernant un achat coûteux",
+      "right": false
+    },
+    {
+      "number": 14,
+      "question": "en règle générale, après avoir conçu quelque chose, je fais défiler dans ma tête mes plans, affinant les détails, considérant toutes les options",
+      "right": true
+    },
+    {
+      "number": 15,
+      "question": "Je m'inquiète pour mon avenir",
+      "right": true
+    },
+    {
+      "number": 16,
+      "question": "je Pense que dans beaucoup de situations, il faut agir rapidement, guidé par la première pensée qui vient à l'esprit",
+      "right": false
+    },
+    {
+      "number": 17,
+      "question": "Parfois, je prends des décisions irréfléchies",
+      "right": false
+    },
+    {
+      "number": 18,
+      "question": "Une fois la conversation terminée, je continue à la mener mentalement, apportant de plus en plus d'arguments pour défendre mon point de vue",
+      "right": true
+    },
+    {
+      "number": 19,
+      "question": "S'il y a un conflit, alors je commence par moi-même en pensant à qui est à blâmer",
+      "right": true
+    },
+    {
+      "number": 20,
+      "question": "Avant de prendre une décision, j'essaie toujours de bien réfléchir et de peser",
+      "right": true
+    },
+    {
+      "number": 21,
+      "question": "j'ai des conflits parce que parfois je ne peux pas prédire ce que les autres attendent de moi",
+      "right": false
+    },
+    {
+      "number": 22,
+      "question": "il Arrive que, lorsque je réfléchis à une conversation avec une autre personne, je dialogue mentalement avec elle",
+      "right": true
+    },
+    {
+      "number": 23,
+      "question": "j'essaie de ne pas réfléchir aux pensées et aux sentiments que mes paroles et mes actions suscitent chez les autres",
+      "right": false
+    },
+    {
+      "number": 24,
+      "question": "Avant de faire une remarque à une autre personne, je vais certainement réfléchir à ce qu'il vaut mieux faire pour ne pas l'offenser",
+      "right": true
+    },
+    {
+      "number": 25,
+      "question": "en Résolvant une tâche difficile, je pense même quand je fais d'autres choses",
+      "right": true
+    },
+    {
+      "number": 26,
+      "question": "Si je me dispute avec quelqu'un, dans la plupart des cas, je ne me considère pas coupable",
+      "right": false
+    },
+    {
+      "number": 27,
+      "question": "il est rare Que je regrette ce que j'ai dit",
+      "right": false
+    }
+  ]
+}

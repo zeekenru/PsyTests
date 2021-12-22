@@ -1,0 +1,355 @@
+{
+  "id": 9,
+  "questions_count": 57,
+  "name": "Questionnaire de Personnalité d'eisenck",
+  "scales_count": 3,
+  "answers": [
+    "Oui",
+    "Pas"
+  ],
+  "interpretation": "Caractérisant un extraverti typique, on peut noter sa sociabilité et la conversion de l'individu vers l'extérieur, un large éventail de rencontres, le besoin de contacts. Il agit sous l'influence du moment, impulsif, colérique, insouciant, optimiste, de bonne humeur, joyeux. Préfère le mouvement et l'action, a tendance à être agressif. Les sentiments et les émotions n'ont pas de contrôle strict, sujettes à des actions risquées. On ne peut pas toujours compter sur lui.L'introverti est un ensemble de qualités de personnalité exactement opposées. Un introverti typique est une personne calme et timide, sujette à l'introspection. Réservé et éloigné de tous, sauf des amis proches. Planifie et réfléchit à ses actions à l'avance, ne fait pas confiance aux pulsions soudaines, prend au sérieux la prise de décision, aime l'ordre dans tout. Une personne à qui l'introverti personnel est inhérent contrôle ses sentiments, il n'est pas facile de s'en sortir. Il est pessimiste, apprécie les normes morales. Le neuroticisme hracterise la stabilité émotionnelle ou l'instabilité (stabilité émotionnelle ou instabilité). La stabilité émotionnelle est un trait qui exprime la préservation d'un comportement organisé, une concentration situationnelle dans des situations ordinaires et stressantes. Caractérisé par la maturité, une excellente adaptation, l'absence de beaucoup de tension, d'anxiété, ainsi que la propension au leadership, à la sociabilité./ le pneurotisme s'exprime par une nervosité extrême, une instabilité, une mauvaise adaptation, une tendance à un changement d'humeur rapide (labilité), un sentiment de culpabilité et d'anxiété, d'anxiété, de réactions dépressives, de distraction, d'instabilité dans des situations stressantes. Le neuroticisme correspond à l'émotivité, à l'impulsivité; irrégularités dans les contacts avec les gens, variabilité des intérêts, doute de soi, sensibilité prononcée, impressionnabilité, tendance à l'irritabilité. La personnalité neurotique est caractérisée par des réactions insuffisamment fortes vis-à-vis des stimuli qui les provoquent. Les personnes ayant des scores élevés sur l'échelle de neuroticisme dans des situations de stress défavorables peuvent développer une névrose. Échelle de sincérité: les valeurs élevées sur cette échelle indiquent une hypocrisie dans les réponses. En outre, cela peut indiquer un comportement démonstratif, un désir de paraître meilleur aux yeux des autres, d'exprimer uniquement une opinion socialement approuvée. Si votre résultat est jugé douteux ou peu fiable, essayez de passer à nouveau le test, en répondant plus franchement, sans penser à l'impression possible que vos réponses pourraient produire.",
+  "questions": [
+    {
+      "number": 1,
+      "question": "avez-vous Souvent envie de nouvelles expériences, de distractions, de sensations fortes?",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 2,
+      "question": "avez-vous souvent l'impression d'avoir Besoin d'amis qui peuvent vous comprendre, vous encourager ou vous sympathiser?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 3,
+      "question": "vous Considérez-vous comme une personne insouciante?",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 4,
+      "question": "est-Il très difficile pour vous d'abandonner vos intentions?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 5,
+      "question": "Pensez-vous à vos affaires lentement et préférez-vous attendre avant d'agir?",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 6,
+      "question": "tenez-vous Toujours vos promesses, même si cela vous désavantage?",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 7,
+      "question": "avez-Vous souvent des récessions et des soulèvements d'humeur?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 8,
+      "question": "Agissez-vous rapidement et dites-vous que vous ne passez pas beaucoup de temps à réfléchir?",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 9,
+      "question": "avez-vous déjà eu le sentiment d'être malheureux, même s'il n'y avait aucune raison sérieuse de le faire?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 10,
+      "question": "est-il Vrai que vous êtes capable de tout résoudre sur un différend?",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 11,
+      "question": "êtes-vous Gêné quand vous voulez rencontrer une personne du sexe opposé qui vous est sympathique?",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 12,
+      "question": "est-il Jamais arrivé que vous vous énerviez?",
+      "scale": 3,
+      "right": false
+    },
+    {
+      "number": 13,
+      "question": "est-il fréquent que Vous agissiez sans réfléchir, sous l'influence du moment?",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 14,
+      "question": "êtes-Vous souvent dérangé par l'idée de ne pas avoir à faire ou à dire quoi que ce soit?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 15,
+      "question": "Préférez-vous lire des livres pour rencontrer des gens?",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 16,
+      "question": "est-il Vrai que vous êtes facilement blessé?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 17,
+      "question": "aimez-Vous être souvent en compagnie?",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 18,
+      "question": "avez-vous parfois des pensées que vous ne voudriez pas partager avec d'autres personnes?",
+      "scale": 3,
+      "right": false
+    },
+    {
+      "number": 19,
+      "question": "est-il Vrai que parfois vous êtes si plein d'énergie que tout brûle dans vos mains et que vous vous sentez parfois très léthargique?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 20,
+      "question": "Essayez-vous de limiter vos connaissances à un petit nombre d'amis les plus proches?",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 21,
+      "question": "rêvez-vous Beaucoup?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 22,
+      "question": "quand on vous crie dessus, répondez-vous de la même manière?",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 23,
+      "question": "Pensez-vous que toutes vos habitudes sont bonnes?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 24,
+      "question": "avez-vous souvent Le sentiment que vous êtes coupable de quelque chose?",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 25,
+      "question": "êtes-vous parfois Capable de laisser libre cours à vos sentiments et de vous amuser avec une compagnie amusante?",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 26,
+      "question": "peut-On dire que vos nerfs sont souvent tendus à la limite?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 27,
+      "question": "êtes-vous Un homme vivant et joyeux?",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 28,
+      "question": "une fois l'affaire terminée, y revenez-vous souvent mentalement et pensez-vous que vous pourriez faire mieux?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 29,
+      "question": "vous Sentez-vous agité d'être en grande entreprise?",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 30,
+      "question": "est-ce qu'il Arrive que vous transmettiez des rumeurs?",
+      "scale": 3,
+      "right": false
+    },
+    {
+      "number": 31,
+      "question": "est-ce qu'Il arrive que vous ne dormiez pas parce que vous avez des pensées différentes dans votre tête?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 32,
+      "question": "que préférez-vous si vous voulez trouver quelque chose dans un livre ou demander à un ami?",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 33,
+      "question": "Avez-vous des palpitations cardiaques?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 34,
+      "question": "aimez-Vous le travail qui nécessite de la concentration?",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 35,
+      "question": "aimez-Vous le travail qui nécessite de la concentration?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 36,
+      "question": "dites-Vous toujours la vérité?",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 37,
+      "question": "est-Ce que ça vous dérange d'être dans une entreprise où tout le monde se moque les uns des autres?",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 38,
+      "question": "êtes-vous Irritable?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 39,
+      "question": "aimez-Vous le travail qui nécessite une action rapide?",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 40,
+      "question": "\"est-il Vrai que vous êtes souvent pris au dépourvu par les pensées des différents problèmes e\" horreurs  qui auraient pu se produire alors que tout s'est terminé en toute sécurité?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 41,
+      "question": "est-il Vrai que vous êtes tranquille dans les mouvements et un peu lent?",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 42,
+      "question": "avez-vous déjà été en Retard pour travailler ou rencontrer quelqu'un?",
+      "scale": 3,
+      "right": false
+    },
+    {
+      "number": 43,
+      "question": "faites-Vous souvent des cauchemars?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 44,
+      "question": "est-il Vrai que vous aimez tellement parler que vous ne manquez aucune occasion pratique de parler à une nouvelle personne?",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 45,
+      "question": "est-ce que des douleurs vous Dérangent?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 46,
+      "question": "Seriez-vous contrarié si vous ne pouviez pas voir vos amis pendant longtemps?",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 47,
+      "question": "Pouvez-vous vous appeler une personne nerveuse?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 48,
+      "question": "y a-t-il parmi vos connaissances des personnes que vous n'aimez manifestement pas?",
+      "scale": 3,
+      "right": false
+    },
+    {
+      "number": 49,
+      "question": "pourriez-vous dire que vous êtes une personne confiante?",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 50,
+      "question": "êtes-vous Facilement touché par la critique de vos défauts ou de votre travail?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 51,
+      "question": "avez-vous du Mal à profiter des événements auxquels beaucoup de gens participent?",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 52,
+      "question": "est-ce que cela vous Dérange de sentir que vous êtes pire que les autres?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 53,
+      "question": "auriez-Vous réussi à faire revivre une entreprise ennuyeuse?",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 54,
+      "question": "est-ce que vous parlez De choses que vous ne connaissez pas du tout?",
+      "scale": 3,
+      "right": false
+    },
+    {
+      "number": 55,
+      "question": "êtes-vous Inquiet pour votre santé?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 56,
+      "question": "aimez-Vous vous moquer des autres?",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 57,
+      "question": "Souffrez-vous d'insomnie?",
+      "scale": 2,
+      "right": true
+    }
+  ]
+}

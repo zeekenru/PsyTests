@@ -1,0 +1,644 @@
+{
+  "id": 11,
+  "questions_count": 105,
+  "name": "Fragebogen zur Temperamentstruktur",
+  "scales_count": 9,
+  "answers": [
+    "Ja",
+    "Nein"
+  ],
+  "interpretation": "Es wird angenommen, dass die eine oder andere Eigenschaft des Temperaments in dem Subjekt stark entwickelt ist, wenn es 9 oder mehr Punkte darauf erhält; schlecht entwickelt - wenn es 4 oder weniger Punkte erhalten hat. Mit einer Gesamtpunktzahl von 5 bis 8 gilt diese Eigenschaft des Temperaments als mäßig entwickelt.Die Schlussfolgerung über den vorherrschenden Typ des menschlichen Temperaments wird auf der Grundlage eines Vergleichs von Indikatoren für verschiedene Eigenschaften des Temperaments mit den folgenden Daten gezogen typische Kombinationen dieser Eigenschaften, die verschiedenen Temperamentstypen entsprechen. Alle Temperamentseigenschaften. Choleriker - hohe Indikatoren für Energie, Tempo und Emotionalität mit mittleren oder hohen Indikatoren für Plastizität Phlegmatiker - niedrige Indikatoren für alle Temperamentseigenschaften Melancholiker - niedrige Indikatoren von Energie, Plastizität, Tempo mit mittleren oder hohen Emotionsindikatoren Ein reiner Typus von sanguinischer, cholerischer, phlegmatischer oder melancholischer Person gehört nur dazu, dass der Entwicklungsgrad seiner Indikatoren mit denen der beschriebenen Typen übereinstimmt. In allen anderen Fällen wird angenommen, dass eine Person einen sogenannten gemischten Temperamentstyp hat.",
+  "questions": [
+    {
+      "number": 1,
+      "question": "Craft ob Sie Mensch?",
+      "right": true,
+      "scale": 5
+    },
+    {
+      "number": 2,
+      "question": "haben Sie Immer bereit sind, mit dem Sprung, ohne zu zögern, in das Gespräch einbezogen zu werden?",
+      "right": true,
+      "scale": 4
+    },
+    {
+      "number": 3,
+      "question": "Bevorzugen Sie die Einsamkeit groß ist das Unternehmen?",
+      "right": false,
+      "scale": 2
+    },
+    {
+      "number": 4,
+      "question": "Erleben Sie die ständige Durst nach Aktivität?",
+      "right": true,
+      "scale": 1
+    },
+    {
+      "number": 5,
+      "question": "Ihre Rede ist in der Regel langsam und ohne Eile?",
+      "right": false,
+      "scale": 6
+    },
+    {
+      "number": 6,
+      "question": "Verletzlich ob Sie Mensch?",
+      "right": true,
+      "scale": 8
+    },
+    {
+      "number": 7,
+      "question": "wie Oft haben Sie nicht geschlafen wegen der Tatsache, dass Sie einen Streit mit Freunden?",
+      "right": true,
+      "scale": 8
+    },
+    {
+      "number": 8,
+      "question": "In Ihrer freien Zeit können Sie immer wollen, machen Sie nichts?",
+      "right": true,
+      "scale": 1
+    },
+    {
+      "number": 9,
+      "question": "In Gesprächen mit anderen Menschen Ihre Rede Häufig vor Ihren Gedanken?",
+      "right": true,
+      "scale": 4
+    },
+    {
+      "number": 10,
+      "question": "Ärgerlich, wenn Sie schnelles Stimme des Anrufers?",
+      "right": false,
+      "scale": 6
+    },
+    {
+      "number": 11,
+      "question": "Fühlte Sie sich elender Mensch, wenn für längere Zeit keine Möglichkeit hatten, die die Kommunikation mit Menschen?",
+      "right": true,
+      "scale": 2
+    },
+    {
+      "number": 12,
+      "question": "haben Sie jemals zu spät für ein date oder für die Arbeit?",
+      "right": false,
+      "scale": 9
+    },
+    {
+      "number": 13,
+      "question": "magst du schnell laufen?",
+      "right": true,
+      "scale": 5
+    },
+    {
+      "number": 14,
+      "question": "wie Stark hat Sie erleben Probleme in Ihrer Arbeit?",
+      "right": true,
+      "scale": 7
+    },
+    {
+      "number": 15,
+      "question": "wie Einfach es Ihnen, die Arbeit erfordert lange große Aufmerksamkeit und Konzentration?",
+      "right": true,
+      "scale": 1
+    },
+    {
+      "number": 16,
+      "question": "haben Sie Schwierigkeiten, sprechen sehr schnell?",
+      "right": false,
+      "scale": 6
+    },
+    {
+      "number": 17,
+      "question": "wie Oft haben Sie erleben Sie den Alarm aus, Sie haben den Job nicht so, wie es notwendig ist?",
+      "right": true,
+      "scale": 7
+    },
+    {
+      "number": 18,
+      "question": "wie Oft haben Sie Ihre Gedanken springen von einem zum anderen während eines Anrufs?",
+      "right": false,
+      "scale": 4
+    },
+    {
+      "number": 19,
+      "question": "wie die, ob Sie Spiele, die Schnelligkeit und Geschick?",
+      "right": true,
+      "scale": 5
+    },
+    {
+      "number": 20,
+      "question": "wie Einfach es können Sie eine andere bekannten Lösungen für Aufgaben?",
+      "right": true,
+      "scale": 3
+    },
+    {
+      "number": 21,
+      "question": "haben Sie Angst, dass Sie im Gespräch falsch verstanden?",
+      "right": true,
+      "scale": 8
+    },
+    {
+      "number": 22,
+      "question": "Gerne-ob Sie führen komplexe verantwortungsvolle Arbeit?",
+      "right": true,
+      "scale": 1
+    },
+    {
+      "number": 23,
+      "question": "kommt es vor, dass Sie sprechen über Dinge, von denen Sie nicht gut sind?",
+      "right": false,
+      "scale": 9
+    },
+    {
+      "number": 24,
+      "question": "wie Einfach ist es, Ihr nehmt die schnelle Rede?",
+      "right": true,
+      "scale": 6
+    },
+    {
+      "number": 25,
+      "question": "wie Einfach ist es, Sie machen gleichzeitig sehr viel zu tun?",
+      "right": true,
+      "scale": 3
+    },
+    {
+      "number": 26,
+      "question": "sind Sie Konflikte mit Ihren Freunden aufgrund der Tatsache, dass Sie sagten ihm etwas, ohne zu denken Voraus?",
+      "right": true,
+      "scale": 4
+    },
+    {
+      "number": 27,
+      "question": "sind Sie in der Regel bevorzugen zu tun einfache Dinge, nicht von Ihnen erfordern große Energie?",
+      "right": false,
+      "scale": 1
+    },
+    {
+      "number": 28,
+      "question": "Einfach, ob Sie verärgert, wenn Sie feststellen geringfügige Mängel in Ihrer Arbeit?",
+      "right": true,
+      "scale": 7
+    },
+    {
+      "number": 29,
+      "question": "Mögen ob Sie Sitz Arbeit?",
+      "right": false,
+      "scale": 5
+    },
+    {
+      "number": 30,
+      "question": "wie Einfach ist es, Sie mit unterschiedlichen Menschen zu kommunizieren?",
+      "right": true,
+      "scale": 2
+    },
+    {
+      "number": 31,
+      "question": "sind Sie in der Regel vorziehen, zu denken, abzuwägen und erst dann zu sprechen?",
+      "right": false,
+      "scale": 4
+    },
+    {
+      "number": 32,
+      "question": "sind Alle Ihre Gewohnheiten sind gut, wünschenswert?",
+      "right": true,
+      "scale": 9
+    },
+    {
+      "number": 33,
+      "question": "sind Schnell, ob Sie der Bewegung der Hand?",
+      "right": true,
+      "scale": 5
+    },
+    {
+      "number": 34,
+      "question": "sind Sie in der Regel still und werden nicht geben Sie in die Kontakte, wenn sich in Gesellschaft von fremden Menschen?",
+      "right": false,
+      "scale": 2
+    },
+    {
+      "number": 35,
+      "question": "wie Einfach ist es, Sie wechseln von einer Variante der Lösung des Problems auf ein anderes?",
+      "right": true,
+      "scale": 3
+    },
+    {
+      "number": 36,
+      "question": "Neigen Sie dazu, zu übertreiben in seiner Phantasie die ablehnende Haltung der Angehörigen?",
+      "right": true,
+      "scale": 8
+    },
+    {
+      "number": 37,
+      "question": "Gesprächig ob Sie ein Mensch?",
+      "right": true,
+      "scale": 6
+    },
+    {
+      "number": 38,
+      "question": "Sie in der Regel einfach durchzuführen Geschäft erfordert eine sofortige Reaktionen?",
+      "right": true,
+      "scale": 3
+    },
+    {
+      "number": 39,
+      "question": "sind Sie in der Regel frei sprechen, ohne zu zögern?",
+      "right": true,
+      "scale": 6
+    },
+    {
+      "number": 40,
+      "question": "Besorgt über ob Sie ängste, dass Sie nicht mit der Arbeit fertig zu werden?",
+      "right": true,
+      "scale": 7
+    },
+    {
+      "number": 41,
+      "question": "wie Einfach ist es, Sie sind beleidigt, wenn Menschen in Ihrer Nähe weisen auf Ihre Schwächen?",
+      "right": true,
+      "scale": 8
+    },
+    {
+      "number": 42,
+      "question": "haben Sie verlangen nach harten verantwortungsvollen Tätigkeit?",
+      "right": true,
+      "scale": 1
+    },
+    {
+      "number": 43,
+      "question": "haben Sie das Gefühl, Ihre Bewegungen langsam und nicht faul?",
+      "right": false,
+      "scale": 5
+    },
+    {
+      "number": 44,
+      "question": "Gibt es Gedanken, die Sie gerne vor anderen zu verbergen?",
+      "right": false,
+      "scale": 9
+    },
+    {
+      "number": 45,
+      "question": "kann man ohne viel Gedanken gemacht festlegen heikle Frage an eine andere Person?",
+      "right": true,
+      "scale": 4
+    },
+    {
+      "number": 46,
+      "question": "Liefern Sie, ob Sie Lust schnellen Bewegungen?",
+      "right": true,
+      "scale": 5
+    },
+    {
+      "number": 47,
+      "question": "ist es Leicht für Sie generieren neue Ideen, die sich mit der Arbeit?",
+      "right": true,
+      "scale": 3
+    },
+    {
+      "number": 48,
+      "question": "haben Sie Saugt im Magen vor einem wichtigen Gespräch?",
+      "right": true,
+      "scale": 8
+    },
+    {
+      "number": 49,
+      "question": "Kann man sagen, dass Sie schnell ausführen Euch aufgetragen ist Los?",
+      "right": true,
+      "scale": 5
+    },
+    {
+      "number": 50,
+      "question": "egal, ob Sie nehmen ein großes Geschäft allein?",
+      "right": true,
+      "scale": 1
+    },
+    {
+      "number": 51,
+      "question": "die Reiche, ob Sie die mimik im Gespräch?",
+      "right": true,
+      "scale": 6
+    },
+    {
+      "number": 52,
+      "question": "Wenn Sie versprochen haben, etwas zu tun, immer Sie erfüllen Ihr Versprechen, unabhängig davon, ob Sie es bequem oder nicht?",
+      "right": true,
+      "scale": 9
+    },
+    {
+      "number": 53,
+      "question": "haben Sie das Gefühl der Kränkung aus der Tatsache, dass die Menschen um Sie herum sind die Kosten für Sie schlimmer, als es sein sollte?",
+      "right": true,
+      "scale": 8
+    },
+    {
+      "number": 54,
+      "question": "Sie bevorzugen in der Regel gleichzeitig nur eine Operation?",
+      "right": false,
+      "scale": 3
+    },
+    {
+      "number": 55,
+      "question": "Mögen Sie Spiele auf der überholspur?",
+      "right": true,
+      "scale": 5
+    },
+    {
+      "number": 56,
+      "question": "wie Viele in Ihrer Rede lange Pausen?",
+      "right": false,
+      "scale": 6
+    },
+    {
+      "number": 57,
+      "question": "wie Einfach ist es, Ihnen ein Revival in der Firma?",
+      "right": true,
+      "scale": 2
+    },
+    {
+      "number": 58,
+      "question": "haben Sie normalerweise das Gefühl, überschüssige Energie zu und Sie wollen, etwas zu tun?",
+      "right": false,
+      "scale": 1
+    },
+    {
+      "number": 59,
+      "question": "Normalerweise ist es schwierig, die Aufmerksamkeit von einer Sache auf eine andere?",
+      "right": false,
+      "scale": 3
+    },
+    {
+      "number": 60,
+      "question": "kommt es vor, dass Sie für eine lange Zeit verschlechtert sich die Stimmung von der Tatsache, dass glitt geplante Geschäft?",
+      "right": true,
+      "scale": 7
+    },
+    {
+      "number": 61,
+      "question": "wie Oft haben Sie nicht geschlafen wegen der Tatsache, dass nicht gerade erfolgreich Fälle im Zusammenhang direkt mit der Arbeit?",
+      "right": true,
+      "scale": 7
+    },
+    {
+      "number": 62,
+      "question": "Sie Lieben die Zeit in einem großen Unternehmen?",
+      "right": true,
+      "scale": 2
+    },
+    {
+      "number": 63,
+      "question": "sind Besorgt, ob Sie ein herauszufinden, die Beziehung mit Ihren Freunden?",
+      "right": true,
+      "scale": 8
+    },
+    {
+      "number": 64,
+      "question": "haben Sie Bedarf an Arbeit, erfordert den vollen Einsatz der Kräfte?",
+      "right": true,
+      "scale": 1
+    },
+    {
+      "number": 65,
+      "question": "Gehen Sie manchmal von sich selbst, wütend?",
+      "right": false,
+      "scale": 9
+    },
+    {
+      "number": 66,
+      "question": "Neigen Sie dazu, viele Aufgaben auf einmal zu lösen?",
+      "right": true,
+      "scale": 3
+    },
+    {
+      "number": 67,
+      "question": "Sie behalten, ob Sie frei in einer großen Firma?",
+      "right": true,
+      "scale": 2
+    },
+    {
+      "number": 68,
+      "question": "wie Oft haben Sie äußern Sie Ihre erste Eindruck, ohne zu denken?",
+      "right": true,
+      "scale": 4
+    },
+    {
+      "number": 69,
+      "question": "beunruhigen Sie ein Gefühl der Unsicherheit in den Prozess der Ausführung der Arbeit?",
+      "right": true,
+      "scale": 7
+    },
+    {
+      "number": 70,
+      "question": "sind Langsam, ob Ihre Bewegungen, wenn Sie etwas basteln?",
+      "right": false,
+      "scale": 5
+    },
+    {
+      "number": 71,
+      "question": "wie Einfach ist es, Sie wechseln von einem Job zum anderen?",
+      "right": true,
+      "scale": 3
+    },
+    {
+      "number": 72,
+      "question": "wie Schnell ist Sie laut liest?",
+      "right": true,
+      "scale": 6
+    },
+    {
+      "number": 73,
+      "question": "Klatschst du manchmal?",
+      "right": false,
+      "scale": 9
+    },
+    {
+      "number": 74,
+      "question": "Schweigen Sie, während Sie sich im Freundeskreis?",
+      "right": false,
+      "scale": 2
+    },
+    {
+      "number": 75,
+      "question": "ob Sie in den Menschen, die Sie regten und überredet?",
+      "right": true,
+      "scale": 8
+    },
+    {
+      "number": 76,
+      "question": "ist Bereit, Sie erfüllen viele unterschiedliche Aufträge gleichzeitig?",
+      "right": true,
+      "scale": 3
+    },
+    {
+      "number": 77,
+      "question": "Bereitwillig, ob Sie die Durchführung der Arbeit in einem schnellen Tempo?",
+      "right": true,
+      "scale": 5
+    },
+    {
+      "number": 78,
+      "question": "Sie In Ihrer Freizeit zieht in der Regel mit Menschen zu kommunizieren?",
+      "right": true,
+      "scale": 2
+    },
+    {
+      "number": 79,
+      "question": "wie Oft haben Sie manchmal Schlaflosigkeit, wenn Fehler bei der Arbeit?",
+      "right": true,
+      "scale": 7
+    },
+    {
+      "number": 80,
+      "question": "Zittern, ob Sie manchmal die Hände bei einem Streit?",
+      "right": true,
+      "scale": 8
+    },
+    {
+      "number": 81,
+      "question": "wie Lange sind Sie geistig darauf vorbereiten, bevor Sie Ihre Meinung mitzuteilen?",
+      "right": true,
+      "scale": 4
+    },
+    {
+      "number": 82,
+      "question": "Gibt es in Ihrem Bekanntenkreis Menschen, die Sie offensichtlich nicht mögen?",
+      "right": false,
+      "scale": 9
+    },
+    {
+      "number": 83,
+      "question": "in der Regel bevorzugen Sie eine einfache Arbeit?",
+      "right": false,
+      "scale": 1
+    },
+    {
+      "number": 84,
+      "question": "wie Einfach ist es, Sie zu beleidigen im Gespräch über Kleinigkeiten?",
+      "right": false,
+      "scale": 4
+    },
+    {
+      "number": 85,
+      "question": "in der Regel sind Sie das erste Unternehmen in Wagen, ein Gespräch zu beginnen?",
+      "right": true,
+      "scale": 4
+    },
+    {
+      "number": 86,
+      "question": "haben Sie verlangen nach den Menschen?",
+      "right": true,
+      "scale": 2
+    },
+    {
+      "number": 87,
+      "question": "Neigen Sie dazu, zuerst zu denken und dann zu sprechen?",
+      "right": false,
+      "scale": 4
+    },
+    {
+      "number": 88,
+      "question": "wie Oft haben Sie sich sorgen über Ihre Arbeit?",
+      "right": true,
+      "scale": 7
+    },
+    {
+      "number": 89,
+      "question": "haben Sie Immer zahlen würden für die Beförderung von Gepäck auf dem Transport, wenn Sie nicht befürchteten Prüfung?",
+      "right": true,
+      "scale": 9
+    },
+    {
+      "number": 90,
+      "question": "Sie behalten Sie in der Regel einzeln auf Partys oder in einem Unternehmen?",
+      "right": false,
+      "scale": 2
+    },
+    {
+      "number": 91,
+      "question": "ob Sie Geneigt, in seiner Phantasie zu übertreiben Ausfälle im Zusammenhang mit der Arbeit?",
+      "right": true,
+      "scale": 7
+    },
+    {
+      "number": 92,
+      "question": "wie Gefällt Ihnen schnell sprechen?",
+      "right": true,
+      "scale": 6
+    },
+    {
+      "number": 93,
+      "question": "wie Einfach ist es, Ihnen zu widerstehen Sprüche unerwartet entstandenen Ideen?",
+      "right": false,
+      "scale": 4
+    },
+    {
+      "number": 94,
+      "question": "egal, ob Sie Lieber langsam zu laufen?",
+      "right": false,
+      "scale": 5
+    },
+    {
+      "number": 95,
+      "question": "Besorgt, ob Sie wegen der geringsten Problemen auf der Arbeit?",
+      "right": true,
+      "scale": 7
+    },
+    {
+      "number": 96,
+      "question": "Sie bevorzugen langsamen, ruhigen Gespräch?",
+      "right": false,
+      "scale": 6
+    },
+    {
+      "number": 97,
+      "question": "wie Oft haben Sie sich sorgen wegen der Fehler in der Arbeit, die wurden Ihnen gemacht?",
+      "right": true,
+      "scale": 7
+    },
+    {
+      "number": 98,
+      "question": "Sie sind in der Lage, erfolgreich erfüllen die langfristige, harte Arbeit?",
+      "right": true,
+      "scale": 5
+    },
+    {
+      "number": 99,
+      "question": "Können Sie, ohne zu zögern, auffordern, eine andere Person?",
+      "right": true,
+      "scale": 4
+    },
+    {
+      "number": 100,
+      "question": "wie Oft haben Sie stört ein Gefühl der Unsicherheit beim Umgang mit Menschen?",
+      "right": true,
+      "scale": 8
+    },
+    {
+      "number": 101,
+      "question": "wie Einfach es für Sie übernehmen für die Erfüllung der neuen Aufgaben?",
+      "right": true,
+      "scale": 3
+    },
+    {
+      "number": 102,
+      "question": "ob Sie Müde, wenn Sie zu lange sprechen?",
+      "right": false,
+      "scale": 6
+    },
+    {
+      "number": 103,
+      "question": "arbeiten Sie lieber mit Lau, ohne viel Aufwand?",
+      "right": false,
+      "scale": 1
+    },
+    {
+      "number": 104,
+      "question": "egal, ob Sie eine vielfältige Aufgabe, die Aufmerksamkeit wechseln?",
+      "right": true,
+      "scale": 3
+    },
+    {
+      "number": 105,
+      "question": "Mögen Sie lange Zeit allein mit ihm?",
+      "right": false,
+      "scale": 2
+    }
+  ]
+}
+

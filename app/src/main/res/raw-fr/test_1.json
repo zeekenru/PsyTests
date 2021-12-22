@@ -1,0 +1,219 @@
+{
+  "id": 1,
+  "name": "Échelle de dépression de Beck",
+  "questions_count": 21,
+  "scales_count": 1,
+  "interpretation": "le Score pour chaque catégorie est calculé comme suit: chaque point de l'échelle est évalué de 0 à 3 en fonction de la gravité croissante du symptôme. Le score total est de O à 62 et diminue en fonction de l'amélioration de l'état: 0-9 – absence de symptômes dépressifs 10-15 – dépression légère (sous – dépression), 16-19-dépression modérée. 20-29-dépression sévère (modérée), 30-63 – dépression sévère.Un taux de dépression de 19 points est considéré comme une perturbation clinique; un niveau supérieur à 24 points indique la nécessité d'une thérapie-peut-être avec l'utilisation d'antidépresseurs. L'objectif du traitement devrait être d'atteindre un niveau de dépression inférieur à 10 points",
+  "questions": [
+    {
+      "number": 1,
+      "question": "Comment vous êtes-vous senti cette semaine et aujourd'hui?",
+      "answers": [
+        "Je ne me sens pas contrarié, triste",
+        "Je suis contrarié",
+        "Je suis frustré tout le temps et je ne peux pas m'en déconnecter",
+        "Je suis tellement bouleversé et malheureux que je ne peux pas le supporter"
+      ]
+    },
+    {
+      "number": 2,
+      "question": "Comment vous êtes-vous senti cette semaine et aujourd'hui?",
+      "answers": [
+        "Je ne suis pas inquiet pour mon avenir",
+        "Je me sens perplexe devant l'avenir",
+        "Je suis frustré tout le temps et je ne peux pas m'en déconnecter",
+        "Je suis tellement bouleversé et malheureux que je ne peux pas le supporter"
+      ]
+    },
+    {
+      "number": 3,
+      "question": "Comment vous êtes-vous senti cette semaine et aujourd'hui?",
+      "answers": [
+        "Je ne me sens pas comme un perdant",
+        "J'ai l'impression d'avoir subi plus d'échecs que d'autres personnes",
+        "Quand je regarde ma vie, je vois beaucoup d'échecs en elle",
+        "J'ai l'impression qu'en tant qu'individu, je suis un perdant total"
+      ]
+    },
+    {
+      "number": 4,
+      "question": "Comment vous êtes-vous senti cette semaine et aujourd'hui?",
+      "answers": [
+        "Je reçois autant de satisfaction de la vie qu'avant",
+        "Je ne reçois pas autant de satisfaction de la vie qu'avant",
+        "Je ne suis plus satisfait de rien",
+        "Je ne suis pas complètement satisfait de la vie, et je me marre de tout"
+      ]
+    },
+    {
+      "number": 5,
+      "question": "Comment vous êtes-vous senti cette semaine et aujourd'hui?",
+      "answers": [
+        "Je ne me sens pas coupable de quoi que ce soit",
+        "Assez souvent, je me sens coupable",
+        "La plupart du temps, je me sens coupable",
+        "Je me sens constamment coupable"
+      ]
+    },
+    {
+      "number": 6,
+      "question": "Comment vous êtes-vous senti cette semaine et aujourd'hui?",
+      "answers": [
+        "Je n'ai pas l'impression d'être puni pour quoi que ce soit",
+        "Je sens que je peux être puni",
+        "Je m'attends à être puni",
+        "Je me sens déjà puni"
+      ]
+    },
+    {
+      "number": 7,
+      "question": "Comment vous êtes-vous senti cette semaine et aujourd'hui?",
+      "answers": [
+        "Je ne me suis pas déçu",
+        "Je suis déçu de moi-même",
+        "Je suis dégoûté",
+        "Je me déteste"
+      ]
+    },
+    {
+      "number": 8,
+      "question": "Comment vous êtes-vous senti cette semaine et aujourd'hui?",
+      "answers": [
+        "Je sais que je ne suis pas pire que les autres",
+        "Je me critique pour les erreurs et les faiblesses",
+        "Je me blâme tout le temps pour mes actes",
+        "Je me blâme pour toutes les mauvaises choses qui se passent"
+      ]
+    },
+    {
+      "number": 9,
+      "question": "Comment vous êtes-vous senti cette semaine et aujourd'hui?",
+      "answers": [
+        "Je n'ai jamais pensé me suicider",
+        "J'ai l'idée de me suicider, mais je ne vais pas les mettre en œuvre",
+        "Je voudrais me suicider",
+        "Je me tuerais si l'occasion se présentait"
+      ]
+    },
+    {
+      "number": 10,
+      "question": "Comment vous êtes-vous senti cette semaine et aujourd'hui?",
+      "answers": [
+        "Je ne paie pas plus que d'habitude",
+        "Maintenant, je pleure plus souvent qu'avant",
+        "Maintenant je pleure tout le temps",
+        "Avant, je pouvais pleurer, et maintenant je ne peux pas, même si j'ai envie"
+      ]
+    },
+    {
+      "number": 11,
+      "question": "Comment vous êtes-vous senti cette semaine et aujourd'hui?",
+      "answers": [
+        "Je ne suis pas plus irritable que d'habitude maintenant",
+        "Je suis plus facilement ennuyé qu'avant",
+        "Maintenant, je me sens constamment agacé",
+        "Je suis devenu indifférent aux choses qui m'agaçaient auparavant"
+      ]
+    },
+    {
+      "number": 12,
+      "question": "Comment vous êtes-vous senti cette semaine et aujourd'hui?",
+      "answers": [
+        "Je n'ai pas perdu mon intérêt pour les autres",
+        "Je m'intéresse moins aux autres qu'avant",
+        "J'ai presque perdu tout intérêt pour les autres",
+        "J'ai complètement perdu tout intérêt pour les autres"
+      ]
+    },
+    {
+      "number": 13,
+      "question": "Comment vous êtes-vous senti cette semaine et aujourd'hui?",
+      "answers": [
+        "Je retarde la décision parfois comme avant",
+        "Je suis plus susceptible que jamais de retarder la décision",
+        "J'ai plus de mal à prendre des décisions qu'avant",
+        "Je ne peux plus prendre de décision"
+      ]
+    },
+    {
+      "number": 14,
+      "question": "Comment vous êtes-vous senti cette semaine et aujourd'hui?",
+      "answers": [
+        "Je n'ai pas l'impression d'avoir l'air pire que d'habitude",
+        "Ce qui me dérange, c'est que j'ai l'air vieux et peu attrayant",
+        "Je sais qu'il y a eu des changements importants dans mon apparence qui me rendent peu attrayant",
+        "Je sais que j'ai l'air moche"
+      ]
+    },
+    {
+      "number": 15,
+      "question": "Comment vous êtes-vous senti cette semaine et aujourd'hui?",
+      "answers": [
+        "Je peux travailler aussi bien qu'avant",
+        "Je dois faire un effort supplémentaire pour commencer à faire quelque chose",
+        "J'ai du mal à me forcer à faire n'importe quoi",
+        "Je ne peux pas faire de travail du tout"
+      ]
+    },
+    {
+      "number": 16,
+      "question": "Comment vous êtes-vous senti cette semaine et aujourd'hui?",
+      "answers": [
+        "Je dors aussi bien qu'avant",
+        "Je dors pire qu'avant",
+        "Je me réveille 1 à 2 heures plus tôt et j'ai du mal à m'endormir à nouveau",
+        "Je me réveille quelques heures plus tôt que d'habitude et je ne peux plus m'endormir"
+      ]
+    },
+    {
+      "number": 17,
+      "question": "Comment vous êtes-vous senti cette semaine et aujourd'hui?",
+      "answers": [
+        "Je ne suis pas plus fatigué que d'habitude",
+        "Maintenant, je me fatigue plus vite qu'avant",
+        "Je suis fatigué de presque tout ce que je fais",
+        "Je ne peux rien faire à cause de la fatigue"
+      ]
+    },
+    {
+      "number": 18,
+      "question": "Comment vous êtes-vous senti cette semaine et aujourd'hui?",
+      "answers": [
+        "Mon appétit n'est pas pire que d'habitude",
+        "Mon appétit est devenu pire qu'avant",
+        "Mon appétit est bien pire maintenant",
+        "Je n'ai pas d'appétit du tout"
+      ]
+    },
+    {
+      "number": 19,
+      "question": "Comment vous êtes-vous senti cette semaine et aujourd'hui?",
+      "answers": [
+        "Je n'ai pas perdu de poids ces derniers temps ou la perte de poids a été négligeable",
+        "J'ai perdu plus de 2 kg ces derniers temps",
+        "J'ai perdu plus de 5 kg",
+        "J'ai perdu plus de 7 kg"
+      ]
+    },
+    {
+      "number": 20,
+      "question": "Comment vous êtes-vous senti cette semaine et aujourd'hui?",
+      "answers": [
+        "Je ne m'inquiète pas plus pour ma santé que d'habitude",
+        "Je suis préoccupé par les problèmes de santé physique tels que la douleur, l'indigestion, la constipation, etc",
+        "Je suis très préoccupé par ma condition physique et j'ai du mal à penser à autre chose",
+        "Je suis tellement préoccupé par ma condition physique que je ne peux plus penser à quoi que ce soit"
+      ]
+    },
+    {
+      "number": 21,
+      "question": "Comment vous êtes-vous senti cette semaine et aujourd'hui?",
+      "answers": [
+        "Dernièrement, je n'ai pas remarqué de changement dans mon intérêt pour le sexe",
+        "Je suis moins occupé par les problèmes sexuels qu'avant",
+        "Maintenant, je suis beaucoup moins intéressé par les problèmes sexuels qu'auparavant",
+        "J'ai complètement perdu mon intérêt sexuel"
+      ]
+    }
+  ]
+}

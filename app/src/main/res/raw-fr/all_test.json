@@ -1,0 +1,360 @@
+[
+  {
+    "id": 10,
+    "name": "Test de couleur de lüscher",
+    "category": 0,
+    "duration": "5 minutes",
+    "description": "le test De couleur de lusher est basé sur l'hypothèse que le choix de la couleur reflète souvent l'orientation du sujet vers une activité spécifique, l'humeur, l'état fonctionnel et les traits de personnalité les plus stables. Le diagnostic de couleur de lusher vous permet de mesurer l'état psychophysiologique d'une personne, sa résistance au stress, son activité et ses capacités de communication. Le test de lusher vous permet de déterminer les causes du stress psychologique, ce qui peut entraîner l'apparition de symptômes physiologiques."
+  },
+  {
+    "id": 19,
+    "name": "Test de sondi",
+    "duration": "5 minutes",
+    "category": 0,
+    "description": "un test de personnalité Projectif qui répond à de nombreuses questions, y compris le choix d'une personne dans l'amour, l'amitié, la profession, au travail, et indique une prédisposition à certaines maladies."
+  },
+  {
+    "id": 1,
+    "name": "Échelle de dépression de Beck",
+    "questions_count": 21,
+    "duration": "2 minutes",
+    "category": 0,
+    "description": "l'inventaire de la dépression de Beck (Beck depression Inventory) a été proposé par A. T. Beck en 1961 et a été développé à partir d'observations cliniques qui ont permis d'identifier un ensemble limité de symptômes dépressifs les plus pertinents et les plus significatifs et les plaintes les plus fréquemment présentées par les patients. Après avoir corrélé cette liste de paramètres avec les descriptions cliniques de la dépression contenues dans la littérature appropriée, un questionnaire comprenant 21 Catégories de symptômes et de plaintes a été mis au point. Chaque catégorie comprend 4 à 5 déclarations correspondant aux manifestations/symptômes spécifiques de la dépression. Ces affirmations sont classées à mesure que la contribution spécifique du symptôme à la gravité globale de la dépression augmente."
+  },
+  {
+    "id": 2,
+    "name": "Échelle d'auto-évaluation de la dépression de Tsung",
+    "questions_count": 20,
+    "duration": "2 minutes",
+    "category": 0,
+    "description": "l'Échelle de Tsung pour l'auto-évaluation de la dépression (ENG. Zung self-Rating Depression Scale) - un test pour l'auto-évaluation de la dépression a été développé à l'Université Duke par le psychiatre Dr William Zung. Le test permet d'évaluer le niveau de dépression des patients et de déterminer le degré de trouble dépressif. À l'aide de l'Échelle Tsung, le sujet ou le médecin peut effectuer un auto-examen ou un dépistage de la dépression."
+  },
+  {
+    "id": 3,
+    "name": "Échelle de désespoir de Beck",
+    "questions_count": 20,
+    "duration": "2 minutes",
+    "category": 0,
+    "description": "Échelle de désespoir de Beck, Beck Hopelessness Inventory, socr. BHI) - une échelle qui mesure la gravité de l'attitude négative envers l'avenir subjectif chez les adultes et les adolescents. L'échelle a été développée par A. Beck et un groupe de ses collaborateurs au centre de Thérapie Cognitive de la Faculté de Médecine de l'Université de Pennsylvanie (États-Unis). La base de ce concept en tant que construction théorique est la théorie cognitive des processus mentaux, y compris la dépression en tant que conséquence des idées fausses cognitives.  Lors de la conception de l'échelle, les auteurs ont suivi le concept de Stotland, dans lequel le désespoir est considéré comme un système de circuits cognitifs, dont la caractéristique commune est la coloration négative des attentes concernant l'avenir proche et lointain. L'échelle de Désespoir de Beck mesure la gravité de l'attitude négative du sujet envers son propre avenir. Cette technique est particulièrement utile en tant qu'indicateur indirect du risque suicidaire chez les patients souffrant de dépression, ainsi que chez les personnes qui ont déjà tenté de se suicider."
+  },
+  {
+    "id": 4,
+    "name": "Échelle d'auto-évaluation de l'anxiété de Tsung",
+    "questions_count": 20,
+    "duration": "6 minutes",
+    "category": 0,
+    "description": "Échelle d'auto-évaluation de l'anxiété développée par Tsung en 1971 (abrégée en 1972). ZARS), est un outil précieux pour mesurer l'anxiété et présente tous les avantages des échelles d'estime de soi.Le libellé des points de l'échelle est basé sur la révision par l'auteur des critères de diagnostic de l'anxiété et des enregistrements d'enquêtes sur les patients souffrant de troubles anxieux. Cinq remarques évaluent des symptômes affectifs, les 15 autres-somatiques"
+  },
+  {
+    "id": 5,
+    "name": "Questionnaire de réflexivité",
+    "questions_count": 27,
+    "duration": "3 minutes",
+    "category": 0,
+    "description": "la Technique est un questionnaire destiné à mesurer le degré de développement d'une personnalité telle que la réflexivité. Développé en russe en 2003 par A. V. Karpov. Le questionnaire se compose de 27 points, dont les réponses sont formées sur une échelle de 7 points de Likkert. Selon le questionnaire, une valeur est formée, caractérisant le degré général de développement de la réflexivité de l'individu."
+  },
+  {
+    "id": 6,
+    "name": "Questionnaire sur l'épuisement professionnel",
+    "questions_count": 22,
+    "duration": "2 minutes",
+    "category": 0,
+    "description": "Questionnaire sur l'épuisement professionnel (Burn-Out), Maslach Burnout Inventory, socr. MBI) - une technique de test conçue pour diagnostiquer l'épuisement professionnel. Dans la plupart des cas, l'épuisement professionnel est présenté comme un processus destructeur de perte d'efficacité professionnelle, de diminution des qualités de communication et de développement d'une désadaptation Neuropsychiatrique pouvant entraîner des changements irréversibles de la personnalité. La cause de l'épuisement professionnel sont à la fois des conditions de travail insatisfaisantes et des caractéristiques de la personnalité de l'employé."
+  },
+  {
+    "id": 7,
+    "name": "Questionnaire sur l'orthorexie mentale de Bretman",
+    "questions_count": 10,
+    "duration": "1 minute",
+    "category": 0,
+    "description": "le Questionnaire est basé sur l'idée de Steve Bretman de l'existence d'un tel trouble mental caractérisé par une adhésion accrue, pathologique et malsaine à une bonne alimentation, une tendance à l'alimentation et des restrictions alimentaires qui masquent d'autres problèmes psychologiques et appauvrissent la vie humaine."
+  },
+  {
+    "id": 8,
+    "name": "Questionnaire de satisfaction conjugale",
+    "questions_count": 24,
+    "duration": "3 minutes",
+    "category": 0,
+    "description": "Liste de vérification de la satisfaction du mariage (LSF), développé par G. P. Boutenko, est conçu pour un diagnostic rapide du degré de satisfaction-insatisfaction de mariage, ainsi que la mesure de négociation de poursuite de la satisfaction du mariage de tel ou tel groupe social.Le questionnaire est une échelle unidimensionnelle composée de 24 déclarations relatives à différents domaines: perception de soi et de partenaire, opinions, évaluations, attitudes, etc. "
+  },
+  {
+    "id": 9,
+    "name": "Questionnaire de Personnalité d'eisenck",
+    "questions_count": 57,
+    "duration": "5 minutes",
+    "category": 0,
+    "description": "EPI (eysenck Personality Inventory) a été publié en 1963 et contient 57 questions, dont 24 visent à identifier l'extravsrsie-introversion, 24 autres - pour évaluer la stabilité émotionnelle-instabilité (neuroticisme), les 9 autres constituent un groupe de questions de contrôle destiné à évaluer la sincérité du sujet, son attitude à l'examen et la fiabilité des résultats."
+  },
+  {
+    "id": 11,
+    "name": "Questionnaire sur la structure du tempérament de Rusalov",
+    "questions_count": 105,
+    "duration": "5 minutes",
+    "category": 0,
+    "description": "la Technique est utilisée pour diagnostiquer les aspects subjectifs et communicatifs du tempérament et permet de quantifier ses propriétés: énergie, plasticité, rythme et émotivité. Le rapport des niveaux de gravité des propriétés énumérées indique le type de tempérament du sujet (colérique, sanguin, flegmatique, mélancolique). La technique vous permet de déterminer les niveaux d'ergicité, de plasticité, de rythme et d'émotivité en tant que propriétés du tempérament."
+  },
+  {
+    "id": 12,
+    "name": "Niveau d'empathie",
+    "questions_count": 60,
+    "duration": "3 minutes",
+    "category": 0,
+    "description": "Empathy Quotient (en abrégé EQ) est un questionnaire destiné à l'étude de la capacité d'empathie (ou empathie), une propriété personnelle, qui se réfère à la capacité de comprendre et de reproduire (y compris involontairement) les États émotionnels des autres."
+  },
+  {
+    "id": 13,
+    "name": "Diagnostic de l'état d'agression",
+    "questions_count": 75,
+    "duration": "3 minutes",
+    "category": 0,
+    "description": ""
+  },
+  {
+    "id": 14,
+    "name": "Échelle d'évaluation de la motivation d'approbation",
+    "questions_count": 19,
+    "duration": "1 minute",
+    "category": 0,
+    "description": ""
+  },
+  {
+    "id": 15,
+    "name": "Échelle d'évaluation du besoin de réalisation",
+    "questions_count": 22,
+    "duration": "1 minute",
+    "category": 0,
+    "description": ""
+  },
+  {
+    "id": 16,
+    "name": "Mesure du niveau d'anxiété de Taylor",
+    "questions_count": 50,
+    "duration": "3 minutes",
+    "category": 0,
+    "description": "l'échelle de l'anxiété personnelle de Taylor est conçue pour mesurer les manifestations de l'anxiété. Publié Le Dj. Taylor en 1953, l'échelle en Question est composée de 50 allégations auxquelles le sujet doit répondre par «oui» ou «non». Les allégations ont été sélectionnées à partir de l'ensemble d'allégations du questionnaire de personnalité multidimensionnelle du Minnesota (MMPI). Sélection des éléments pour le test. a été réalisée sur la base d'une analyse de leur capacité à distinguer les personnes ayant des «réactions d'anxiété chroniques»."
+  },
+  {
+    "id": 17,
+    "name": "Diagnostic rapide de la probabilité de névrose de Heck et Hess",
+    "questions_count": 40,
+    "duration": "2 minutes",
+    "category": 0,
+    "description": "le Test permet de déterminer le degré de probabilité d'une névrose"
+  },
+  {
+    "id": 18,
+    "name": "Hommes",
+    "questions_count": 40,
+    "duration": "2 minutes",
+    "category": 0,
+    "description": "L'inventaire des normes d'attitude Masculine est destiné au diagnostic psychologique de la notion subjective de «masculinité» chez l'homme.Le questionnaire est conçu pour identifier un système de croyances et d'attitudes concernant la masculinité et les rôles masculins qui incitent à agir conformément à ces attitudes et à éviter ce qu'elles découragent."
+  },
+  {
+    "id": 20,
+    "name": "Questionnaire sur les traits de personnalité névrotiques",
+    "questions_count": 119,
+    "duration": "5 minutes",
+    "category": 0,
+    "description": "technique de test Clinique qui est une modification du questionnaire sur les troubles névrotiques. Le questionnaire a été créé en 2003 en tant que version abrégée et remaniée de la méthode originale."
+  },
+  {
+    "id": 21,
+    "name": "Test de dépendance à Internet de Kimberly-Young",
+    "questions_count": 40,
+    "duration": "2 minutes",
+    "category": 0,
+    "description": "ete est un outil d'auto-diagnostic de la dépendance pathologique à Internet (quelle que soit la forme de cette dépendance)."
+  },
+  {
+    "id": 22,
+    "name": "Questionnaire sur les traits de caractère d'un adulte",
+    "questions_count": 80,
+    "duration": "4 minutes",
+    "category": 0,
+    "description": "permet de mesurer les traits de caractère d'un adulte et permet d'obtenir un profil de caractère individuel composé de «désaccentuations», «normes»et \"accentuations\"."
+  },
+  {
+    "id": 23,
+    "name": "Caractère Masculin ou féminin?",
+    "duration": "2 minutes",
+    "questions_count": 15,
+    "description": "",
+    "category": 2
+  },
+  {
+    "id": 24,
+    "name": "Degré de jalousie",
+    "duration": "2 minutes",
+    "questions_count": 12,
+    "description": "",
+    "category": 2
+  },
+  {
+    "id": 25,
+    "name": "Cercle d'amis",
+    "duration": "2 minutes",
+    "questions_count": 15,
+    "description": "",
+    "category": 2
+  },
+  {
+    "id": 26,
+    "name": "Étes-vous Un bon ami?",
+    "duration": "1 minute",
+    "questions_count": 12,
+    "category": 2,
+    "description": "êtes-vous attentif et gentil avec vos amis? Êtes-vous capable de sacrifier ce dernier pour quelqu'un qui doit être serré? Ces questions et bien d'autres aideront à répondre à ce test."
+  },
+  {
+    "id": 27,
+    "name": "Êtes-vous vraiment un ami fiable?",
+    "questions_count": 14,
+    "duration": "1 minute",
+    "category": 2,
+    "description": "Êtes-vous vraiment un ami fiable? Ou êtes-vous de ceux sur qui vous pouvez compter pas toujours en raison d'une certaine égoïsme?"
+  },
+  {
+    "id": 28,
+    "name": "Étes-vous Sensible?",
+    "duration": "2 minutes",
+    "questions_count": 14,
+    "category": 2,
+    "description": "ce test vous aidera à déterminer si vous êtes sensible ou, au contraire, la tolérance elle-même"
+  },
+  {
+    "id": 29,
+    "name": "Est-ce Agréable de communiquer avec vous?",
+    "duration": "1 minute",
+    "questions_count": 11,
+    "category": 2,
+    "description": "Beaucoup de gens ont du mal à se regarder de l'extérieur. Ce test vous permettra de savoir si vous êtes agréable dans la communication"
+  },
+  {
+    "id": 30,
+    "name": "Étes-vous Tolérant envers vos amis?",
+    "duration": "1 minute",
+    "questions_count": 9,
+    "category": 2,
+    "description": ""
+  },
+  {
+    "id": 31,
+    "name": "Étes-vous égoïste envers vos amis?",
+    "duration": "1 minute",
+    "questions_count": 12,
+    "category": 2,
+    "description": ""
+  },
+  {
+    "id": 32,
+    "name": "Est-il Facile pour vous de converger avec les gens?",
+    "duration": "2 minutes",
+    "questions_count": 10,
+    "category": 2,
+    "description": "dans quelle mesure convergez-vous facilement avec les gens? Dans n'importe quel environnement, vous sentez-vous à l'aise? Appartenez-vous à la catégorie des personnes dont on peut dire qu'elles sont caractérisées par une facilité de communication? Le test aidera à répondre à toutes ces questions. En outre, il permettra de déterminer dans quelle mesure cette propriété de caractère est exprimée chez vous."
+  },
+  {
+    "id": 33,
+    "name": "A quel point vos amis vous aiment-ils?",
+    "duration": "3 minutes",
+    "questions_count": 20,
+    "category": 2,
+    "description": ""
+  },
+  {
+    "id": 34,
+    "name": "Êtes-vous un bon ami?",
+    "duration": "2 minutes",
+    "questions_count": 10,
+    "category": 2,
+    "description": "Tout le monde veut que son ami soit quelqu'un de fiable sur qui on peut compter en tout. Répondez aux questions du test et vous comprendrez à quel point vous répondez vous-même aux exigences que vous avez tendance à imposer aux autres. En outre, il est également intéressant de savoir quel type d'ami vous êtes – fiable ou pas."
+  },
+  {
+    "id": 35,
+    "name": "A quel point êtes-vous une personne douce?",
+    "duration": "2 minutes",
+    "questions_count": 25,
+    "description": "",
+    "category": 2
+  },
+  {
+    "id": 36,
+    "name": "Niveau d'imagination",
+    "duration": "2 minutes",
+    "questions_count": 12,
+    "description": "ce test vous permet de découvrir les possibilités de vos amis et vous-même dans le domaine de la création.",
+    "category": 3
+  },
+  {
+    "id": 37,
+    "name": "Capacité artistique",
+    "duration": "3 minutes",
+    "questions_count": 24,
+    "description": "ce test vous permet de découvrir, chez vous et vos amis, les capacités artistiques. Êtes-vous capable de ressentir subtilement tout ce qui se passe dans le monde et la nature, aimez-vous l'art ou ne vous intéressez pas particulièrement? Répondez aux questions du test et vous le saurez",
+    "category": 3
+  },
+  {
+    "id": 38,
+    "name": "Creative",
+    "duration": "3 minutes",
+    "questions_count": 18,
+    "description": "si vous et vos amis pensez à un métier créatif pour vous-même, essayez de déterminer quel est votre potentiel créatif",
+    "category": 3
+  },
+  {
+    "id": 39,
+    "name": "Aimez-Vous commander?",
+    "duration": "2 minutes",
+    "questions_count": 23,
+    "description": "",
+    "category": 3
+  },
+  {
+    "id": 40,
+    "name": "Êtes-vous un carriériste?",
+    "duration": "3 minutes",
+    "description": "",
+    "questions_count": 30,
+    "category": 3
+  },
+  {
+    "id": 41,
+    "name": "Allez-vous suivre le rythme ou êtes-vous coincé dans le passé?",
+    "duration": "2 minutes",
+    "description": "",
+    "questions_count": 25,
+    "category": 3
+  },
+  {
+    "id": 42,
+    "name": "Comment gérez-vous les circonstances critiques",
+    "duration": "2 minutes",
+    "description": "",
+    "questions_count": 28,
+    "category": 4
+  },
+  {
+    "id": 43,
+    "name": "Maîtrise De soi dans la communication",
+    "duration": "1 minute",
+    "description": "avec ce test, vous pouvez déterminer votre niveau de contrôle lorsque vous communiquez avec d'autres personnes",
+    "questions_count": 10,
+    "category": 4
+  },
+  {
+    "id": 44,
+    "name": "Type de rythme circadien",
+    "duration": "2 minutes",
+    "description": "le Test révélera la relation entre votre sommeil et votre productivité",
+    "questions_count": 19,
+    "category": 4
+  },
+  {
+    "id": 45,
+    "name": "Test de démonstration",
+    "duration": "2 minutes",
+    "description": "Le but de ce test est de déterminer le niveau de démonstration du sujet. La démonstration est une caractéristique complexe et multidimensionnelle. C'est aussi le désir de «montrer», d'obtenir le plaisir d'attirer une attention positive à sa personnalité.",
+    "questions_count": 36,
+    "category": 4
+  }
+]

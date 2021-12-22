@@ -1,0 +1,256 @@
+{
+  "id": 18,
+  "questions_count": 40,
+  "name": "Male regulatory settings",
+  "scales_count": 5,
+  "interpretation": ">102-110: low score, 111-128: below average, 129 -146: average 147-164: above average 165-200: high values ",
+  "answers": [
+    "Totally disagree",
+    "I don't agree",
+    "It's hard to say",
+    "I agree",
+    "I totally agree"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "question": "A man should prefer sports (for example, hockey, football) to art (for example, theater, exhibitions)",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 2,
+      "question": "If a man is hurt, he should not let others notice that he is in pain",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 3,
+      "question": "Men who cry in public are weak",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 4,
+      "question": "If a man is concerned about something, he should share his concern with other people",
+      "scale": 2,
+      "right": false
+    },
+    {
+      "number": 5,
+      "question": "A man should be tough",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 6,
+      "question": "The nickname \"homosexual\" is one of the worst insults for a man",
+      "scale": 4,
+      "right": true
+    },
+    {
+      "number": 7,
+      "question": "A man should solve problems based on logic",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 8,
+      "question": "Men should appear confident, even if they are not sure about something",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 9,
+      "question": "It is the man who should make all the final decisions in the family",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 10,
+      "question": "Men participate in games to win",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 11,
+      "question": "If necessary, a man should not hesitate to sleep in the same bed with another man",
+      "scale": 4,
+      "right": false
+    },
+    {
+      "number": 12,
+      "question": "Men should have a job that is respected in society",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 13,
+      "question": "A successful man should live comfortably",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 14,
+      "question": "A man should be respected in the family",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 15,
+      "question": "Men's sexual needs must be met",
+      "scale": 5,
+      "right": true
+    },
+    {
+      "number": 16,
+      "question": "Men should feel embarrassed if they lose an erection during sex",
+      "scale": 5,
+      "right": true
+    },
+    {
+      "number": 17,
+      "question": "Men who teach children or cook in restaurants should be proud of what they do",
+      "scale": 3,
+      "right": false
+    },
+    {
+      "number": 18,
+      "question": "It is not so important for men to reach orgasm during sex",
+      "scale": 5,
+      "right": false
+    },
+    {
+      "number": 19,
+      "question": "It is normal for men to rely on others",
+      "scale": 2,
+      "right": false
+    },
+    {
+      "number": 20,
+      "question": "If a man is scared, he should not let others see it",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 21,
+      "question": "Normal men don't go to gay bars",
+      "scale": 4,
+      "right": true
+    },
+    {
+      "number": 22,
+      "question": "Men should be ready to physically protect themselves in a difficult situation",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 23,
+      "question": "A man is admirable when he takes the initiative in a situation where something needs to be done",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 24,
+      "question": "A straight man should not be shy about having gay friends",
+      "scale": 4,
+      "right": false
+    },
+    {
+      "number": 25,
+      "question": "A man should not worry about the future",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 26,
+      "question": "I won't judge someone who beats up gays",
+      "scale": 4,
+      "right": true
+    },
+    {
+      "number": 27,
+      "question": "A man's decision should not be questioned",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 28,
+      "question": "Men should be determined to succeed",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 29,
+      "question": "It is important for a man to be successful at work",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 30,
+      "question": "Gay men are not suitable for many jobs",
+      "scale": 4,
+      "right": true
+    },
+    {
+      "number": 31,
+      "question": "Men should stay focused even in difficult situations",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 32,
+      "question": "A man should be respected and admired by his acquaintances",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 33,
+      "question": "Men can kiss each other without being ashamed of it",
+      "scale": 4,
+      "right": false
+    },
+    {
+      "number": 34,
+      "question": "Men should be embarrassed when talking to their friends about sex",
+      "scale": 5,
+      "right": false
+    },
+    {
+      "number": 35,
+      "question": "Men are adapted to risk",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 36,
+      "question": "A date invitation doesn't always have to come from a man",
+      "scale": 2,
+      "right": false
+    },
+    {
+      "number": 37,
+      "question": "A father should be outraged if he finds out that his son is a homosexual",
+      "scale": 4,
+      "right": false
+    },
+    {
+      "number": 38,
+      "question": "A man should believe that he knows everything about sex",
+      "scale": 5,
+      "right": true
+    },
+    {
+      "number": 39,
+      "question": "A man is successful if he earns well",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 40,
+      "question": "Men should be calm in difficult situations",
+      "scale": 1,
+      "right": true
+    }
+  ]
+}

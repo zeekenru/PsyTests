@@ -1,0 +1,313 @@
+{
+  "id": 16,
+  "name": "Measuring Taylor's anxiety level",
+  "questions_count": 50,
+  "scales_count": 1,
+  "interpretation": "total score: 40 – 50 points is considered as the indication of a very high level of anxiety, 25 – 40 points indicates a high level of anxiety, 15 – 25 points on average (with a tendency to high) level 5 – 15 points on average (with a tendency to low) level 0 – 5 points - a low level of anxiety.",
+  "answers": [
+    "Yes",
+    "No"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "question": "I'm usually calm and it's not easy to lose my temper",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 2,
+      "question": "My nerves are no more upset than other people's",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 3,
+      "question": "I rarely have constipation",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 4,
+      "question": "I rarely have headaches",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 5,
+      "question": "I rarely get tired",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 6,
+      "question": "I almost always feel quite happy",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 7,
+      "question": "I 'm confident in myself",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 8,
+      "question": "Practically I never blush",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 9,
+      "question": "Compared to my friends, I consider myself quite a brave person",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 10,
+      "question": "I don't blush more often than others",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 11,
+      "question": "I rarely have a heartbeat",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 12,
+      "question": "My hands are usually quite warm",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 13,
+      "question": "I am no more shy than others",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 14,
+      "question": "I don't have enough confidence in myself",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 15,
+      "question": "Sometimes I feel like I'm good for nothing",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 16,
+      "question": "I have periods of such anxiety that I can't sit still",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 17,
+      "question": "My stomach bothers me a lot",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 18,
+      "question": "I don't have the courage to face all the challenges ahead",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 19,
+      "question": "I would like to be as happy as others",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 20,
+      "question": "Sometimes it seems to me that I have such difficulties piled up in front of me that I cannot overcome",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 21,
+      "question": "I often have bad dreams",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 22,
+      "question": "I notice that my hands start shaking when I try to do something",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 23,
+      "question": "I have extremely restless and intermittent sleep",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 24,
+      "question": "I am very concerned about possible failures",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 25,
+      "question": "I had to experience fear in those cases when I knew for sure that nothing was threatening me",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 26,
+      "question": "I find it difficult to focus on my work or any task",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 27,
+      "question": "I work very hard",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 28,
+      "question": "I get confused easily",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 29,
+      "question": "I feel anxious about someone or something almost all the time",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 30,
+      "question": "I tend to take everything too seriously",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 31,
+      "question": "I often cry",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 32,
+      "question": "I often suffer from bouts of vomiting and nausea",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 33,
+      "question": "Once a month or more, I get an upset stomach",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 34,
+      "question": "I'm often afraid that I'm going to blush",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 35,
+      "question": "I find it very difficult to focus on anything",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 36,
+      "question": "My financial situation is very worrying for me",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 37,
+      "question": "I often think about things that I don't want to talk about with anyone",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 38,
+      "question": "I've had periods when anxiety kept me awake",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 39,
+      "question": "At times, when I'm confused, I get a lot of sweating, which is very confusing for me",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 40,
+      "question": "Even on cold days, I sweat easily",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 41,
+      "question": "Sometimes I get so excited that I find it hard to fall asleep",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 42,
+      "question": "I am an easily excitable person",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 43,
+      "question": "Sometimes I feel completely useless",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 44,
+      "question": "Sometimes I think that my nerves are very shaky and I'm about to lose my temper",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 45,
+      "question": "I often find myself worrying about something",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 46,
+      "question": "I'm much more sensitive than most other people",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 47,
+      "question": "I feel hungry almost all the time",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 48,
+      "question": "Sometimes I get upset over nothing",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 49,
+      "question": "Life for me is connected with unusual tension",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 50,
+      "question": "Waiting always makes me nervous",
+      "scale": 1,
+      "right": true
+    }
+  ]
+}

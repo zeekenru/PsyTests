@@ -1,0 +1,315 @@
+{
+  "id": 12,
+  "name": "niveau d'empathie",
+  "questions_count": 60,
+  "scales_count": 1,
+  "interpretation": "<17 - niveau d'empathie très faible, 17-28 - niveau d'empathie faible, 29-51 - niveau d'empathie moyen, 52-63-niveau d'empathie élevé, >63-niveau d'empathie très élevé",
+  "answers": [
+    "Tout à fait d'accord",
+    "Plutôt d'accord",
+    "Plutôt pas d'accord",
+    "Totalement en désaccord"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "question": "je peux facilement dire si une personne veut entrer dans une conversation",
+      "key": 1
+    },
+    {
+      "number": 2,
+      "question": "j'aime plus les animaux que les humains",
+      "key": -1
+    },
+    {
+      "number": 3,
+      "question": "j'essaie de suivre les nouvelles tendances",
+      "key": -1
+    },
+    {
+      "number": 4,
+      "question": "j'ai du mal à expliquer aux autres quelque chose que je connais bien s'ils ne l'ont pas compris la première fois",
+      "key": 0
+    },
+    {
+      "number": 5,
+      "question": "d'Habitude je vois des rêves la nuit",
+      "key": -1
+    },
+    {
+      "number": 6,
+      "question": "j'aime vraiment prendre soin des autres",
+      "key": 1
+    },
+    {
+      "number": 7,
+      "question": "je préfère résoudre mes propres problèmes plutôt que d'en discuter avec les autres",
+      "key": -1
+    },
+    {
+      "number": 8,
+      "question": "Je ne comprends pas bien ce qu'il faut faire dans tel ou tel cas dans la communication",
+      "key": 0
+    },
+    {
+      "number": 9,
+      "question": "Je me sens mieux le matin",
+      "key": -1
+    },
+    {
+      "number": 10,
+      "question": "les Gens me disent souvent que je vais trop loin en défendant mon point de vue dans une conversation",
+      "key": 0
+    },
+    {
+      "number": 11,
+      "question": "Je ne suis pas trop inquiet si je suis en retard pour rencontrer un ami",
+      "key": 0
+    },
+    {
+      "number": 12,
+      "question": "les Amitiés et les relations sont trop compliquées et je préfère ne pas leur accorder beaucoup d'attention dans ma vie",
+      "key": 0
+    },
+    {
+      "number": 13,
+      "question": "je n'aurais jamais enfreint la loi, même la plus mineure",
+      "key": -1
+    },
+    {
+      "number": 14,
+      "question": "il est souvent difficile pour moi De juger si un acte est grossier ou poli",
+      "key": 0
+    },
+    {
+      "number": 15,
+      "question": "Dans une conversation, j'ai tendance à me concentrer sur mes propres pensées plutôt que sur ce à quoi mon auditeur pourrait penser",
+      "key": 0
+    },
+    {
+      "number": 16,
+      "question": "j'aime plus les blagues que les blagues verbales",
+      "key": -1
+    },
+    {
+      "number": 17,
+      "question": "je vis aujourd'hui plutôt que demain",
+      "key": -1
+    },
+    {
+      "number": 18,
+      "question": "enfant, j'aimais couper les vers pour voir ce qui se passait",
+      "key": 0
+    },
+    {
+      "number": 19,
+      "question": "je comprends rapidement quand quelqu'un dit une chose et implique une autre",
+      "key": 1
+    },
+    {
+      "number": 20,
+      "question": "dans l'ensemble, j'ai de solides convictions sur la moralité",
+      "key": -1
+    },
+    {
+      "number": 21,
+      "question": "parfois, j'ai du mal À comprendre ce qui dérange les autres",
+      "key": 0
+    },
+    {
+      "number": 22,
+      "question": "je peux facilement me mettre à la place d'un autre",
+      "key": 1
+    },
+    {
+      "number": 23,
+      "question": "je pense que la politesse est la principale chose qu'un parent peut enseigner à un enfant",
+      "key": -1
+    },
+    {
+      "number": 24,
+      "question": "j'aime faire des choses dans un élan de sentiments",
+      "key": -1
+    },
+    {
+      "number": 25,
+      "question": "Je prédis bien les sentiments des autres",
+      "key": 1
+    },
+    {
+      "number": 26,
+      "question": "je remarque rapidement quand quelqu'un se sent mal à l'aise et mal à l'aise avec la société des autres",
+      "key": 1
+    },
+    {
+      "number": 27,
+      "question": "si je dis quelque chose qui offense l'autre, c'est son affaire, pas la mienne",
+      "key": 0
+    },
+    {
+      "number": 28,
+      "question": "si quelqu'un me demande si j'aime sa coiffure, je répondrai honnêtement, même si je ne l'aime pas",
+      "key": 0
+    },
+    {
+      "number": 29,
+      "question": "je ne comprends pas toujours pourquoi quelqu'un s'offusque d'une remarque",
+      "key": 0
+    },
+    {
+      "number": 30,
+      "question": "les Gens me disent souvent que je suis imprévisible",
+      "key": -1
+    },
+    {
+      "number": 31,
+      "question": "j'aime être le centre d'attention dans une société",
+      "key": -1
+    },
+    {
+      "number": 32,
+      "question": "je ne suis pas très contrarié quand quelqu'un d'autre pleure",
+      "key": 0
+    },
+    {
+      "number": 33,
+      "question": "j'aime parler de politique",
+      "key": -1
+    },
+    {
+      "number": 34,
+      "question": "Je suis assez direct dans la conversation que d'autres prennent parfois pour impolitesse, même si je me comporte si involontairement",
+      "key": 0
+    },
+    {
+      "number": 35,
+      "question": "Normalement, dans la communication, je ne me sens pas gêné",
+      "key": 1
+    },
+    {
+      "number": 36,
+      "question": "d'Autres personnes me disent que je comprends bien ce qu'elles ressentent et pensent",
+      "key": -1
+    },
+    {
+      "number": 37,
+      "question": "Quand je parle aux gens, la conversation est plus souvent basée sur leurs expériences que sur les miennes",
+      "key": 1
+    },
+    {
+      "number": 38,
+      "question": "Je suis frustré si je vois un animal souffrir",
+      "key": 1
+    },
+    {
+      "number": 39,
+      "question": "je peux prendre des décisions indépendamment des sentiments des autres",
+      "key": 0
+    },
+    {
+      "number": 40,
+      "question": "je ne peux pas me détendre tant que je n'ai pas fait toutes les choses que j'ai l'intention de faire en une journée",
+      "key": -1
+    },
+    {
+      "number": 41,
+      "question": "je peux facilement dire, avec curiosité ou ennui, on m'écoute quand je parle",
+      "key": 1
+    },
+    {
+      "number": 42,
+      "question": "Je suis frustré quand je vois la souffrance des gens dans les émissions de nouvelles",
+      "key": 1
+    },
+    {
+      "number": 43,
+      "question": "les Amis me racontent souvent leurs expériences parce qu'ils pensent que je suis une personne compréhensive",
+      "key": 1
+    },
+    {
+      "number": 44,
+      "question": "j'ai l'impression de commencer à m'imposer même si mon interlocuteur ne le dit pas",
+      "key": 1
+    },
+    {
+      "number": 45,
+      "question": "je me fais souvent un nouvel engouement, puis je m'ennuie et je passe à autre chose",
+      "key": -1
+    },
+    {
+      "number": 46,
+      "question": "on me dit souvent que je vais souvent loin quand je taquine quelqu'un",
+      "key": 0
+    },
+    {
+      "number": 47,
+      "question": "Je suis trop nerveux pour monter des montagnes russes",
+      "key": -1
+    },
+    {
+      "number": 48,
+      "question": "D'autres me disent souvent que je suis insensible, même si je ne comprends pas pourquoi",
+      "key": 0
+    },
+    {
+      "number": 49,
+      "question": "quand je vois un débutant dans un environnement, il me semble qu'il doit faire un effort pour s'intégrer dans cet environnement",
+      "key": 0
+    },
+    {
+      "number": 50,
+      "question": "d'habitude, Je ne suis pas émotif quand je regarde un film",
+      "key": 0
+    },
+    {
+      "number": 51,
+      "question": "j'aime l'ordre dans les tâches quotidiennes et je fais souvent une liste de tâches pour la journée",
+      "key": -1
+    },
+    {
+      "number": 52,
+      "question": "je peux facilement et sans réfléchir à ce que l'autre personne ressent",
+      "key": 1
+    },
+    {
+      "number": 53,
+      "question": "je n'aime pas prendre de risques",
+      "key": -1
+    },
+    {
+      "number": 54,
+      "question": "je peux facilement comprendre de quoi une autre personne veut parler",
+      "key": 1
+    },
+    {
+      "number": 55,
+      "question": "je vois quand quelqu'un cache ses vrais sentiments",
+      "key": 1
+    },
+    {
+      "number": 56,
+      "question": "Avant de prendre des décisions, je pèse toujours le pour et le contre",
+      "key": -1
+    },
+    {
+      "number": 57,
+      "question": "je ne réfléchis pas soigneusement à la façon de me comporter dans la société",
+      "key": 1
+    },
+    {
+      "number": 58,
+      "question": "je prédis facilement le comportement d'une autre personne",
+      "key": 1
+    },
+    {
+      "number": 59,
+      "question": "je suis émotionnellement impliqué dans la tourmente de mes amis",
+      "key": -1
+    },
+    {
+      "number": 60,
+      "question": "je peux toujours apprécier l'opinion d'une autre personne, même si je ne suis pas d'accord avec elle",
+      "key": 1
+    }
+  ]
+}

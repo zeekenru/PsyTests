@@ -1,0 +1,119 @@
+{
+  "id": 3,
+  "questions_count": 20,
+  "interpretation": "",
+  "scales_count": 1,
+  "name": "Hoffnungslosigkeit-Skala Beck",
+  "answers": [
+    "Ganz falsch",
+    "Eher falsch",
+    "Eher richtig",
+    "Sehr wahr"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "question": "Ich schaue in die Zukunft mit Hoffnung und Begeisterung",
+      "right": false
+    },
+    {
+      "number": 2,
+      "question": "Mit dem gleichen Erfolg kann ich nur spucken auf alles, denn ich kann nicht Ihr Leben besser zu machen",
+      "right": true
+    },
+    {
+      "number": 3,
+      "question": "Wenn etwas schief geht, hilft mir das wissen, dass so darf es nicht weitergehen",
+      "right": false
+    },
+    {
+      "number": 4,
+      "question": "Ich kann mir nicht vorstellen, was wird mein Leben in zehn Jahren",
+      "right": true
+    },
+    {
+      "number": 5,
+      "question": "Ich habe genug Zeit, um aufzuholen, um das zu tun, was für mich am wichtigsten",
+      "right": false
+    },
+    {
+      "number": 6,
+      "question": "ich hoffe In der Zukunft erfolgreich zu sein ist, was nimmt mich am meisten",
+      "right": false
+    },
+    {
+      "number": 7,
+      "question": "Meine Zukunft erscheint mir dunkel",
+      "right": true
+    },
+    {
+      "number": 8,
+      "question": "Ich glaube, dass ich mehr gutes im Leben als die Durchschnittliche Person",
+      "right": false
+    },
+    {
+      "number": 9,
+      "question": "Ich habe einfach keine Atempause geben und ich glaube nicht, dass in der Zukunft wird es leichter",
+      "right": true
+    },
+    {
+      "number": 10,
+      "question": "Meine Erfahrungen aus der Vergangenheit gut bereitete mich auf die Zukunft",
+      "right": false
+    },
+    {
+      "number": 11,
+      "question": "Alles, was ich sehe vor eher unangenehm als angenehm",
+      "right": true
+    },
+    {
+      "number": 12,
+      "question": "Ich erwarte nicht, dass zu bekommen, was ich wirklich will",
+      "right": true
+    },
+    {
+      "number": 13,
+      "question": "Wenn ich an die Zukunft, ich hoffe, dass ich glücklicher als jetzt",
+      "right": false
+    },
+    {
+      "number": 14,
+      "question": "Nichts im Leben entwickelt sich nicht so wie ich will",
+      "right": true
+    },
+    {
+      "number": 15,
+      "question": "Ich glaube an Ihre Zukunft",
+      "right": false
+    },
+    {
+      "number": 16,
+      "question": "Ich bekomme nie, was ich will, und damit wollen etwas albern",
+      "right": true
+    },
+    {
+      "number": 17,
+      "question": "Es ist Sehr unwahrscheinlich, dass ich zufrieden mit meiner Zukunft",
+      "right": true
+    },
+    {
+      "number": 18,
+      "question": "Meine Zukunft erscheint mir sehr vage und unbestimmt",
+      "right": true
+    },
+    {
+      "number": 19,
+      "question": "Ich erwarte in Zukunft mehr gutes als schlechtes",
+      "right": false
+    },
+    {
+      "number": 20,
+      "question": "Es ist Sinnlos, wirklich sich bemühen, zu bekommen, was ich will, so wie wahrscheinlich ich werde es nicht schaffen",
+      "right": true
+    }
+  ]
+}
+
+
+
+

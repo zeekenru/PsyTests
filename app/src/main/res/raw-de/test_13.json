@@ -1,0 +1,464 @@
+{
+  "id": 13,
+  "questions_count": 75,
+  "name": "Diagnosen über den Zustand der Aggression",
+  "scales_count": 8,
+  "interpretation": "",
+  "answers": [
+    "Ja",
+    "Nein"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "question": "Alter ich kann nicht mit dem Wunsch, anderen Schaden zuzufügen",
+      "right": true,
+      "scale": 1
+    },
+    {
+      "number": 2,
+      "question": "Manchmal bin ich Schizo, Alter über die Menschen, die nicht lieben",
+      "right": true,
+      "scale": 2
+    },
+    {
+      "number": 3,
+      "question": "Ich bin leicht genervt, aber schnell beruhigen",
+      "right": true,
+      "scale": 3
+    },
+    {
+      "number": 4,
+      "question": "haben Sie mich gebeten, nicht auf-gut, ich werde es tun",
+      "right": true,
+      "scale": 4
+    },
+    {
+      "number": 5,
+      "question": "Ich bekomme immer das, was mir zusteht",
+      "right": true,
+      "scale": 5
+    },
+    {
+      "number": 6,
+      "question": "Ich weiß nicht, was die Leute sagen über mich hinter meinem Rücken",
+      "right": true,
+      "scale": 6
+    },
+    {
+      "number": 7,
+      "question": "Wenn ich nicht dulden, das Verhalten von Freunden, gebe ich Ihnen das Gefühl",
+      "right": true,
+      "scale": 7
+    },
+    {
+      "number": 8,
+      "question": "ich schon betrügen jemanden, ich empfand quälende Gewissensbisse",
+      "right": true,
+      "scale": 8
+    },
+    {
+      "number": 9,
+      "question": "Ich denke, dass ich nicht in der Lage, schlagen einer Person",
+      "right": false,
+      "scale": 1
+    },
+    {
+      "number": 10,
+      "question": "Ich habe noch nie so genervt, um zu werfen Fächern",
+      "right": false,
+      "scale": 2
+    },
+    {
+      "number": 11,
+      "question": "Ich habe immer nachsichtig, andere Mängel",
+      "right": false,
+      "scale": 3
+    },
+    {
+      "number": 12,
+      "question": "ich mag es nicht Wenn die bestimmte Regel, ich will es zu brechen",
+      "right": true,
+      "scale": 4
+    },
+    {
+      "number": 13,
+      "question": "Andere sind fast immer die Vorteile der günstigen Umständen",
+      "right": true,
+      "scale": 5
+    },
+    {
+      "number": 14,
+      "question": "Ich bin vorsichtig behandle Leute, die zu mir gehören ein paar mehr freundlich, als ich erwarte",
+      "right": true,
+      "scale": 6
+    },
+    {
+      "number": 15,
+      "question": "Ich gehe oft nicht einverstanden mit Menschen",
+      "right": true,
+      "scale": 7
+    },
+    {
+      "number": 16,
+      "question": "Manchmal ist mir in den Sinn kommen Gedanken, deren ich mich schäme",
+      "right": true,
+      "scale": 8
+    },
+    {
+      "number": 17,
+      "question": "Wenn jemand der erste Schlag mich, ich Antworte ihm",
+      "right": false,
+      "scale": 1
+    },
+    {
+      "number": 18,
+      "question": "Wann bin ich genervt, ich schlug den Türen",
+      "right": true,
+      "scale": 2
+    },
+    {
+      "number": 19,
+      "question": "Ich bin viel mehr reizbar ist, als es scheint",
+      "right": true,
+      "scale": 3
+    },
+    {
+      "number": 20,
+      "question": "Wenn jemand sich einbildet, Chef, habe ich immer das Tue ihm entgegen",
+      "right": true,
+      "scale": 4
+    },
+    {
+      "number": 21,
+      "question": "ich war ein bisschen traurig ist mein Schicksal",
+      "right": true,
+      "scale": 5
+    },
+    {
+      "number": 22,
+      "question": "Ich denke, dass viele Leute mich nicht mögen",
+      "right": true,
+      "scale": 6
+    },
+    {
+      "number": 23,
+      "question": "Ich kann nicht aufhören zu Streit, wenn Leute mit mir nicht einverstanden sind",
+      "right": true,
+      "scale": 7
+    },
+    {
+      "number": 24,
+      "question": "Menschen, die vor der Arbeit zurückschrecken, sollten sich schuldig fühlen",
+      "right": true,
+      "scale": 8
+    },
+    {
+      "number": 25,
+      "question": "wer beleidigt mich und meine Familie, stellt sich auf einen Kampf",
+      "right": true,
+      "scale": 1
+    },
+    {
+      "number": 26,
+      "question": "Ich nicht Lage auf grobe Witze",
+      "right": false,
+      "scale": 2
+    },
+    {
+      "number": 27,
+      "question": "deckt Mich wütend, wenn mich der Lächerlichkeit preisgeben",
+      "right": true,
+      "scale": 3
+    },
+    {
+      "number": 28,
+      "question": "Wenn Leute sich zu Chefs machen, tue ich alles, damit sie nicht arrogant werden",
+      "right": true,
+      "scale": 4
+    },
+    {
+      "number": 29,
+      "question": "Fast jede Woche sehe ich jemanden, der mir nicht gefällt",
+      "right": true,
+      "scale": 5
+    },
+    {
+      "number": 30,
+      "question": "Ganz viele Leute sind neidisch auf mich",
+      "right": true,
+      "scale": 6
+    },
+    {
+      "number": 31,
+      "question": "Ich verlange, dass die Menschen respektiert mich",
+      "right": true,
+      "scale": 7
+    },
+    {
+      "number": 32,
+      "question": "was Mich bedrückt, was ich mache wenig für Ihre Eltern",
+      "right": true,
+      "scale": 8
+    },
+    {
+      "number": 33,
+      "question": "Menschen, die dich ständig belästigen, sind es wert, bestraft zu werden?",
+      "right": true,
+      "scale": 1
+    },
+    {
+      "number": 34,
+      "question": "Ich bin nie düster vor Zorn",
+      "right": true,
+      "scale": 2
+    },
+    {
+      "number": 35,
+      "question": "Wenn jemand zu mir gehören noch schlimmer, als ich es Verdiene, ich ärgere mich nicht",
+      "right": false,
+      "scale": 3
+    },
+    {
+      "number": 36,
+      "question": "Wenn jemand kotzt mich an, ich achte nicht",
+      "right": false,
+      "scale": 4
+    },
+    {
+      "number": 37,
+      "question": "ich zeige nicht dazu, mich manchmal nagt der Neid",
+      "right": true,
+      "scale": 5
+    },
+    {
+      "number": 38,
+      "question": "Manchmal scheint es mir, dass die über mich lachen",
+      "right": true,
+      "scale": 6
+    },
+    {
+      "number": 39,
+      "question": "Selbst wenn ich wütend bin, greife ich nicht auf beleidigende Ausdrücke zurück",
+      "right": false,
+      "scale": 7
+    },
+    {
+      "number": 40,
+      "question": "Ich möchte, dass meine Sünden vergeben wurden",
+      "right": false,
+      "scale": 8
+    },
+    {
+      "number": 41,
+      "question": "Ich habe selten gebe übergabe, auch wenn jemand schlägt mich",
+      "right": false,
+      "scale": 1
+    },
+    {
+      "number": 42,
+      "question": "Wenn es sich erweist, nicht meiner Meinung nach, manchmal bin ich beleidigt",
+      "right": true,
+      "scale": 2
+    },
+    {
+      "number": 43,
+      "question": "Manchmal sind die Leute ärgern mich durch Ihre Anwesenheit",
+      "right": true,
+      "scale": 3
+    },
+    {
+      "number": 44,
+      "question": "Gibt es Menschen, denen ich wirklich gehasst",
+      "right": false,
+      "scale": 5
+    },
+    {
+      "number": 45,
+      "question": "Mein Grundsatz: «Nie Vertrauen Outsider»",
+      "right": true,
+      "scale": 6
+    },
+    {
+      "number": 46,
+      "question": "Wenn jemand mich ärgert, ich bin bereit zu sagen, was ich über ihn denke",
+      "right": true,
+      "scale": 7
+    },
+    {
+      "number": 47,
+      "question": "Ich mache viele Dinge, über die Sie später bereuen",
+      "right": true,
+      "scale": 8
+    },
+    {
+      "number": 48,
+      "question": "Wenn ich wütend, ich kann schlagen jemanden",
+      "right": true,
+      "scale": 1
+    },
+    {
+      "number": 49,
+      "question": "seit meiner kindheit habe ich nie gezeigt Ausbrüche des Zorns",
+      "right": false,
+      "scale": 2
+    },
+    {
+      "number": 50,
+      "question": "Ich fühle mich oft wie ein Pulverfass, die bereit ist, zu explodieren",
+      "right": true,
+      "scale": 3
+    },
+    {
+      "number": 51,
+      "question": "Wenn jeder wüsste, was ich fühle, würde mich glaubten die Menschen, mit denen schwer zu arbeiten",
+      "right": true,
+      "scale": 5
+    },
+    {
+      "number": 52,
+      "question": "Ich denke immer darüber, welche geheimen Gründe zwingen Menschen tun etwas gutes für mich",
+      "right": true,
+      "scale": 6
+    },
+    {
+      "number": 53,
+      "question": "Wenn man mich Schreien, ich fange an zu Schreien als Antwort",
+      "right": true,
+      "scale": 7
+    },
+    {
+      "number": 54,
+      "question": "Rückschläge mich traurig",
+      "right": true,
+      "scale": 8
+    },
+    {
+      "number": 55,
+      "question": "Ich Kämpfe nicht seltener und nicht öfter als andere",
+      "right": true,
+      "scale": 1
+    },
+    {
+      "number": 56,
+      "question": "Ich kann mich erinnern Fälle, in denen ich war so wütend, dass reichte das mir unter die Sache Hand und zerbrach Ihr",
+      "right": true,
+      "scale": 2
+    },
+    {
+      "number": 57,
+      "question": "ich habe Manchmal das Gefühl, dass er bereit ist, erste, einen Kampf zu beginnen",
+      "right": true,
+      "scale": 3
+    },
+    {
+      "number": 58,
+      "question": "ich habe Manchmal das Gefühl, dass das Leben kommt mir unfair",
+      "right": true,
+      "scale": 5
+    },
+    {
+      "number": 59,
+      "question": "ich dachte immer, dass die meisten Menschen die Wahrheit sagt, aber jetzt ich glaube es nicht",
+      "right": true,
+      "scale": 6
+    },
+    {
+      "number": 60,
+      "question": "Ich schwöre nur aus Wut",
+      "right": true,
+      "scale": 7
+    },
+    {
+      "number": 61,
+      "question": "Wann ich falsch, ich habe Gewissensbisse",
+      "right": true,
+      "scale": 8
+    },
+    {
+      "number": 62,
+      "question": "Wenn Sie zum Schutz Ihrer Rechte die ich brauche, physische Gewalt anzuwenden, verwende ich es",
+      "right": true,
+      "scale": 1
+    },
+    {
+      "number": 63,
+      "question": "Manchmal drücke ich seine Wut dem, was ich klopfe mit der Faust auf den Tisch",
+      "right": true,
+      "scale": 2
+    },
+    {
+      "number": 64,
+      "question": "Ich bin unhöflich gegenüber Menschen, die mir nicht gefallen",
+      "right": true,
+      "scale": 4
+    },
+    {
+      "number": 65,
+      "question": "Ich habe keine Feinde, die mir Schaden wollten",
+      "right": false,
+      "scale": 6
+    },
+    {
+      "number": 66,
+      "question": "Ich bin nicht im Stande, einen Mann auf dem Platz, auch wenn er es verdient",
+      "right": false,
+      "scale": 7
+    },
+    {
+      "number": 67,
+      "question": "Ich denke oft, dass Sie falsch gelebt",
+      "right": true,
+      "scale": 8
+    },
+    {
+      "number": 68,
+      "question": "Ich kenne Leute, die fähig sind, bringen mich zu kämpfen",
+      "right": true,
+      "scale": 1
+    },
+    {
+      "number": 69,
+      "question": "Ich bin nicht frustriert, weil die kleinen Dinge",
+      "right": false,
+      "scale": 3
+    },
+    {
+      "number": 70,
+      "question": "Ich habe selten in den Sinn kommt, dass Menschen versuchen, zu verärgern oder beleidigen mich",
+      "right": false,
+      "scale": 6
+    },
+    {
+      "number": 71,
+      "question": "Ich habe oft Menschen drohe, wenn auch nicht führen werde Drohung in Erfüllung",
+      "right": true,
+      "scale": 7
+    },
+    {
+      "number": 72,
+      "question": "In letzter Zeit wurde ich langweilig",
+      "right": true,
+      "scale": 3
+    },
+    {
+      "number": 73,
+      "question": "ich oft Im Streit raise the Voice",
+      "right": true,
+      "scale": 7
+    },
+    {
+      "number": 74,
+      "question": "in der Regel versuche ich zu verbergen, Ihre schlechte Haltung zu den Menschen",
+      "right": false,
+      "scale": 7
+    },
+    {
+      "number": 75,
+      "question": "Ich Stimme besser als zuvor, als ganz deiner Meinung",
+      "right": false,
+      "scale": 7
+    }
+  ]
+}
+

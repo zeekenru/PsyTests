@@ -1,0 +1,220 @@
+{
+  "id": 1,
+  "name": "Depression Skala Beck",
+  "questions_count": 21,
+  "scales_count": 1,
+  "interpretation": "Indikator für jede Kategorie berechnet sich wie folgt: jeder Punkt der Skala geht von 0 bis 3 entsprechend mit der Zunahme der schwere des symptoms. Gesamt-Punktzahl reicht von Über bis zu 62 reduziert und im Einklang mit der Verbesserung des Staates: 0-9 – keine depressiven Symptome 10-15 – einfache Depression (Subdepression), 16-19 – moderate Depression. 20-29 – Depression (mittelschwer), 30-63 – schwere Depression.Häufigkeit von Depressionen bei 19 Punkten gilt als klinisch Verletzung; Stufe höher als 24 Punkte weist auf die Notwendigkeit der Behandlung - vielleicht mit der Anwendung von Antidepressiva. Das Ziel der Behandlung muss sein, die Erreichung der in der Depression unter 10 Punkte",
+  "questions": [
+    {
+      "number": 1,
+      "question": "Wie fühlen Sie sich in dieser Woche und heute?",
+      "answers": [
+        "Ich fühle mich nicht frustriert, traurig",
+        "Ich bin aufgeregt",
+        "Ich habe die ganze Zeit aufgeregt und kann nicht davon trennen",
+        "Ich bin so frustriert und unglücklich, dass kann es nicht ertragen"
+      ]
+    },
+    {
+      "number": 2,
+      "question": "Wie fühlen Sie sich in dieser Woche und heute?",
+      "answers": [
+        "Ich Sorge mich nicht über meine Zukunft",
+        "Ich habe das Gefühl, dass verwirrt die Zukunft",
+        "Ich habe die ganze Zeit aufgeregt und kann nicht davon trennen",
+        "Ich bin so frustriert und unglücklich, dass kann es nicht ertragen"
+      ]
+    },
+    {
+      "number": 3,
+      "question": "Wie fühlen Sie sich in dieser Woche und heute?",
+      "answers": [
+        "Ich fühle mich nicht als Verlierer",
+        "Ich habe das Gefühl, dass mehr Rückschläge erlitten hat, als andere Leute",
+        "Wenn ich zurückblicke auf mein Leben, ich sehe es viele Ausfälle",
+        "Ich habe das Gefühl, dass ich als Person - Full Verlierer"
+      ]
+    },
+    {
+      "number": 4,
+      "question": "Wie fühlen Sie sich in dieser Woche und heute?",
+      "answers": [
+        "Ich bekomme so viel zufriedener sein, wie früher",
+        "Ich bin nicht immer so viel zufriedener sein, wie früher",
+        "Bekomme ich nicht mehr die Befriedigung von irgend etwas",
+        "Ich bin nicht völlig zufrieden mit dem Leben und ich hab es satt"
+      ]
+    },
+    {
+      "number": 5,
+      "question": "Wie fühlen Sie sich in dieser Woche und heute?",
+      "answers": [
+        "Ich fühle mich etwas schuldig",
+        "Oft genug fühle ich mich schuldig",
+        "Die meiste Zeit fühle ich mich schuldig",
+        "Ich habe ständig das Gefühl, ein Gefühl der Schuld"
+      ]
+    },
+    {
+      "number": 6,
+      "question": "Wie fühlen Sie sich in dieser Woche und heute?",
+      "answers": [
+        "Ich habe nicht das Gefühl, dass ich bestraft werden für etwas",
+        "Ich habe das Gefühl, dass ich bestraft werden",
+        "Ich erwarte, dass ich bestraft werden",
+        "Ich fühle mich schon bestraft"
+      ]
+    },
+    {
+      "number": 7,
+      "question": "Wie fühlen Sie sich in dieser Woche und heute?",
+      "answers": [
+        "Ich bin nicht enttäuscht von sich selbst",
+        "Ich bin enttäuscht in sich",
+        "Ich selbst angewidert",
+        "Ich hasse mich"
+      ]
+    },
+    {
+      "number": 8,
+      "question": "Wie fühlen Sie sich in dieser Woche und heute?",
+      "answers": [
+        "Ich weiß, dass ich nicht schlechter als andere",
+        "Ich kritisiere selbst für die Fehler und Schwächen",
+        "Ich bezichtige mich für meine Taten",
+        "Ich gebe mir die Schuld in allem schlechten, was passiert"
+      ]
+    },
+    {
+      "number": 9,
+      "question": "Wie fühlen Sie sich in dieser Woche und heute?",
+      "answers": [
+        "Ich hätte nie gedacht, Selbstmord zu Begehen",
+        "Zu mir kommen Gedanken, Selbstmord zu Begehen, aber ich werde Sie nicht umsetzen",
+        "Ich möchte Selbstmord Begehen",
+        "Hätte ich mich umgebracht, wenn ich Gelegenheit fand"
+      ]
+    },
+    {
+      "number": 10,
+      "question": "Wie fühlen Sie sich in dieser Woche und heute?",
+      "answers": [
+        "Ich zahle nicht mehr als üblich",
+        "Ich Weine jetzt mehr als früher",
+        "Jetzt bin ich die ganze Zeit Weinen",
+        "Früher konnte ich Weinen, aber jetzt kann ich nicht, auch wenn ich will"
+      ]
+    },
+    {
+      "number": 11,
+      "question": "Wie fühlen Sie sich in dieser Woche und heute?",
+      "answers": [
+        "Jetzt bin ich nicht mehr reizbar als gewöhnlich",
+        "Ich leicht genervt als zuvor",
+        "Jetzt habe ich ständig das Gefühl, dass Sie verärgert",
+        "Ich wurde gleichgültig gegenüber den Dingen, die mich früher geärgert haben"
+      ]
+    },
+    {
+      "number": 12,
+      "question": "Wie fühlen Sie sich in dieser Woche und heute?",
+      "answers": [
+        "Ich bin nicht verloren, das Interesse an anderen Menschen",
+        "Ich bin weniger interessiert an anderen Menschen als früher",
+        "Ich verlor fast das Interesse an anderen Menschen",
+        "Ich bin völlig verloren das Interesse an anderen Menschen"
+      ]
+    },
+    {
+      "number": 13,
+      "question": "Wie fühlen Sie sich in dieser Woche und heute?",
+      "answers": [
+        "Ich Schiebe Entscheidungen manchmal, wie früher",
+        "Ich häufiger als früher, Verschiebe Entscheidungen",
+        "Es fällt mir schwerer, Entscheidungen zu treffen als früher",
+        "Ich kann nicht mehr Entscheidungen treffen"
+      ]
+    },
+    {
+      "number": 14,
+      "question": "Wie fühlen Sie sich in dieser Woche und heute?",
+      "answers": [
+        "Ich habe nicht das Gefühl, dass es schlimmer aussehe, als üblich",
+        "Mich stört, dass ich alt aussehe und unattraktiv",
+        "Ich weiß, dass mein Aussehen stark verändert, die mich unattraktiv",
+        "Ich weiß, dass ich hässlich aussehe"
+      ]
+    },
+    {
+      "number": 15,
+      "question": "Wie fühlen Sie sich in dieser Woche und heute?",
+      "answers": [
+        "Ich kann genauso gut funktionieren, wie zuvor",
+        "Ich muss eine zusätzliche Anstrengung, um zu beginnen, etwas zu tun",
+        "Ich habe Schwierigkeiten, mich dazu Zwinge, etwas zu tun",
+        "Ich bin überhaupt nicht erfllen kann keinen Job"
+      ]
+    },
+    {
+      "number": 16,
+      "question": "Wie fühlen Sie sich in dieser Woche und heute?",
+      "answers": [
+        "Ich schlafe so gut wie früher",
+        "Ich schlafe jetzt noch schlimmer als früher",
+        "Ich Wache 1-2 Stunden früher, und ich finde es schwer, wieder einzuschlafen",
+        "Ich Wache mehrere Stunden früher als sonst und kann nicht mehr einschlafen"
+      ]
+    },
+    {
+      "number": 17,
+      "question": "Wie fühlen Sie sich in dieser Woche und heute?",
+      "answers": [
+        "Ich bin müde, nicht mehr als gewöhnlich",
+        "Jetzt bin ich schneller müde als früher",
+        "Ich bin müde von fast allem, was ich Tue",
+        "Ich kann nichts tun wegen der Müdigkeit"
+      ]
+    },
+    {
+      "number": 18,
+      "question": "Wie fühlen Sie sich in dieser Woche und heute?",
+      "answers": [
+        "Mein Appetit ist nicht schlechter als sonst",
+        "Mein Appetit war schlimmer als zuvor",
+        "Mein Appetit ist jetzt viel schlimmer",
+        "Ich habe überhaupt keinen Appetit"
+      ]
+    },
+    {
+      "number": 19,
+      "question": "Wie fühlen Sie sich in dieser Woche und heute?",
+      "answers": [
+        "In letzter Zeit habe ich nicht abgenommen oder Gewichtsverlust war vernachlässigbar",
+        "In letzter Zeit habe ich verloren mehr als 2 kg",
+        "Ich verlor mehr als 5 kg",
+        "Ich verlor mehr als 7 kg"
+      ]
+    },
+    {
+      "number": 20,
+      "question": "Wie fühlen Sie sich in dieser Woche und heute?",
+      "answers": [
+        "Ich mache mir sorgen um Ihre Gesundheit nicht mehr als üblich",
+        "Mich beunruhigen die Probleme meiner körperlichen Gesundheit, wie Schmerzen, Verdauungsstörungen, Verstopfung, etc",
+        "Ich bin sehr besorgt über seinen körperlichen Zustand, und ich finde es schwer zu denken über etwas anderes",
+        "Ich bin so besorgt über seinen körperlichen Zustand, dass nichts mehr denken kann"
+      ]
+    },
+    {
+      "number": 21,
+      "question": "Wie fühlen Sie sich in dieser Woche und heute?",
+      "answers": [
+        "In letzter Zeit habe ich nicht bemerkte Veränderungen, Ihr Interesse an Sex",
+        "Mich weniger zu besetzen Sex-Probleme als früher",
+        "Jetzt bin ich deutlich weniger interessiert an sexuellen Problemen als je zuvor",
+        "Ich sexuelles Interesse komplett verloren"
+      ]
+    }
+  ]
+}
+

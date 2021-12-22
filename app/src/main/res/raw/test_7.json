@@ -1,0 +1,63 @@
+{
+  "id": 7,
+  "questions_count": 10,
+  "name": "Bretman's Orthorexia nervosa Questionnaire",
+  "scales_count": 1,
+  "interpretation": "There are a total of 10 points in the questionnaire, the maximum number of points that can be scored is 10. If the respondent scored 4 points or more, they may have a PROBLEM and need to consult a specialist.",
+  "answers": [
+    "Yes",
+    "No"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "question": "I spend more than three hours a day thinking about healthy eating",
+      "key": 1
+    },
+    {
+      "number": 2,
+      "question": "I plan the menu for tomorrow today",
+      "key": 1
+    },
+    {
+      "number": 3,
+      "question": "For me, the benefits of food are much more important than those who enjoy it",
+      "key": 1
+    },
+    {
+      "number": 4,
+      "question": "The better my diet, the more monotonous my lifestyle",
+      "key": 1
+    },
+    {
+      "number": 5,
+      "question": "My dietary restrictions are getting stricter every day",
+      "key": 1
+    },
+    {
+      "number": 6,
+      "question": "I sacrifice activities that I used to enjoy if they prevent me from eating properly",
+      "key": 1
+    },
+    {
+      "number": 7,
+      "question": "My self-esteem increases when I eat healthy food. I look down on those who don't",
+      "key": 1
+    },
+    {
+      "number": 8,
+      "question": "I am tormented by feelings of guilt and self-loathing if I eat something that gives me pleasure, but does not comply with the rules of my diet",
+      "key": 1
+    },
+    {
+      "number": 9,
+      "question": "The diet isolates me from others, because I can only eat at home",
+      "key": 1
+    },
+    {
+      "number": 10,
+      "question": "When I eat the right foods, I am calm and feel like I have everything under control",
+      "key": 1
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": 7,
+  "questions_count": 10,
+  "name": "Questionnaire sur l'orthorexie mentale de Bretman",
+  "scales_count": 1,
+  "interpretation": "au total, Il y a 10 points dans le questionnaire, le nombre maximum de points que vous pouvez marquer est de 10. Si le répondant a marqué 4 points ou plus, il peut avoir un MAIS, et il a besoin de l'avis d'un spécialiste.",
+  "answers": [
+    "Oui",
+    "Pas"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "question": "je passe plus de trois heures par jour à réfléchir à une alimentation saine",
+      "key": 1
+    },
+    {
+      "number": 2,
+      "question": "je prévois un Menu pour demain",
+      "key": 1
+    },
+    {
+      "number": 3,
+      "question": "pour moi, le bénéfice que procure la nourriture dont le plaisir en découle est beaucoup plus important",
+      "key": 1
+    },
+    {
+      "number": 4,
+      "question": "Plus mon régime alimentaire est bon, plus mon mode de vie est monotone",
+      "key": 1
+    },
+    {
+      "number": 5,
+      "question": "Mes restrictions alimentaires sont plus strictes chaque jour",
+      "key": 1
+    },
+    {
+      "number": 6,
+      "question": "je sacrifie des activités que j'aimais auparavant si elles m'empêchent de bien manger",
+      "key": 1
+    },
+    {
+      "number": 7,
+      "question": "mon estime de soi augmente lorsque je mange des aliments sains. Je regarde ceux qui ne le font pas",
+      "key": 1
+    },
+    {
+      "number": 8,
+      "question": "Je suis tourmenté par la culpabilité et le dégoût de moi-même si je mange quelque chose qui me procure du plaisir mais qui ne respecte pas les règles de mon régime alimentaire",
+      "key": 1
+    },
+    {
+      "number": 9,
+      "question": "le Régime m'isole des autres parce que je ne peux manger qu'à la maison",
+      "key": 1
+    },
+    {
+      "number": 10,
+      "question": "Quand je mange les bons aliments, je suis calme et j'ai l'impression d'avoir tout sous contrôle",
+      "key": 1
+    }
+  ]
+}

@@ -1,0 +1,315 @@
+{
+  "id": 12,
+  "name": "Level of empathy",
+  "questions_count": 60,
+  "scales_count": 1,
+  "interpretation": "<17 - very low level of empathy, 17-28 low level of empathy, 29-51 - average level of empathy, 52-63 - high level of empathy, >63 - very high level of empathy",
+  "answers": [
+    "I totally agree",
+    "I rather agree",
+    "Rather disagree",
+    "Totally disagree"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "question": "I can easily tell if a person wants to join the conversation",
+      "key": 1
+    },
+    {
+      "number": 2,
+      "question": "I like animals more than people",
+      "key": -1
+    },
+    {
+      "number": 3,
+      "question": "I try to follow new trends",
+      "key": -1
+    },
+    {
+      "number": 4,
+      "question": "It's hard for me to explain something I'm good at to others if they didn't understand it the first time",
+      "key": 0
+    },
+    {
+      "number": 5,
+      "question": "I usually dream at night",
+      "key": -1
+    },
+    {
+      "number": 6,
+      "question": "I really like taking care of other people",
+      "key": 1
+    },
+    {
+      "number": 7,
+      "question": "I prefer to solve my own problems rather than discuss them with others",
+      "key": -1
+    },
+    {
+      "number": 8,
+      "question": "I don't really understand what to do in this or that case in communication",
+      "key": 0
+    },
+    {
+      "number": 9,
+      "question": "I feel best in the morning",
+      "key": -1
+    },
+    {
+      "number": 10,
+      "question": "People often tell me that I go too far in defending my point of view in a conversation",
+      "key": 0
+    },
+    {
+      "number": 11,
+      "question": "I don't worry too much if I'm late for a meeting with a friend",
+      "key": 0
+    },
+    {
+      "number": 12,
+      "question": "Friendships and relationships are too complex, and I prefer not to pay much attention to them in my life",
+      "key": 0
+    },
+    {
+      "number": 13,
+      "question": "I would never break a law, even the most insignificant one",
+      "key": -1
+    },
+    {
+      "number": 14,
+      "question": "It is often difficult for me to judge whether something is rude or polite",
+      "key": 0
+    },
+    {
+      "number": 15,
+      "question": "In conversation, I tend to focus on my own thoughts, rather than what my listener might be thinking",
+      "key": 0
+    },
+    {
+      "number": 16,
+      "question": "I like practical jokes better than oral jokes",
+      "key": -1
+    },
+    {
+      "number": 17,
+      "question": "I live for today rather than tomorrow",
+      "key": -1
+    },
+    {
+      "number": 18,
+      "question": "When I was a kid, I used to cut up worms to see what would happen",
+      "key": 0
+    },
+    {
+      "number": 19,
+      "question": "I quickly understand when someone says one thing and implies another",
+      "key": 1
+    },
+    {
+      "number": 20,
+      "question": "In general, I have strong beliefs about morality",
+      "key": -1
+    },
+    {
+      "number": 21,
+      "question": "Sometimes I find it difficult to understand what upsets others",
+      "key": 0
+    },
+    {
+      "number": 22,
+      "question": "I can easily put myself in someone else's shoes",
+      "key": 1
+    },
+    {
+      "number": 23,
+      "question": "I think that politeness is the main thing that a parent can teach a child",
+      "key": -1
+    },
+    {
+      "number": 24,
+      "question": "I like to do things in a rush of feelings",
+      "key": -1
+    },
+    {
+      "number": 25,
+      "question": "I'm good at predicting other people's feelings",
+      "key": 1
+    },
+    {
+      "number": 26,
+      "question": "I quickly notice when someone feels awkward and uncomfortable in the company of other people",
+      "key": 1
+    },
+    {
+      "number": 27,
+      "question": "If I say something that offends the other person, it's his business, not mine",
+      "key": 0
+    },
+    {
+      "number": 28,
+      "question": "If someone asks me if I like their hairstyle, I will answer honestly, even if I don't like it",
+      "key": 0
+    },
+    {
+      "number": 29,
+      "question": "I don't always understand why someone is offended by a comment",
+      "key": 0
+    },
+    {
+      "number": 30,
+      "question": "People often tell me that I'm unpredictable",
+      "key": -1
+    },
+    {
+      "number": 31,
+      "question": "I like being the center of attention in any society",
+      "key": -1
+    },
+    {
+      "number": 32,
+      "question": "I don't get too upset when someone else cries",
+      "key": 0
+    },
+    {
+      "number": 33,
+      "question": "I like to talk about politics",
+      "key": -1
+    },
+    {
+      "number": 34,
+      "question": "I am quite direct in conversation, which others sometimes take for rudeness, although I behave so unintentionally",
+      "key": 0
+    },
+    {
+      "number": 35,
+      "question": "I don't usually feel embarrassed when communicating",
+      "key": 1
+    },
+    {
+      "number": 36,
+      "question": "Other people tell me that I understand very well what they are feeling and thinking",
+      "key": -1
+    },
+    {
+      "number": 37,
+      "question": "When I talk to people, the conversation is more often based on their experiences, not mine",
+      "key": 1
+    },
+    {
+      "number": 38,
+      "question": "I get upset if I see an animal in pain",
+      "key": 1
+    },
+    {
+      "number": 39,
+      "question": "I can make decisions regardless of the feelings of others",
+      "key": 0
+    },
+    {
+      "number": 40,
+      "question": "I can't relax until I've completed all the tasks that I was going to do during the day",
+      "key": -1
+    },
+    {
+      "number": 41,
+      "question": "I can easily tell whether people are listening to me with curiosity or boredom when I speak",
+      "key": 1
+    },
+    {
+      "number": 42,
+      "question": "I get upset when I see people suffering in news broadcasts",
+      "key": 1
+    },
+    {
+      "number": 43,
+      "question": "Friends often tell me about their experiences, as they believe that I am an understanding person",
+      "key": 1
+    },
+    {
+      "number": 44,
+      "question": "I feel that I'm starting to impose myself, even if my interlocutor doesn't say it",
+      "key": 1
+    },
+    {
+      "number": 45,
+      "question": "I often start a new hobby, then I get bored with it, and I move on to something else",
+      "key": -1
+    },
+    {
+      "number": 46,
+      "question": "I am often told that I often go too far when I tease someone",
+      "key": 0
+    },
+    {
+      "number": 47,
+      "question": "I'm too nervous to ride a roller coaster",
+      "key": -1
+    },
+    {
+      "number": 48,
+      "question": "Others often tell me that I'm insensitive, even though I don't understand why",
+      "key": 0
+    },
+    {
+      "number": 49,
+      "question": "When I see a newcomer in any environment, it seems to me that he himself should make an effort to fit into this environment",
+      "key": 0
+    },
+    {
+      "number": 50,
+      "question": "I'm usually unemotional when I watch movies",
+      "key": 0
+    },
+    {
+      "number": 51,
+      "question": "I like order in my daily activities and often make a list of responsibilities for the day",
+      "key": -1
+    },
+    {
+      "number": 52,
+      "question": "I can easily and without hesitation tune in to the feeling that another person is experiencing",
+      "key": 1
+    },
+    {
+      "number": 53,
+      "question": "I don't like to take risks",
+      "key": -1
+    },
+    {
+      "number": 54,
+      "question": "I can easily understand what the other person wants to talk about",
+      "key": 1
+    },
+    {
+      "number": 55,
+      "question": "I can see when someone hides their true feelings",
+      "key": 1
+    },
+    {
+      "number": 56,
+      "question": "Before making decisions, I always weigh the pros and cons",
+      "key": -1
+    },
+    {
+      "number": 57,
+      "question": "I don't think carefully about how to behave in society",
+      "key": 1
+    },
+    {
+      "number": 58,
+      "question": "I can easily predict how another person will behave",
+      "key": 1
+    },
+    {
+      "number": 59,
+      "question": "I get emotionally involved in the troubles of my friends",
+      "key": -1
+    },
+    {
+      "number": 60,
+      "question": "I can always appreciate the other person's opinion, even if I don't agree with them",
+      "key": 1
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "id": 6,
+  "questions_count": 22,
+  "name": "Burnout-Fragebogen Maslach",
+  "scales_count": 3,
+  "interpretation": "Emotionale Erschöpfung wird als Hauptkomponente von Burnout gesehen und äußert sich in einem reduzierten emotionalen Hintergrund, Gleichgültigkeit oder emotionaler Übersättigung. Depersonalisation beeinflusst die Deformation der Beziehungen zu anderen Menschen. In einigen Fällen kann dies eine Zunahme der Abhängigkeit von anderen sein. In anderen gibt es eine Zunahme von Negativismus, Zynismus der Einstellungen und Gefühle gegenüber den Empfängern: Patienten, Klienten usw. Die Verringerung der beruflichen Leistung kann sich entweder in einer Tendenz zur negativen Selbsteinschätzung, einer Unterschätzung der eigenen beruflichen Leistungen und Erfolge, Negativismus äußern in Bezug auf Verdienste und Möglichkeiten im Dienst, oder in der Herabsetzung der eigenen Würde, Einschränkung der eigenen Fähigkeiten, Pflichten in Bezug auf andere.",
+  "answers": [
+    "Nie",
+    "Sehr selten",
+    "Selten",
+    "Manchmal",
+    "Oft",
+    "Sehr oft",
+    "Jeden Tag"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "question": "Ich fühle mich emotional ausgelaugt",
+      "right": true,
+      "scale": 1
+    },
+    {
+      "number": 2,
+      "question": "Nach der Arbeit ich fühle mich wie eine «gepresste Zitrone»",
+      "right": true,
+      "scale": 1
+    },
+    {
+      "number": 3,
+      "question": "Morgens fühle ich mich müde und mangelnde Bereitschaft zur Arbeit zu gehen",
+      "right": true,
+      "scale": 1
+    },
+    {
+      "number": 4,
+      "question": "Ich verstehe gut, was Sie fühlen meine Untergebenen und Kollegen, die dies berücksichtigen und versuchen, im Interesse der Sache",
+      "right": true,
+      "scale": 3
+    },
+    {
+      "number": 5,
+      "question": "Ich fühle mich wie kommuniziere mit einigen Untergebenen und Kollegen sowohl mit Gegenständen (ohne die Wärme und den Speicherort der zu Ihnen)",
+      "right": true,
+      "scale": 2
+    },
+    {
+      "number": 6,
+      "question": "Nach der Arbeit für eine Weile zurückziehen will und von allen nur",
+      "right": false,
+      "scale": 1
+    },
+    {
+      "number": 7,
+      "question": "kann Ich finden die richtige Lösung in Konfliktsituationen, die bei der Kommunikation mit Kollegen",
+      "right": true,
+      "scale": 3
+    },
+    {
+      "number": 8,
+      "question": "Ich habe das Gefühl der Depression und Apathie",
+      "right": true,
+      "scale": 1
+    },
+    {
+      "number": 9,
+      "question": "Ich bin sicher, dass meine Arbeit die Menschen brauchen",
+      "right": true,
+      "scale": 3
+    },
+    {
+      "number": 10,
+      "question": "In letzter Zeit wurde ich mehr als «gefühllos» gegenüber denen, mit denen ich arbeite",
+      "right": true,
+      "scale": 2
+    },
+    {
+      "number": 11,
+      "question": "Ich merke, dass meine Arbeit mich verhärtet",
+      "right": true,
+      "scale": 2
+    },
+    {
+      "number": 12,
+      "question": "Ich habe viele Pläne für die Zukunft, und ich glaube, in Ihrer Umsetzung",
+      "right": true,
+      "scale": 3
+    },
+    {
+      "number": 13,
+      "question": "ist Meine Arbeit immer mehr mich enttäuschend",
+      "right": true,
+      "scale": 1
+    },
+    {
+      "number": 14,
+      "question": "Ich denke, dass ich zu viel arbeite",
+      "right": true,
+      "scale": 1
+    },
+    {
+      "number": 15,
+      "question": "es kommt vor, dass mir wirklich gleichgültig, was geschieht, c einige meiner Untergebenen und Kollegen",
+      "right": true,
+      "scale": 2
+    },
+    {
+      "number": 16,
+      "question": "Ich möchte zurückziehen und eine Pause von allem und jedem",
+      "right": true,
+      "scale": 1
+    },
+    {
+      "number": 17,
+      "question": "Ich kann leicht schaffen eine Atmosphäre des guten Willens und der Zusammenarbeit im Team",
+      "right": true,
+      "scale": 3
+    },
+    {
+      "number": 18,
+      "question": "Während der Arbeit ich fühle mich eine angenehme Belebung",
+      "right": true,
+      "scale": 3
+    },
+    {
+      "number": 19,
+      "question": "Dank meiner Arbeit habe ich schon viel in meinem Leben getan habe wirklich wertvoll",
+      "right": true,
+      "scale": 3
+    },
+    {
+      "number": 20,
+      "question": "Ich empfinde Gleichgültigkeit und Verlust des Interesses an vieles, was erfreute mich bei meiner Arbeit",
+      "right": true,
+      "scale": 1
+    },
+    {
+      "number": 21,
+      "question": "Auf der Arbeit Schaffe ich ruhig mit emotionalen Problemen",
+      "right": true,
+      "scale": 2
+    },
+    {
+      "number": 22,
+      "question": "In letzter Zeit scheint es mir, dass die Kollegen und die Untergebenen immer häufiger die Schuld auf mich zu laden Ihre Probleme und Aufgaben",
+      "right": true,
+      "scale": 3
+    }
+  ]
+}
+

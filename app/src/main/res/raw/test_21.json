@@ -1,0 +1,216 @@
+{
+  "id": 21,
+  "questions_count": 40,
+  "name": "Kimberly-Young Internet Addiction Test",
+  "scales_count": 1,
+  "interpretation": "",
+  "answers": [
+    "Never",
+    "Rarely",
+    "Regularly",
+    "Often",
+    "Constantly"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "question": "Do you notice that you spend more time online than you intended?",
+      "scale": 1
+    },
+    {
+      "number": 2,
+      "question": "Do you neglect household chores in order to wander online longer?",
+      "scale": 1
+    },
+    {
+      "number": 3,
+      "question": "Do you prefer being online to intimate communication with your partner?",
+      "scale": 1
+    },
+    {
+      "number": 4,
+      "question": "Do you meet Internet users while you are online?",
+      "scale": 1
+    },
+    {
+      "number": 5,
+      "question": "Are you annoyed because others are interested in the amount of time you spend online?",
+      "scale": 1
+    },
+    {
+      "number": 6,
+      "question": "Do you notice that you have stopped making progress in your studies or work because you spend too much time online?",
+      "scale": 1
+    },
+    {
+      "number": 7,
+      "question": "Do you check your email before you do something else that is more necessary?",
+      "scale": 1
+    },
+    {
+      "number": 8,
+      "question": "Do you notice that your productivity is declining due to the Internet craze?",
+      "scale": 1
+    },
+    {
+      "number": 9,
+      "question": "Are you defensive and secretive when people ask you what you do online?",
+      "scale": 1
+    },
+    {
+      "number": 10,
+      "question": "Do you block disturbing thoughts about your real life with thoughts about the Internet?",
+      "scale": 1
+    },
+    {
+      "number": 11,
+      "question": "Do you find yourself looking forward to going online again?",
+      "scale": 1
+    },
+    {
+      "number": 12,
+      "question": "Do you feel that life without the Internet is boring, empty and joyless?",
+      "scale": 1
+    },
+    {
+      "number": 13,
+      "question": "Do you swear, shout, or otherwise express your frustration when someone tries to distract you from being online?",
+      "scale": 1
+    },
+    {
+      "number": 14,
+      "question": "Do you neglect sleep by staying up late on the Internet?",
+      "scale": 1
+    },
+    {
+      "number": 15,
+      "question": "Are you looking forward to doing something online while offline?",
+      "scale": 1
+    },
+    {
+      "number": 16,
+      "question": "Do you say to yourself: \"Just a minute\" while you are online?",
+      "scale": 1
+    },
+    {
+      "number": 17,
+      "question": "Are you failing to reduce your time spent online?",
+      "scale": 1
+    },
+    {
+      "number": 18,
+      "question": "Are you trying to hide the amount of time you spend online?",
+      "scale": 1
+    },
+    {
+      "number": 19,
+      "question": "Instead of going out with your friends, choose the Internet?",
+      "scale": 1
+    },
+    {
+      "number": 20,
+      "question": "Do you experience depression, depression, or nervousness when you are offline and note that this state passes as soon as you are online?",
+      "scale": 1
+    },
+    {
+      "number": 21,
+      "question": "Do you feel euphoric, enlivened, excited while at the computer?",
+      "scale": 1
+    },
+    {
+      "number": 22,
+      "question": "Do you need to spend more and more time at the computer to get the same experience?",
+      "scale": 1
+    },
+    {
+      "number": 23,
+      "question": "Do you feel empty, depressed, irritated when you are not at the computer?",
+      "scale": 1
+    },
+    {
+      "number": 24,
+      "question": "Have you ever neglected important things while you were busy at the computer, but not at work?",
+      "scale": 1
+    },
+    {
+      "number": 25,
+      "question": "Do you spend more than 3 hours online a day?",
+      "scale": 1
+    },
+    {
+      "number": 26,
+      "question": "If you mainly use your computer for work, do you chat during business hours or visit sites that are not related to work more than 2 times a day?",
+      "scale": 1
+    },
+    {
+      "number": 27,
+      "question": "Do you download files from sites with pornographic content?",
+      "scale": 1
+    },
+    {
+      "number": 28,
+      "question": "Do you think that it is easier to communicate with a person \"online\" than in person?",
+      "scale": 1
+    },
+    {
+      "number": 29,
+      "question": "Have your friends or family members told you that you spend too much time 'online'?",
+      "scale": 1
+    },
+    {
+      "number": 30,
+      "question": "Does the amount of time spent online interfere with your business activity?",
+      "scale": 1
+    },
+    {
+      "number": 31,
+      "question": "Have you ever failed to limit your online time?",
+      "scale": 1
+    },
+    {
+      "number": 32,
+      "question": "Does it happen that your fingers get tired from working on the keyboard or from clicking the mouse button?",
+      "scale": 1
+    },
+    {
+      "number": 33,
+      "question": "Have you ever lied about the amount of time you spend online?",
+      "scale": 1
+    },
+    {
+      "number": 34,
+      "question": "Have you ever had \"carpal tunnel syndrome\" (numbness and pain in the hand)?",
+      "scale": 1
+    },
+    {
+      "number": 35,
+      "question": "Do you have back pain more often than once a week?",
+      "scale": 1
+    },
+    {
+      "number": 36,
+      "question": "Do you ever have a feeling of dryness in your eyes?",
+      "scale": 1
+    },
+    {
+      "number": 37,
+      "question": "Is the amount of time you spend online increasing?",
+      "scale": 1
+    },
+    {
+      "number": 38,
+      "question": "Have you ever skipped a meal or eaten directly at the computer to stay online?",
+      "scale": 1
+    },
+    {
+      "number": 39,
+      "question": "Have you ever neglected personal hygiene, such as shaving, combing your hair, etc., to spend this time at the computer?",
+      "scale": 1
+    },
+    {
+      "number": 40,
+      "question": "Do you have any sleep disorders and / or have your sleep patterns changed since you started using the computer daily?",
+      "scale": 1
+    }
+  ]
+}

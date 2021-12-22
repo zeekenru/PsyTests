@@ -1,0 +1,213 @@
+{
+  "id": 17,
+  "questions_count": 40,
+  "name": "diagnostic rapide de la névrose de Heck et Hess",
+  "scales_count": 1,
+  "interpretation": "0-23 points : Ce nombre correspond à une faible neurotisation et indique une stabilité émotionnelle, un fond d'expériences positif (calme, optimisme), initiative, estime de soi, indépendance, courage social, facilité de communication. 24 points ou plus : Ce nombre correspond à une forte probabilité de névrose (neurotisation) et indique une excitabilité émotionnelle prononcée, à la suite de laquelle apparaissent des expériences négatives (anxiété, tension, anxiété, irritabilité, confusion), à propos du manque d'initiative, qui forme des expériences associées à l'insatisfaction des désirs, à l'orientation de la personnalité égocentrique, qui conduit à une fixation hypocondriaque sur les sensations somatiques et les déficiences personnelles, sur les difficultés de communication, sur la timidité sociale et la dépendance.",
+  "answers": [
+    "Oui",
+    "Pas"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "question": "Pensez-vous que vous êtes intérieurement tendu?",
+      "key": 1
+    },
+    {
+      "number": 2,
+      "question": "je suis souvent tellement plongé dans quelque chose que je ne peux pas m'endormir",
+      "key": 1
+    },
+    {
+      "number": 3,
+      "question": "Je me sens facilement vulnérable",
+      "key": 1
+    },
+    {
+      "number": 4,
+      "question": "j'ai du mal à parler à des inconnus",
+      "key": 1
+    },
+    {
+      "number": 5,
+      "question": "avez-vous souvent un sentiment D'indifférence et de fatigue sans raison particulière?",
+      "key": 1
+    },
+    {
+      "number": 6,
+      "question": "j'ai souvent le sentiment que les gens me voient de manière critique",
+      "key": 1
+    },
+    {
+      "number": 7,
+      "question": "Êtes-vous souvent hanté Par des pensées inutiles qui ne sortent pas de votre tête, même si vous essayez de vous en débarrasser",
+      "key": 1
+    },
+    {
+      "number": 8,
+      "question": "Je suis assez nerveux",
+      "key": 1
+    },
+    {
+      "number": 9,
+      "question": "je pense que personne ne me comprend",
+      "key": 1
+    },
+    {
+      "number": 10,
+      "question": "Je suis assez irritable",
+      "key": 1
+    },
+    {
+      "number": 11,
+      "question": "Si ce n'était pas contre moi, mes affaires auraient été plus réussies",
+      "key": 1
+    },
+    {
+      "number": 12,
+      "question": "je suis trop proche et je prends des ennuis à coeur",
+      "key": 1
+    },
+    {
+      "number": 13,
+      "question": "même la pensée d'un éventuel échec m'inquiète",
+      "key": 1
+    },
+    {
+      "number": 14,
+      "question": "j'ai eu des expériences très étranges et inhabituelles",
+      "key": 1
+    },
+    {
+      "number": 15,
+      "question": "Êtes-vous heureux ou triste sans raison apparente?",
+      "key": 1
+    },
+    {
+      "number": 16,
+      "question": "toute la journée, je rêve et fantasme plus que nécessaire",
+      "key": 1
+    },
+    {
+      "number": 17,
+      "question": "est-il Facile de changer Votre humeur?",
+      "key": 1
+    },
+    {
+      "number": 18,
+      "question": "je me bats souvent pour ne pas montrer ma timidité",
+      "key": 1
+    },
+    {
+      "number": 19,
+      "question": "j'aimerais être aussi heureux que les autres semblent",
+      "key": 1
+    },
+    {
+      "number": 20,
+      "question": "Parfois, je tremble ou j'ai des frissons",
+      "key": 1
+    },
+    {
+      "number": 21,
+      "question": "Votre humeur change-t-elle souvent En fonction ou sans cause grave?",
+      "key": 1
+    },
+    {
+      "number": 22,
+      "question": "Éprouvez-vous parfois un sentiment de peur, même en l'absence de danger réel?",
+      "key": 1
+    },
+    {
+      "number": 23,
+      "question": "les Critiques ou les réprimandes me font très mal",
+      "key": 1
+    },
+    {
+      "number": 24,
+      "question": "parfois, je suis tellement inquiet que je ne peux même pas rester assis au même endroit",
+      "key": 1
+    },
+    {
+      "number": 25,
+      "question": "vous Inquiétez-vous parfois trop de choses mineures?",
+      "key": 1
+    },
+    {
+      "number": 26,
+      "question": "j'éprouve souvent du mécontentement",
+      "key": 1
+    },
+    {
+      "number": 27,
+      "question": "j'ai du mal À me concentrer sur une tâche ou un travail",
+      "key": 1
+    },
+    {
+      "number": 28,
+      "question": "Je fais beaucoup de choses que je dois me repentir",
+      "key": 1
+    },
+    {
+      "number": 29,
+      "question": "la Plupart du temps, je suis heureux",
+      "key": 1
+    },
+    {
+      "number": 30,
+      "question": "je ne suis pas assez sûr de moi",
+      "key": 1
+    },
+    {
+      "number": 31,
+      "question": "parfois, Je me sens vraiment inutile",
+      "key": 1
+    },
+    {
+      "number": 32,
+      "question": "souvent, Je me sens mal",
+      "key": 1
+    },
+    {
+      "number": 33,
+      "question": "Je creuse beaucoup en moi-même",
+      "key": 1
+    },
+    {
+      "number": 34,
+      "question": "je souffre d'un sentiment d'infériorité",
+      "key": 1
+    },
+    {
+      "number": 35,
+      "question": "Parfois, ça me fait mal",
+      "key": 1
+    },
+    {
+      "number": 36,
+      "question": "j'ai un état oppressant",
+      "key": 1
+    },
+    {
+      "number": 37,
+      "question": "j'ai quelque chose avec les nerfs",
+      "key": 1
+    },
+    {
+      "number": 38,
+      "question": "j'ai du mal À maintenir une conversation lors d'une rencontre",
+      "key": 1
+    },
+    {
+      "number": 39,
+      "question": "la lutte la plus dure pour moi est de me battre avec moi – même",
+      "key": 1
+    },
+    {
+      "number": 40,
+      "question": "Pensez-vous parfois que les difficultés sont grandes et insurmontables?",
+      "key": 1
+    }
+  ]
+}

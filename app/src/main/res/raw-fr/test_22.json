@@ -1,0 +1,495 @@
+{
+  "id": 22,
+  "questions_count": 80,
+  "name": "Questionnaire sur les traits de caractère d'un adulte",
+  "scales_count": 10,
+  "interpretation": "",
+  "answers": [
+    "Totalement en désaccord",
+    "Plutôt pas d'accord",
+    "D'accord",
+    "Totalement d'accord"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "question": "est-ce que Votre humeur est surtout joyeuse, optimiste?",
+      "scale": 5,
+      "right": true
+    },
+    {
+      "number": 2,
+      "question": "Le ressentiment que Vous ressentez peut-il être aussi aigu ou même plus fort après une longue période?",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 3,
+      "question": "les expériences Profondes vous font-elles pleurer?",
+      "scale": 9,
+      "right": true
+    },
+    {
+      "number": 4,
+      "question": "à la fin d'un travail, avez-vous des doutes quant à La qualité de son exécution?",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 5,
+      "question": "est-ce que Tout nouvel événement dans Votre vie Vous effraie?",
+      "scale": 10,
+      "right": false
+    },
+    {
+      "number": 6,
+      "question": "avez-vous des sautes d'humeur allant de très amusant à très triste?",
+      "scale": 7,
+      "right": true
+    },
+    {
+      "number": 7,
+      "question": "cherchez-vous constamment à être au centre de l'attention?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 8,
+      "question": "êtes-vous souvent irrité et mécontent de L'environnement?",
+      "scale": 4,
+      "right": true
+    },
+    {
+      "number": 9,
+      "question": "Êtes – vous une personne introvertie et laconique?",
+      "scale": 6,
+      "right": true
+    },
+    {
+      "number": 10,
+      "question": "êtes-vous capable de faire quelque chose pour vous-même?",
+      "scale": 8,
+      "right": true
+    },
+    {
+      "number": 11,
+      "question": "infectez-vous les gens avec optimisme?",
+      "scale": 5,
+      "right": true
+    },
+    {
+      "number": 12,
+      "question": "avez-vous du mal à oublier les griefs mineurs qui Vous ont été infligés?",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 13,
+      "question": "Êtes-vous une personne sensible et douce?",
+      "scale": 9,
+      "right": true
+    },
+    {
+      "number": 14,
+      "question": "En jetant un e-mail dans la boîte aux lettres, vérifiez-vous s'il est tombé ou non, s'il est coincé dans une fente?",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 15,
+      "question": "êtes-vous prêt à vous venger de trahison personnelle?",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 16,
+      "question": "avez-vous eu peur des orages (ou des chiens) dans Votre enfance?",
+      "scale": 10,
+      "right": true
+    },
+    {
+      "number": 17,
+      "question": "voulez-vous toujours maintenir l'ordre?",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 18,
+      "question": "est-ce que Votre humeur fluctue constamment sans raison particulière?",
+      "scale": 7,
+      "right": true
+    },
+    {
+      "number": 19,
+      "question": "Votre humeur joyeuse peut-elle être radicalement remplacée par une profonde tristesse?",
+      "scale": 8,
+      "right": true
+    },
+    {
+      "number": 20,
+      "question": "Êtes – vous un homme colérique?",
+      "scale": 4,
+      "right": true
+    },
+    {
+      "number": 21,
+      "question": "Êtes-vous généralement d'humeur dépressive?",
+      "scale": 6,
+      "right": true
+    },
+    {
+      "number": 22,
+      "question": "Votre perception des œuvres d'art est-elle extrêmement aiguisée?",
+      "scale": 8,
+      "right": true
+    },
+    {
+      "number": 23,
+      "question": "Êtes-vous constamment occupé?",
+      "scale": 5,
+      "right": true
+    },
+    {
+      "number": 24,
+      "question": "est-ce que les Insultes qui Vous sont infligées provoquent une rage cachée en Vous?",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 25,
+      "question": "pouvez-vous tuer un oiseau vivant?",
+      "scale": 9,
+      "right": false
+    },
+    {
+      "number": 26,
+      "question": "êtes-vous ennuyé quand une chose n'est pas à sa place?",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 27,
+      "question": "avez-vous peur de rester seul à la maison?",
+      "scale": 10,
+      "right": true
+    },
+    {
+      "number": 28,
+      "question": "avez-vous des sautes d'humeur sans cause?",
+      "scale": 7,
+      "right": true
+    },
+    {
+      "number": 29,
+      "question": "dans votre activité professionnelle, aspirez-vous à être le premier?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 30,
+      "question": "êtes-vous facilement en colère?",
+      "scale": 4,
+      "right": true
+    },
+    {
+      "number": 31,
+      "question": "êtes-vous capable d'être amusant pendant longtemps?",
+      "scale": 6,
+      "right": false
+    },
+    {
+      "number": 32,
+      "question": "est-ce que Vous avez un sentiment de joie tumultueuse dans un contexte de mauvaise humeur?",
+      "scale": 8,
+      "right": true
+    },
+    {
+      "number": 33,
+      "question": "Vos contacts avec les gens sont-ils faciles et variés?",
+      "scale": 5,
+      "right": true
+    },
+    {
+      "number": 34,
+      "question": "Êtes-vous impressionnable comme un enfant?",
+      "scale": 8,
+      "right": true
+    },
+    {
+      "number": 35,
+      "question": "Êtes-vous effrayé par la vue du sang?",
+      "scale": 9,
+      "right": true
+    },
+    {
+      "number": 36,
+      "question": "Votre sens de la parole peut-il être remplacé par une fermeture complète?",
+      "scale": 8,
+      "right": true
+    },
+    {
+      "number": 37,
+      "question": "Êtes-vous au fond une personne ambitieuse?",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 38,
+      "question": "avez-vous peur de descendre dans une cave sombre, d'entrer dans une pièce vide et non éclairée?",
+      "scale": 10,
+      "right": true
+    },
+    {
+      "number": 39,
+      "question": "préférez-vous un travail approfondi et lent?",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 40,
+      "question": "parfois, Vous êtes une personne sociable, et parfois vous ne pouvez pas tirer des mots de Vous?",
+      "scale": 7,
+      "right": true
+    },
+    {
+      "number": 41,
+      "question": "Vous sentez-vous bien sur scène?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 42,
+      "question": "avez-vous du mal à contrôler vos désirs forts?",
+      "scale": 4,
+      "right": true
+    },
+    {
+      "number": 43,
+      "question": "la vie vous semble-t-elle insupportablement dure?",
+      "scale": 6,
+      "right": true
+    },
+    {
+      "number": 44,
+      "question": "est-il facile pour Vous de jouer la maladie pour ne pas aller au travail ou à l'école?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 45,
+      "question": "Même en cas d'échec, ne perdez-vous pas votre sens de l'humour, de l'optimisme?",
+      "scale": 5,
+      "right": true
+    },
+    {
+      "number": 46,
+      "question": "est-il facile Pour vous de vous réconcilier avec la personne qui Vous a beaucoup offensé?",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 47,
+      "question": "avez-vous un sentiment de compassion pour les animaux errants?",
+      "scale": 9,
+      "right": true
+    },
+    {
+      "number": 48,
+      "question": "Êtes-vous constamment dérangé par l'idée qu'il Vous arrive quelque chose ou quelque chose de votre famille?",
+      "scale": 10,
+      "right": true
+    },
+    {
+      "number": 49,
+      "question": "Votre humeur fluctue-t-elle en fonction de la météo?",
+      "scale": 7,
+      "right": true
+    },
+    {
+      "number": 50,
+      "question": "avez-vous du mal à prendre La parole lors d'une réunion, à faire un rapport, etc. devant un large public?",
+      "scale": 2,
+      "right": false
+    },
+    {
+      "number": 51,
+      "question": "êtes-vous prêt à frapper une personne si elle vous insulte fortement?",
+      "scale": 4,
+      "right": true
+    },
+    {
+      "number": 52,
+      "question": "aimez-vous être dans des entreprises amusantes?",
+      "scale": 6,
+      "right": false
+    },
+    {
+      "number": 53,
+      "question": "Êtes – vous une personne romantique, pleine de rêves, pleine de tristesse?",
+      "scale": 8,
+      "right": true
+    },
+    {
+      "number": 54,
+      "question": "est-ce facile Pour vous de faire de l'organisation?",
+      "scale": 5,
+      "right": true
+    },
+    {
+      "number": 55,
+      "question": "les films tragiques Peuvent-ils vous exciter de sorte que les larmes coulent devant vos yeux?",
+      "scale": 9,
+      "right": true
+    },
+    {
+      "number": 56,
+      "question": "vous souvenez-vous depuis longtemps des critiques à Votre égard?",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 57,
+      "question": "avez-vous peur de marcher dans une rue sombre plus tard?",
+      "scale": 10,
+      "right": true
+    },
+    {
+      "number": 58,
+      "question": "faites-vous attention à ce que chaque chose reste à sa place dans Votre maison?",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 59,
+      "question": "en Vous couchant dans Une bonne humeur, vous vous levez souvent le matin dans une humeur déprimée et sombre?",
+      "scale": 7,
+      "right": true
+    },
+    {
+      "number": 60,
+      "question": "dans n'importe quelle situation, vous vous donnez un rôle de premier plan?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 61,
+      "question": "quand Vous êtes \"touché pour un malade\", pouvez-vous frapper?",
+      "scale": 4,
+      "right": true
+    },
+    {
+      "number": 62,
+      "question": "vous riez souvent?",
+      "scale": 6,
+      "right": false
+    },
+    {
+      "number": 63,
+      "question": "l'Initiative vient-elle généralement de Vous?",
+      "scale": 5,
+      "right": true
+    },
+    {
+      "number": 64,
+      "question": "aimez-vous beaucoup la nature?",
+      "scale": 9,
+      "right": true
+    },
+    {
+      "number": 65,
+      "question": "voulez-vous mettre de l'ordre partout et partout?",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 66,
+      "question": "Êtes-vous une personne craintive?",
+      "scale": 10,
+      "right": true
+    },
+    {
+      "number": 67,
+      "question": "Votre humeur fluctue-t-elle sous l'influence de l'alcool?",
+      "scale": 7,
+      "right": true
+    },
+    {
+      "number": 68,
+      "question": "aimez-vous être admiré?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 69,
+      "question": "pendant une dispute, pouvez-vous utiliser vos poings?",
+      "scale": 4,
+      "right": true
+    },
+    {
+      "number": 70,
+      "question": "êtes-vous pessimiste à Propos de l'avenir?",
+      "scale": 6,
+      "right": true
+    },
+    {
+      "number": 71,
+      "question": "êtes-vous sujet à des sautes d'humeur fréquentes de joie à tristesse?",
+      "scale": 8,
+      "right": true
+    },
+    {
+      "number": 72,
+      "question": "dans n'importe quelle entreprise, créez-vous une ambiance joyeuse?",
+      "scale": 5,
+      "right": true
+    },
+    {
+      "number": 73,
+      "question": "êtes-vous prêt à vous venger même d'un adversaire fort?",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 74,
+      "question": "est-ce que vous traversez beaucoup le chagrin des autres?",
+      "scale": 9,
+      "right": true
+    },
+    {
+      "number": 75,
+      "question": "Pendant vos années d'école, avez-vous commencé un nouveau cahier à cause d'une tache?",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 76,
+      "question": "les rêves Effrayants vous impressionnent-ils fortement?",
+      "scale": 10,
+      "right": true
+    },
+    {
+      "number": 77,
+      "question": "une Période de bonne humeur sans raison peut-elle être remplacée par l'apathie?",
+      "scale": 7,
+      "right": true
+    },
+    {
+      "number": 78,
+      "question": "sous l'influence de l'alcool, devenez-vous agressif?",
+      "scale": 4,
+      "right": true
+    },
+    {
+      "number": 79,
+      "question": "dans une conversation, êtes-vous plutôt laconique?",
+      "scale": 6,
+      "right": true
+    },
+    {
+      "number": 80,
+      "question": "êtes-vous capable de captiver les autres avec l'extraordinaire de vos actions et de vos pensées?",
+      "scale": 2,
+      "right": true
+    }
+  ]
+}

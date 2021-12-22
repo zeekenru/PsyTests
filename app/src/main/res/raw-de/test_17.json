@@ -1,0 +1,214 @@
+{
+  "id": 17,
+  "questions_count": 40,
+  "name": "Express-Diagnose der Wahrscheinlichkeit der Neurose Seehecht und Hess",
+  "scales_count": 1,
+  "interpretation": "0-23 Punkte: Diese Zahl entspricht einer geringen Neurotisierung und weist auf emotionale Stabilität, einen positiven Erfahrungshintergrund (Gelassenheit, Optimismus), Initiative, Selbstwertgefühl, Selbständigkeit, Sozialmut, Kommunikationsfähigkeit hin. 24 oder mehr Punkte: Diese Zahl entspricht einer hohen Wahrscheinlichkeit einer Neurose (Neurotisierung) und weist auf eine ausgeprägte emotionale Erregbarkeit hin, wodurch negative Erfahrungen (Angst, Anspannung, Angst, Reizbarkeit, Verwirrung) auftreten, über mangelnde Initiative, die bildet Erfahrungen, die mit Wunschunzufriedenheit verbunden sind, über egozentrische Persönlichkeitsorientierung, die zu einer hypochondrischen Fixierung auf somatische Empfindungen und persönliche Defizite führt, auf Kommunikationsschwierigkeiten, auf soziale Schüchternheit und Abhängigkeit.",
+  "answers": [
+    "Ja",
+    "Nein"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "question": "haben Sie das Gefühl, dass Sie innerlich so angespannt?",
+      "key": 1
+    },
+    {
+      "number": 2,
+      "question": "Ich bin oft so sehr in etwas vertieft, dass ich nicht schlafen kann",
+      "key": 1
+    },
+    {
+      "number": 3,
+      "question": "Ich fühle mich einfach verletzlich",
+      "key": 1
+    },
+    {
+      "number": 4,
+      "question": "Ich finde es schwer, mit fremden zu sprechen",
+      "key": 1
+    },
+    {
+      "number": 5,
+      "question": "wie Oft haben ohne besonderen Grund bekommen Sie das Gefühl, Gleichgültigkeit und Müdigkeit",
+      "key": 1
+    },
+    {
+      "number": 6,
+      "question": "Ich habe oft das Gefühl, dass die Leute mich kritisch betrachten",
+      "key": 1
+    },
+    {
+      "number": 7,
+      "question": "wie Oft haben Sie verfolgen die nutzlosen Gedanken, die kommen nicht aus dem Kopf, obwohl Sie versuchen, Sie loszuwerden",
+      "key": 1
+    },
+    {
+      "number": 8,
+      "question": "Ich ziemlich nervös",
+      "key": 1
+    },
+    {
+      "number": 9,
+      "question": "Ich glaube, dass mich niemand versteht",
+      "key": 1
+    },
+    {
+      "number": 10,
+      "question": "Ich bin ziemlich mürrisch",
+      "key": 1
+    },
+    {
+      "number": 11,
+      "question": "Wenn gegen mich nicht eingestellt wurden, meine würde das Geschäft lief mehr als erfolgreich",
+      "key": 1
+    },
+    {
+      "number": 12,
+      "question": "Ich bin zu nah und zu lange zu Herzen nehme ärger",
+      "key": 1
+    },
+    {
+      "number": 13,
+      "question": "Auch Gedanken über einen möglichen Misserfolg der mich beunruhigt",
+      "key": 1
+    },
+    {
+      "number": 14,
+      "question": "Ich hatte eine sehr seltsame und ungewöhnliche Erlebnisse",
+      "key": 1
+    },
+    {
+      "number": 15,
+      "question": "gibt es Sie fröhlich, dann traurig ohne ersichtlichen Grund?",
+      "key": 1
+    },
+    {
+      "number": 16,
+      "question": "den ganzen Tag ich Träume und denke mehr, als Sie brauchen",
+      "key": 1
+    },
+    {
+      "number": 17,
+      "question": "ist es Einfach zu ändern Sie Ihre Stimmung?",
+      "key": 1
+    },
+    {
+      "number": 18,
+      "question": "Ich habe oft kämpfen würde, um zu zeigen, Ihre Schüchternheit",
+      "key": 1
+    },
+    {
+      "number": 19,
+      "question": "Ich würde so glücklich sein, wie Sie scheinen andere Menschen",
+      "key": 1
+    },
+    {
+      "number": 20,
+      "question": "Manchmal zittere ich oder habe Schüttelfrost",
+      "key": 1
+    },
+    {
+      "number": 21,
+      "question": "wie Oft ändert sich die Stimmung je nach schwerwiegenden Grund oder ohne?",
+      "key": 1
+    },
+    {
+      "number": 22,
+      "question": "haben Sie manchmal Angst, auch wenn keine wirkliche Gefahr?",
+      "key": 1
+    },
+    {
+      "number": 23,
+      "question": "die Kritik oder Tadel mich sehr verletzt",
+      "key": 1
+    },
+    {
+      "number": 24,
+      "question": "Manchmal bin ich so unruhig, dass selbst ich kann nicht an einem Ort sitzen",
+      "key": 1
+    },
+    {
+      "number": 25,
+      "question": "sind Sie Besorgt manchmal zu viel, weil kleinere Dinge?",
+      "key": 1
+    },
+    {
+      "number": 26,
+      "question": "Ich habe oft erlebe die Unzufriedenheit",
+      "key": 1
+    },
+    {
+      "number": 27,
+      "question": "Ich finde es schwer zu konzentrieren, wenn Sie eine Aufgabe oder Arbeit",
+      "key": 1
+    },
+    {
+      "number": 28,
+      "question": "Ich mache vieles, was fällt bereuen",
+      "key": 1
+    },
+    {
+      "number": 29,
+      "question": "ich überwiegend glücklich",
+      "key": 1
+    },
+    {
+      "number": 30,
+      "question": "Ich bin nicht selbstbewusst",
+      "key": 1
+    },
+    {
+      "number": 31,
+      "question": "ich scheine Manchmal sich wirklich wertlos",
+      "key": 1
+    },
+    {
+      "number": 32,
+      "question": "ich fühle mich Oft einfach scheußlich",
+      "key": 1
+    },
+    {
+      "number": 33,
+      "question": "Ich habe viel Graben in sich selbst",
+      "key": 1
+    },
+    {
+      "number": 34,
+      "question": "Ich bin von dem Gefühl der Minderwertigkeit",
+      "key": 1
+    },
+    {
+      "number": 35,
+      "question": "ich habe Manchmal tut immer noch weh",
+      "key": 1
+    },
+    {
+      "number": 36,
+      "question": "Ich habe manchmal beklemmende Zustand",
+      "key": 1
+    },
+    {
+      "number": 37,
+      "question": "Ich habe etwas mit den Nerven",
+      "key": 1
+    },
+    {
+      "number": 38,
+      "question": "Ich finde es schwer, ein Gespräch zu halten bei der Begegnung",
+      "key": 1
+    },
+    {
+      "number": 39,
+      "question": "Das schwerste für mich ein Kampf ist ein Kampf mit sich selbst",
+      "key": 1
+    },
+    {
+      "number": 40,
+      "question": "haben Sie das Gefühl manchmal, dass die Schwierigkeiten groß sind und nicht aufzuhalten?",
+      "key": 1
+    }
+  ]
+}
+

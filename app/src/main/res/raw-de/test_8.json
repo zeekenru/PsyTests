@@ -1,0 +1,251 @@
+{
+  "id": 8,
+  "questions_count": 24,
+  "name": "Umfrage Zufriedenheit der Ehe",
+  "scales_count": 1,
+  "interpretation": "High-Score sagt nach der Zufriedenheit mit der Ehe.0-16 Punkte - völlig dysfunktionale Familie, 17-22 Punkte - dysfunktionale Familie, 23-26 Punkte - eher benachteiligte Familien, 27-28 Punkte - übergangs-Familie, 29-32 Punkte - eher wohlhabenden Familie, 33-38 Punkte - gut situierten Familie, 39-48 Punkte - Brand wohlhabenden Familie.",
+  "questions": [
+    {
+      "number": 1,
+      "question": "Wann Leben Menschen so nah, wie es geschieht in der Familie, werden Sie unweigerlich verlieren das gegenseitige Verständnis und die Schärfe der Wahrnehmung einer anderen Person",
+      "answers": [
+        "Richtig",
+        "Bin mir nicht sicher",
+        "Falsch"
+      ],
+      "scale": 1,
+      "key": 3
+    },
+    {
+      "number": 2,
+      "question": "Ihre eheliche Beziehung zu Ihnen zu bringen",
+      "answers": [
+        "Es ist eher die Angst und das leiden",
+        "Schwer zu beantworten",
+        "Es ist eher Freude und Zufriedenheit"
+      ],
+      "key": 3
+    },
+    {
+      "number": 3,
+      "question": "die Verwandten und Freunde schätzen Ihre Ehe",
+      "answers": [
+        "Als erfolgreiche",
+        "Eine Kreuzung",
+        "Wie ein gescheiterter"
+      ],
+      "key": 1
+    },
+    {
+      "number": 4,
+      "question": "Wenn Sie könnten, dann",
+      "answers": [
+        "Sie würde vieles verändert im Charakter Ihres Ehemannes (Ihres Ehepartners)",
+        "schwer zu sagen",
+        "Sie hätten das nicht etwas zu ändern"
+      ],
+      "key": 3
+    },
+    {
+      "number": 5,
+      "question": "Eines der Probleme der modernen Ehe ist, dass immer langweilig werden, einschließlich und sexuelle Beziehungen:",
+      "answers": [
+        "Richtig",
+        "Schwer zu sagen",
+        "Falsch"
+      ],
+      "key": 3
+    },
+    {
+      "number": 6,
+      "question": "Wenn Sie vergleichen Ihr Familienleben Familienleben mit Ihren Freunden und bekannten, Sie denken",
+      "answers": [
+        "Dass Du erbärmlicher daran als andere",
+        "Schwer zu sagen",
+        "Was sind Sie glücklicher als andere"
+      ],
+      "key": 3
+    },
+    {
+      "number": 7,
+      "question": "ein Leben ohne Familie, ohne einen geliebten Menschen — zu hoher Preis für die völlige Unabhängigkeit",
+      "answers": [
+        "Richtig",
+        "Schwer zu sagen",
+        "Falsch"
+      ],
+      "key": 1
+    },
+    {
+      "number": 8,
+      "question": "Sie meinen, dass ohne Sie das Leben Ihres Ehemannes (Ihres Ehepartners) wäre unvollständig gewesen",
+      "answers": [
+        "Ja, glaube ich",
+        "Schwer zu sagen",
+        "Nein, ich glaube nicht"
+      ],
+      "key": 1
+    },
+    {
+      "number": 9,
+      "question": "Die Meisten Menschen in irgendeiner Weise getäuscht in Ihren Erwartungen bezüglich der Ehe",
+      "answers": [
+        "Richtig",
+        "Schwer zu sagen",
+        "Falsch"
+      ],
+      "key": 3
+    },
+    {
+      "number": 10,
+      "question": "verschiedene Umstände behindert denken Sie über die Scheidung",
+      "answers": [
+        "Richtig",
+        "Das kann ich nicht sagen",
+        "Falsch"
+      ],
+      "key": 3
+    },
+    {
+      "number": 11,
+      "question": "Wenn es wieder Zeit, wenn Sie heirateten, was Ihrem Mann (Frau) könnte",
+      "answers": [
+        "Jeder, nur nicht der jetzige Ehemann",
+        "Schwer zu sagen",
+        "Es ist möglich, dass der jetzige Ehemann"
+      ],
+      "key": 3
+    },
+    {
+      "number": 12,
+      "question": "Sie sind stolz darauf, eine Person wie Ihr Ehepartner in Ihrer Nähe zu haben",
+      "answers": [
+        "Richtig",
+        "Schwer zu sagen",
+        "Falsch"
+      ],
+      "key": 1
+    },
+    {
+      "number": 13,
+      "question": "Leider sind die Mängel von Ihrem Ehepartner (Ehefrau) oft überwiegen die Vorteile",
+      "answers": [
+        "Richtig",
+        "Schwer zu sagen",
+        "Falsch"
+      ],
+      "key": 3
+    },
+    {
+      "number": 14,
+      "question": "Grundlegenden Störungen glückliches Eheleben liegen",
+      "answers": [
+        "Wahrscheinlich in dem Charakter Ihres Ehepartners (Ehefrau)",
+        "Schwer zu sagen",
+        "Vielmehr ist in dir selbst"
+      ],
+      "key": 3
+    },
+    {
+      "number": 15,
+      "question": "Die Gefühle, mit denen Sie heirateten",
+      "answers": [
+        "Intensiviert",
+        "Schwer zu sagen",
+        "Schwach"
+      ],
+      "key": 1
+    },
+    {
+      "number": 16,
+      "question": "Die Ehe stumpft die kreativen Möglichkeiten des Menschen",
+      "answers": [
+        "Richtig",
+        "Schwer zu sagen",
+        "Falsch"
+      ],
+      "key": 3
+    },
+    {
+      "number": 17,
+      "question": "It can be said that your spouse has such advantages that compensate for his shortcomings",
+      "answers": [
+        "Einverstanden",
+        "Etwas,",
+        "Einverstanden"
+      ],
+      "key": 1
+    },
+    {
+      "number": 18,
+      "question": "Leider sind in Ihrer Ehe nicht alles ist gut mit der emotionalen Unterstützung für einander:",
+      "answers": [
+        "Richtig",
+        "Schwer zu sagen",
+        "Falsch"
+      ],
+      "key": 3
+    },
+    {
+      "number": 19,
+      "question": "Sie denken, dass Ihr Ehepartner (Ehepartner) macht oft Unsinn, sagt unpassend, unangemessen Scherz",
+      "answers": [
+        "Richtig",
+        "Schwer zu sagen",
+        "Falsch"
+      ],
+      "key": 3
+    },
+    {
+      "number": 20,
+      "question": "Das Leben in der Familie, wie es scheint, nicht von Ihrem Willen abhängt",
+      "answers": [
+        "Richtig",
+        "Schwer zu sagen",
+        "Falsch"
+      ],
+      "key": 3
+    },
+    {
+      "number": 21,
+      "question": "Ihre familiären Beziehungen nicht eingegangen in das Leben des Ordnung und Organisation, die Sie erwartet haben",
+      "answers": [
+        "Richtig",
+        "Schwer zu sagen",
+        "Falsch"
+      ],
+      "key": 3
+    },
+    {
+      "number": 22,
+      "question": "Sind Nicht Recht, wer glaubt, dass es in der Familie Personen die wenigsten können damit rechnen, Respekt",
+      "answers": [
+        "Richtig",
+        "Schwer zu sagen",
+        "Falsch"
+      ],
+      "key": 1
+    },
+    {
+      "number": 23,
+      "question": "In der Regel die Gesellschaft Ihren Ehepartner dir Spaß macht",
+      "answers": [
+        "Richtig",
+        "Schwer zu sagen",
+        "Falsch"
+      ],
+      "key": 1
+    },
+    {
+      "number": 24,
+      "question": "Die Wahrheit zu sagen, Ihre Ehe und Nein es gab keinen einzigen Moment hell",
+      "answers": [
+        "Richtig",
+        "Schwer zu sagen",
+        "Falsch"
+      ],
+      "key": 3
+    }
+  ]
+}
+

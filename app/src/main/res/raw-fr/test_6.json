@@ -1,0 +1,150 @@
+{
+  "id": 6,
+  "questions_count": 22,
+  "name": "Questionnaire sur l'épuisement professionnel",
+  "scales_count": 3,
+  "interpretation": "l'épuisement Émotionnel est considéré comme une composante majeure de l'épuisement professionnel et se manifeste par une diminution du contexte émotionnel, de l'indifférence ou de la sursaturation émotionnelle. La dépersonnalisation affecte la déformation des relations avec les autres. Dans certains cas, cela peut être une augmentation de la dépendance vis-à-vis des autres. Dans d'autres – une négativité accrue, des attitudes cyniques et des sentiments envers les destinataires: patients, clients, etc. La réduction des réalisations professionnelles peut se manifester soit par une tendance à s'évaluer négativement, à sous-estimer ses réalisations et ses succès professionnels, à la négativité vis-à-vis des mérites et des opportunités de service, soit par une minimisation de sa dignité, une limitation de ses capacités et de ses responsabilités envers les autres",
+  "answers": [
+    "Jamais",
+    "Très rare",
+    "Rare",
+    "Parfois",
+    "Souvent",
+    "Très souvent",
+    "Chaque jour"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "question": "Je me sens émotionnellement dévasté",
+      "right": true,
+      "scale": 1
+    },
+    {
+      "number": 2,
+      "question": "Après le travail, je me sens comme un \"citron pressé\"",
+      "right": true,
+      "scale": 1
+    },
+    {
+      "number": 3,
+      "question": "le Matin, je me sens fatigué et réticent à aller travailler",
+      "right": true,
+      "scale": 1
+    },
+    {
+      "number": 4,
+      "question": "je comprends bien ce que ressentent mes subordonnés et mes collègues et j'essaie d'en tenir compte dans l'intérêt de la cause",
+      "right": true,
+      "scale": 3
+    },
+    {
+      "number": 5,
+      "question": "j'ai l'impression de communiquer avec certains subordonnés et collègues en tant que sujets (sans chaleur ni disposition)",
+      "right": true,
+      "scale": 2
+    },
+    {
+      "number": 6,
+      "question": "Après le travail pendant un certain temps, je veux me retirer de tout et de tout",
+      "right": false,
+      "scale": 1
+    },
+    {
+      "number": 7,
+      "question": "je suis capable de trouver la bonne solution dans Les situations de conflit qui surviennent lors de la communication avec des collègues",
+      "right": true,
+      "scale": 3
+    },
+    {
+      "number": 8,
+      "question": "je me sens opprimé et apathique",
+      "right": true,
+      "scale": 1
+    },
+    {
+      "number": 9,
+      "question": "je suis sûr que mon travail a besoin des gens",
+      "right": true,
+      "scale": 3
+    },
+    {
+      "number": 10,
+      "question": "dernièrement, je suis devenu plus \"insensible\" à ceux avec qui je travaille",
+      "right": true,
+      "scale": 2
+    },
+    {
+      "number": 11,
+      "question": "je remarque que mon travail me durcit",
+      "right": true,
+      "scale": 2
+    },
+    {
+      "number": 12,
+      "question": "j'ai beaucoup de projets pour l'avenir et je crois en leur mise en œuvre",
+      "right": true,
+      "scale": 3
+    },
+    {
+      "number": 13,
+      "question": "Mon travail me déçoit de plus en plus",
+      "right": true,
+      "scale": 1
+    },
+    {
+      "number": 14,
+      "question": "j'ai l'impression de travailler trop dur",
+      "right": true,
+      "scale": 1
+    },
+    {
+      "number": 15,
+      "question": "il arrive Que je ne me soucie pas vraiment de ce qui arrive à certains de mes subordonnés et collègues",
+      "right": true,
+      "scale": 2
+    },
+    {
+      "number": 16,
+      "question": "j'ai envie de m'isoler et de me reposer de tout et de tout",
+      "right": true,
+      "scale": 1
+    },
+    {
+      "number": 17,
+      "question": "je peux facilement créer une atmosphère de bienveillance et de coopération au sein d'une équipe",
+      "right": true,
+      "scale": 3
+    },
+    {
+      "number": 18,
+      "question": "pendant le travail, je me sens bien animé",
+      "right": true,
+      "scale": 3
+    },
+    {
+      "number": 19,
+      "question": "Grâce à mon travail, j'ai déjà fait beaucoup de choses vraiment précieuses dans la vie",
+      "right": true,
+      "scale": 3
+    },
+    {
+      "number": 20,
+      "question": "je ressens une indifférence et une perte d'intérêt pour beaucoup de choses qui m'ont plu dans mon travail",
+      "right": true,
+      "scale": 1
+    },
+    {
+      "number": 21,
+      "question": "au travail, je gère calmement les problèmes émotionnels",
+      "right": true,
+      "scale": 2
+    },
+    {
+      "number": 22,
+      "question": "ces derniers temps, il me semble que les collègues et les subordonnés me transfèrent de plus en plus le poids de leurs problèmes et responsabilités",
+      "right": true,
+      "scale": 3
+    }
+  ]
+}

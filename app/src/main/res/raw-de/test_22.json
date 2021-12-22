@@ -1,0 +1,499 @@
+{
+  "id": 22,
+  "questions_count": 80,
+  "name": "Fragebogen Charaktereigenschaften des Erwachsenen Menschen",
+  "scales_count": 10,
+  "interpretation": "",
+  "answers": [
+    "Voll nicht einverstanden",
+    "Eher nicht einverstanden",
+    "Einverstanden",
+    "Stimme völlig zu"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "question": "die Stimmung ist meist fröhlich, optimistisch?",
+      "scale": 5,
+      "right": true
+    },
+    {
+      "number": 2,
+      "question": "Kann die aufgetragene Ihnen Kränkung erlebt werden Ihnen auch akut oder auch über einen längeren Zeitraum stärker?",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 3,
+      "question": "Tiefe Gefühle verursachen Sie Tränen?",
+      "scale": 9,
+      "right": true
+    },
+    {
+      "number": 4,
+      "question": "Nach Beendigung jeder Arbeit haben Sie es Zweifel an der Qualität seiner Leistung?",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 5,
+      "question": "Beliebiges neues Ereignis in Ihrem Leben macht dir Angst?",
+      "scale": 10,
+      "right": false
+    },
+    {
+      "number": 6,
+      "question": "Sie wissen schon, die Stimmungsschwankungen von sehr bis sehr frohe tristen?",
+      "scale": 7,
+      "right": true
+    },
+    {
+      "number": 7,
+      "question": "Sie sind ständig bestrebt sein, im Mittelpunkt der Aufmerksamkeit?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 8,
+      "question": "sind Sie oft gereizt und unzufrieden mit dem Umfeld?",
+      "scale": 4,
+      "right": true
+    },
+    {
+      "number": 9,
+      "question": "Sie sind bösartig, wortkargen Mann?",
+      "scale": 6,
+      "right": true
+    },
+    {
+      "number": 10,
+      "question": "Sie sind in der Lage, etwas zu bewundern, bis der Selbstaufgabe?",
+      "scale": 8,
+      "right": true
+    },
+    {
+      "number": 11,
+      "question": "Sie infizieren Menschen Optimismus?",
+      "scale": 5,
+      "right": true
+    },
+    {
+      "number": 12,
+      "question": "Sie kaum vergessen verursache kleinere Beschwerden?",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 13,
+      "question": "sind Sie empfindlich, weichherzig der Mensch?",
+      "scale": 9,
+      "right": true
+    },
+    {
+      "number": 14,
+      "question": "Warf den Brief in den Briefkasten, überprüfen Sie, ob es pendelte sich oder nicht, ist nicht geklebt ob es in den Schlitz?",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 15,
+      "question": "sind Sie bereit, Rache für persönliches Verrat?",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 16,
+      "question": "sind Sie in der kindheit hatten Angst gewitter (oder Hunde)?",
+      "scale": 10,
+      "right": true
+    },
+    {
+      "number": 17,
+      "question": "Sie versuchen immer und überall, die Ordnung aufrechtzuerhalten?",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 18,
+      "question": "die Stimmung schwankt ständig, ohne besonderen Grund?",
+      "scale": 7,
+      "right": true
+    },
+    {
+      "number": 19,
+      "question": "Kann Ihre fröhliche Stimmung drastisch tiefer Trauer ersetzt werden?",
+      "scale": 8,
+      "right": true
+    },
+    {
+      "number": 20,
+      "question": "Sie – aufbrausend Mensch?",
+      "scale": 4,
+      "right": true
+    },
+    {
+      "number": 21,
+      "question": "Sie sind in der Regel in einer depressiven Stimmung?",
+      "scale": 6,
+      "right": true
+    },
+    {
+      "number": 22,
+      "question": "Ihre Wahrnehmung künstlerischer Werke außerordentlich geschärft werden?",
+      "scale": 8,
+      "right": true
+    },
+    {
+      "number": 23,
+      "question": "sind Sie ständig damit beschäftigt sind?",
+      "scale": 5,
+      "right": true
+    },
+    {
+      "number": 24,
+      "question": "die Beleidigungen, die Sie, verursachen Sie in die verborgene Wut?",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 25,
+      "question": "Sie können den lebendigen Vogel zu Schlachten?",
+      "scale": 9,
+      "right": false
+    },
+    {
+      "number": 26,
+      "question": "Sie ärgert, wenn die Sache liegt nicht auf seinem Platz?",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 27,
+      "question": "haben Sie Angst bleiben allein zu Hause?",
+      "scale": 10,
+      "right": true
+    },
+    {
+      "number": 28,
+      "question": "Sie sind grundlose Stimmungsschwankungen?",
+      "scale": 7,
+      "right": true
+    },
+    {
+      "number": 29,
+      "question": "In Ihrer beruflichen Tätigkeit Sie anstreben, der erste zu sein?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 30,
+      "question": "Sie leicht fallen in Wut?",
+      "scale": 4,
+      "right": true
+    },
+    {
+      "number": 31,
+      "question": "sind Sie in der Lage sein, lange Zeit einem fröhlichen?",
+      "scale": 6,
+      "right": false
+    },
+    {
+      "number": 32,
+      "question": "Manchmal muss man auf dem hintergrund der schlechten Stimmung ein Gefühl der stürmischen Begeisterung?",
+      "scale": 8,
+      "right": true
+    },
+    {
+      "number": 33,
+      "question": "Ihre Kontakte mit Menschen sind leicht und vielfältig?",
+      "scale": 5,
+      "right": true
+    },
+    {
+      "number": 34,
+      "question": "sind Sie beeindrucken wie ein Kind?",
+      "scale": 8,
+      "right": true
+    },
+    {
+      "number": 35,
+      "question": "erschreckt Sie der Anblick von Blut?",
+      "scale": 9,
+      "right": true
+    },
+    {
+      "number": 36,
+      "question": "Kann Ihre Gesprächsbereitschaft sofort vollständiger Isolation weichen?",
+      "scale": 8,
+      "right": true
+    },
+    {
+      "number": 37,
+      "question": "sind Sie in tiefen der Seele ein ehrgeiziger Mensch?",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 38,
+      "question": "Haben Sie Angst, in einen dunklen Keller zu gehen, einen leeren, unbeleuchteten Raum zu betreten?",
+      "scale": 10,
+      "right": true
+    },
+    {
+      "number": 39,
+      "question": "Sie bevorzugen vorsichtige und langsame Arbeit?",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 40,
+      "question": "Manchmal sind Sie ein geselliger Mensch, und manchmal haben die Worte nicht zu verlängern?",
+      "scale": 7,
+      "right": true
+    },
+    {
+      "number": 41,
+      "question": "sind Sie gut fühlen sich auf der Bühne?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 42,
+      "question": "Sie finden es schwer zu kontrollieren, Ihre starken Wunsch?",
+      "scale": 4,
+      "right": true
+    },
+    {
+      "number": 43,
+      "question": "Sie scheint das Leben unerträglich schwer?",
+      "scale": 6,
+      "right": true
+    },
+    {
+      "number": 44,
+      "question": "Sie wirken leicht die Krankheit, um nicht zur Arbeit zu gehen oder in der Schule?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 45,
+      "question": "Auch bei Misserfolg verlieren Sie nicht Ihren Sinn für Humor, Optimismus?",
+      "scale": 5,
+      "right": true
+    },
+    {
+      "number": 46,
+      "question": "Sie ist einfach Frieden mit der Person, die Sie sehr verletzt hat?",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 47,
+      "question": "Sie empfindet Mitgefühl für Obdachlose Tiere?",
+      "scale": 9,
+      "right": true
+    },
+    {
+      "number": 48,
+      "question": "sind Sie ständig besorgt über die Gedanken, was mit Ihnen oder Ihren Angehörigen etwas passieren?",
+      "scale": 10,
+      "right": true
+    },
+    {
+      "number": 49,
+      "question": "die Stimmung schwankt in Abhängigkeit vom Wetter?",
+      "scale": 7,
+      "right": true
+    },
+    {
+      "number": 50,
+      "question": "Sie finden es schwer zu handeln Versammlung auf, einen Bericht zu machen und dergleichen vor einem großen Publikum?",
+      "scale": 2,
+      "right": false
+    },
+    {
+      "number": 51,
+      "question": "sind Sie bereit, schlagen den Mann, wenn er Sie in hohem Grade beleidigen?",
+      "scale": 4,
+      "right": true
+    },
+    {
+      "number": 52,
+      "question": "Sie möchten gern in der fröhlichen Gesellschaft?",
+      "scale": 6,
+      "right": false
+    },
+    {
+      "number": 53,
+      "question": "sind Sie – der Mensch-Romantiker – das ist voller Träume, so voller Trauer?",
+      "scale": 8,
+      "right": true
+    },
+    {
+      "number": 54,
+      "question": "Sie leicht tun organisatorische Tätigkeiten?",
+      "scale": 5,
+      "right": true
+    },
+    {
+      "number": 55,
+      "question": "Kann tragische Filme so begeistern, dass in den Augen treten Tränen?",
+      "scale": 9,
+      "right": true
+    },
+    {
+      "number": 56,
+      "question": "sind Sie lange denken Sie daran kritische Bemerkungen in Ihrer Adresse?",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 57,
+      "question": "haben Sie Angst gehen in der späteren Zeit auf einer dunklen Straße?",
+      "scale": 10,
+      "right": true
+    },
+    {
+      "number": 58,
+      "question": "Sie sorgfältig darauf achten, dass in Ihrem Haus jedes Ding lag an seinem Platz?",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 59,
+      "question": "zu Bett gehen in guter Laune zu finden, Sie oft am morgen aufstehen eine depressive, düstere Stimmung?",
+      "scale": 7,
+      "right": true
+    },
+    {
+      "number": 60,
+      "question": "In jeder Situation Messen Sie sich selbst eine führende Rolle?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 61,
+      "question": "Wenn Sie «für die kranke kümmert», Sie schlagen können?",
+      "scale": 4,
+      "right": true
+    },
+    {
+      "number": 62,
+      "question": "sind Sie oft lachen?",
+      "scale": 6,
+      "right": false
+    },
+    {
+      "number": 63,
+      "question": "die Initiative, die in der Regel von Ihnen ausgeht?",
+      "scale": 5,
+      "right": true
+    },
+    {
+      "number": 64,
+      "question": "Ihr liebt die Natur?",
+      "scale": 9,
+      "right": true
+    },
+    {
+      "number": 65,
+      "question": "Sie Streben bringen Ordnung in allem und überall?",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 66,
+      "question": "Sie furchtsam ist der Mensch?",
+      "scale": 10,
+      "right": true
+    },
+    {
+      "number": 67,
+      "question": "die Stimmung schwankt unter dem Einfluss von Alkohol?",
+      "scale": 7,
+      "right": true
+    },
+    {
+      "number": 68,
+      "question": "Sie lieben es, zu bewundern?",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 69,
+      "question": "Während des Streits können Sie lassen Sie Ihre Fäuste?",
+      "scale": 4,
+      "right": true
+    },
+    {
+      "number": 70,
+      "question": "sind Sie die Zukunft betreffen pessimistisch?",
+      "scale": 6,
+      "right": true
+    },
+    {
+      "number": 71,
+      "question": "Sie unterliegen häufigen Stimmungsschwankungen von Freude bis Traurigkeit?",
+      "scale": 8,
+      "right": true
+    },
+    {
+      "number": 72,
+      "question": "jede Firma, die Sie erstellen eine freudige Stimmung?",
+      "scale": 5,
+      "right": true
+    },
+    {
+      "number": 73,
+      "question": "Sie sind bereit, zu rächen sogar stärkeren Gegner?",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 74,
+      "question": "Sie sind sehr besorgt Nöte anderer Menschen?",
+      "scale": 9,
+      "right": true
+    },
+    {
+      "number": 75,
+      "question": "In der Schulzeit wegen einer blots Sie begannen ein neues Notizbuch?",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 76,
+      "question": "angsttraum haben einen starken Eindruck auf Sie machen?",
+      "scale": 10,
+      "right": true
+    },
+    {
+      "number": 77,
+      "question": "der Zeitraum gute Laune ohne Grund, Sie kann ersetzt werden durch Apathie?",
+      "scale": 7,
+      "right": true
+    },
+    {
+      "number": 78,
+      "question": "Unter dem Einfluss von Alkohol werden Sie aggressiv?",
+      "scale": 4,
+      "right": true
+    },
+    {
+      "number": 79,
+      "question": "Sie Im Gespräch eher zurückhaltend?",
+      "scale": 6,
+      "right": true
+    },
+    {
+      "number": 80,
+      "question": "Sie sind in der Lage, andere zu engagieren Exzentrizität für Ihre Handlungen und Gedanken?",
+      "scale": 2,
+      "right": true
+    }
+  ]
+}
+
+
+
+

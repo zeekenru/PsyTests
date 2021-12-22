@@ -1,0 +1,119 @@
+{
+  "id": 2,
+  "name": "Tsungs Selbsteinschätzungsskala für Depressionen",
+  "questions_count": 20,
+  "scales_count": 1,
+  "interpretation": "25-49: normaler Zustand, 50-59: leichte Depression, 60-69: moderate Depression, 70 und höher: schwere Depression.",
+  "answers": [
+    "Nie oder selten",
+    "Manchmal",
+    "Oft",
+    "Fast immer oder immer"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "question": "Ich fühle mich deprimiert",
+      "right": true
+    },
+    {
+      "number": 2,
+      "question": "Morgens fühle ich mich am besten",
+      "right": false
+    },
+    {
+      "number": 3,
+      "question": "Ich habe es kommen die Zeiten des Weinens oder Nähe zu Tränen",
+      "right": true
+    },
+    {
+      "number": 4,
+      "question": "Bei mich schlecht Nacht schlafen",
+      "right": true
+    },
+    {
+      "number": 5,
+      "question": "Der Appetit ist bei mir nicht schlimmer als sonst",
+      "right": false
+    },
+    {
+      "number": 6,
+      "question": "ich freue Mich Blick auf attraktive Frauen, mit Ihnen zu reden, bleiben in der Nähe",
+      "right": false
+    },
+    {
+      "number": 7,
+      "question": "Ich merke, dass verliere Gewicht",
+      "right": true
+    },
+    {
+      "number": 8,
+      "question": "Mich stören Verstopfung",
+      "right": true
+    },
+    {
+      "number": 9,
+      "question": "Herz schlägt schneller, als in der Regel",
+      "right": true
+    },
+    {
+      "number": 10,
+      "question": "Ich bin müde ohne Grund",
+      "right": true
+    },
+    {
+      "number": 11,
+      "question": "Ich denke so klar wie immer",
+      "right": false
+    },
+    {
+      "number": 12,
+      "question": "Ich habe einfach das zu tun, was ich kann",
+      "right": false
+    },
+    {
+      "number": 13,
+      "question": "Spüre die Angst und kann nicht still sitzen",
+      "right": true
+    },
+    {
+      "number": 14,
+      "question": "Ich habe Hoffnung für die Zukunft",
+      "right": false
+    },
+    {
+      "number": 15,
+      "question": "Ich bin eher reizbar als gewöhnlich",
+      "right": true
+    },
+    {
+      "number": 16,
+      "question": "Ich kann leicht Entscheidungen treffen",
+      "right": false
+    },
+    {
+      "number": 17,
+      "question": "Ich fühle, was nützlich und notwendig ist",
+      "right": false
+    },
+    {
+      "number": 18,
+      "question": "Ich wohne ziemlich in vollen Zügen zu Leben",
+      "right": false
+    },
+    {
+      "number": 19,
+      "question": "Ich habe das Gefühl, dass es anderen Menschen besser geht, wenn ich sterbe",
+      "right": true
+    },
+    {
+      "number": 20,
+      "question": "Was Mich immer noch erfreut, dass immer erfreute",
+      "right": false
+    }
+  ]
+}
+
+
+
+

@@ -1,0 +1,213 @@
+{
+  "id": 17,
+  "questions_count": 40,
+  "name": "Express diagnostics of the probability of neurosis",
+  "scales_count": 1,
+  "interpretation": "0-23 points: This number corresponds to low neuroticism and indicates emotional stability, a positive background of experiences (calmness, optimism), initiative, self-esteem, independence, social courage, ease in communication. 24 or more points: This number corresponds to a high probability of neurosis (neuroticism) and evidence of severe emotional excitability, resulting in negative emotions (anxiety, tension, restlessness, irritability, confusion) about the lack of initiative that shapes the experiences associated with the frustration of desires, on egocentric personal orientation, which leads to a hypochondriacal fixation on somatic sensations and personal shortcomings, difficulties in communication, social timidity and dependence.",
+  "answers": [
+    "Yes",
+    "No"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "question": "Do you think that you are internally tense?",
+      "key": 1
+    },
+    {
+      "number": 2,
+      "question": "I'm often so wrapped up in something that I can't sleep",
+      "key": 1
+    },
+    {
+      "number": 3,
+      "question": "I feel easily vulnerable",
+      "key": 1
+    },
+    {
+      "number": 4,
+      "question": "I find it hard to talk to strangers",
+      "key": 1
+    },
+    {
+      "number": 5,
+      "question": "Do you often get a feeling of indifference and fatigue without any special reasons?",
+      "key": 1
+    },
+    {
+      "number": 6,
+      "question": "I often get the feeling that people are looking at me critically",
+      "key": 1
+    },
+    {
+      "number": 7,
+      "question": "Do you often have useless thoughts that don't leave your head, even though you try to get rid of them?",
+      "key": 1
+    },
+    {
+      "number": 8,
+      "question": "I 'm pretty nervous",
+      "key": 1
+    },
+    {
+      "number": 9,
+      "question": "I don't think anyone understands me",
+      "key": 1
+    },
+    {
+      "number": 10,
+      "question": "I'm quite irritable",
+      "key": 1
+    },
+    {
+      "number": 11,
+      "question": "If they weren't against me, my business would be more successful",
+      "key": 1
+    },
+    {
+      "number": 12,
+      "question": "I take troubles to heart too closely and for too long",
+      "key": 1
+    },
+    {
+      "number": 13,
+      "question": "Even the thought of possible failure excites me",
+      "key": 1
+    },
+    {
+      "number": 14,
+      "question": "I had some very strange and unusual experiences",
+      "key": 1
+    },
+    {
+      "number": 15,
+      "question": "Do you sometimes feel happy or sad for no apparent reason?",
+      "key": 1
+    },
+    {
+      "number": 16,
+      "question": "All day long I dream and fantasize more than I need to",
+      "key": 1
+    },
+    {
+      "number": 17,
+      "question": "Is it easy to change your mood?",
+      "key": 1
+    },
+    {
+      "number": 18,
+      "question": "I often struggle with myself not to show my shyness",
+      "key": 1
+    },
+    {
+      "number": 19,
+      "question": "I would like to be as happy as other people seem to be",
+      "key": 1
+    },
+    {
+      "number": 20,
+      "question": "Sometimes I get shivers or chills",
+      "key": 1
+    },
+    {
+      "number": 21,
+      "question": "How often does your mood change depending on a serious reason or without it?",
+      "key": 1
+    },
+    {
+      "number": 22,
+      "question": "Do you sometimes feel a sense of fear even in the absence of real danger?",
+      "key": 1
+    },
+    {
+      "number": 23,
+      "question": "Criticism or reprimand hurts me very much",
+      "key": 1
+    },
+    {
+      "number": 24,
+      "question": "Sometimes I get so restless that I can't even sit still",
+      "key": 1
+    },
+    {
+      "number": 25,
+      "question": "Do you sometimes worry too much about minor things?",
+      "key": 1
+    },
+    {
+      "number": 26,
+      "question": "I often feel dissatisfied",
+      "key": 1
+    },
+    {
+      "number": 27,
+      "question": "I find it difficult to concentrate when performing any task or work",
+      "key": 1
+    },
+    {
+      "number": 28,
+      "question": "I do a lot of things that I have to repent of",
+      "key": 1
+    },
+    {
+      "number": 29,
+      "question": "Mostly I'm happy",
+      "key": 1
+    },
+    {
+      "number": 30,
+      "question": "I'm not confident enough",
+      "key": 1
+    },
+    {
+      "number": 31,
+      "question": "Sometimes I feel really worthless",
+      "key": 1
+    },
+    {
+      "number": 32,
+      "question": "Often I just feel bad",
+      "key": 1
+    },
+    {
+      "number": 33,
+      "question": "I dig a lot into myself",
+      "key": 1
+    },
+    {
+      "number": 34,
+      "question": "I suffer from feelings of inferiority",
+      "key": 1
+    },
+    {
+      "number": 35,
+      "question": "Sometimes everything hurts",
+      "key": 1
+    },
+    {
+      "number": 36,
+      "question": "I have a depressing state",
+      "key": 1
+    },
+    {
+      "number": 37,
+      "question": "I have something with my nerves",
+      "key": 1
+    },
+    {
+      "number": 38,
+      "question": "I find it difficult to keep up a conversation when getting acquainted",
+      "key": 1
+    },
+    {
+      "number": 39,
+      "question": "The hardest struggle for me is the struggle with myself",
+      "key": 1
+    },
+    {
+      "number": 40,
+      "question": "Do you sometimes feel that difficulties are great and insurmountable?",
+      "key": 1
+    }
+  ]
+}

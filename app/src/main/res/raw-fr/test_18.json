@@ -1,0 +1,256 @@
+{
+  "id": 18,
+  "questions_count": 40,
+  "name": "Hommes",
+  "scales_count": 5,
+  "interpretation": ">102 - 110: faible score, 111-128: inférieur à la moyenne, 129 -146: moyennes 147-164: supérieur à la moyenne 165-200: valeurs élevées ",
+  "answers": [
+    "Totalement en désaccord",
+    "Pas d'accord",
+    "Difficile à dire",
+    "D'accord",
+    "Tout à fait d'accord"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "question": "un Homme devrait préférer le sport (par exemple, le hockey, le football) à l'art (par exemple, le théâtre, les expositions)",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 2,
+      "question": "Si un homme est blessé, il ne doit pas laisser les autres remarquer qu'il est blessé",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 3,
+      "question": "les Hommes qui pleurent en public sont faibles",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 4,
+      "question": "si un homme est préoccupé par quelque chose, il doit partager son anxiété avec d'autres personnes",
+      "scale": 2,
+      "right": false
+    },
+    {
+      "number": 5,
+      "question": "un Homme doit être dur",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 6,
+      "question": "le Surnom \"homosexuel\" est l'une des pires insultes pour un homme",
+      "scale": 4,
+      "right": true
+    },
+    {
+      "number": 7,
+      "question": "un Homme doit résoudre des problèmes en s'appuyant sur la logique",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 8,
+      "question": "les Hommes doivent paraître confiants même s'ils ne sont pas sûrs de quelque chose",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 9,
+      "question": "C'est l'homme qui doit prendre toutes les décisions finales dans la famille",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 10,
+      "question": "les Hommes participent aux jeux pour gagner",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 11,
+      "question": "Si nécessaire, un homme ne devrait pas hésiter à dormir dans le même lit qu'un autre homme",
+      "scale": 4,
+      "right": false
+    },
+    {
+      "number": 12,
+      "question": "les Hommes doivent avoir un emploi respecté dans la société",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 13,
+      "question": "un homme qui Réussit doit vivre confortablement",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 14,
+      "question": "un Homme doit être respecté dans la famille",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 15,
+      "question": "les besoins sexuels Masculins doivent être satisfaits",
+      "scale": 5,
+      "right": true
+    },
+    {
+      "number": 16,
+      "question": "les Hommes devraient se sentir gênés s'ils manquent une érection pendant les rapports sexuels",
+      "scale": 5,
+      "right": true
+    },
+    {
+      "number": 17,
+      "question": "les Hommes qui enseignent aux enfants ou cuisinent dans les restaurants devraient être fiers de ce qu'ils font",
+      "scale": 3,
+      "right": false
+    },
+    {
+      "number": 18,
+      "question": "il n'est pas si important pour les hommes d'atteindre l'orgasme pendant les rapports sexuels",
+      "scale": 5,
+      "right": false
+    },
+    {
+      "number": 19,
+      "question": "il est normal que les hommes s'appuient sur les autres",
+      "scale": 2,
+      "right": false
+    },
+    {
+      "number": 20,
+      "question": "si un homme a peur, il ne devrait pas laisser les autres le voir",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 21,
+      "question": "les hommes Normaux ne vont pas dans les bars pour homosexuels",
+      "scale": 4,
+      "right": true
+    },
+    {
+      "number": 22,
+      "question": "les Hommes doivent être prêts à se défendre physiquement dans une situation difficile",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 23,
+      "question": "un Homme mérite d'être admiré lorsqu'il prend les devants dans une situation où il faut faire quelque chose",
+      "scale": 2,
+      "right": true
+    },
+    {
+      "number": 24,
+      "question": "un homme Hétérosexuel ne devrait pas hésiter à avoir des amis gays",
+      "scale": 4,
+      "right": false
+    },
+    {
+      "number": 25,
+      "question": "un Homme ne devrait pas s'inquiéter de l'avenir",
+      "scale": 1,
+      "right": false
+    },
+    {
+      "number": 26,
+      "question": "je ne condamnerai pas quelqu'un qui Bat des gays",
+      "scale": 4,
+      "right": true
+    },
+    {
+      "number": 27,
+      "question": "la Décision d'un homme ne doit pas être remise en question",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 28,
+      "question": "les Hommes doivent être déterminés à réussir",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 29,
+      "question": "il est important pour un homme de réussir dans son travail",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 30,
+      "question": "les hommes Homosexuels ne sont pas adaptés à de nombreux emplois",
+      "scale": 4,
+      "right": true
+    },
+    {
+      "number": 31,
+      "question": "les Hommes doivent rester rassemblés même dans des situations difficiles",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 32,
+      "question": "un Homme doit respecter ses connaissances et l'admirer",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 33,
+      "question": "les Hommes peuvent s'embrasser sans en avoir honte",
+      "scale": 4,
+      "right": false
+    },
+    {
+      "number": 34,
+      "question": "les Hommes devraient être gênés en parlant de sexe avec des amis",
+      "scale": 5,
+      "right": false
+    },
+    {
+      "number": 35,
+      "question": "les Hommes sont adaptés au risque",
+      "scale": 1,
+      "right": true
+    },
+    {
+      "number": 36,
+      "question": "pas toujours une invitation à un rendez-vous doit provenir d'un homme",
+      "scale": 2,
+      "right": false
+    },
+    {
+      "number": 37,
+      "question": "un Père doit être indigné s'il apprend que son fils est homosexuel",
+      "scale": 4,
+      "right": false
+    },
+    {
+      "number": 38,
+      "question": "un Homme doit croire qu'il sait tout sur le sexe",
+      "scale": 5,
+      "right": true
+    },
+    {
+      "number": 39,
+      "question": "un Homme réussit s'il gagne bien",
+      "scale": 3,
+      "right": true
+    },
+    {
+      "number": 40,
+      "question": "les Hommes doivent être calmes dans des situations difficiles",
+      "scale": 1,
+      "right": true
+    }
+  ]
+}

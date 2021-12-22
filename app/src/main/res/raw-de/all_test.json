@@ -1,0 +1,360 @@
+[
+  {
+    "id": 10,
+    "name": "Lüschers Farbtest",
+    "category": 0,
+    "duration": "5 Minuten",
+    "description": "Lüschers Farbtest basiert auf der Annahme, dass die Farbauswahl oft die Ausrichtung des Probanden auf eine bestimmte Aktivität, Stimmung, funktionellen Zustand und die stabilsten Persönlichkeitsmerkmale widerspiegelt. Die Farbdiagnose von Lusher ermöglicht es Ihnen, den psychophysiologischen Zustand einer Person, ihre Stressresistenz, Aktivität und Kommunikationsfähigkeiten zu messen. Der Lüscher-Test ermöglicht es Ihnen, die Ursachen von psychischem Stress zu bestimmen, der zu physiologischen Symptomen führen kann."
+  },
+  {
+    "id": 19,
+    "name": "Sondi-Test",
+    "duration": "5 Minuten",
+    "category": 0,
+    "description": "Ein projektiver Persönlichkeitstest, der Antworten auf viele Fragen gibt, darunter erklärt die Wahl einer Person in Liebe, Freundschaft, Beruf, bei der Arbeit, und zeigt eine Veranlagung für bestimmte Krankheiten."
+  },
+  {
+    "id": 1,
+    "name": "Becks Depressionsskala",
+    "questions_count": 21,
+    "duration": "2 Minuten",
+    "category": 0,
+    "description": "Die Beck Depressions-Inventory-Skala wurde 1961 von A.T. Beck vorgeschlagen und basiert auf klinischen Beobachtungen, die eine begrenzte Anzahl von relevanten und signifikanten Symptomen der Depression und den am häufigsten von Patienten gemachten Beschwerden aufzeigen konnten. Nachdem diese Liste der Parameter mit den klinischen Beschreibungen der Depression in der entsprechenden Literatur korreliert wurde, wurde ein Fragebogen entwickelt, der 21 Kategorien von Symptomen und Beschwerden enthält. Jede Kategorie besteht aus 4-5 Aussagen, die den spezifischen Manifestationen/Symptomen der Depression entsprechen. Diese Aussagen werden mit zunehmendem spezifischen Beitrag des Symptoms zur Gesamtschwere der Depression eingestuft."
+  },
+  {
+    "id": 2,
+    "name": "Selbstwertskala der Tsung-Depression",
+    "questions_count": 20,
+    "duration": "2 Minuten",
+    "category": 0,
+    "description": "Die Tsung-Skala zur Selbsteinschätzung von Depressionen (engl. Zung Self-Rating Depression Scale) - Ein Test zur Selbsteinschätzung von Depressionen wurde an der Duke University von Psychiater Dr. William Tsung entwickelt. Der Test ermöglicht es Ihnen, das Depressionsniveau der Patienten zu bewerten und das Ausmaß der depressiven Störung zu bestimmen. Mit Hilfe der 'Tsung-Skala' kann der Test oder Arzt eine Selbstuntersuchung oder Screening der Depression durchführen."
+  },
+  {
+    "id": 3,
+    "name": "Becks Hoffnungslosigkeit",
+    "questions_count": 20,
+    "duration": "2 Minuten",
+    "category": 0,
+    "description": "Die Beck-Skala der Hoffnungslosigkeit (engl. Beck Hopelessness Inventory, Sok. BHI) ist eine Skala, die die Schwere einer negativen Einstellung gegenüber einer subjektiven Zukunft bei Erwachsenen und Jugendlichen misst. Die Skala wurde von A. Beck und einer Gruppe seiner Mitarbeiter am Zentrum für kognitive Therapie der Medizinischen Fakultät der Universität von Pennsylvania (USA) entwickelt. Die Grundlage dieses Konzepts als theoretisches Konstrukt ist die kognitive Theorie der psychischen Prozesse, einschließlich der Depression als Folge kognitiver Wahnvorstellungen.  Bei der Entwicklung der Skala folgten die Autoren dem Stotland-Konzept, bei dem Hoffnungslosigkeit als ein System kognitiver Schaltungen angesehen wird, deren häufiges Zeichen eine negative Färbung der Erwartungen in Bezug auf die nahe und ferne Zukunft ist. Becks Skala der Hoffnungslosigkeit misst die Schwere der negativen Einstellung des Subjekts zur eigenen Zukunft. Von besonderem Wert ist diese Technik als indirekter Indikator für das Suizidrisiko bei Patienten mit Depressionen sowie bei Menschen, die zuvor Selbstmordversuche durchgeführt haben."
+  },
+  {
+    "id": 4,
+    "name": "Selbsteinschätzung der Tsung-Angst",
+    "questions_count": 20,
+    "duration": "6 Minuten",
+    "category": 0,
+    "description": "Die 1971 von Tsung entwickelte Selbsteinschätzungsskala für Angst (Sok. ZARS), ist ein wertvolles Instrument zur Messung von Angst und hat alle Vorteile von Selbstwertskalen.Die Formulierungen der Skalenpunkte basieren auf einer Überarbeitung der diagnostischen Angstkriterien des Autors und Aufzeichnungen von Umfragen von Patienten mit Angststörungen. 5 Punkte bewerten affektive Symptome, die anderen 15 sind somatisch"
+  },
+  {
+    "id": 5,
+    "name": "Fragebogen zur Reflexivität von Karpov",
+    "questions_count": 27,
+    "duration": "3 Minuten",
+    "category": 0,
+    "description": "Die Technik ist ein Fragebogen, der entwickelt wurde, um den Grad der Entwicklung einer solchen persönlichen Eigenschaft wie Reflexivität zu messen. Entwickelt in russischer Sprache im Jahr 2003 von A.V. Karpow. Der Fragebogen besteht aus 27 Punkten, deren Antworten auf der 7-Punkte-Lickert-Skala gebildet werden. Auf dem Fragebogen wird ein Wert gebildet, der den allgemeinen Grad der Entwicklung der Reflexivität des Individuums charakterisiert."
+  },
+  {
+    "id": 6,
+    "name": "Burnout-Fragebogen",
+    "questions_count": 22,
+    "duration": "2 Minuten",
+    "category": 0,
+    "description": "Fragebogen Burnout (Burnout) Maslach (engl. Maslach Burnout Inventory, sok. MBI) ist eine Testmethode zur Diagnose eines professionellen Burnouts. In den meisten Fällen wird berufliches Burnout als destruktiver Prozess des Verlustes der beruflichen Wirksamkeit, der Abnahme der kommunikativen Qualitäten und der Entwicklung der neuropsychiatrischen Desadaptation bis hin zu irreversiblen Persönlichkeitsveränderungen dargestellt. Die Ursache des beruflichen Burnouts sind sowohl unbefriedigende Arbeitsbedingungen als auch individuelle Persönlichkeitsmerkmale des Arbeitnehmers."
+  },
+  {
+    "id": 7,
+    "name": "Bretmans neurale Orthorexie-Fragebogen",
+    "questions_count": 10,
+    "duration": "1 Minute",
+    "category": 0,
+    "description": "Der Fragebogen basiert auf Steve Bretmans Idee, dass es eine solche psychische Störung gibt, die durch eine erhöhte, pathologische, ungesunde Verpflichtung zur richtigen Ernährung, eine Neigung zu Diäten und Nahrungsbeschränkungen gekennzeichnet ist, die andere psychische Probleme verdecken und das Leben einer Person verarmt."
+  },
+  {
+    "id": 8,
+    "name": "Heiratszufriedenheitsfragebogen",
+    "questions_count": 24,
+    "duration": "3 Minuten",
+    "category": 0,
+    "description": "der Fragebogen die Zufriedenheit der Ehe (LSF), entworfen von Romanova, T. L., G. P. Butenko, konzipiert für eine schnelle Diagnose den Grad der Zufriedenheit-Unzufriedenheit mit der Ehe, sowie dem Grad der Koordination-Schiefstellung der Zufriedenheit der Ehe bei der einen oder anderen sozialen Gruppe.Der Fragebogen ist eine eindimensionale Skala, die aus 24 Aussagen besteht, die sich auf verschiedene Bereiche beziehen: Wahrnehmung von sich selbst und Partner, Meinung, Bewertung, Einstellung usw. "
+  },
+  {
+    "id": 9,
+    "name": "Isaacs persönlicher Fragebogen",
+    "questions_count": 57,
+    "duration": "5 Minuten",
+    "category": 0,
+    "description": "EPI (Eysenck Personality Inventory) im Jahr 1963 veröffentlicht und enthält 57 Fragen, von denen 24 an die Identifizierung Introversion, 24 anderen - auf die Einschätzung der emotionalen Stabilität-Instabilität (neuroticisme), die restlichen 9 bilden die Kontrollgruppe Fragen, die für die Beurteilung der Aufrichtigkeit der Testperson, seine Beziehung zu der Untersuchung und der Zuverlässigkeit der Ergebnisse."
+  },
+  {
+    "id": 11,
+    "name": "Fragebogen zur Struktur des Rusalov-Temperaments",
+    "questions_count": 105,
+    "duration": "5 Minuten",
+    "category": 0,
+    "description": "Die Technik wird verwendet, um die Objekt-Aktivität und kommunikative Aspekte des Temperaments zu diagnostizieren und ermöglicht es Ihnen, seine Eigenschaften zu quantifizieren: Energie, Plastizität, Tempo und Emotionalität. Das Verhältnis der Schweregrade dieser Eigenschaften zeigt die Art des Temperaments des Befragten an (Choleriker, Sanguiniker, Phlegmatiker, Melancholiker). Die Technik ermöglicht es Ihnen, die Ebenen der Ergizität, Plastizität, Tempo und Emotionalität als Eigenschaften des Temperaments zu bestimmen."
+  },
+  {
+    "id": 12,
+    "name": "Empathie",
+    "questions_count": 60,
+    "duration": "3 Minuten",
+    "category": 0,
+    "description": "Empathie (engl. Empathy Quotient (kurz EQ) ist ein Fragebogen zur Untersuchung der Fähigkeit zur Empathie (oder Empathie), einer persönlichen Eigenschaft, die die Fähigkeit versteht, emotionale Zustände anderer Menschen zu verstehen und zu reproduzieren (einschließlich unbeabsichtigt)."
+  },
+  {
+    "id": 13,
+    "name": "Diagnose von Aggressionen",
+    "questions_count": 75,
+    "duration": "3 Minuten",
+    "category": 0,
+    "description": ""
+  },
+  {
+    "id": 14,
+    "name": "Bewertungsskala für Genehmigungsmotivation",
+    "questions_count": 19,
+    "duration": "1 Minute",
+    "category": 0,
+    "description": ""
+  },
+  {
+    "id": 15,
+    "name": "Skala zur Bewertung des Leistungsbedarfs",
+    "questions_count": 22,
+    "duration": "1 Minute",
+    "category": 0,
+    "description": ""
+  },
+  {
+    "id": 16,
+    "name": "Taylors Angststufe messen",
+    "questions_count": 50,
+    "duration": "3 Minuten",
+    "category": 0,
+    "description": "Taylor's Manifest Anxiety Scale (Teilor's Manifest Anxiety Scale) wurde entwickelt, um die Manifestationen von Angst zu messen. Veröffentlicht von J. Taylor im Jahr 1953 Die betrachtete Skala besteht aus 50 Aussagen, auf die der Befragte mit «Ja» oder «Nein» antworten muss. Die Behauptungen wurden aus dem Satz von Behauptungen des Minnesota Multidimensional Persönlichkeitsfragebogens (MMPI) ausgewählt. Auswahl der Elemente für den Test. es wurde auf der Grundlage der Analyse ihrer Fähigkeit durchgeführt, Personen mit «chronischen Angstreaktionen» zu unterscheiden."
+  },
+  {
+    "id": 17,
+    "name": "Express-Diagnose der Wahrscheinlichkeit der Heek- und Heess-Neurose",
+    "questions_count": 40,
+    "duration": "2 Minuten",
+    "category": 0,
+    "description": "Der Test zeigt die Wahrscheinlichkeit einer Neurose"
+  },
+  {
+    "id": 18,
+    "name": "Männliche regulatorische Einstellungen",
+    "questions_count": 40,
+    "duration": "2 Minuten",
+    "category": 0,
+    "description": "Die Methodik «Männliche regulatorische Einstellungen» (The Male Attitude Norms Inventory) ist für die psychologische Diagnose des subjektiven Begriffs 'Männlichkeit' beim Menschen bestimmt.Der Fragebogen soll ein Glaubenssystem und Einstellungen in Bezug auf Männlichkeit und männliche Rollen aufzeigen, das dazu beiträgt, nach diesen Einstellungen zu handeln und zu vermeiden, was von ihnen nicht gefördert wird."
+  },
+  {
+    "id": 20,
+    "name": "Fragebogen für neurotische Persönlichkeitsmerkmale",
+    "questions_count": 119,
+    "duration": "5 Minuten",
+    "category": 0,
+    "description": "Eine klinische Testmethode, die eine Modifikation des Fragebogens für neurotische Störungen darstellt. Der Fragebogen wurde 2003 als verkürzte und überarbeitete Version der ursprünglichen Technik erstellt."
+  },
+  {
+    "id": 21,
+    "name": "Kimberly-Young-Test auf Internetsucht",
+    "questions_count": 40,
+    "duration": "2 Minuten",
+    "category": 0,
+    "description": "eats ist ein Werkzeug zur Selbstdiagnose der pathologischen Sucht nach dem Internet (unabhängig von der Form dieser Sucht)."
+  },
+  {
+    "id": 22,
+    "name": "Fragebogen für Charaktereigenschaften eines Erwachsenen",
+    "questions_count": 80,
+    "duration": "4 Minuten",
+    "category": 0,
+    "description«": "Ermöglicht es Ihnen, die Charaktereigenschaften eines Erwachsenen zu messen und ein individuelles Charakterprofil zu erhalten, das aus «Deakzentuierungen», «Norm» und 'Akzentuierungen' besteht."
+  },
+  {
+    "id": 23,
+    "name": "Männlich oder weiblich?",
+    "duration": "2 Minuten",
+    "questions_count": 15,
+    "description": "",
+    "category": 2
+  },
+  {
+    "id": 24,
+    "name": "Grad der Eifersucht",
+    "duration": "2 Minuten",
+    "questions_count": 12,
+    "description": "",
+    "category": 2
+  },
+  {
+    "id": 25,
+    "name": "Im Freundeskreis",
+    "duration": "2 Minuten",
+    "questions_count": 15,
+    "description": "",
+    "category": 2
+  },
+  {
+    "id": 26,
+    "name": "Bist du ein guter Freund?",
+    "duration": "1 Minute",
+    "questions_count": 12,
+    "category": 2,
+    "description": "Wie aufmerksam und freundlich sind Sie zu Ihren Freunden? Sind Sie in der Lage, das letzte für jemanden zu opfern, der es schwer hat? Diese und viele andere Fragen werden helfen, diesen Test zu beantworten."
+  },
+  {
+    "id": 27,
+    "name": "Sind Sie wirklich ein zuverlässiger Freund?",
+    "questions_count": 14,
+    "duration": "1 Minute",
+    "category": 2,
+    "description": "Sind Sie wirklich ein zuverlässiger Freund? Oder sind Sie einer von denen, auf die man sich nicht immer verlassen kann, aufgrund einiger Egoismus?"
+  },
+  {
+    "id": 28,
+    "name": "Sind Sie empfindlich?",
+    "duration": "2 Minuten",
+    "questions_count": 14,
+    "category": 2,
+    "description": "Dieser Test wird Ihnen helfen, zu bestimmen, ob Sie empfindlich sind oder, im Gegenteil, die Toleranz selbst"
+  },
+  {
+    "id": 29,
+    "name": "Ist es schön, mit Ihnen zu kommunizieren?",
+    "duration": "1 Minute",
+    "questions_count": 11,
+    "category": 2,
+    "description": "Vielen Menschen fällt es schwer, sich von außen anzuschauen. Dieser Test ermöglicht es Ihnen, herauszufinden, ob Sie angenehm in der Kommunikation sind"
+  },
+  {
+    "id": 30,
+    "name": "Bist du tolerant gegenüber deinen Freunden?",
+    "duration": "1 Minute",
+    "questions_count": 9,
+    "category": 2,
+    "description": ""
+  },
+  {
+    "id": 31,
+    "name": "Wie egoistisch bist du gegenüber Freunden?",
+    "duration": "1 Minute",
+    "questions_count": 12,
+    "category": 2,
+    "description": ""
+  },
+  {
+    "id": 32,
+    "name": "Fällt es Ihnen leicht, mit Menschen zusammenzukommen?",
+    "duration": "2 Minuten",
+    "questions_count": 10,
+    "category": 2,
+    "description": "Wie leicht kommen Sie mit Menschen zusammen? Fühlen Sie sich in jeder Umgebung wohl? Gehören Sie zu einer Kategorie von Menschen, von denen man sagen kann, dass sie durch Leichtigkeit in der Kommunikation gekennzeichnet sind? Der Test wird helfen, all diese Fragen zu beantworten. Darüber hinaus wird es Ihnen ermöglichen, zu bestimmen, wie diese Charaktereigenschaft von Ihnen ausgedrückt wird."
+  },
+  {
+    "id": 33,
+    "name": "Wie sehr lieben dich deine Freunde?",
+    "duration": "3 Minuten",
+    "questions_count": 20,
+    "category": 2,
+    "description": ""
+  },
+  {
+    "id": 34,
+    "name": "Sind Sie ein guter Freund?",
+    "duration": "2 Minuten",
+    "questions_count": 10,
+    "category": 2,
+    "description": "Jeder möchte, dass sein Freund ein verlässlicher Mensch ist, auf den man sich in allem verlassen kann. Beantworten Sie die Testfragen und Sie werden verstehen, wie sehr Sie selbst die Anforderungen erfüllen, die andere zu stellen neigen. Außerdem ist es interessant, selbst herauszufinden, welcher Freund Sie sind – zuverlässig oder nicht sehr."
+  },
+  {
+    "id": 35,
+    "name": "Wie weich sind Sie?",
+    "duration": "2 Minuten",
+    "questions_count": 25,
+    "description": "",
+    "category": 2
+  },
+  {
+    "id": 36,
+    "name": "Ebene der Phantasie",
+    "duration": "2 Minuten",
+    "questions_count": 12,
+    "description": "Mit diesem Test können Sie die Fähigkeiten Ihrer und Ihrer Freunde im Bereich der kreativen Berufe zu identifizieren.",
+    "category": 3
+  },
+  {
+    "id": 37,
+    "name": "Künstlerische Fähigkeiten",
+    "duration": "3 Minuten",
+    "questions_count": 24,
+    "description": "Dieser Test ermöglicht es Ihnen, Ihre künstlerischen Fähigkeiten bei sich und Ihren Freunden zu zeigen. Sind Sie in der Lage, alles, was in der Welt und der Natur passiert, subtil zu fühlen, ob Sie Kunst lieben oder ist es nicht von besonderem Interesse für Sie? Beantworte die Testfragen und du wirst es herausfinden",
+    "category": 3
+  },
+  {
+    "id": 38,
+    "name": "Kreativität",
+    "duration": "3 Minuten",
+    "questions_count": 18,
+    "description": "Wenn Sie und Ihre Freunde über einen kreativen Beruf für sich selbst nachdenken, versuchen Sie herauszufinden, welche Art von Kreativität Sie haben",
+    "category": 3
+  },
+  {
+    "id": 39,
+    "name": "Lieben Sie es zu befehlen?",
+    "duration": "2 Minuten",
+    "questions_count": 23,
+    "description": "",
+    "category": 3
+  },
+  {
+    "id": 40,
+    "name": "Sind Sie Karrierist?",
+    "duration": "3 Minuten",
+    "description": "",
+    "questions_count": 30,
+    "category": 3
+  },
+  {
+    "id": 41,
+    "name": "Gehen Sie mit der Zeit Schritt oder stecken Sie in der Vergangenheit fest?",
+    "duration": "2 Minuten",
+    "description": "",
+    "questions_count": 25,
+    "category": 3
+  },
+  {
+    "id": 42,
+    "name": "Wie gut gehen Sie mit kritischen Umständen um",
+    "duration": "2 Minuten",
+    "description": "",
+    "questions_count": 28,
+    "category": 4
+  },
+  {
+    "id": 43,
+    "name": "Selbstkontrolle in der Kommunikation",
+    "duration": "1 Minute",
+    "description": "Mit diesem Test können Sie Ihre Kontrolle bei der Kommunikation mit anderen Menschen bestimmen",
+    "questions_count": 10,
+    "category": 4
+  },
+  {
+    "id": 44,
+    "name": "Art des Tagesrhythmus",
+    "duration": "2 Minuten",
+    "description": "Der Test wird die Beziehung zwischen Ihrem Schlaf und Produktivität zu identifizieren",
+    "questions_count": 19,
+    "category": 4
+  },
+  {
+    "id": 45,
+    "name": "Demonstrations test",
+    "duration": "2 Minuten",
+    "description": "Der Zweck dieses Tests ist es, das Niveau der Demonstration des Probanden zu identifizieren. Demonstrativ ist ein komplexes, vielschichtiges Merkmal. Dies ist das Streben nach 'Show', Freude daran zu bekommen, positive Aufmerksamkeit auf Ihre Persönlichkeit zu lenken.",
+    "questions_count": 36,
+    "category": 4
+  }
+]

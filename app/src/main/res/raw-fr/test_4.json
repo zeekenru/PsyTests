@@ -1,0 +1,115 @@
+{
+  "id": 4,
+  "questions_count": 20,
+  "name": "échelle d'auto-évaluation de l'anxiété de Tsung",
+  "scales_count": 1,
+  "interpretation": "le Score est déterminé en fonction des 4 degrés de gravité du symptôme pour chaque point. Les réponses aux paragraphes 5, 9, 13, 17 et 19 sont codées en miroir.Le score total maximum est de 80. L'indice d'anxiété est calculé en divisant le score total obtenu lors de l'examen du patient par le score total le plus élevé possible (80).",
+  "answers": [
+    "Très rare",
+    "Rare",
+    "Beaucoup de temps",
+    "La plupart du temps"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "question": "se Sentir plus nerveux et anxieux que d'habitude",
+      "right": true
+    },
+    {
+      "number": 2,
+      "question": "j'éprouve un sentiment de peur sans raison",
+      "right": true
+    },
+    {
+      "number": 3,
+      "question": "je Suis facilement contrarié ou paniqué",
+      "right": true
+    },
+    {
+      "number": 4,
+      "question": "j'ai le sentiment que je ne peux pas me rassembler et me prendre en main",
+      "right": true
+    },
+    {
+      "number": 5,
+      "question": "j'ai un sentiment de bien-être total, j'ai l'impression qu'il ne m'arrivera rien de mal",
+      "right": false
+    },
+    {
+      "number": 6,
+      "question": "mes mains et mes pieds tremblent et tremblent",
+      "right": true
+    },
+    {
+      "number": 7,
+      "question": "j'ai des maux de tête, des douleurs au cou et au dos",
+      "right": true
+    },
+    {
+      "number": 8,
+      "question": "je me Sens brisé et je me fatigue vite",
+      "right": true
+    },
+    {
+      "number": 9,
+      "question": "je suis calme, je peux m'asseoir tranquillement sans trop d'effort",
+      "right": false
+    },
+    {
+      "number": 10,
+      "question": "j'ai des palpitations cardiaques",
+      "right": true
+    },
+    {
+      "number": 11,
+      "question": "j'ai des vertiges",
+      "right": true
+    },
+    {
+      "number": 12,
+      "question": "j'ai des crises de faiblesse",
+      "right": true
+    },
+    {
+      "number": 13,
+      "question": "je respire librement",
+      "right": false
+    },
+    {
+      "number": 14,
+      "question": "sensation d'engourdissement et de picotement dans les doigts et les orteils",
+      "right": true
+    },
+    {
+      "number": 15,
+      "question": "Maux d'estomac et troubles dyspeptiques",
+      "right": true
+    },
+    {
+      "number": 16,
+      "question": "envie Fréquente d'uriner",
+      "right": true
+    },
+    {
+      "number": 17,
+      "question": "mes mains sont généralement sèches et chaudes",
+      "right": false
+    },
+    {
+      "number": 18,
+      "question": "mon visage brûle et rougit",
+      "right": true
+    },
+    {
+      "number": 19,
+      "question": "je m'endors facilement et je dors avec un sommeil profond et rafraîchissant",
+      "right": false
+    },
+    {
+      "number": 20,
+      "question": "Je suis tourmenté par des cauchemars",
+      "right": true
+    }
+  ]
+}
